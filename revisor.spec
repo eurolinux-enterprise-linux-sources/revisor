@@ -1,41 +1,42 @@
 %{!?python_sitelib: %define python_sitelib %(python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()")}
 
-%define pkg_cobbler 1
-%define pkg_comps 1
+%define pkg_cobbler 0
+%define pkg_comps 0
 %define pkg_composer 0
 %define pkg_delta 0
 %define pkg_hub 0
 %define pkg_isolinux 1
 %define pkg_jigdo 0
 %define pkg_mock 1
-%define pkg_rebrand 0
+%define pkg_rebrand 1
 %define pkg_reuseinstaller 1
 %define pkg_server 0
-%define pkg_unity 1
+%define pkg_unity 0
 %define pkg_unity_scripts 1
 %define pkg_virt 0
 %define pkg_wui 0
+%define no_fedora 1
 
-Summary:        Fedora "Spin" Graphical User Interface
+Summary:        SL "Spin" Graphical User Interface
 Name:           revisor
 Version:        2.2
-Release:        2.sl6.3
+Release:        2.sl6.4
 License:        GPLv2
 Group:          Applications/System
 URL:            http://fedorahosted.org/revisor
 Source0:        http://fedorahosted.org/releases/r/e/revisor/%{name}-%{version}.tar.gz
-Source1:        revisor-sl6-i386.conf
-Source2:        revisor-sl6-x86_64.conf
+#the revisor-RHEL6-buildinstall is from anaconda for RHEL 6
+Source1:        revisor-RHEL6-buildinstall
+Patch0:		revisor-comps-override.patch  
+Patch1:		revisor-product_img.patch
+Patch2:         revisor-rhel6.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 Requires:       revisor-gui = %{version}-%{release}
 
-Patch0: revisor-2.2-revisor.conf.sl.patch
-Patch1: revisor-2.2-comps.fix.patch
-
 %description
 Revisor provides a set of graphical tools for building customized, updated
-Fedora "Spins". This tool has been built around two other projects. First
+SL "Spins". This tool has been built around two other projects. First
 is pungi, which builds the installation media. The other is livecd-tools,
 which builds the live image.
 
@@ -54,9 +55,8 @@ Requires:       yum >= 3, yum-utils, comps-extras, createrepo
 Requires:       pykickstart
 # Compose tools
 Requires:       livecd-tools >= 015, anaconda-runtime, squashfs-tools
-# Kickstarts for use with Revisor
-Requires:       spin-kickstarts
-Requires:       sl-kickstarts
+# kickstarts and config files for use with Revisor
+Requires:       sl-revisor-configs 
 # Other
 Requires:       libxml2-python
 Requires:       notify-python
@@ -70,6 +70,7 @@ Conflicts:      fedora-release < 7
 #Conflicts:      redhat-release < 5
 # Or:
 #Conflicts:      redhat-release = 4, redhat-release = 3
+Requires:       sl-revisor-configs
 %if ! %{pkg_comps}
 Obsoletes:      revisor-comps < %{version}-%{release}
 Provides:       revisor-comps = %{version}-%{release}
@@ -135,7 +136,7 @@ Provides:       revisor-wui = %{version}-%{release}
 
 %description cli
 Revisor provides a set of graphical tools for building customized, updated
-Fedora "Spins". This tool has been built around two other projects. First
+SL "Spins". This tool has been built around two other projects. First
 is pungi, which builds the installation media. The other is livecd-tools,
 which builds the live image.
 
@@ -352,9 +353,9 @@ This is the Revisor Web User Interface package
 
 %prep
 %setup -q
-
-%patch0 -p1 -b .sl6
-%patch1 -p1 -b .tjd
+%patch0 -p0
+%patch1 -p0
+%patch2 -p0
 
 %build
 %configure
@@ -363,17 +364,11 @@ make
 %install
 rm -rf $RPM_BUILD_ROOT
 make install DESTDIR=$RPM_BUILD_ROOT
-
-# We need our F13 script
-cp %{buildroot}/%{_prefix}/lib/revisor/scripts/F12-buildinstall %{buildroot}/%{_prefix}/lib/revisor/scripts/F13-buildinstall
-
-# Copy in the sl6 config files
-cp %{SOURCE1} %{buildroot}/%{_sysconfdir}/revisor/conf.d/
-cp %{SOURCE2} %{buildroot}/%{_sysconfdir}/revisor/conf.d/
+%{__cp} %{SOURCE1} %{buildroot}/%{_prefix}/lib/revisor/scripts/RHEL6-buildinstall
 
 %if ! %{pkg_comps}
     rm -rf %{buildroot}/%{_datadir}/revisor/comps
-    rm -rf %{buildroot}/%{_datadir}/revisor/comps-cleanup.xsl
+#   rm -rf %{buildroot}/%{_datadir}/revisor/comps-cleanup.xsl
 %endif
 
 %if ! %{pkg_cobbler}
@@ -418,7 +413,7 @@ cp %{SOURCE2} %{buildroot}/%{_sysconfdir}/revisor/conf.d/
 
 %if ! %{pkg_unity}
     rm -rf %{buildroot}/%{_sysconfdir}/revisor-unity/
-    rm -rf %{buildroot}/%{_datadir}/revisor/unity/
+    rm -f %{buildroot}/%{_datadir}/revisor/unity/*.cfg
 %endif
 
 %if ! %{pkg_unity_scripts}
@@ -433,7 +428,14 @@ cp %{SOURCE2} %{buildroot}/%{_sysconfdir}/revisor/conf.d/
     rm -rf %{buildroot}/%{python_sitelib}/revisor/modwui
 %endif
 
-desktop-file-install --vendor="fedora"              \
+%if  %{no_fedora}
+    rm  %{buildroot}/%{_sysconfdir}/revisor/revisor.conf
+    rm  %{buildroot}/%{_sysconfdir}/revisor/conf.d/*
+    rm  %{buildroot}/%{_prefix}/lib/revisor/scripts/F*
+    rm  %{buildroot}/%{_prefix}/lib/revisor/scripts/DEVEL*
+%endif
+
+desktop-file-install --vendor="SL"              \
   --delete-original                                 \
   --dir=%{buildroot}%{_datadir}/applications        \
   %{buildroot}/%{_datadir}/applications/revisor.desktop
@@ -460,13 +462,18 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_prefix}/lib/revisor/scripts
 %dir %{_sysconfdir}/revisor
 %dir %{_sysconfdir}/revisor/conf.d
+
+%if !  %{no_fedora}
 %config(noreplace) %{_sysconfdir}/revisor/revisor.conf
 %config(noreplace) %{_sysconfdir}/revisor/conf.d/*
+%endif
+
 %config(noreplace) %{_sysconfdir}/pam.d/*
 %config(noreplace) %{_sysconfdir}/security/console.apps/*
+%{_prefix}/lib/revisor/scripts/*
 %{_datadir}/locale/*/LC_MESSAGES/revisor.mo
 %defattr(0755,root,root,-)
-%{_prefix}/lib/revisor/scripts/*
+%{_datadir}/revisor/comps-cleanup.xsl
 
 %if %{pkg_comps}
 %files comps
@@ -615,12 +622,22 @@ rm -rf $RPM_BUILD_ROOT
 %endif
 
 %changelog
-* Wed Oct 13 2010 Troy Dawson <dawson@fnal.gov> 2.2-2.sl6.1
-- Fixed problem of it not using our comps file.
-- Fixed problem of it dying when there is no .diskinfo file
-- Added F13-buildinstall script
-- Patched revisor.conf so it knows about SL6
-- Added the SL6 config files
+* Thu Dec 16 2010 Troy Dawson <dawson@fnal.gov> 2.2-2.sl6.4
+- Changed the version numbering scheme to reduce confusion
+
+* Wed Dec 08 2010 Connie Sieh <csieh@fnal.gov> 2.2-1.0.sl
+- patch 1 fixes a bug where a comps file provided via the config file is
+-    ignored
+- patch 2 adds the ability to via command line or revisor.conf file of
+-    adding a custom "product.img" file to the images directory.
+-    product.img file allows for the addition/override of anaconda 
+-    installimages/  
+-    syntax in /etc/revisor/revisor.conf is
+-       updates_img = <product.img file name>
+-    command line syntax is
+-       --updates_img=<product.img file name>
+- patch 3 adds support for composing RHEL 6 based releases, adding 
+-    "version_from = RHEL6" in /etc/revisor/revisor.conf
 
 * Fri Jun 04 2010 Jeroen van Meeuwen <kanarip a fedoraunity.org> 2.2-1
 - Fix os not being imported (#541443)
