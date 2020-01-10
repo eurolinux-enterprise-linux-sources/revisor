@@ -20,7 +20,7 @@
 Summary:        SL "Spin" Graphical User Interface
 Name:           revisor
 Version:        2.2
-Release:        3.sl6_3
+Release:        4.sl6_3
 License:        GPLv2
 Group:          Applications/System
 URL:            http://fedorahosted.org/revisor
@@ -55,7 +55,7 @@ Requires:       yum >= 3, yum-utils, comps-extras, createrepo
 # Kickstart
 Requires:       pykickstart
 # Compose tools
-Requires:       livecd-tools >= 015, anaconda-runtime >= 13.21.176 , squashfs-tools
+Requires:       livecd-tools >= 015, anaconda >= 13.21.176 , squashfs-tools
 # kickstarts and config files for use with Revisor
 Requires:       sl-revisor-configs 
 # Other
@@ -624,6 +624,9 @@ rm -rf $RPM_BUILD_ROOT
 %endif
 
 %changelog
+* Thu Jul 26 2012 Connie Sieh <csieh@fnal.gov> 2.2-4.sl6_3
+- Added a requires for the anaconda in 6_3 or newer
+
 * Thu Jul 19 2012 Connie Sieh <csieh@fnal.gov> 2.2-3.sl6_3
 - Added support for --final feature that was added in anaconda buildinstall
 - anaconda-13.21.176-1.sl6.x86_64 which was released in 6.3
