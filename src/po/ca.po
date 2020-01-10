@@ -1,0 +1,4135 @@
+# Catalan translations for revisor package.
+# Copyright (C) 2008 Red Hat, Inc.
+# This file is distributed under the same license as the
+#  revisor package.
+#
+# Albert Carabasa Giribet <albertc@asic.udl.cat>, 2009
+# Josep Mª Mirada <jmmiradad@gmail.com>, 2008
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2008
+# Albert Carabasa Giribet <albertc@asic.udl.cat>, 2009
+#
+# This file is translated according to the glossary and style guide of
+#   Softcatalà. If you plan to modify this file, please read first the page
+#   of the Catalan translation team for the Fedora project at:
+#   http://www.softcatala.org/projectes/fedora/
+#   and contact the previous translator
+#
+# Aquest fitxer s'ha de traduir d'acord amb el recull de termes i la guia
+#   d'estil de Softcatalà. Si voleu modificar aquest fitxer, llegiu si
+#   us plau la pàgina de catalanització del projecte Fedora a:
+#   http://www.softcatala.org/projectes/fedora/
+#   i contacteu l'anterior traductor/a.
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:1
+msgid ""
+msgstr ""
+"Project-Id-Version: revisor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-11 16:24+0000\n"
+"PO-Revision-Date: 2009-10-12 20:05+0200\n"
+"Last-Translator: Albert Carabasa Giribet <albertc@asic.udl.cat>\n"
+"Language-Team: Catalan <fedora@softcatala.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:1
+msgid ""
+"\n"
+"    Revisor, a product of Fedora Unity\n"
+"\n"
+"    Copyright 2007-2009 Fedora Unity Project\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"    See the GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"    Revisor, un producte de Fedora Unity\n"
+"\n"
+"    Copyright (C) 2007-2009 Fedora Unity\n"
+"\n"
+"    Aquest és un programa lliure; podeu redistribuir-lo i/o modificar-lo\n"
+"    sota els termes de la Llicència Pública General GNU publicada per\n"
+"    la Free Software Foundation; qualsevol versió 2 de la llicència, o\n"
+"    (a la vostra elecció) una versió superior.\n"
+"\n"
+"    Aquest programa es distribueix amb l'esperança que sigui útil,\n"
+"    però SENSE CAP GARANTIA; inclús sense la garantia implícita de\n"
+"    COMERCIALITAT o IDONEÏTAT PER A UN PROPÒSIT PARTICULAR.\n"
+"    Llegiu la Llicència Pública General GNU per a més detalls.\n"
+"\n"
+"    Hauríeu d'haver rebut una còpia de la Llicència Pública General GNU\n"
+"    juntament amb aquest programa; sinó, escriviu a la\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin.St, Cinquena planta, Boston, MA  022110-1301  USA\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:21
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>"
+msgstr ""
+"\n"
+"Desenvolupadors:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Dissenyadors d'interfície:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Traductors:\n"
+"\t* Albert Carabasa Giribet <albertc@asic.udl.cat>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:33
+msgid "<b>More information about:</b>"
+msgstr "<b>Més informació quant a:</b>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:34
+msgid "<b>Version:</b> @VERSION@-@RELEASE@"
+msgstr "<b>Versió:</b> @VERSION@-@RELEASE@"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:35
+msgid "<span weight=\"bold\">Revisor</span> is a product of Fedora Unity."
+msgstr ""
+"El <span weight=\"bold\">Revisor</span> és un producte de Fedora Unity."
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:36
+msgid "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+msgstr "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:37
+#: ../revisor/modgui/glade/revisor.glade.h:39
+msgid "About Revisor"
+msgstr "Quant al Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:38
+#: ../revisor/modgui/glade/revisor.glade.h:40
+msgid "Authors"
+msgstr "Autors"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:39
+msgid "Fedora Unity:"
+msgstr "Fedora Unity:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:40
+msgid "File"
+msgstr "Fitxer"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:41
+#: ../revisor/modgui/glade/revisor.glade.h:44
+msgid "License"
+msgstr "Llicència"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:42
+#: ../revisor/modgui/glade/revisor.glade.h:48 ../conf/revisor.desktop.in.h:1
+msgid "Revisor"
+msgstr "El Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:43
+msgid "Revisor _Homepage"
+msgstr "_Pàgina inicial del Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:44
+msgid "Revisor:"
+msgstr "El Revisor:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:45
+msgid "_Details"
+msgstr "_Detalls"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:46
+#: ../revisor/modgui/glade/revisor.glade.h:64
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../revisor/modgui/glade/build_media.glade.h:1
+msgid "Building Your Media"
+msgstr "S'estan creant els vostres suports"
+
+#: ../revisor/modgui/glade/build_media.glade.h:2
+msgid "Task Progress:"
+msgstr "Progrés de la tasca:"
+
+#: ../revisor/modgui/glade/build_media.glade.h:3
+msgid "Total Progress:"
+msgstr "Progrés total:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:1
+msgid "Client / _Server"
+msgstr "Client / _servidor"
+
+#: ../revisor/modgui/glade/build_type.glade.h:2
+msgid "Configuration _File Mode"
+msgstr "Mode del _fitxer de configuració"
+
+#: ../revisor/modgui/glade/build_type.glade.h:3
+msgid "Please select the build type to use:"
+msgstr "Seleccioneu el tipus de muntatge a usar:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:4
+msgid "Select Build Type"
+msgstr "Selecciona el tipus de muntatge"
+
+#: ../revisor/modgui/glade/build_type.glade.h:5
+msgid "_Chroot Build"
+msgstr "Muntatge amb _chroot"
+
+#: ../revisor/modgui/glade/build_type.glade.h:6
+msgid "_Normal Build"
+msgstr "Muntatge _normal"
+
+#: ../revisor/modgui/glade/build_type.glade.h:7
+msgid "_Virtualized Build"
+msgstr "Muntatge _virtualitzat"
+
+#: ../revisor/modgui/glade/dialog_filechooser.glade.h:1
+msgid "Choose a file or folder"
+msgstr "Trieu un fitxer o directori"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:1
+msgid "<b>Compose Results Location:</b>"
+msgstr "<b>Ubicació dels resultats de la composició:</b>"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:2
+#: ../revisor/modgui/glade/load_kickstart.glade.h:1
+#: ../revisor/modgui/glade/ready_screen.glade.h:4
+msgid "Advanced Options"
+msgstr "Opcions avançades"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:3
+msgid "Congratulations, Compose Complete"
+msgstr "Felicitats, s'ha completat la composició"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:4
+msgid "Create _Jigdo"
+msgstr "Crea un _jigdo"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:5
+msgid "Create _Torrent"
+msgstr "Crea un _torrent"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:6
+msgid "Generate _Kickstart for Install Clients"
+msgstr "Genera el fitxer _kickstart per als clients instal·ladors"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:7
+msgid "Send _Compose to Server"
+msgstr "Envia la _composició al servidor"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:8
+msgid "Setup _DHCPD Server"
+msgstr "Configura el servidor _DHCPD"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:9
+msgid "Setup _PXE Server"
+msgstr "Configura el servidor _PXE"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:10
+msgid "Write Image to _Media"
+msgstr "Escriu la imatge al _medi"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:11
+msgid "Write Image to _USB Device"
+msgstr "Escriu la imatge al dispositiu _USB"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:12
+msgid "_Continue..."
+msgstr "_Continua..."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:1
+msgid "Authentication Configuration"
+msgstr "Configuració de l'autenticació"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:2
+msgid "Authentication options are not applicable on upgrades."
+msgstr "Les opcions d'autenticació no són aplicables a les actualitzacions."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:3
+msgid "Authentication:"
+msgstr "Autenticació:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:4
+msgid "Enable Hesiod Support"
+msgstr "Habilita el Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:5
+msgid "Enable Kerberos 5 Authentication"
+msgstr "Habilita l'autenticació amb Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:6
+msgid "Enable LDAP"
+msgstr "Habilita l'LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:7
+msgid "Enable NIS"
+msgstr "Habilita el NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:8
+msgid "Enable SMB Authentication"
+msgstr "Habilita l'autenticació SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:9
+msgid "Enable nscd"
+msgstr "Habilita l'nscd"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:10
+msgid "Hesiod"
+msgstr "Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:11
+msgid "Hesiod Authentication"
+msgstr "Autenticació Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:12
+msgid "Hesiod LHS:"
+msgstr "Hesiod LHS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:13
+msgid "Hesiod RHS:"
+msgstr "Hesiod RHS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:14
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:15
+msgid "Kerberos 5 Authentication"
+msgstr "Autenticació del Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:16
+msgid "Kerberos Domain Controller (KDC):"
+msgstr "Controlador de domini del Kerberos (KDC):"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:17
+msgid "Kerberos Master Server:"
+msgstr "Servidor mestre de Kerberos:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:18
+msgid "Kerberos Realm:"
+msgstr "Regne del Kerberos:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:19
+msgid "LDAP "
+msgstr "LDAP "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:20
+msgid "LDAP Authentication"
+msgstr "Autenticació LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:21
+msgid "LDAP Base Name: "
+msgstr "Nom base de l'LDAP:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:22
+msgid "LDAP Server: "
+msgstr "Servidor LDAP:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:23
+msgid "NIS"
+msgstr "NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:24
+msgid "NIS Authentication"
+msgstr "Autenticació NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:25
+msgid "NIS Domain:"
+msgstr "Domini NIS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:26
+msgid "NIS Server:"
+msgstr "Servidor NIS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:27
+msgid "Name Switch Cache"
+msgstr "Name Switch Cache"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:28
+msgid "Name Switch Cache Daemon (nscd) Authentication"
+msgstr "Autenticació amb nscd (Name Switch Cache Daemon)"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:29
+msgid "SMB"
+msgstr "SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:30
+msgid "SMB Authentication"
+msgstr "Autenticació SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:31
+msgid "SMB Servers:"
+msgstr "Servidors SMB:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:32
+msgid "SMB Workgroup:"
+msgstr "Grup de treball SMB:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:33
+msgid "Use MD5"
+msgstr "Utilitza MD5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:34
+msgid "Use Shadow Passwords"
+msgstr "Utilitza contrasenyes amagades («shadow passwords»)"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:35
+msgid "Use broadcast to find NIS server"
+msgstr "Utilitza broadcast per trobar el servidor NIS"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:1
+msgid "Basic Configuration (required)"
+msgstr "Configuració bàsica (necessària)"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:2
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:8
+msgid "Confirm Password:"
+msgstr "Confirmació de la contrasenya:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:3
+msgid "Default Language:"
+msgstr "Idioma per defecte:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:4
+msgid "Encrypt root password"
+msgstr "Xifra la contrasenya d'administrador"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:5
+msgid "Keyboard:"
+msgstr "Teclat:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:6
+msgid "Root Password:"
+msgstr "Contrasenya de l'usuari root:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:7
+msgid "Target Architecture:"
+msgstr "Arquitectura objectiu:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:8
+msgid "Time Zone:"
+msgstr "Zona horària:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:9
+msgid "Use UTC clock"
+msgstr "Utilitza el rellotge UTC"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:1
+msgid "Boot Loader Options"
+msgstr "Opcions del carregador d'arrencada"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:2
+msgid "Custom kernel parameters: "
+msgstr "Paràmetres personalitzats del nucli: "
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:3
+msgid "Provide optional kernel parameters."
+msgstr "Proporciona paràmetres opcionals del nucli."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:1
+msgid "Color Depth"
+msgstr "Profunditat de color"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:2
+msgid "Configure the X Window System"
+msgstr "Configura el sistema de finestres X"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:3
+msgid "Default Desktop:"
+msgstr "Escriptori per defecte:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:4
+#: ../revisor/modgui/glade/lm_security.glade.h:3
+msgid "Disabled"
+msgstr "Inhabilitat"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:5
+msgid "Display Configuration"
+msgstr "Mostra la configuració"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:6
+msgid "Display configuration is not applicable on upgrades."
+msgstr "La configuració de pantalla no és aplicable a les actualitzacions."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:7
+msgid "Enabled"
+msgstr "Habilitat"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:8
+msgid "Enabled in reconfiguration mode"
+msgstr "Habilitat en mode reconfiguració"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:9
+msgid "General"
+msgstr "General"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:10
+msgid "Horizontal Sync:"
+msgstr "Sincronització horitzontal:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:11
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:12
+msgid "On first boot, Setup Agent is: "
+msgstr "A la primera arrencada, l'agent d'instal·lació és: "
+
+#: ../revisor/modgui/glade/lm_display.glade.h:13
+msgid "Probe for monitor"
+msgstr "Proba del monitor"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:14
+msgid "Probe for video card driver"
+msgstr "Proba la targeta de vídeo"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:15
+msgid "Resolution"
+msgstr "Resolució"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:16
+msgid "Start the X Window System on boot"
+msgstr "Inicia el sistema de finestres X a l'arrencada"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:17
+msgid "Use custom monitor sync rates"
+msgstr "Utilitza velocitats de refresc del monitor personalitzades"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:18
+msgid "Vertical Sync:"
+msgstr "Sincronització vertical:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:19
+msgid "Video Card"
+msgstr "Targeta de vídeo"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:20
+msgid "Video Card RAM: "
+msgstr "Memòria RAM de la targeta gràfica: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:1
+msgid "."
+msgstr "."
+
+#: ../revisor/modgui/glade/lm_network.glade.h:2
+msgid "Gateway:"
+msgstr "Porta d'enllaç:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:3
+msgid "IP Address:"
+msgstr "Adreça IP:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:4
+msgid "Name Server:"
+msgstr "Servidor de noms:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:5
+msgid "Netmask: "
+msgstr "Màscara de subxarxa: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:6
+msgid "Network Configuration"
+msgstr "Configuració de la xarxa"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:7
+msgid "Network Device Information"
+msgstr "Informació del dispositiu de xarxa"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:8
+msgid "Network Device:"
+msgstr "Dispositiu de xarxa:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:9
+msgid "Network Type:"
+msgstr "Tipus de xarxa:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:10
+msgid "Use Network Manager (available only if installed)"
+msgstr ""
+"Utilitza l'administrador de xarxes (solament disponible si està instal·lat)"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:11
+msgid "_Add Network Device"
+msgstr "_Afegeix dispositiu de xarxa"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:12
+msgid "_Delete Network Device"
+msgstr "_Suprimeix el dispositiu de xarxa"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:13
+msgid "_Edit Network Device"
+msgstr "_Edita el dispositiu de xarxa"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:1
+msgid "Active"
+msgstr "Activa"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:2
+msgid "Disable firewall"
+msgstr "Inhabilita el tallafoc"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:4
+msgid "Enable firewall"
+msgstr "Habilita el tallafoc"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:5
+msgid "Firewall Configuration"
+msgstr "Configuració del tallafoc"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:6
+msgid "Firewall configuration is not applicable on upgrades."
+msgstr "La configuració del tallafoc no és aplicable a les actualitzacions."
+
+#: ../revisor/modgui/glade/lm_security.glade.h:7
+msgid "SELinux:"
+msgstr "SELinux:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:8
+msgid "Security level:"
+msgstr "Nivell de seguretat:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:9
+msgid "Warn"
+msgstr "Adverteix"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:6
+msgid "Add user to the group \"wheel\""
+msgstr "Afegeix l'usuari al grup \"wheel\""
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:7
+msgid "Automatically login this user to the Desktop"
+msgstr "Inicia la sessió d'aquest usuari a l'escriptori automàticament"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:9
+msgid "Create User Account:"
+msgstr "Crea un compte d'usuari:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:10
+msgid "Customize your Live Media"
+msgstr "Personalitzeu el vostre suport autoarrencable"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:11
+msgid "Dump current user profile (and omit /etc/skel)"
+msgstr "Descarrega el perfil d'usuari actual (i omet /etc/skel)"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:12
+msgid "Enable \"wheel\" group to sudo without password"
+msgstr "Habilita el grup \"wheel\" per a autenticar-se sense contrasenya"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:13
+msgid "Full Name:"
+msgstr "Nom complet:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:14
+msgid "Password"
+msgstr "Contrasenya"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:15
+msgid "Username:"
+msgstr "Nom d'usuari:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:2
+msgid "Customize package manifest defined in kickstart data"
+msgstr "Manifest personalitzat del paquet definit a les dades del kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:3
+msgid ""
+"Customize/Review details about locale, users/passwords, security/"
+"authentication, networking and Xorg"
+msgstr ""
+"Personalitza/Revisa els detalls de l'idioma, usuaris/contrasenyes, securetat/"
+"autenticació, treball en xarxa i l'Xorg"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:4
+msgid "Include Kickstart file on Installation Media"
+msgstr "Inclou el fitxer Kickstart al suport d'instal·lació"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:5
+msgid "Kickstart Configuration File:"
+msgstr "Fitxer de configuració Kickstart:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:6
+msgid "Load Kickstart Data"
+msgstr "Carrega les dades del Kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:7
+msgid ""
+"Select a kickstart file to be used to populate options for your selected "
+"media.\n"
+"If you did not select Live media creation, some options will be ignored.\n"
+"This step is not required and options loaded from the kickstart may also be "
+"customized further."
+msgstr ""
+"Seleccioneu un fitxer kickstart que serà utilitzat per emplenar les opcions "
+"del vostre suport seleccionat.\n"
+"Si no seleccioneu una creació de suport autoarrencable, algunes opcions "
+"seran ignorades.\n"
+"Aquest pas no és necessari i les opcions carregades des del Kickstart podran "
+"ser personalitzades més endavant."
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:10
+msgid "Set installer to boot with kickstart by default"
+msgstr "Estableix l'instal·lador per arrencar amb el Kickstart per defecte"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:11
+msgid "Use package manifest from kickstart data"
+msgstr "Utilitza el manifest de paquets de les dades del Kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:12
+msgid "Use repositories configured in the kickstart file"
+msgstr "Utilitza els repositoris configurats al fitxer Kickstart"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:1
+msgid "By Category"
+msgstr "Per categoria"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:2
+msgid "Deselect"
+msgstr "Desselecciona"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:3
+msgid "Deselect all optional packages"
+msgstr "Desselecciona tots els paquets opcionals"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:4
+msgid "List"
+msgstr "Llista"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:5
+msgid "Optional Packages... "
+msgstr "Paquets opcionals..."
+
+#: ../revisor/modgui/glade/package_selection.glade.h:6
+msgid "Package Selection"
+msgstr "Selecció del paquet"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:7
+msgid "Please select the software you want to be available on your media:"
+msgstr ""
+"Seleccioneu el programari que voleu que estigui disponible al vostre suport:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:8
+msgid "Search"
+msgstr "Busca"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:9
+msgid "Search Criteria:"
+msgstr "Criteri de cerca:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:10
+msgid "Select"
+msgstr "Selecciona"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:11
+msgid "Select All"
+msgstr "Selecciona-ho tot"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:12
+msgid "Select all optional packages"
+msgstr "Selecciona tots els paquets opcionals"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:13
+msgid ""
+"Some packages associated with this group are not required to be installed "
+"but may provide additional functionality.  Please choose the packages which "
+"you would like to have installed."
+msgstr ""
+"Alguns paquets associats a aquest grup no són necessaris per a la "
+"instal·lació però poden proporcionar funcionalitats addicionals. Trieu els "
+"paquets que us agradaria tenir instal·lats."
+
+#: ../revisor/modgui/glade/package_selection.glade.h:14
+msgid "dialog1"
+msgstr "diàleg1"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:1
+msgid "<b>Number of Packages:</b>"
+msgstr "<b>Nombre de paquets:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:2
+msgid "<b>Package Set Size (Live/Installed):</b>"
+msgstr "<b>Mida del conjunt de paquets (Live/Instal·lat):</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:3
+msgid "<b>RPM Package Payload Size:</b>"
+msgstr "<b>Mida de càrrega útil del paquet RPM:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:5
+msgid "Build Unattended Install Media"
+msgstr "Crea el dispositiu d'instal·lació desatesa"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:6
+msgid "Not Calculated, Yet"
+msgstr "Encara no calculat"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:7
+msgid "Package Details"
+msgstr "Detalls del paquet"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:8
+msgid "Ready to Compose Images"
+msgstr "Preparat per composar les imatges"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:9
+msgid ""
+"Revisor is now ready to compose your images. Please review your selection "
+"details below:"
+msgstr ""
+"El Revisor està preparat per composar les vostres imatges. Reviseu les "
+"vostres seleccions detallades a continuació:"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:10
+msgid "Send to Build Server:"
+msgstr "Envia al servidor de muntatge:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:1
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+msgstr ""
+"\n"
+"Desenvolupadors:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Dissenyadors·d'interfície:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:11
+msgid ""
+"\n"
+"Revisor, a product of Fedora Unity\n"
+"\n"
+"Copyright 2007-2009 Fedora Unity Project\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public\n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"Revisor, un producte de Fedora Unity\n"
+"Copyright (C) 2007-2009 Fedora Unity\n"
+"\n"
+"Aquest és un programa lliure; podeu redistribuir-lo i/o modificar-lo\n"
+"sota els termes de la Llicència Pública General GNU publicada per\n"
+"la Free Software Foundation; qualsevol versió 2 de la llicència, o\n"
+"(a la vostra elecció) alguna versió superior.\n"
+"\n"
+"Aquest programa es distribueix amb l'esperança que sigui útil,\n"
+"però SENSE CAP GARANTIA; inclús sense la garantia implícita de\n"
+"COMERCIALITAT o IDONEÏTAT PER A UN PROPÒSIT PARTICULAR.\n"
+"Llegiu la Llicència Pública General GNU per a més detalls.\n"
+"\n"
+"Hauríeu d'haver rebut una còpia de la Llicència Pública General GNU\n"
+"juntament amb aquest programa; sinó, escriviu a la Free Software Foundation, "
+"Inc.,51 Franklin.St, Cinquena planta, Boston, MA  022110-1301  USA\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:23
+msgid ""
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>\n"
+msgstr ""
+"\n"
+"Traductors:\n"
+"\t* Albert Carabasa Giribet <albertc@asic.udl.cat>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:27
+msgid " "
+msgstr " "
+
+#: ../revisor/modgui/glade/revisor.glade.h:29
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../revisor/modgui/glade/revisor.glade.h:30
+msgid "<b>Installation Media</b>"
+msgstr "<b>Suport d'instal·lació</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:31
+msgid "<b>Live Media</b>"
+msgstr "<b>Suports autoarrencables</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:32
+msgid "<i>Initializing GUI</i>"
+msgstr "<i>Inicialitzant la interfície</i>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:33
+msgid "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+msgstr "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:34
+msgid "<span size=\"large\" weight=\"bold\">Title</span>"
+msgstr "<span size=\"large\"·weight=\"bold\">Títol</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:35
+msgid "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+msgstr "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:36
+msgid "<span size=\"x-large\" weight=\"bold\">Please Wait...</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Espereu si us plau...</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:37
+msgid "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+msgstr "El<span·size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:38
+msgid "A Fedora Spin Designer"
+msgstr "Un dissenyador d'spins de Fedora"
+
+#: ../revisor/modgui/glade/revisor.glade.h:41
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:9
+msgid "Configure Revisor"
+msgstr "Configura el Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:42
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:11
+msgid "Destination Directory:"
+msgstr "Directori destí:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:43
+msgid "Dynamically Set Header Label"
+msgstr "Defineix l'etiqueta capçalera dinàmicament"
+
+#: ../revisor/modgui/glade/revisor.glade.h:45
+msgid "Message"
+msgstr "Missatge"
+
+#: ../revisor/modgui/glade/revisor.glade.h:46
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:5
+#: ../revisor/modgui/glade/select_media.glade.h:6
+#: ../revisor/modgui/glade/select_media_installation.glade.h:6
+#: ../revisor/modgui/glade/select_media_live.glade.h:3
+#: ../revisor/modgui/glade/select_media_utility.glade.h:2
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:3
+msgid "Please select the type(s) of media you want to compose:"
+msgstr "Seleccioneu els tipus de suports que voleu composar:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:47
+msgid "Progress - Revisor"
+msgstr "Progrés - El Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:49
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:21
+msgid "Revisor Configuration:"
+msgstr "Configuració del Revisor:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:50
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors as simple as\n"
+"possible. This wizard will walk you through the proces of building your own "
+"installer and/or Live media\n"
+"set(s) from and Yum repository."
+msgstr ""
+"El Revisor ha estat dissenyat des de zero per fer que el muntatge "
+"personalitzat de Fedora sigui el més simple\n"
+"possible. Aquest auxiliar us guiarà a través del procés per construir el "
+"vostre propi instal·lador i/o conjunts\n"
+"de suports des de qualsevol repositori del yum."
+
+#: ../revisor/modgui/glade/revisor.glade.h:53
+msgid "Revisor is initializing."
+msgstr "El Revisor s'està inicialitzant."
+
+#: ../revisor/modgui/glade/revisor.glade.h:54
+msgid "Select Media Types"
+msgstr "Selecciona els tipus de suports"
+
+#: ../revisor/modgui/glade/revisor.glade.h:55
+msgid "Select Repositories:"
+msgstr "Selecciona els dipòsits:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:56
+msgid "Spin Target:"
+msgstr "Objectiu de l'spin:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:57
+msgid "Translators"
+msgstr "Traductors"
+
+#: ../revisor/modgui/glade/revisor.glade.h:58
+msgid "Use _advanced interface"
+msgstr "Utilitza la interfície _avançada"
+
+#: ../revisor/modgui/glade/revisor.glade.h:59
+msgid "Welcome"
+msgstr "Benvinguts"
+
+#: ../revisor/modgui/glade/revisor.glade.h:60
+msgid "_Browse"
+msgstr "_Navega"
+
+#: ../revisor/modgui/glade/revisor.glade.h:61
+msgid "_CD Set"
+msgstr "Grup de _CD"
+
+#: ../revisor/modgui/glade/revisor.glade.h:62
+msgid "_DVD Set"
+msgstr "Grup de _DVD"
+
+#: ../revisor/modgui/glade/revisor.glade.h:63
+msgid "_File"
+msgstr "_Fitxer"
+
+#: ../revisor/modgui/glade/revisor.glade.h:65
+msgid "_Optical (CD/DVD)"
+msgstr "_Òptic (CD/DVD)"
+
+#: ../revisor/modgui/glade/revisor.glade.h:66
+msgid "_USB"
+msgstr "_USB"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:1
+msgid "<b>Please fill out the repository information</b>"
+msgstr "<b>Ompliu la informació de repositoris</b>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:2
+msgid "<small><i>Base URL or Mirror List Mandatory</i></small>"
+msgstr "<small><i>URL base o llista de servidors obligatòria</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:3
+msgid "<small><i>GPG Options</i></small>"
+msgstr "<small><i>Opcions GPG</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:4
+msgid "<small><i>Optional</i></small>"
+msgstr "<small><i>Opcional</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:5
+msgid "<small><i>Other Options</i></small>"
+msgstr "<small><i>Altres opcions</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:6
+msgid "Add Repository"
+msgstr "Afegeix un repositori"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:7
+msgid "Base URL:"
+msgstr "L'URL base:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:8
+msgid "Configuration Section to Use:"
+msgstr "Secció de configuració per utilitzar:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:10
+msgid "Description:"
+msgstr "Descripció:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:12
+msgid "Enable/Disable Repositories from Selection Configuration:"
+msgstr "Habilita/inhabilita els repositoris de la configuració seleccionada:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:13
+msgid "Exclude Packages:"
+msgstr "Exclou els paquets:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:14
+msgid "GPG Check"
+msgstr "Comprova el GPG"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:15
+msgid "GPG Key File:"
+msgstr "Fitxer de claus GPG:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:16
+msgid "Include Packages:"
+msgstr "Inclou els paquets:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:17
+msgid "Mirror List:"
+msgstr "Llista de servidors rèplica:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:18
+msgid "Name:"
+msgstr "Nom:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:19
+msgid "Protect"
+msgstr "Protegeix"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:20
+msgid "Repository Information"
+msgstr "Informació del repositori"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:22
+msgid "Save to Configuration"
+msgstr "Desa a la configuració"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:1
+msgid "<b>Compose Options</b>"
+msgstr "<b>Opcions de la composició</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:2
+msgid "<b>Media Types</b>"
+msgstr "<b>Tipus de medis</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:3
+msgid "Installation Media Types"
+msgstr "Tipus de medis d'instal·lació"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:4
+msgid "Live Media Types"
+msgstr "Tipus de medis arrencables"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:6
+msgid "Rebrand Media"
+msgstr "Reanomena el medi"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:7
+msgid "Rescue / Utility Media"
+msgstr "Medis de rescat / d'utilitat"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:8
+#: ../revisor/modgui/glade/select_media.glade.h:7
+msgid "Select Media Type(s)"
+msgstr "Selecciona els tipus de medis"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:9
+msgid "Virtualization Media"
+msgstr "Medi de virtualització"
+
+#: ../revisor/modgui/glade/select_media.glade.h:1
+#: ../revisor/modgui/glade/select_media_installation.glade.h:1
+msgid "<b>Installation Media Types</b>"
+msgstr "<b>Tipus de medis d'instal·lació</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:2
+#: ../revisor/modgui/glade/select_media_live.glade.h:1
+msgid "<b>Live Media Types</b>"
+msgstr "<b>Tipus de suports Live</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:3
+#: ../revisor/modgui/glade/select_media_installation.glade.h:2
+msgid "CD Set"
+msgstr "Col·lecció CD"
+
+#: ../revisor/modgui/glade/select_media.glade.h:4
+#: ../revisor/modgui/glade/select_media_installation.glade.h:3
+msgid "DVD Set"
+msgstr "Col·lecció DVD"
+
+#: ../revisor/modgui/glade/select_media.glade.h:5
+msgid "Optical Live Media"
+msgstr "Suports Live òptics"
+
+#: ../revisor/modgui/glade/select_media.glade.h:8
+msgid "USB Live Media"
+msgstr "Suport Live USB"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:4
+msgid "Installation Tree"
+msgstr "Arbre d'instal·lació"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:5
+msgid "PXE Payload"
+msgstr "Càrrega útil del PXE"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:7
+msgid "Select Installation Media Type(s)"
+msgstr "Selecciona els tipus de suport de la instal·lació"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:8
+msgid "Unified ISO Image"
+msgstr "Imatge ISO unificada"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:2
+msgid "Optical"
+msgstr "Òptic"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:4
+msgid "Select Live Media Type(s)"
+msgstr "Selecciona els tipus de suport Live"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:5
+msgid "USB Hard Disk"
+msgstr "Disc dur USB"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:6
+msgid "USB Thumb Drive"
+msgstr "Unitat USB portàtil"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:1
+msgid "<b>Utility Media Types</b>"
+msgstr "<b>Tipus de suports d'utilitat</b>"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:3
+msgid "Rescue Image"
+msgstr "Imatge de rescat"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:4
+msgid "Select Utility Media Type(s)"
+msgstr "Selecciona els tipus de suports d'utilitat"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:1
+msgid "<b>Virtualization Media Types</b>"
+msgstr "<b>Tipus de suports de virtualització</b>"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:2
+msgid "KVM Guest"
+msgstr "Allotjat del KVM"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:4
+msgid "Select Virtualization Media Type(s)"
+msgstr "Selecciona els tipus de suports de virtualització"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:5
+msgid "VMWare Appliance"
+msgstr "Aplicació VMWare"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:6
+msgid "VMWare Guest"
+msgstr "Allotjat del VMWare"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:7
+msgid "Xen Guest"
+msgstr "Allotjat del Xen"
+
+#: ../revisor/modgui/glade/welcome_buttons.glade.h:1
+msgid "Get Started"
+msgstr "Comença"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:1
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors simple as possible. This wizard will walk you through the process of "
+"building your own Installer and/or Live media set(s) from any Yum repository."
+msgstr ""
+"El Revisor ha estat dissenyat desde zero per fer que la construcció de "
+"versions personalitzades de Fedora sigui el més simple possible. Aquest "
+"auxiliar us guiarà durant tot el procés de construcció del vostre "
+"instal·lador i/o conjunts de discos des de qualsevol repositori del yum."
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:2
+msgid "Show Advanced Configuration and Options"
+msgstr "Mostra la configuració avançada i les opcions"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:3
+msgid "Welcome to Revisor, by Fedora Unity"
+msgstr "Benvingut al Revisor, per Fedora Unity"
+
+#: ../revisor.py:37
+msgid "Cannot find anaconda-runtime in /usr/lib/anaconda-runtime"
+msgstr "No és pot trobar l'anaconda-runtime en /usr/lib/anaconda-runtime"
+
+#: ../revisor/base.py:103
+msgid "Running Revisor in CLI mode..."
+msgstr "S'està executant el Revisor des de la línia d'ordres..."
+
+#: ../revisor/base.py:112
+msgid "Running Revisor in Hub mode..."
+msgstr "S'està executant el Revisor en mode concentrador..."
+
+#: ../revisor/base.py:122
+msgid "Running Revisor in RPC Server mode..."
+msgstr "S'està executant el revisor en mode servidor RPC..."
+
+#: ../revisor/base.py:126 ../revisor/base.py:132
+msgid "Running Revisor in GUI mode..."
+msgstr "S'està executant el Revisor en mode gràfic..."
+
+#: ../revisor/base.py:187
+#, python-format
+msgid "Opening up /usr/bin/htmlview %s%s"
+msgstr "S'està obrint /usr/bin/htmlview %s%s"
+
+#. self.mode.base_buttons_xml.get_widget("button_information").set_sensitive(True)
+#: ../revisor/base.py:191
+#, python-format
+msgid "Cannot fork process showing help, please use %s%s"
+msgstr "No es pot bifurcar el procés que mostra l'ajuda, utilitzeu %s%s"
+
+#: ../revisor/base.py:193
+#, python-format
+msgid "Cannot show Help in CLI mode, use %s%s"
+msgstr "No es pot mostrar l'ajuda des de la línia d'ordres, utilitzeu %s%s"
+
+#: ../revisor/base.py:201
+msgid "Loading Repositories"
+msgstr "S'estan carregant els repositoris"
+
+#: ../revisor/base.py:203
+#, python-format
+msgid "Getting configuration from %s"
+msgstr "S'està obtenint la configuració des de %s"
+
+#: ../revisor/base.py:217 ../revisor/base.py:273 ../revisor/base.py:280
+#: ../revisor/base.py:290 ../revisor/base.py:300 ../revisor/base.py:360
+#: ../revisor/cfg.py:472 ../revisor/cfg.py:483 ../revisor/cfg.py:496
+#: ../revisor/pkgorder.py:219 ../revisor/pkgorder.py:244
+#: ../revisor/pkgorder.py:255 ../revisor/pkgorder.py:258
+#: ../revisor/pkgorder.py:267 ../revisor/pkgorder.py:276
+#, python-format
+msgid "Using deprecated YUM function: %s()"
+msgstr "Utilitzant la funció obsoleta del yum: %s()"
+
+#: ../revisor/base.py:219
+#, python-format
+msgid ""
+"yum.YumBase.doConfigSetup failed, probably an invalid configuration file %s"
+msgstr ""
+"yum.YumBase.doConfigSetup ha fallat, probablement el fitxer de configuració "
+"no sigui vàlid %s"
+
+#: ../revisor/base.py:254
+msgid "Another application is running which is accessing software information."
+msgstr "Una altra aplicació està accedint a la informació del programari."
+
+#: ../revisor/base.py:259
+msgid "Fatal Error: Unable to retrieve software information.\n"
+msgstr "Error fatal; No és possible recuperar la informació del programari.\n"
+
+#: ../revisor/base.py:269
+msgid "Setting up a Transaction Set"
+msgstr "S'està establint un conjunt de transaccions"
+
+#: ../revisor/base.py:276
+msgid "Getting myself a piece of the RPMDB"
+msgstr "S'està obtenint un tros de l'RPMDB per a mi"
+
+#: ../revisor/base.py:283
+msgid ""
+"Apparently we're running on an Enterprise Linux system (we can tell from the "
+"way yum sets up the RPM Database)"
+msgstr ""
+"Aparentment s'executa un sistema Linux Enterprise (això sembla per la manera "
+"en què el yum estableix la base de dades RPM)"
+
+#: ../revisor/base.py:286
+msgid "Getting Repository Information"
+msgstr "S'està obtenint informació del repositori"
+
+#: ../revisor/base.py:293
+#, python-format
+msgid "Arch list = %s"
+msgstr "Llista Arq = %s"
+
+#: ../revisor/base.py:295
+msgid "Getting the Package Sacks"
+msgstr "S'està obtenint els sacs dels paquets"
+
+#: ../revisor/base.py:305
+#, python-format
+msgid "All OK so far, %d packages in the Package Sack"
+msgstr "Tot correcte fins al moment, %d paquets al sac dels paquets"
+
+#: ../revisor/base.py:329
+msgid ""
+"Building a nice package list from ksdata, and adding it to the transaction"
+msgstr ""
+"S'està creant una llista de paquets des de ksdata, i s'està afegint a la "
+"transacció"
+
+#: ../revisor/base.py:331
+#, python-format
+msgid "Package sack excludes are now: %r"
+msgstr "Els sacs dels paquets exclosos ara són: %r"
+
+#: ../revisor/base.py:343
+msgid "You've configured Revisor to use "
+msgstr "Configura el Revisor per a usar "
+
+#: ../revisor/base.py:351
+msgid "Using pkgsack excludes, the list of packages "
+msgstr "S'està utilitzant pkgsack, la llista de paquets exclosos "
+
+#. Actually, let's figure out what mode we're in and call something
+#.
+#. Live Media:
+#.
+#. In live media composes, it is of essence to select packages using
+#. yum.selectGroup() and yum.install()
+#.
+#. Installation Media:
+#.
+#. Depending on whether we are in respin mode, we either select the
+#. packages using YUM's internal search mode, or manually.
+#: ../revisor/base.py:378
+msgid "What we're getting from pykickstart is: "
+msgstr "El que s'està obtenint des del pykickstart és: "
+
+#: ../revisor/base.py:390
+msgid "Select kickstart packages"
+msgstr "Selecciona els paquets del kickstart"
+
+#: ../revisor/base.py:393
+msgid "Kickstart mode: livecd-tools"
+msgstr "Mode kickstart: eines-livecd"
+
+#: ../revisor/base.py:404
+msgid "Kickstart mode: respin"
+msgstr "Mode kickstart: respin"
+
+#: ../revisor/base.py:413 ../revisor/base.py:423
+msgid "Kickstart mode: normal"
+msgstr "Mode kickstart: normal"
+
+#: ../revisor/base.py:436 ../revisor/base.py:444 ../revisor/base.py:452
+msgid "Deprecated function called: "
+msgstr "Funció obsoleta anomenada: "
+
+#: ../revisor/base.py:468
+msgid "Initting progress bar for "
+msgstr "S'està iniciant la barra de progrés per a "
+
+#: ../revisor/base.py:475
+msgid "Apparently we have not yet entered the Build Media stage"
+msgstr "Aparentment encara no s'ha entrat a la fase de muntatge dels suports"
+
+#: ../revisor/base.py:504 ../revisor/misc.py:378
+#, python-format
+msgid "Checking dependencies for %s.%s"
+msgstr "S'estan verificant les dependències per a %s.%s"
+
+#. pbar.cur_task += 1.0
+#: ../revisor/base.py:526 ../revisor/misc.py:411
+#, python-format
+msgid "Unresolvable dependency %s %s %s in %s.%s"
+msgstr "No es pot resoldre la dependència %s %s %s en %s.%s"
+
+#: ../revisor/base.py:533 ../revisor/misc.py:418
+#, python-format
+msgid "Added %s-%s:%s-%s.%s for %s-%s:%s-%s.%s (requiring %s %s %s)"
+msgstr "Afegit %s-%s:%s-%s.%s per a %s-%s:%s-%s.%s (es necessita %s %s %s)"
+
+#: ../revisor/base.py:536 ../revisor/misc.py:246
+msgid "Checking dependencies - allowing conflicts within the package set"
+msgstr ""
+"S'estan verificant les dependències - s'està permetent conflictes dins del "
+"conjunt del paquet"
+
+#: ../revisor/base.py:537 ../revisor/base.py:581
+msgid "Resolving Dependencies"
+msgstr "S'estan resolent dependències"
+
+#: ../revisor/base.py:553
+msgid "Pulling in build requirements"
+msgstr "S'estan recollint els requeriments del muntatge"
+
+#: ../revisor/base.py:555
+msgid "Resolving Build Dependencies"
+msgstr "S'estan resolent les dependències del muntatge"
+
+#: ../revisor/base.py:576
+#, python-format
+msgid ""
+"The following packages were excluded using the kickstart package manifest, "
+"but were included for dependency resolving:\n"
+" - %s"
+msgstr ""
+"Els paquets següents han estat exclosos utilitzant el manifest de paquets "
+"del kickstart, però, s'han inclòs degut a la resolució de dependències:\n"
+" - %s"
+
+#: ../revisor/base.py:580
+msgid ""
+"Checking dependencies - not allowing any conflicts within the package set"
+msgstr ""
+"S'estan comprovant les dependències - no s'està permetent conflictes dins "
+"del conjunt de paquets"
+
+#: ../revisor/base.py:608
+#, python-format
+msgid ""
+"Unable to resolve dependencies for some packages selected:\n"
+"\n"
+"%s"
+msgstr ""
+"Impossible resoldre les dependències per a alguns paquets seleccionats:\n"
+"\n"
+"%s"
+
+#. End of dependency resolving
+#: ../revisor/base.py:612 ../revisor/image.py:101
+msgid "Unable to build transaction"
+msgstr "Impossible crear la transacció"
+
+#: ../revisor/base.py:617 ../revisor/image.py:106
+#, python-format
+msgid "Successfully built transaction: ret %s, msg %s"
+msgstr "Transacció completament creada: ret %s, miss %s"
+
+#: ../revisor/base.py:623
+#, python-format
+msgid ""
+"Errors where encountered while downloading package headers:\n"
+"\n"
+"%s"
+msgstr ""
+"Errors trobats mentre s'han descarregat les capçaleres del paquet:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:632
+msgid ""
+"The package set after dependency resolving does not match the packages "
+"selected in the kickstart manifest"
+msgstr ""
+"La col·lecció de paquets després de la resolució de les dependències no ha "
+"coincidit amb els paquets seleccionats al manifest del kickstart"
+
+#: ../revisor/base.py:668
+msgid "Creating a list of RPMs to include -debuginfo for"
+msgstr "S'està creant una llista d'RPMs de depuració (-debuginfo)"
+
+#: ../revisor/base.py:678
+msgid "Debuginfo RPM PO already in the list"
+msgstr "El RPM PO de depuració ja és a la llista"
+
+#: ../revisor/base.py:680
+#, python-format
+msgid "Debuginfo RPM found in non-debuginfo repository %s"
+msgstr "RPM de depuració trobat a un repositori de no-depuració %s"
+
+#: ../revisor/base.py:684
+msgid "Downloading Debuginfo Packages"
+msgstr "S'estan baixant els paquets de depuració"
+
+#: ../revisor/base.py:699
+msgid "Creating a list of SRPMs"
+msgstr "S'està creant una llista d'SRPMs"
+
+#: ../revisor/base.py:714
+msgid "Source RPM PO already in the list"
+msgstr "L'RPM PO font ja és a la llista"
+
+#: ../revisor/base.py:716
+#, python-format
+msgid "Source RPM found in non-source repository %s"
+msgstr "RPM font trobat en un repositori de no-fonts %s"
+
+#: ../revisor/base.py:718
+#, python-format
+msgid "Error: Cannot find a source rpm for %s"
+msgstr "Error: No es pot trobar una font rpm per a %s"
+
+#: ../revisor/base.py:720 ../revisor/modgui/build_media.py:105
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:235
+msgid "Downloading Source Packages"
+msgstr "S'està baixant els paquets font"
+
+#: ../revisor/base.py:740 ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:230
+msgid "Downloading Packages"
+msgstr "S'estan baixant els paquets"
+
+#: ../revisor/base.py:793
+#, python-format
+msgid "Overriding auto package selection with user package selection for %s..."
+msgstr ""
+"S'està sobreescrivint la selecció de paquets automàtica amb la selecció de "
+"paquets de l'usuari per a %s..."
+
+#: ../revisor/base.py:806
+#, python-format
+msgid "Adding required package %s-%s:%s-%s.%s"
+msgstr "S'està afegint el paquet necessari %s-%s:%s-%s.%s"
+
+#. This list has already been resolved
+#: ../revisor/base.py:809
+#, python-format
+msgid "%s. This is a required package."
+msgstr "%s. Aquest és un paquet necessari."
+
+#: ../revisor/base.py:821
+#, python-format
+msgid "Adding suggested package %s-%s:%s-%s.%s"
+msgstr "S'està afegint un paquet suggerit %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:832
+#, python-format
+msgid "Adding all-arch package %s-%s:%s-%s.%s"
+msgstr "S'està afegint el paquet per a totes les arquitectures %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:869 ../revisor/base.py:895
+msgid "Did not succeed in adding in all required packages"
+msgstr "No s'ha pogut afegir tots els paquets necessaris"
+
+#: ../revisor/base.py:903
+msgid "Populating statistics"
+msgstr "S'estan poblant les estadístiques"
+
+#: ../revisor/base.py:919
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a archivesize header"
+msgstr ""
+"El paquet %s-%s:%s-%s.%s no sembla tenir una capçalera de la mida de tots "
+"els paquests desats (archivesize)"
+
+#: ../revisor/base.py:927
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a installedsize header"
+msgstr ""
+"El paquet %s-%s:%s-%s.%s no sembla tenir una capçalera de la mida de tots "
+"els paquests instal·lats (installedsize)"
+
+#: ../revisor/base.py:935
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a packagesize header"
+msgstr ""
+"El paquet %s-%s:%s-%s.%s no sembla tenir una capçalera de la mida de tots "
+"els paquets (packagesize)"
+
+#: ../revisor/base.py:950
+#, python-format
+msgid "Total size of all packages (archivesize): %s %s"
+msgstr "Mida total de tots els paquets guardats (archivesize): %s %s"
+
+#: ../revisor/base.py:951
+#, python-format
+msgid "Total size of all packages, (installedsize): %s %s"
+msgstr "Mida total de tots els paquets instal·lats (installedsize): %s %s"
+
+#: ../revisor/base.py:952
+#, python-format
+msgid "Total size of all packages, (packagesize): %s %s"
+msgstr "Mida total de tots els paquets, (packagesize): %s %s"
+
+#: ../revisor/base.py:987
+#, python-format
+msgid "Report of the %d most space consuming packages"
+msgstr "Informe dels %d paquets que consumeixen més espai"
+
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:1074 ../revisor/base.py:1762
+msgid "Linking in binary packages"
+msgstr "S'està enllaçant els paquets binaris"
+
+#: ../revisor/base.py:1087
+msgid "Linking in source packages"
+msgstr "S'està enllaçant els paquets font"
+
+#: ../revisor/base.py:1099
+msgid "Linking in debuginfo packages"
+msgstr "S'està enllaçant els paquets de depuració"
+
+#: ../revisor/base.py:1111
+msgid "Creating Repository Information"
+msgstr "S'està creant la informació del repositori"
+
+#: ../revisor/base.py:1124
+msgid "Source Repo Information"
+msgstr "Informació del repositori font"
+
+#: ../revisor/base.py:1137
+msgid "Debuginfo Repo Information"
+msgstr "Informació del repositori de depuració"
+
+#. FIXME: Optionally recompose installer images
+#: ../revisor/base.py:1152
+msgid "Building Installation Images"
+msgstr "S'estan creant les imatges d'instal·lació"
+
+#: ../revisor/base.py:1169
+msgid "Using already existing installer images"
+msgstr "S'està utilitzant imatges d'instal·lació existents"
+
+#: ../revisor/base.py:1183
+msgid "Linking in release notes"
+msgstr "S'estan enllaçant a les notes de la versió"
+
+#: ../revisor/base.py:1195
+#, python-format
+msgid "Copying updates.img from %s to %s"
+msgstr "S'estan copiant updates.img des de %s a %s"
+
+#: ../revisor/base.py:1204 ../revisor/pungi.py:412
+#, python-format
+msgid "copy_dir '%s' not accessible"
+msgstr "copy_dir: '%s' no accessible"
+
+#: ../revisor/base.py:1215
+#, python-format
+msgid "Size of the installation tree is %s MB"
+msgstr "La mida de l'arbre d'instal·lació és %s MB"
+
+#. On EL5, the yum cache is placed under the installroot
+#. That makes our lives difficult, hihi
+#. So, make sure that if we're on el_linux, the repository gets
+#. bind mounted and configured appropriately
+#: ../revisor/base.py:1265
+msgid "Running pkgorder"
+msgstr "S'està executant pkgorder"
+
+#: ../revisor/base.py:1328
+#, python-format
+msgid "Running with grouplist: %r"
+msgstr "S'està executant la llista de grups: %r"
+
+#: ../revisor/base.py:1331
+#, python-format
+msgid "Running with packagelist: %r"
+msgstr "S'està executant la llista de paquets: %r"
+
+#: ../revisor/base.py:1338
+msgid "Appending group core and base"
+msgstr "S'està afegint el grup core i base"
+
+#: ../revisor/base.py:1362
+#, python-format
+msgid "Appending default groups %r"
+msgstr "S'està afegint els grups predeterminats %r"
+
+#. Do not do this because the installer still has all the groups available
+#. if group not in groupList:
+#. continue
+#: ../revisor/base.py:1378
+#, python-format
+msgid "Appending non-default group %s"
+msgstr "S'està afegint el grup no predeterminat %s"
+
+#. Do not do this because the installer still has all the groups available
+#. if group not in groupList:
+#. continue
+#: ../revisor/base.py:1388
+#, python-format
+msgid "Appending non-default support group %s"
+msgstr "S'està afegint el grup de suport no predeterminat %s"
+
+#: ../revisor/base.py:1454
+#, python-format
+msgid "Not running package ordering, using file %s instead"
+msgstr ""
+"No s'està ordenant els paquets, s'està utilitzant el fitxer %s en comptes"
+
+#: ../revisor/base.py:1456
+msgid "Not running package ordering"
+msgstr "No s'esta ordenant els paquets"
+
+#: ../revisor/base.py:1488
+msgid "^Install using kickstart"
+msgstr "^Instal·la utilitzant kickstart"
+
+#. Split Tree
+#: ../revisor/base.py:1511
+#, python-format
+msgid "Splitting Build Tree (%s)"
+msgstr "S'està dividint l'arbre de muntatge (%s)"
+
+#. Split repo
+#: ../revisor/base.py:1517
+#, python-format
+msgid "Splitting Repository (%s)"
+msgstr "S'està dividint el repositori (%s)"
+
+#: ../revisor/base.py:1531 ../revisor/modgui/build_media.py:260
+#, python-format
+msgid "Creating %s ISO Image #%d"
+msgstr "S'està creant la imatge ISO %s #%d"
+
+#: ../revisor/base.py:1536 ../revisor/modgui/build_media.py:264
+#, python-format
+msgid "Creating %s ISO Image"
+msgstr "S'està creant la imatge ISO %s"
+
+#. For all images but source images; implant the md5 into the ISO for the media check
+#. FIXME: Well, it seems we don't deal with source images here.
+#: ../revisor/base.py:1550
+msgid "Implanting MD5 into ISO Images"
+msgstr "S'està incloent l'MD5 dins les imatges ISO"
+
+#. mediatype = built_image["mediatype"]
+#. if not mediatype == 'source':
+#: ../revisor/base.py:1558
+#, python-format
+msgid "Implanting md5 into ISO Image: %s"
+msgstr "S'està incloent l'md5 dins de la imatge ISO: %s"
+
+#: ../revisor/base.py:1564
+msgid "Cannot implant ISO md5sum"
+msgstr "No es pot incloure l'md5sum de la ISO"
+
+#. Do some SHA1SUMMONING
+#: ../revisor/base.py:1572
+msgid "Creating SHA1SUMs for Images"
+msgstr "S'està creant el SHA1SUMs per a les imatges"
+
+#: ../revisor/base.py:1588
+msgid "Creating Rescue ISO Image"
+msgstr "S'està creant la imatge ISO de rescat"
+
+#: ../revisor/base.py:1595
+msgid "Creating USB Key Installer"
+msgstr "S'està creant l'instal·lador de la clau USB"
+
+#: ../revisor/base.py:1652 ../revisor/base.py:1675 ../revisor/base.py:1698
+#, python-format
+msgid "Copying %s to %s (%d files)"
+msgstr "S'està copiant %s a %s (%d fitxers)"
+
+#: ../revisor/base.py:1656 ../revisor/base.py:1679 ../revisor/base.py:1702
+#, python-format
+msgid "Moving %s to %s (%d files)"
+msgstr "S'està movent %s a %s (%d fitxers)"
+
+#: ../revisor/base.py:1659 ../revisor/base.py:1682
+#, python-format
+msgid ""
+"Moving of the source tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Ha fallat el desplaçament de l'arbre font (s'està intentant copiar):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1662 ../revisor/base.py:1685
+#, python-format
+msgid ""
+"Copying of the source tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Ha fallat la còpia de l'arbre font:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1705
+#, python-format
+msgid ""
+"Moving of the installation tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Ha fallat el desplaçament de l'arbre d'instal·lació (s'està intentant "
+"copiar):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1708
+#, python-format
+msgid ""
+"Copying of the installation tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Ha fallat la còpia de l'arbre d'instal·lació:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1717
+msgid "Creating ext3 filesystem"
+msgstr "S'està creant el sistema de fitxers ext3"
+
+#: ../revisor/base.py:1724
+msgid "Configuring System"
+msgstr "S'està configurant el sistema"
+
+#: ../revisor/base.py:1773
+msgid "Linking in Source packages"
+msgstr "S'està enllaçant els paquets origen"
+
+#: ../revisor/base.py:1801
+#, python-format
+msgid "Setting rundir to %s"
+msgstr "S'està establint el directori d'execució rundir a %s"
+
+#: ../revisor/base.py:1807
+#, python-format
+msgid "Directory %s could not be created. Aborting"
+msgstr "El directori %s podria no estar creat. S'està interrompent."
+
+#: ../revisor/base.py:1809
+#, python-format
+msgid "Running command: %s"
+msgstr "S'està executant l'ordre: %s"
+
+#: ../revisor/base.py:1810
+#, python-format
+msgid "Extra information: %s %s %s"
+msgstr "Informació extra: %s %s %s"
+
+#: ../revisor/base.py:1838
+#, python-format
+msgid "Got an error from %s (return code %s)"
+msgstr "S'ha obtingut un error des de %s (retorna el codi %s)"
+
+#: ../revisor/cfg.py:73
+#, python-format
+msgid "Setting %s to %r"
+msgstr "S'està establint %s a %r"
+
+#: ../revisor/cfg.py:153 ../revisor/cfg.py:211
+#, python-format
+msgid "No group data found for %s"
+msgstr "No es troba cap grup de dades per %s"
+
+#: ../revisor/cfg.py:156 ../revisor/cfg.py:214
+#, python-format
+msgid "Why is yum throwing AttributeErrors? %s"
+msgstr "Per què el yum està llençant els AttributeErrors? %s"
+
+#: ../revisor/cfg.py:244
+msgid "Checking working directories"
+msgstr "S'està comprovant els directoris de treball"
+
+#: ../revisor/cfg.py:261 ../revisor/cfg.py:337
+#, python-format
+msgid ""
+"The directories Revisor uses in %s already exist. This could possibly hold "
+"data from a previous run. Please remove or move them to a safe location, "
+"then confirm to continue. If you do not move or remove the files, Revisor "
+"will simply delete them."
+msgstr ""
+"Els directoris del Revisor usats a %s ja existeixen. Això possiblement és "
+"degut a la conservació de dades d'una execució anterior. Elimineu-les o "
+"moveu-les a un lloc segur, llavors confirmeu per continuar. Si no les moveu "
+"o elimineu, el Revisor simplement les suprimirà."
+
+#: ../revisor/cfg.py:263 ../revisor/cfg.py:339
+#, python-format
+msgid "The directories Revisor uses in %s already exist. Revisor deleted them."
+msgstr ""
+"Els directoris del Revisor usats a %s ja existeixen. El Revisor els "
+"suprimirà."
+
+#: ../revisor/cfg.py:273
+#, python-format
+msgid "%s%s%s is a mount, trying to unmount"
+msgstr "%s%s%s és un muntatge, s'està intentant desmuntar"
+
+#: ../revisor/cfg.py:277
+#, python-format
+msgid ""
+"Unable to unmount %s%s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Imposible desmuntar %s%s%s. L'error és:\n"
+"\n"
+"%s\n"
+"\n"
+"Solucioneu el problema i continueu."
+
+#: ../revisor/cfg.py:280
+#, python-format
+msgid "%s%s%s is not a mount"
+msgstr "%s%s%s no és un muntatge"
+
+#: ../revisor/cfg.py:300
+#, python-format
+msgid ""
+"Unable to unmount %s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Imposible desmuntar %s%s. L'error és:\n"
+"\n"
+"%s\n"
+"\n"
+"Solucioneu el problema i continueu."
+
+#: ../revisor/cfg.py:317
+msgid "Checking destination directories"
+msgstr "S'estan comprovant els directoris destí"
+
+#: ../revisor/cfg.py:321
+#, python-format
+msgid "Set destination directory to %s"
+msgstr "Estableix el directori destí a %s"
+
+#: ../revisor/cfg.py:369 ../revisor/modvirt/__init__.py:65
+#: ../revisor/modvirt/__init__.py:72
+#, python-format
+msgid "Cannot access %s, please check the permissions so we can try again."
+msgstr ""
+"No es pot accedir a %s, comproveu els permisos per poder intentar-ho de nou."
+
+#: ../revisor/cfg.py:402
+#, python-format
+msgid "Architecture list: %r"
+msgstr "Llista Arquitectura: %r"
+
+#: ../revisor/cfg.py:434
+#, python-format
+msgid "Repository %s specified in the kickstart already exists"
+msgstr "El dipòsit %s especificat en el kickstart ja existeix"
+
+#: ../revisor/cfg.py:439
+#, python-format
+msgid "Setting repo.baseurl to %s"
+msgstr "S'està establint repo.baseurl a %s"
+
+#: ../revisor/cfg.py:442
+#, python-format
+msgid "Setting repo.mirrorlist to %s"
+msgstr "S'està establint repo.mirrorlist a %s"
+
+#: ../revisor/cfg.py:461 ../revisor/cfg.py:465
+msgid "Could not clean metadata you might be working with old data"
+msgstr ""
+"No s'han pogut netejar les metadates podrieu estar utilitzant dades antigues"
+
+#: ../revisor/cfg.py:486
+#, python-format
+msgid "No groups present! Error was: %s"
+msgstr "Grups no presents! L'error era: %s"
+
+#: ../revisor/cfg.py:558
+msgid ""
+"You cannot choose the system's yum configuration file /etc/yum.conf for use "
+"with Revisor. Aborting."
+msgstr ""
+"No podeu triar el sistema de fitxer de configuració del yum /etc/yum.conf  "
+"per utilitzar amb el Revisor. S'està interrompent."
+
+#: ../revisor/cfg.py:560
+#, python-format
+msgid ""
+"File %s does not exist (used as 'main' configuration directive in model %s)"
+msgstr ""
+"El fitxer %s no existeix (utilitzat com a directiva principal 'main' de "
+"configuració en el model %s)"
+
+#: ../revisor/cfg.py:578
+#, python-format
+msgid ""
+"YUM Configuration file %s uses one of the following variables: %s, %s or %s. "
+"Please edit the configuration file and substitute those variables for the "
+"actual values"
+msgstr ""
+"El fitxer de configuració del YUM %s utilitza una de les següents variables: "
+"%s, %s o %s. Si us plau, editeu el fitxer de configuració i canvieu aquestes "
+"variables pels seus valors"
+
+#: ../revisor/cfg.py:585
+msgid ""
+"The ISO label cannot be longer then 32 characters due to Joliet limitations"
+msgstr ""
+"L'etiqueta ISO no pot ser més llarga de 32 caràcters degut a les limitacions "
+"del Joliet"
+
+#: ../revisor/cfg.py:595
+#, python-format
+msgid "Kickstart file %s cannot be read."
+msgstr "El fitxer kickstart %s no es pot llegir."
+
+#: ../revisor/cfg.py:603
+#, python-format
+msgid ""
+"The file configured as a comps file (%s) cannot be read. When composing "
+"installation media, this is FATAL."
+msgstr ""
+"El fitxer configurat com a fitxer composat (%s) no pot ser llegit. En "
+"composar el medi d'instal·lació, aixó és FATAL."
+
+#: ../revisor/cfg.py:611
+#, python-format
+msgid "The updates.img specified isn't readable: %s"
+msgstr "El updates.img especificat no es pot llegir: %s"
+
+#: ../revisor/cfg.py:616
+msgid "Updates.img seems to not be a file... Is it an URL?"
+msgstr "Updates.img sembla no ser un fitxer... És una URL?"
+
+#: ../revisor/cfg.py:627
+msgid "Preferred kernel should be one of: normal, PAE, xen, debug."
+msgstr "El nucli preferit ha de ser: normal, PAE, xen o debug."
+
+#: ../revisor/cfg.py:641
+msgid ""
+"The version you selected as a base for pykickstart compatibility and "
+"required package sets does not exist"
+msgstr ""
+"La versió que heu seleccionat com a base per la compatibilitat del "
+"pikickstart i els paquets requerits no existeixen"
+
+#: ../revisor/cfg.py:651
+#, python-format
+msgid ""
+"You have selected a model with architecture %s which doesn't compose on the "
+"system architecture %s."
+msgstr ""
+"Heu seleccionat un model amb arquitectura %s que no es pot composar a "
+"l'arquitectura de sistema %s."
+
+#: ../revisor/cfg.py:659
+msgid "Setting options from configuration file"
+msgstr "S'estan establint les opcions des del fitxer de configuració"
+
+#: ../revisor/cfg.py:687
+#, python-format
+msgid "No model %s in configuration file %s"
+msgstr "Cap model %s al fitxer de configuració %s"
+
+#: ../revisor/cfg.py:689
+#, python-format
+msgid "Setting model to %s"
+msgstr "S'està definint el model a %s"
+
+#. Not specifying a model and not configuring a model is fatal for CLI
+#: ../revisor/cfg.py:698 ../revisor/cfg.py:708 ../revisor/cfg.py:710
+#, python-format
+msgid ""
+"No model specified on the command line and no existing model configuration "
+"in %s"
+msgstr ""
+"Cap model especificat a la línia d'ordres i cap model de configuració "
+"existent a %s"
+
+#: ../revisor/cfg.py:700
+#, python-format
+msgid ""
+"Model %s configured in configuration file %s, but there is no such model "
+"configuration"
+msgstr ""
+"Model %s configurat en el fitxer de configuració %s, però no hi ha tal model "
+"de configuració"
+
+#: ../revisor/cfg.py:714
+#, python-format
+msgid "Tried to load model %s but it doesn't exist inconfiguration file %s"
+msgstr ""
+"S'ha intentat carregar el model %s però no existeix en el fitxer de "
+"configuració %s"
+
+#: ../revisor/cfg.py:731
+#, python-format
+msgid "Model %s has no configuration directive 'main' which is required"
+msgstr "El model %s no té la directiva de configuració 'main' necessària"
+
+#: ../revisor/cfg.py:734
+#, python-format
+msgid "Testing for configuration parameter %s"
+msgstr "S'està verificant el paràmetre de configuració %s"
+
+#: ../revisor/cfg.py:763
+#, python-format
+msgid "Setting %s to %r (from configuration file model %s)"
+msgstr "S'està establint %s a %r (des del model de fitxer de configuració %s)"
+
+#: ../revisor/cfg.py:797
+#, python-format
+msgid "Configuration file %s not readable"
+msgstr "El fitxer de configuració %s no es pot llegir"
+
+#: ../revisor/cfg.py:800 ../revisor/modgui/configuration.py:486
+#, python-format
+msgid "Reading configuration file %s"
+msgstr "S'està llegint el fitxer de configuració %s"
+
+#: ../revisor/cfg.py:804
+#, python-format
+msgid "Invalid configuration file %s"
+msgstr "El fitxer de configuració %s no és vàlid"
+
+#: ../revisor/cfg.py:807
+#, python-format
+msgid "No master configuration section [revisor] in configuration file %s"
+msgstr ""
+"No es troba cap secció mestra de configuració [revisor] en el fitxer de "
+"configuració %s"
+
+#: ../revisor/cfg.py:841
+#, python-format
+msgid "Setting %s to %r (from configuration file)"
+msgstr "S'està establint %s a %r (des de la línia d'ordres)"
+
+#: ../revisor/cfg.py:845
+msgid "Setting options from command-line"
+msgstr "S'està definint les opcions des de la línia d'ordres"
+
+#: ../revisor/cfg.py:859 ../revisor/cfg.py:866
+#, python-format
+msgid "Setting %s to %r (from command line)"
+msgstr "S'està establint %s a %r (des de la línia d'ordres)"
+
+#: ../revisor/cfg.py:861
+#, python-format
+msgid "Checked setting %s through plugin"
+msgstr "Paràmetre %s comprovat a través del connector"
+
+#: ../revisor/cfg.py:864
+#, python-format
+msgid "No check_setting_%s()"
+msgstr "Manca check_setting_%s()"
+
+#: ../revisor/cfg.py:868
+#, python-format
+msgid "Not setting %s to %r (command line matches default)"
+msgstr ""
+"No s'està establint %s a %r (la línia d'ordres coincideix amb el "
+"predeterminat)"
+
+#: ../revisor/cfg.py:911
+msgid ""
+"Updates.img is only usable with installation media. Please remove --updates-"
+"img or also build installation media."
+msgstr ""
+"Updates.img és utilitzable solament amb el suport d'instal·lació. Si us plau "
+"suprimiu --updates-img o creeu un medi d'instal·lació."
+
+#: ../revisor/cfg.py:915
+msgid "Kickstart failed"
+msgstr "Ha fallat el kickstart"
+
+#: ../revisor/cfg.py:922 ../revisor/cfg.py:927
+#, python-format
+msgid "Kickstart file %s not readable"
+msgstr "El fitxer kickstart %s no és llegible"
+
+#: ../revisor/cfg.py:924 ../revisor/cfg.py:929
+#, python-format
+msgid "Kickstart file %s fails to load, continuing with defaults"
+msgstr ""
+"Ha fallat el fitxer kickstart %s en carregar, es continua amb els "
+"predeterminats"
+
+#: ../revisor/cfg.py:932
+msgid "No kickstart file specified"
+msgstr "Fitxer kickstart no especificat"
+
+#: ../revisor/cfg.py:935 ../revisor/cfg.py:953
+msgid "No media specified"
+msgstr "Medi no especificat"
+
+#: ../revisor/cfg.py:980
+#, python-format
+msgid "pulling self.packages_list[%r][%r][%r][%r]"
+msgstr "S'està movent self.packages_list[%r][%r][%r][%r]"
+
+#: ../revisor/cfg.py:985
+#, python-format
+msgid "returning pkg_list: %r"
+msgstr "S'esta retornant la pkg_list: %r"
+
+#: ../revisor/cfg.py:1113
+msgid "Run from image"
+msgstr "Executa des de la imatge"
+
+#: ../revisor/cfg.py:1114
+msgid "Run from RAM - requires 1 GB+"
+msgstr "Executa des de la RAM - requereix més d'1 GB"
+
+#: ../revisor/image.py:91
+#, python-format
+msgid ""
+"Error encountered during installation of the software you selected:\n"
+"\n"
+"--> %s"
+msgstr ""
+"S'ha trobat un error durant la instal·lació del programari que heu "
+"seleccionat:\n"
+"\n"
+"--> %s"
+
+#: ../revisor/image.py:97
+msgid "Running package installation"
+msgstr "S'està executant la instal·lació de paquets"
+
+#: ../revisor/image.py:108
+msgid "Installing Software"
+msgstr "S'està instal·lant el programari"
+
+#: ../revisor/image.py:143
+msgid "SELinux requested but not enabled on host"
+msgstr "SELinux requerit però no habilitat a l'amfitrió"
+
+#: ../revisor/image.py:195
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, instead of %s)"
+msgstr ""
+"S'està establint self.cfg.payload_livemedia a %s (en comptes de %s, de "
+"l'ordre 'part /' del kickstart)"
+
+#: ../revisor/image.py:199
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from total installed size of RPMs, "
+"instead of %s)"
+msgstr ""
+"S'està establint self.cfg.payload_livemedia a %s (en comptes de %s, de la "
+"mida total dels RPMs instal·lats)"
+
+#: ../revisor/image.py:204
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, as per the respin mode)"
+msgstr ""
+"S'està establint self.cfg.payload_livemedia a %s (segons el mode respin, de "
+"l'ordre 'part /' del kickstart)"
+
+#: ../revisor/image.py:221
+#, python-format
+msgid "Filesystem type set to: %s"
+msgstr "S'ha establert el tipus de sistema de fitxers a: %s"
+
+#. #
+#. # Runtime Options
+#. #
+#: ../revisor/__init__.py.in:89
+msgid "Runtime Options"
+msgstr "Opcions d'execució"
+
+#: ../revisor/__init__.py.in:94
+msgid "Use the CLI rather then GUI"
+msgstr "Utilitza la línia d'ordres en comptes de la interfície"
+
+#: ../revisor/__init__.py.in:100
+msgid "Force Revisor to use the "
+msgstr "Imposa al Revisor a utilitzar "
+
+#: ../revisor/__init__.py.in:109
+msgid "List available models"
+msgstr "Llista els models disponibles"
+
+#: ../revisor/__init__.py.in:115
+msgid "Development mode. Skips some tasks that take time."
+msgstr "Mode desenvolupament. Ignora algunes tasques que trigaran temps."
+
+#: ../revisor/__init__.py.in:121
+msgid "Report the sizes of all RPMs selected in a list"
+msgstr "Llista les mides de tots els RPMs seleccionats a la llista"
+
+#: ../revisor/__init__.py.in:127
+msgid ""
+"Force Revisor to interpret the package manifest as complete package nevra "
+"(name, epoch, version, release and architecture). Implies --kickstart-exact"
+msgstr ""
+"Força el Revisor a interpretar el manifest del paquet com a informació de "
+"paquet completa (nom, època, versió, release i arquitectura). Implica --"
+"kickstart-exact"
+
+#: ../revisor/__init__.py.in:133
+msgid ""
+"Tells Revisor to ignore @core and @base (or %packages --nobase) and only add "
+"what is in the package manifest"
+msgstr ""
+"Indica al Revisor que s'ha d'ignorar @core i @base (o %paquets --nobase) i "
+"solament afegeix el que hi ha al manifest del paquet"
+
+#: ../revisor/__init__.py.in:140
+msgid ""
+"Should Revisor not clean up at all (0), clean up it's temporary build data "
+"(1), or everything -this includes the yum cache (2)"
+msgstr ""
+"Si el Revisor no ho hauria de netejar tot (0), si hauria de netejar les "
+"dades de muntatge temportals (1) o tot -incloent la memòria cau del yum (2)"
+
+#: ../revisor/__init__.py.in:147
+msgid "Size of the USB Thumb Drive. Default to 4G."
+msgstr "La mida de la unitat USB portàtil. Per defecte 4G."
+
+#: ../revisor/__init__.py.in:156
+msgid "Set debugging level (0 by default)"
+msgstr "Defineix el nivell de depuració (0 per defecte)"
+
+#: ../revisor/__init__.py.in:161
+msgid "Use a different logfile"
+msgstr "Utilitza un fitxer de log diferent"
+
+#: ../revisor/__init__.py.in:170
+msgid "Answer all questions as 'yes'"
+msgstr "Respon totes les preguntes amb un 'sí'"
+
+#. #
+#. # Configuration Options
+#. #
+#: ../revisor/__init__.py.in:175
+msgid "Configuration Options"
+msgstr "Opcions de configuració"
+
+#. Might be disabled for testing purposes
+#. default = os.path.join(BASE_CONFD_DIR,"fedora-7-gold.cfg"),
+#: ../revisor/__init__.py.in:182
+msgid "Use kickstart file"
+msgstr "Utilitza el fitxer kickstart"
+
+#: ../revisor/__init__.py.in:189
+msgid "Save options to given file (as a kickstart)"
+msgstr "Desa les opcions al fitxer donat (com a kickstart)"
+
+#: ../revisor/__init__.py.in:196
+msgid "Revisor configuration file to use"
+msgstr "El fitxer de configuració del Revisor per utilitzar"
+
+#: ../revisor/__init__.py.in:203
+msgid "Get the sources to go with the binaries"
+msgstr "Obté les fonts dels binaris"
+
+#: ../revisor/__init__.py.in:209
+msgid "Destination directory for products"
+msgstr "Directori destí per als productes"
+
+#: ../revisor/__init__.py.in:216
+msgid "Working directory"
+msgstr "Directori de treball"
+
+#: ../revisor/__init__.py.in:223
+msgid "Model to use for composing"
+msgstr "Model per usar per la composició"
+
+#: ../revisor/__init__.py.in:230
+msgid "Mode to use for composing updated spins"
+msgstr "Mode per usar per la composició de les actualitzacions posteriors"
+
+#: ../revisor/__init__.py.in:236
+msgid ""
+"Sometimes, it's better to copy local data rather then (sym)linking it. If "
+"you have enough space..."
+msgstr ""
+"Algunes vegades, és millor copiar les dades locals que enllaçar-ho . Si "
+"teniu suficient espai..."
+
+#: ../revisor/__init__.py.in:242
+msgid "Directory to copy onto the media"
+msgstr "Directori per copiar en el medi"
+
+#. #
+#. # Installation Media Options
+#. #
+#: ../revisor/__init__.py.in:247
+msgid "Installation Media Options"
+msgstr "Opcions dels medis d'instal·lació"
+
+#: ../revisor/__init__.py.in:252
+msgid "Create Installation Media CDs (Capacity per disc: 685MB)"
+msgstr "Crea els medis d'instal·lació de CD (Capacitat per cada disc: 685MB)"
+
+#: ../revisor/__init__.py.in:258
+msgid "Create Installation Media DVDs (Capacity per disc: 4.3GB)"
+msgstr "Crea els medis d'instal·lació de DVD (Capacitat per cada disc: 4.3GB)"
+
+#: ../revisor/__init__.py.in:264
+msgid "Create Installation Media Dual-Layered DVDs (Capacity per disc: 8.5GB)"
+msgstr ""
+"Crea els medis d'instal lació de DVD doble capa (Capacitat per cada disc: "
+"8,5GB)"
+
+#: ../revisor/__init__.py.in:270
+msgid "Create Installation Media Blu-Ray Discs (Capacity per disc: 25GB)"
+msgstr ""
+"Crea els medis d'instal·lació en discs Blu-Ray (Capacitat per cada disc: "
+"25GB)"
+
+#: ../revisor/__init__.py.in:276
+msgid ""
+"Create Installation Media Duallayer Blu-Ray Discs (Capacity per disc: 50GB)"
+msgstr ""
+"Crea els medis d'instal·lació en discs Blu-Ray de doble capa (Capacitat per "
+"cada disc: 50GB)"
+
+#: ../revisor/__init__.py.in:282
+msgid "Create Installation Media that goes onto a USB thumbdrive"
+msgstr "Crea el medi d'instal·lació que anirà a una unitat USB portàtil"
+
+#: ../revisor/__init__.py.in:288
+msgid "Create Unified ISO from install tree"
+msgstr "Crea l'ISO unificada des de l'arbre d'instal·lació"
+
+#: ../revisor/__init__.py.in:301
+msgid "Create the Installation Tree."
+msgstr "Crea l'arbre d'instal·lació"
+
+#: ../revisor/__init__.py.in:307
+msgid ""
+"Create a Full Installation Tree. Includes all binary (sub-)packages created "
+"from source packages."
+msgstr ""
+"Crea un arbre d'instal·lació complet. Inclou tots els (sub-)paquets binaris "
+"creats a partir dels paquets font."
+
+#: ../revisor/__init__.py.in:313
+msgid ""
+"Create a Self-Sustaining Installation Tree. Includes all build requirements "
+"for included source packages."
+msgstr ""
+"Crea un arbre d'instal·lació autònom. Inclou tots els requeriments de "
+"muntatge per als paquets font inclosos."
+
+#: ../revisor/__init__.py.in:319
+msgid "Create Media without graphical installer."
+msgstr "Crea el medi sense instal·lador gràfic."
+
+#: ../revisor/__init__.py.in:325
+msgid "Include kickstart file on media or in the tree"
+msgstr "Inclou el fitxer kickstart al medi o a l'arbre"
+
+#: ../revisor/__init__.py.in:331
+msgid ""
+"In the bootloader menu (isolinux.cfg), set kickstart to boot by default "
+"(works with --kickstart-include)"
+msgstr ""
+"En el menú del carregador d'arrencada (isolinux.cfg), estableix que el "
+"kickstart arrenqui per defecte (funciona amb --kickstart-include)"
+
+#: ../revisor/__init__.py.in:337
+msgid "Filter anything from comps that is not in the package set"
+msgstr ""
+"No filtris res del fitxer comps que no es trobi a la col·lecció de paquets"
+
+#: ../revisor/__init__.py.in:343
+msgid "Use Revisor's comps file instead of those from the repositories"
+msgstr "Utilitza el fitxer compos del Revisor en lloc dels dels repositoris."
+
+#: ../revisor/__init__.py.in:349
+msgid "Comps file to include on the installation media"
+msgstr "Fitxer comps per incloure als suports d'instal·lació"
+
+#: ../revisor/__init__.py.in:355
+msgid "Include specified updates.img on installation media."
+msgstr "Inclou les updates.img especificades al medi d'instal·lació."
+
+#: ../revisor/__init__.py.in:362
+msgid "Product Name"
+msgstr "Nom del producte"
+
+#: ../revisor/__init__.py.in:368
+msgid ""
+"Product Path (e.g. Fedora/ or Packages/ -but without the appending slash)"
+msgstr ""
+"Camí del producte (ex. Fedora/ o Paquets/ -- però sense afegir la barra)"
+
+#: ../revisor/__init__.py.in:374
+msgid ""
+"ISO Label Base. Note that other things are appended but that the length can "
+"be 32 chars maximum."
+msgstr ""
+"Etiqueta ISO base. Tingueu en compte que s'afegeixen d'altres coses però la "
+"longitud ha de ser com a màxim de 32 caràcters."
+
+#: ../revisor/__init__.py.in:380
+msgid "The base name for the ISOs"
+msgstr "El nom base per les ISOs"
+
+#: ../revisor/__init__.py.in:386
+msgid "Product Version"
+msgstr "Versió del producte"
+
+#: ../revisor/__init__.py.in:392
+msgid ""
+"Base Product Version - relevant to required packages and pykickstart "
+"compatibility"
+msgstr ""
+"Versió del producte base - necessari per als paquets requerits i la "
+"compatibilitat del pykickstart"
+
+#. #
+#. # Utility Media Options
+#. #
+#: ../revisor/__init__.py.in:397
+msgid "Utility Media Options"
+msgstr "Opcions del medi utilitat"
+
+#: ../revisor/__init__.py.in:402
+msgid "Create Rescue Media"
+msgstr "Crea el medi de rescat"
+
+#. #
+#. # Live Media Options
+#. #
+#: ../revisor/__init__.py.in:407
+msgid "Live Media Options"
+msgstr "Opcions del medi arrencable"
+
+#: ../revisor/__init__.py.in:412
+msgid "Create Live Media CD/DVD"
+msgstr "Crea el medi arrencable CD/DVD"
+
+#: ../revisor/__init__.py.in:418
+msgid "Create Live Media Thumb Drive Image (will be depreciated)"
+msgstr ""
+"Crea el medi arrencable de la imatge de la unitat USB portàtil (serà obsolet)"
+
+#: ../revisor/__init__.py.in:424
+msgid "Create Live Media Hard Disk Image (will be depreciated)"
+msgstr "Crea el medi arrencable d'imatge del disc dur (serà obsolet)"
+
+#: ../revisor/__init__.py.in:430
+msgid "Create Live Media Raw Hard Disk Image"
+msgstr "Crea el medi arrencable d'imatge del disc dur"
+
+#: ../revisor/__init__.py.in:436
+msgid "Interactively work in the live image before building the ISO image."
+msgstr "Treballa interactivament a la imatge abans de construir la imatge ISO."
+
+#: ../revisor/__init__.py.in:442
+msgid "Skip file system compression."
+msgstr "Omet la compressió del sistema de fitxers."
+
+#: ../revisor/__init__.py.in:448
+msgid "Skip prelinking the contents of the filesystem."
+msgstr "Omet l'enllaç previ dels continguts del sistema de fitxers."
+
+#: ../revisor/__init__.py.in:454
+msgid ""
+"Ignore filesystem overhead. Useless blocks will not be removed from the "
+"filesystem."
+msgstr ""
+"Ignora la sobrecàrrega del sistema de fitxers. Els blocs inútils no seran "
+"suprimits del sistema de fitxers."
+
+#: ../revisor/__init__.py.in:460
+msgid "Set the preferred kernel. One of normal, PAE, xen or debug."
+msgstr "Defineix el nucli preferit. Un de normal, PAE, xen o debug."
+
+#: ../revisor/__init__.py.in:503
+#, python-format
+msgid " %s - No Description"
+msgstr " %s - Manca descripció"
+
+#: ../revisor/__init__.py.in:505
+#, python-format
+msgid ""
+"The configured model %s does not have a valid file as 'main' configuration "
+"option."
+msgstr ""
+"El model configurat %s no conté un fitxer vàlid a l'opció de configuració "
+"'main'."
+
+#: ../revisor/__init__.py.in:507
+#, python-format
+msgid ""
+"The configured model %s does not have the mandatory 'main' configuration "
+"directive."
+msgstr ""
+"El model configurat %s no conté la directiva de configuració 'main' "
+"obligatòria."
+
+#: ../revisor/__init__.py.in:533
+msgid "Interrupted by user"
+msgstr "Interromput per l'usuari"
+
+#: ../revisor/__init__.py.in:537 ../revisor/__init__.py.in:543
+msgid ""
+"Traceback occurred, please report a bug at http://fedorahosted.org/revisor"
+msgstr ""
+"S'ha produït una traça de l'error, si us plau, informeu de l'error a http://"
+"fedorahosted.org/revisor"
+
+#: ../revisor/kickstart.py:212 ../revisor/kickstart.py:215
+#, python-format
+msgid "Appending group @%s"
+msgstr "S'està afegint el grup @%s"
+
+#: ../revisor/kickstart.py:224
+#, python-format
+msgid "Selecting %s as a default group"
+msgstr "S'està seleccionant %s com a grup per defecte"
+
+#: ../revisor/kickstart.py:281 ../revisor/kickstart.py:403
+#: ../revisor/kickstart.py:660
+#, python-format
+msgid "Found group: %s"
+msgstr "Grup trobat: %s"
+
+#: ../revisor/kickstart.py:287 ../revisor/kickstart.py:410
+#, python-format
+msgid "Repository metadata cannot be found: %s: %s"
+msgstr "El repositori de metadates no es pot trobar: %s: %s"
+
+#: ../revisor/kickstart.py:290 ../revisor/kickstart.py:413
+#, python-format
+msgid "Group not found: %s"
+msgstr "Grup no trobat: %s"
+
+#: ../revisor/kickstart.py:302 ../revisor/kickstart.py:330
+#: ../revisor/kickstart.py:714
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s"
+msgstr "S'està afegint %s-%s:%s-%s.%s"
+
+#: ../revisor/kickstart.py:342 ../revisor/kickstart.py:606
+#: ../revisor/kickstart.py:725
+#, python-format
+msgid "From Excludes: Removing %s-%s:%s-%s.%s from transaction"
+msgstr "Des dels exclosos: s'està eliminant %s-%s:%s-%s.%s de la transacció"
+
+#: ../revisor/kickstart.py:345 ../revisor/kickstart.py:609
+#: ../revisor/kickstart.py:728
+#, python-format
+msgid ""
+"Apparently trying to exclude a package that is not available in the "
+"repositories loaded, or hasn't been added to the transaction: %s"
+msgstr ""
+"Aparentment s'està intentant excloure un paquet que no està disponible als "
+"repositoris carregats, o no ha estat afegit a la transacció: %s"
+
+#: ../revisor/kickstart.py:351 ../revisor/kickstart.py:615
+#, python-format
+msgid ""
+"\n"
+"The following errors occured when selecting groups and packages from "
+"kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"You can continue with these minor errors but obviously the results may not "
+"be what you expected."
+msgstr ""
+"\n"
+"Els següents errors s'han produït en seleccionar grups i paquets des del "
+"kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"Podeu continuar amb aquests petits errors però evidentment els resultats no "
+"seran els esperats."
+
+#: ../revisor/kickstart.py:357 ../revisor/kickstart.py:621
+msgid "This is what was selected to be installed:"
+msgstr "Això és el que ha estat seleccionat per a la instal·lació:"
+
+#: ../revisor/kickstart.py:425
+#, python-format
+msgid "Selecting required packages for group %s"
+msgstr "S'estan seleccionant els paquets requerits per al grup %s"
+
+#: ../revisor/kickstart.py:429 ../revisor/kickstart.py:450
+#: ../revisor/kickstart.py:471 ../revisor/kickstart.py:490
+#, python-format
+msgid "Including %s"
+msgstr "S'està incloent %s"
+
+#: ../revisor/kickstart.py:439
+#, python-format
+msgid "From Groups (required): Adding %s-%s:%s-%s.%s to transaction"
+msgstr ""
+"Des dels grups (necessari): s'està afegint %s-%s:%s-%s.%s a la transacció"
+
+#: ../revisor/kickstart.py:446
+#, python-format
+msgid "Selecting default packages for group %s"
+msgstr "S'estan seleccionant els paquets per defecte per al grup %s"
+
+#: ../revisor/kickstart.py:459
+#, python-format
+msgid "From Groups (default): Adding %s-%s:%s-%s.%s to transaction"
+msgstr ""
+"Des dels grups (predeterminat): s'està afegint %s-%s:%s-%s.%s a la transacció"
+
+#: ../revisor/kickstart.py:466
+#, python-format
+msgid "Selecting optional packages for group %s"
+msgstr "S'estan seleccionant paquets opcionals per al grup %s"
+
+#: ../revisor/kickstart.py:480 ../revisor/kickstart.py:499
+#, python-format
+msgid "From Groups (optional): Adding %s-%s:%s-%s.%s to transaction"
+msgstr ""
+"Des dels grups (opcional): s'està afegint %s-%s:%s-%s.%s a la transacció"
+
+#: ../revisor/kickstart.py:486
+#, python-format
+msgid "No include parameter for group %s, using defaults"
+msgstr ""
+"No incloguis el paràmetre per al grup %s, s'utilitza els predeterminats"
+
+#: ../revisor/kickstart.py:508 ../revisor/kickstart.py:677
+#: ../revisor/pkgorder.py:111
+#, python-format
+msgid "Testing condition: %s / %s"
+msgstr "S'està provant la condició: %s / %s"
+
+#: ../revisor/kickstart.py:523
+#, python-format
+msgid "From package list, including: %s"
+msgstr "Des de la llista de paquets, s'està incloent: %s"
+
+#: ../revisor/kickstart.py:526
+#, python-format
+msgid "Package %s is in excludeList, continuing"
+msgstr "El paquet %s és a la llista d'exclosos, s'està continuant"
+
+#: ../revisor/kickstart.py:534
+msgid "No packages found!"
+msgstr "No s'han trobat paquets!"
+
+#: ../revisor/kickstart.py:539 ../revisor/kickstart.py:568
+#, python-format
+msgid "From Packages: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Des dels paquets: s'està afegint %s-%s:%s-%s.%s a la transacció"
+
+#: ../revisor/kickstart.py:546
+#, python-format
+msgid "Could not find package '%s', searching..."
+msgstr "No es pot trobar el paquet '%s', s'està buscant..."
+
+#: ../revisor/kickstart.py:559 ../revisor/misc.py:210
+#, python-format
+msgid "Found packages matching '%s': %s"
+msgstr "Paquets trobats coincidents amb '%s': %s"
+
+#: ../revisor/kickstart.py:570
+#, python-format
+msgid "From Packages: Not adding %s now because it is in the ignore list"
+msgstr ""
+"Des dels paquets: ara no s'està afegint %s perquè és a la llista d'ignorats"
+
+#: ../revisor/kickstart.py:581
+#, python-format
+msgid ""
+"More then one package found for %s-%s-%s.%s - going to add them all to the "
+"transaction"
+msgstr ""
+"Més d'un paquet trobat per %s-%s-%s.%s - s'uniran tots ells a la transacció"
+
+#: ../revisor/kickstart.py:583 ../revisor/misc.py:224
+#, python-format
+msgid "Could not find package %s-%s-%s.%s"
+msgstr "No es pot trobar el paquet %s-%s-%s.%s"
+
+#: ../revisor/kickstart.py:586 ../revisor/misc.py:227
+#, python-format
+msgid "From Packages (exact string %s-%s-%s.%s), selecting %s-%s-%s.%s"
+msgstr ""
+"Des dels paquets (cadena exacta %s-%s-%s.%s), s'està seleccionant %s-%s-%s.%s"
+
+#: ../revisor/kickstart.py:657
+#, python-format
+msgid "No such group %s"
+msgstr "Cap grup %s"
+
+#: ../revisor/logger.py:86
+msgid "Error"
+msgstr "Error"
+
+#: ../revisor/logger.py:101
+msgid "Warning"
+msgstr "Avís"
+
+#: ../revisor/logger.py:114 ../revisor/logger.py:123
+msgid "Do you want to continue? [Y/n]"
+msgstr "Voleu continuar? [Y/n]"
+
+#: ../revisor/logger.py:117 ../revisor/logger.py:126
+msgid "Abort! Abort! Abort!"
+msgstr "Interrupció! Interrupció! Interrupció!"
+
+#: ../revisor/misc.py:42
+msgid "This tool has to run with root privileges. Aborting"
+msgstr ""
+"Aquesta eina s'ha d'executar amb privilegis d'administrador. S'està "
+"interrompent l'execució"
+
+#. SELinux in enforcing mode
+#: ../revisor/misc.py:53
+msgid ""
+"SELinux is in enforcing mode on this host. Composing media will fail. Please "
+"set SELinux to permissive mode."
+msgstr ""
+"En aquest amfitrió el SELinux està en mode obligatori. La generació de medis "
+"fallarà. Si us plau, establiu el SELinux en mode permisiu."
+
+#: ../revisor/misc.py:58
+msgid ""
+"SELinux on this host is disabled. Composed media will not have SELinux, and "
+"as a result the system you install from the composed media will not have "
+"SELinux either."
+msgstr ""
+"En aquest amfitrió el SELinux està desactivat. El suport generat no tindrà "
+"SELinux, i per tant, el sistema que s'instal·li amb aquest suport tampoc el "
+"tindrà."
+
+#: ../revisor/misc.py:94
+msgid "cfg parameter to revisor.misc.download_packages() "
+msgstr "paràmetre cfg de revisor.misc.download_packages() "
+
+#: ../revisor/misc.py:107
+#, python-format
+msgid "Using local copy of %s-%s-%s.%s at %s"
+msgstr "S'està utilitzant la còpia local de %s-%s-%s.%s a %s"
+
+#: ../revisor/misc.py:117
+msgid "Unable to find a suitable mirror."
+msgstr "Impossible trobar un servidor rèplica vàlid."
+
+#: ../revisor/misc.py:129
+#, python-format
+msgid "Errors were encountered while downloading packages: %s"
+msgstr "S'han trobat errors mentre s'estava baixant paquets: %s"
+
+#: ../revisor/misc.py:197 ../revisor/misc.py:235
+#, python-format
+msgid "Resolved %s"
+msgstr "S'ha resolt %s"
+
+#: ../revisor/misc.py:222
+#, python-format
+msgid "More then one package found for %s-%s-%s.%s"
+msgstr "Més d'un paquet trobat per a %s-%s-%s.%s"
+
+#: ../revisor/misc.py:238
+#, python-format
+msgid ""
+"Looking to resolve package %s to a Provides, but we still can't find it."
+msgstr ""
+"S'ha cercat el paquet %s per a resoldre'l com a proporcionat, però no s'ha "
+"pogut trobar."
+
+#: ../revisor/misc.py:250
+#, python-format
+msgid "Inclusive dependency resolving starts at %s"
+msgstr "La resolució de la dependència inclusiva comença a %s"
+
+#: ../revisor/misc.py:271
+#, python-format
+msgid "Inclusive dependency resolving ends at %s"
+msgstr "La resolució de la dependència inclusiva acaba a %s"
+
+#: ../revisor/misc.py:319
+#, python-format
+msgid "Cannot find a source rpm for %s"
+msgstr "No es pot trobar un rpm font per a %s"
+
+#: ../revisor/misc.py:342
+#, python-format
+msgid "Disabling %s repository"
+msgstr "S'està deshabilitant el repositori %s"
+
+#: ../revisor/misc.py:357
+#, python-format
+msgid "No such repository: %s"
+msgstr "Cap repositori: %s"
+
+#: ../revisor/misc.py:359
+#, python-format
+msgid "Enabling %s repository"
+msgstr "S'està habilitant el repositori %s"
+
+#: ../revisor/misc.py:564 ../revisor/misc.py:569
+#, python-format
+msgid "Creating destination directory: %s"
+msgstr "S'està creant el directori destí: %s"
+
+#: ../revisor/misc.py:567
+#, python-format
+msgid "Removing destination directory: %s"
+msgstr "S'està suprimint el directori destí: %s"
+
+#: ../revisor/misc.py:581
+#, python-format
+msgid "Linking %s => %s"
+msgstr "S'està enllaçant %s => %s"
+
+#: ../revisor/misc.py:584
+#, python-format
+msgid "Package hard link failed: %s: %s"
+msgstr "La creació de l'enllaç fort del paquet ha fallat: %s: %s"
+
+#: ../revisor/misc.py:589
+#, python-format
+msgid "Copying: %s to %s"
+msgstr "S'està copiant: %s a %s"
+
+#: ../revisor/misc.py:592
+#, python-format
+msgid "Symlinking: %s to %s"
+msgstr "S'està enllaçant simbòlicament: %s a %s"
+
+#: ../revisor/misc.py:595
+msgid "Package symlink succeeded"
+msgstr "S'ha enllaçat simbòlicament el paquet correctament"
+
+#: ../revisor/misc.py:597 ../revisor/misc.py:604
+#, python-format
+msgid "Package link failed, trying copy: %s: %s"
+msgstr "Ha fallat l'enllaç del paquet , s'està intentant copiar: %s: %s"
+
+#. If the group is not in the kickstart groups, skip it
+#. if not group in self.cfg.ksobj._get("packages","groupList"):
+#. continue
+#: ../revisor/pkgorder.py:85
+#, python-format
+msgid "Adding group: %s"
+msgstr "S'esta afegint el grup: %s"
+
+#: ../revisor/pkgorder.py:96
+#, python-format
+msgid "The following packages are in group %s: %r"
+msgstr "Els següents paquets estan al grup %s: %r"
+
+#: ../revisor/pkgorder.py:103 ../revisor/pkgorder.py:116
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s to transaction"
+msgstr "S'està afegint %s-%s:%s-%s.%s a la transacció"
+
+#: ../revisor/pkgorder.py:124
+#, python-format
+msgid "%d dependencies already resolved"
+msgstr "%d dependències ja resoltes"
+
+#: ../revisor/pkgorder.py:134
+#, python-format
+msgid "Adding package(s): %r"
+msgstr "S'està afegint els paquets: %r"
+
+#: ../revisor/pkgorder.py:180
+#, python-format
+msgid "Unable to create yum configuration file for package ordering at %s"
+msgstr ""
+"Impossible crear el fitxer de configuració del yum per a l'ordenació de "
+"paquets a %s"
+
+#: ../revisor/pkgorder.py:192
+#, python-format
+msgid "-> package %s"
+msgstr "-> paquet %s"
+
+#: ../revisor/plugins.py:60 ../revisor/plugins.py:77
+#, python-format
+msgid "Plugin %s failed to load (%s: %s)"
+msgstr "El connector %s ha fallat en carregar-se (%s: %s)"
+
+#: ../revisor/plugins.py:71
+#, python-format
+msgid "ImportError for plugin %s: %s"
+msgstr "Importa l'error pel connector %s: %s"
+
+#: ../revisor/plugins.py:74
+#, python-format
+msgid "RuntimeError for plugin %s: %s"
+msgstr "Error de l'entorn d'execució pel connector %s: %s"
+
+#: ../revisor/plugins.py:94 ../revisor/plugins.py:96
+#, python-format
+msgid "Cannot set defaults for plugin %s: %s"
+msgstr "No es poden establir els predeterminats pel connector %s: %s"
+
+#: ../revisor/plugins.py:98
+#, python-format
+msgid "Cannot set defaults for plugin %s: Unknown Error"
+msgstr ""
+"No es poden establir els predeterminats pel connector %s: Error desconegut"
+
+#: ../revisor/plugins.py:101
+#, python-format
+msgid "Not setting defaults for plugin %s: No function 'set_defaults()'"
+msgstr ""
+"No s'està establint els paràmetres per defecte pel connector %s: Cap funció "
+"'set_defaults()'"
+
+#: ../revisor/plugins.py:118
+#, python-format
+msgid "Cannot set runtime for plugin %s: %s"
+msgstr "No es pot establir l'entorn d'execució pel connector %s: %s"
+
+#: ../revisor/plugins.py:120
+#, python-format
+msgid "Not setting runtime for plugin %s: No function 'set_runtime()'"
+msgstr ""
+"No s'està establint l'entorn d'execució pel connector %s: Cap funció "
+"'set_runtime()'"
+
+#: ../revisor/plugins.py:137
+#, python-format
+msgid "Cannot add options for plugin %s: %s"
+msgstr "No es pot afegir opcions pels connectors %s: %s"
+
+#: ../revisor/plugins.py:139
+#, python-format
+msgid "Not adding options for plugin %s: No function 'add_options()'"
+msgstr ""
+"No s'estan afegint opcions pel connector %s: Cap funció 'add_options()'"
+
+#: ../revisor/plugins.py:157
+#, python-format
+msgid "Cannot check options for plugin %s: %s"
+msgstr "No es pot comprovar les opcions pels connectors %s: %s"
+
+#: ../revisor/plugins.py:159
+#, python-format
+msgid "Not checking options for plugin %s: No function 'check_options()'"
+msgstr ""
+"No s'estan comprovant les opcions pel connector %s: Cap funció 'check_options"
+"()'"
+
+#: ../revisor/plugins.py:195
+#, python-format
+msgid "Cannot execute hook %s for plugin %s: %s"
+msgstr "No es pot executar l'anclatge %s pel connector %s: %s"
+
+#: ../revisor/progress.py:79 ../revisor/modgui/build_media.py:88
+#: ../revisor/modgui/build_media.py:94 ../revisor/modgui/build_media.py:98
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:105 ../revisor/modgui/build_media.py:110
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:117
+#: ../revisor/modgui/build_media.py:118 ../revisor/modgui/build_media.py:119
+#: ../revisor/modgui/build_media.py:124 ../revisor/modgui/build_media.py:129
+#: ../revisor/modgui/build_media.py:141 ../revisor/modgui/build_media.py:142
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:152
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:154
+#: ../revisor/modgui/build_media.py:155 ../revisor/modgui/build_media.py:156
+#: ../revisor/modgui/build_media.py:157 ../revisor/modgui/build_media.py:158
+#: ../revisor/modgui/build_media.py:161 ../revisor/modgui/build_media.py:164
+#: ../revisor/modgui/build_media.py:169 ../revisor/modgui/build_media.py:174
+#: ../revisor/modgui/build_media.py:179 ../revisor/modgui/build_media.py:182
+#: ../revisor/modgui/build_media.py:189 ../revisor/modgui/build_media.py:193
+#: ../revisor/modgui/build_media.py:248 ../revisor/modgui/build_media.py:255
+#: ../revisor/modgui/build_media.py:256 ../revisor/modgui/build_media.py:260
+#: ../revisor/modgui/build_media.py:264 ../revisor/modgui/build_media.py:269
+#: ../revisor/modgui/build_media.py:270 ../revisor/modgui/build_media.py:271
+#: ../revisor/modgui/build_media.py:272 ../revisor/modgui/build_media.py:273
+#: ../revisor/modgui/build_media.py:274 ../revisor/modgui/build_media.py:275
+#: ../revisor/modgui/build_media.py:276 ../revisor/modgui/build_media.py:277
+#: ../revisor/modgui/build_media.py:280 ../revisor/modgui/build_media.py:283
+#: ../revisor/modgui/build_media.py:287 ../revisor/modgui/build_media.py:290
+#: ../revisor/modgui/build_media.py:294 ../revisor/modgui/build_media.py:298
+#: ../revisor/modgui/build_media.py:307
+msgid "Pending..."
+msgstr "Pendent..."
+
+#: ../revisor/progress.py:80 ../revisor/progress.py:83
+#: ../revisor/modgui/build_media.py:308 ../revisor/modgui/build_media.py:311
+msgid "Running..."
+msgstr "S'està executant..."
+
+#: ../revisor/progress.py:84 ../revisor/progress.py:87
+#: ../revisor/modgui/build_media.py:215 ../revisor/modgui/build_media.py:221
+#: ../revisor/modgui/build_media.py:225 ../revisor/modgui/build_media.py:229
+#: ../revisor/modgui/build_media.py:230 ../revisor/modgui/build_media.py:235
+#: ../revisor/modgui/build_media.py:240 ../revisor/modgui/build_media.py:241
+#: ../revisor/modgui/build_media.py:242 ../revisor/modgui/build_media.py:243
+msgid "Done"
+msgstr "Fet"
+
+#: ../revisor/progress.py:190
+msgid "Preparing transaction"
+msgstr "S'està preparant la transacció"
+
+#: ../revisor/progress.py:202 ../revisor/progress.py:366
+#, python-format
+msgid "Unable to open %s: %s"
+msgstr "Impossible obrir %s: %s"
+
+#: ../revisor/progress.py:203 ../revisor/progress.py:204
+#: ../revisor/progress.py:367
+#, python-format
+msgid "Installing %s"
+msgstr "S'està instal·lant %s"
+
+#: ../revisor/progress.py:226 ../revisor/progress.py:387
+#, python-format
+msgid "Updated: %s"
+msgstr "Actualitzat: %s"
+
+#: ../revisor/progress.py:228 ../revisor/progress.py:389
+#, python-format
+msgid "Installed: %s"
+msgstr "Instal·lat: %s"
+
+#: ../revisor/progress.py:241
+#, python-format
+msgid "Cleanup %s"
+msgstr "Neteja %s"
+
+#: ../revisor/progress.py:256 ../revisor/progress.py:415
+#, python-format
+msgid "Erased: %s"
+msgstr "Esborrat: %s"
+
+#: ../revisor/progress.py:441
+#, python-format
+msgid "Downloading %s"
+msgstr "S'està baixant %s"
+
+#: ../revisor/progress.py:541
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../revisor/pungi.py:61
+#, python-format
+msgid "Error: Cannot create destination dir %s"
+msgstr "Error: no es pot crear el directori de destí %s"
+
+#: ../revisor/pungi.py:67
+#, python-format
+msgid "Error: Cannot remove destination dir %s"
+msgstr "Error: no es pot suprimir el directori destí %s"
+
+#: ../revisor/pungi.py:72
+#, python-format
+msgid "Error: Cannot recreate destination dir %s"
+msgstr "Error: no es pot tornar a crear el directori destí %s"
+
+#: ../revisor/pungi.py:337
+msgid "Getting relnotes..."
+msgstr "S'està obtenint les notes de la versió..."
+
+#: ../revisor/pungi.py:358
+#, python-format
+msgid "An error occured extracting the release files: %s"
+msgstr "S'ha produït un error en extreure els fitxers de la versió: %s"
+
+#: ../revisor/pungi.py:367
+#, python-format
+msgid "Copying %s"
+msgstr "S'està copiant %s"
+
+#: ../revisor/pungi.py:373
+#, python-format
+msgid "Copying release note file %s"
+msgstr "S'està copiant el fitxer %s de notes de la versió"
+
+#: ../revisor/pungi.py:377
+#, python-format
+msgid "File %s not readable"
+msgstr "El fitxer %s no és llegible"
+
+#: ../revisor/pungi.py:387
+#, python-format
+msgid "Could not access directory %s, cannot copy extra files onto the media."
+msgstr ""
+"Pot ser que no tingueu accés al directori %s, no es pot copiar els fitxers "
+"extra en el medi."
+
+#: ../revisor/pungi.py:393
+#, python-format
+msgid "Could not create files/ directory: %s"
+msgstr "Pot ser que no es creïn els fitxers/directori: %s"
+
+#: ../revisor/pungi.py:404
+#, python-format
+msgid "Creating %s"
+msgstr "S'està creant %s"
+
+#: ../revisor/pungi.py:408
+#, python-format
+msgid "Copying %s to %s"
+msgstr "S'està copiant %s a %s"
+
+#: ../revisor/pungi.py:456
+#, python-format
+msgid "Disc %s #%d is oversized (%r > %r)"
+msgstr "El disc %s #%d és massa gran (%r > %r)"
+
+#: ../revisor/pungi.py:460 ../revisor/pungi.py:472
+#, python-format
+msgid "Removing tree %s"
+msgstr "S'està suprimint l'arbre %s"
+
+#: ../revisor/pungi.py:468
+#, python-format
+msgid "Disc %s #%d is undersized (%r <= %r)"
+msgstr "El disc %s #%d és massa petit (%r <= %r)"
+
+#: ../revisor/pungi.py:480
+#, python-format
+msgid "Disc %s #%d is OK in size (%r <= %r)"
+msgstr "El disc %s #%d té una mida correcta (%r <= %r)"
+
+#: ../revisor/pungi.py:533
+msgid ""
+"Hacking anaconda's .discinfo because it'll shit itself if it reads it's own "
+"output"
+msgstr ""
+"Es modificarà el fitxer .discinfo de l'anaconda perquè sino es destruirà a "
+"sí mateix si llegeix la seva pròpia sortida"
+
+#: ../revisor/modcobbler/__init__.py:69 ../revisor/modcobbler/__init__.py:219
+#: ../revisor/modcobbler/__init__.py:256
+#, python-format
+msgid "There is a problem connecting to %s"
+msgstr "Hi ha un problema en connectar a %s"
+
+#: ../revisor/modcobbler/__init__.py:83
+#, python-format
+msgid ""
+" Distro: %s\n"
+"  Existing Profiles:"
+msgstr ""
+"Distribució: %s\n"
+"  Perfils existents:"
+
+#: ../revisor/modcobbler/__init__.py:85
+#, python-format
+msgid "   Profile: %s"
+msgstr "   Perfil: %s"
+
+#: ../revisor/modcobbler/__init__.py:87
+msgid "No listing found on cobbler server."
+msgstr "Llistat no trobat al servidor del cobbler."
+
+#: ../revisor/modcobbler/__init__.py:104
+msgid "Add compose to a Cobbler server as both a Distribution and Profile."
+msgstr ""
+"Afegeix la composició a un servidor Cobbler com a distribució i perfil."
+
+#: ../revisor/modcobbler/__init__.py:111
+msgid ""
+"Add compose options as a Profile to a Cobbler server. [Requires --cobbler-"
+"use-distro]"
+msgstr ""
+"Afegeix les opcions de la composició com a perfil per a un servidor Cobbler. "
+"[Requereix --cobbler-use-distro]"
+
+#: ../revisor/modcobbler/__init__.py:118
+msgid "Use a Cobbler distro as source for package data."
+msgstr ""
+"Utilitza una distribució Cobbler com a font per a les dades del paquet."
+
+#: ../revisor/modcobbler/__init__.py:125
+msgid "Use a Cobbler profile as source for kickstart data."
+msgstr "Utilitza un perfil Cobbler com a font per a les dades del kickstart."
+
+#: ../revisor/modcobbler/__init__.py:132
+msgid "List options provided by cobbler."
+msgstr "Llista les opcions proporcionades pel cobbler."
+
+#: ../revisor/modcobbler/__init__.py:138
+msgid "Use remote cobbler server."
+msgstr "Utilitza el servidor remot cobbler."
+
+#: ../revisor/modcobbler/__init__.py:144
+msgid "Remote cobbler server port."
+msgstr "Port del servidor cobbler remot."
+
+#: ../revisor/modcobbler/__init__.py:201
+msgid ""
+"Specifying a Cobbler server is only supported for read-only actions. "
+"Currently, --cobbler-use-distro and --cobbler-use-profile."
+msgstr ""
+"Especificar un servidor Cobbler només està disponible per a accions de "
+"lectura. Actualment, --cobbler-use-distro and --cobbler-use-profile."
+
+#: ../revisor/modcobbler/__init__.py:226
+#, python-format
+msgid "The distro '%s' does not exist."
+msgstr "La distribució '%s' no existeix."
+
+#: ../revisor/modcobbler/__init__.py:240 ../revisor/modcobbler/__init__.py:263
+#, python-format
+msgid "The profile '%s' does not exist."
+msgstr "El perfil '%s' no existeix."
+
+#: ../revisor/moddelta/__init__.py:35
+msgid "Package deltarpm not installed"
+msgstr "Paquet deltarpm no instal·lat"
+
+#: ../revisor/moddelta/__init__.py:69
+msgid ""
+"Generate a delta ISO image. Currently only valid for a single disc or "
+"directory holding Installation Media ISOs named exactly the same as the "
+"product."
+msgstr ""
+"Genera una imatge ISO delta. Actualment només vàlida per un sol disc o "
+"directori que conté el medi d'instal·lació de les ISOs, anomenades "
+"exactament igual que el producte."
+
+#: ../revisor/modjigdo/__init__.py:45
+msgid "Package jigdo not installed"
+msgstr "Paquet jigdo no instal·lat"
+
+#: ../revisor/modjigdo/__init__.py:60
+msgid "Generate Jigdo files and templates using the installation tree"
+msgstr "Genera fitxers Jigdo i plantilles utilitzant l'arbre d'instal·lació"
+
+#: ../revisor/modjigdo/__init__.py:66
+msgid ""
+"Generate Jigdo files against the Revisor YUM Cache (labels different "
+"repositories)."
+msgstr ""
+"Genera els fitxers Jigdo a partri de la memòria cau del YUM del Revisor "
+"(etiquetes de diferents repositoris)."
+
+#: ../revisor/modjigdo/__init__.py:76
+msgid ""
+"You cannot use both the installation tree and the yum cache to build Jigdo "
+"templates against."
+msgstr ""
+"No podeu utilitzar l'arbre d'instal·lació i la memòria cau del yum per crear "
+"plantilles Jigdo."
+
+#: ../revisor/modgui/build_media.py:88 ../revisor/modgui/build_media.py:215
+msgid "Retrieve Software Information"
+msgstr "Recupera la informació del programari"
+
+#: ../revisor/modgui/build_media.py:94 ../revisor/modgui/build_media.py:225
+msgid "Select Packages from Kickstart"
+msgstr "Selecciona els paquets des del kickstart"
+
+#: ../revisor/modgui/build_media.py:98 ../revisor/modgui/build_media.py:221
+msgid "Resolve Dependencies"
+msgstr "Resol dependències"
+
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:229
+msgid "Populating Statistics"
+msgstr "S'estan emplenant les estadístiques"
+
+#: ../revisor/modgui/build_media.py:110 ../revisor/modgui/build_media.py:169
+msgid "Linking in Binary Packages"
+msgstr "S'està enllaçant els paquets binaris"
+
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:174
+msgid "Linking in Source Packages"
+msgstr "S'està enllaçant els paquets font"
+
+#: ../revisor/modgui/build_media.py:117 ../revisor/modgui/build_media.py:241
+msgid "Create Repository Information"
+msgstr "Crea la informació del repositori"
+
+#: ../revisor/modgui/build_media.py:118 ../revisor/modgui/build_media.py:242
+msgid "Build isolinux and Installer"
+msgstr "Crea l'isolinux i l'instal·lador"
+
+#: ../revisor/modgui/build_media.py:119 ../revisor/modgui/build_media.py:243
+msgid "Linking in Release Notes"
+msgstr "S'estan enllaçant les notes de la versió"
+
+#: ../revisor/modgui/build_media.py:124
+msgid "Creating CD ISO Images"
+msgstr "S'estan creant les imatges ISO de CD"
+
+#: ../revisor/modgui/build_media.py:129
+msgid "Creating DVD ISO Images"
+msgstr "S'estan creant les imatges ISO de DVD"
+
+#: ../revisor/modgui/build_media.py:141 ../revisor/modgui/build_media.py:269
+msgid "Resolve Dependencies for Installation"
+msgstr "Resol dependències per a la instal·lació"
+
+#: ../revisor/modgui/build_media.py:142 ../revisor/modgui/build_media.py:270
+msgid "Downloading Extra Packages"
+msgstr "S'estan descarregant paquets extra"
+
+#: ../revisor/modgui/build_media.py:152 ../revisor/modgui/build_media.py:271
+msgid "Creating ext3 Filesystem"
+msgstr "S'esta creant el sistema de fitxers ext3"
+
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:272
+msgid "Installing packages"
+msgstr "S'estan instal·lant paquets"
+
+#: ../revisor/modgui/build_media.py:154 ../revisor/modgui/build_media.py:273
+msgid "Configure System"
+msgstr "Configura el sistema"
+
+#: ../revisor/modgui/build_media.py:155 ../revisor/modgui/build_media.py:274
+msgid "Configure Networking"
+msgstr "Configura la gestió de xarxes"
+
+#: ../revisor/modgui/build_media.py:156 ../revisor/modgui/build_media.py:275
+msgid "Create RAM Filesystem"
+msgstr "Crea el sistema de fitxers en RAM"
+
+#: ../revisor/modgui/build_media.py:157 ../revisor/modgui/build_media.py:276
+msgid "Relabel System"
+msgstr "Reetiqueta el sistema"
+
+#: ../revisor/modgui/build_media.py:158 ../revisor/modgui/build_media.py:277
+msgid "Configure Bootloader"
+msgstr "Configura el carregador d'arrencada"
+
+#: ../revisor/modgui/build_media.py:161
+msgid "Launch shell"
+msgstr "Executa l'intèrpret d'ordres"
+
+#: ../revisor/modgui/build_media.py:164 ../revisor/modgui/build_media.py:283
+msgid "Unmounting filesystems"
+msgstr "S'estan desmuntant els sistemes de fitxers"
+
+#: ../revisor/modgui/build_media.py:179 ../revisor/modgui/build_media.py:287
+msgid "Compressing Image"
+msgstr "S'està comprimint la imatge"
+
+#: ../revisor/modgui/build_media.py:182
+msgid "Creating ISO Image"
+msgstr "S'està creant la imatge ISO"
+
+#: ../revisor/modgui/build_media.py:189 ../revisor/modgui/build_media.py:294
+msgid "Dumping ISO Image to USB Media"
+msgstr "S'està copiant la imatge ISO al medi USB"
+
+#: ../revisor/modgui/build_media.py:193 ../revisor/modgui/build_media.py:298
+msgid "Cleaning up Build Environment"
+msgstr "S'està netejant l'entorn de muntatge"
+
+#: ../revisor/modgui/build_media.py:240
+msgid "Linking in Packages"
+msgstr "S'està enllaçant en paquets"
+
+#: ../revisor/modgui/build_media.py:248
+msgid "Ordering Packages"
+msgstr "S'estan ordenant els paquets"
+
+#: ../revisor/modgui/build_media.py:255
+#, python-format
+msgid "Splitting Packages for %s Media"
+msgstr "S'estan dividint els paquets per al medi %s"
+
+#: ../revisor/modgui/build_media.py:256
+#, python-format
+msgid "Splitting Repository Information for %s Media"
+msgstr "S'està dividint la informació del repositori per al suport %s"
+
+#: ../revisor/modgui/build_media.py:280
+msgid "Launching shell"
+msgstr "S'està executant l'intèrpret d'ordres"
+
+#: ../revisor/modgui/build_media.py:290
+msgid "Creating Live ISO Image"
+msgstr "S'està creant la imatge ISO autoarrencable"
+
+#: ../revisor/modgui/configuration.py:122
+msgid "You have not specified a Base URL or Mirror List"
+msgstr "No heu especificat una URL base o una llista de rèpliques"
+
+#: ../revisor/modgui/configuration.py:125
+msgid "GPG Check enabled but no valid GPG Key file found"
+msgstr ""
+"La comprovació GPG està habilitada però el fitxer GPG Key trobat no és vàlid"
+
+#: ../revisor/modgui/configuration.py:138
+#, python-format
+msgid "ValueError in baseurl: %s"
+msgstr "ValueError en baseurl: %s"
+
+#: ../revisor/modgui/configuration.py:144
+#, python-format
+msgid "ValueError in mirrorlist: %s"
+msgstr "ValueError a la llista de servidors rèplica: %s"
+
+#: ../revisor/modgui/configuration.py:221
+#, python-format
+msgid "%s is not a valid Revisor configuration file"
+msgstr "%s no és un fitxer de configuració del Revisor vàlid"
+
+#: ../revisor/modgui/configuration.py:250
+msgid ""
+"The configured model does not have the mandatory 'main' configuration "
+"directive."
+msgstr ""
+"El model configurat no conté la directiva de configuració 'main' obligatòria"
+
+#: ../revisor/modgui/configuration.py:252
+msgid "Invalid model. Please choose a valid model."
+msgstr "Model no vàlid. Escolliu un model vàlid."
+
+#: ../revisor/modgui/configuration.py:364
+#, python-format
+msgid "File %s is not accessible."
+msgstr "El fitxer %s no és accessible."
+
+#: ../revisor/modgui/configuration.py:371
+msgid "The 'main' option configuration directive has a non-accessible file: "
+msgstr ""
+"L'opció directiva 'main' de la configuració té un fitxer inaccessible: "
+
+#: ../revisor/modgui/configuration.py:374
+msgid "Configuration file's 'main' directive OK"
+msgstr "La directiva del fitxer de configuració 'main' és correcte"
+
+#: ../revisor/modgui/configuration.py:408
+msgid ""
+"You have not selected any of the basic repositories. Please make sure that "
+"one of 'fedora', 'core', 'base' or 'development', or an equivalent "
+"repository has been configured"
+msgstr ""
+"No heu seleccionat cap dels repositoris bàsics. Assegureu-vos que 'fedora', "
+"'core', 'base' o 'development', o un repositori equivalent hagi estat "
+"configurat"
+
+#: ../revisor/modgui/configuration.py:412
+#, python-format
+msgid ""
+"Configuration file '%s', section '%s' does not have the mandatory 'main' "
+"option"
+msgstr ""
+"Fitxer de configuració '%s', la secció '%s' no té l'opció obligatòria 'main'"
+
+#: ../revisor/modgui/configuration.py:500
+#, python-format
+msgid "Could not read configuration file %s"
+msgstr "No es pot llegir el fitxer de configuració %s"
+
+#: ../revisor/modgui/finished_screen.py:47
+msgid "Check current directory."
+msgstr "Comprova el directori actual."
+
+#: ../revisor/modgui/__init__.py:121
+msgid "GUI Mode didn't get RevisorBase instance, which is fatal."
+msgstr ""
+"El mode gràfic no obtenia la instància del RevisorBase, i no es pot "
+"continuar."
+
+#: ../revisor/modgui/__init__.py:190
+#, python-format
+msgid "Opening up /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+msgstr "S'està obrint /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+
+#: ../revisor/modgui/__init__.py:323
+msgid "Error downloading packages"
+msgstr "Error en descarregar els paquets"
+
+#: ../revisor/modgui/__init__.py:338
+msgid "Continue"
+msgstr "Continua"
+
+#: ../revisor/modgui/__init__.py:339
+msgid "Dependencies added"
+msgstr "Dependències afegides"
+
+#: ../revisor/modgui/__init__.py:340
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"L'actualització d'aquests paquets requereix canvis en paquets addicionals "
+"per a l'operació."
+
+#: ../revisor/modgui/__init__.py:349
+msgid "Adding for dependencies:\n"
+msgstr "S'estan afegint per a les dependències:\n"
+
+#: ../revisor/modgui/__init__.py:350
+msgid "Removing for dependencies:\n"
+msgstr "S'estan suprimint per a les dependències:\n"
+
+#: ../revisor/modgui/__init__.py:351
+msgid "Updating for dependencies:\n"
+msgstr "S'està actualitzant per a les dependències:\n"
+
+#: ../revisor/modgui/lm_basic.py:163 ../revisor/modgui/lm_basic.py:168
+#: ../revisor/modgui/lm_basic.py:174 ../revisor/modgui/lm_basic.py:276
+#: ../revisor/modgui/lm_usercustomize.py:158
+msgid "Using kickstart configuration, edit entry here"
+msgstr "S'està usant la configuració del kickstart, edita l'entrada aquí"
+
+#: ../revisor/modgui/lm_basic.py:201 ../revisor/modgui/lm_usercustomize.py:108
+msgid "These passwords do not match"
+msgstr "Les contrasenyes són diferents"
+
+#: ../revisor/modgui/lm_basic.py:295
+msgid "Please select a root password."
+msgstr "Seleccioneu una contrasenya d'administrador."
+
+#: ../revisor/modgui/lm_basic.py:299
+msgid "You should really select a more complex root password."
+msgstr ""
+"És recomanable que seleccioneu una contrasenya d'administrador més complexa."
+
+#: ../revisor/modgui/lm_network.py:110 ../revisor/modgui/lm_network.py:162
+#: ../revisor/modgui/lm_network.py:218 ../revisor/modgui/lm_network.py:282
+#: ../revisor/modgui/lm_network.py:385 ../revisor/modgui/lm_network.py:432
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../revisor/modgui/lm_network.py:112 ../revisor/modgui/lm_network.py:164
+#: ../revisor/modgui/lm_network.py:235 ../revisor/modgui/lm_network.py:295
+#: ../revisor/modgui/lm_network.py:434
+msgid "Static IP"
+msgstr "IP estàtica"
+
+#: ../revisor/modgui/lm_network.py:114 ../revisor/modgui/lm_network.py:222
+#: ../revisor/modgui/lm_network.py:284 ../revisor/modgui/lm_network.py:387
+#: ../revisor/modgui/lm_network.py:436
+msgid "BOOTP"
+msgstr "BOOTP"
+
+#: ../revisor/modgui/lm_network.py:225 ../revisor/modgui/lm_network.py:287
+msgid "Please fill in the network information"
+msgstr "Ompliu la informació de xarxa"
+
+#: ../revisor/modgui/lm_network.py:339
+#, python-format
+msgid ""
+"A network device with the name %s already exists.  Please choose another "
+"device name"
+msgstr "Ja existeix un dispositiu de xarxa anomenat %s. Trieu un altre nom"
+
+#. create table with custom checklists
+#: ../revisor/modgui/lm_security.py:60
+msgid "Trusted devices:"
+msgstr "Dispositius fiables:"
+
+#: ../revisor/modgui/lm_security.py:92
+msgid "Trusted services:"
+msgstr "Serveis fiables:"
+
+#: ../revisor/modgui/lm_security.py:124
+msgid "Other ports: (1029:tcp)"
+msgstr "Altres ports: (1029:tcp)"
+
+#: ../revisor/modgui/load_kickstart.py:139
+#, python-format
+msgid "Kickstart file %s not accessible."
+msgstr "El fitxer kickstart %s no és accessible."
+
+#: ../revisor/modgui/load_kickstart.py:146
+msgid "Kickstart file not good."
+msgstr "El fitxer kickstart no és correcte."
+
+#: ../revisor/modgui/package_selection.py:154
+msgid "Selecting all packages"
+msgstr "S'estan seleccionant tots els paquets"
+
+#: ../revisor/modgui/package_selection.py:409
+#, python-format
+msgid "No such package %s from group %s"
+msgstr "Cap paquet %s del grup %s"
+
+#: ../revisor/modgui/package_selection.py:418
+#, python-format
+msgid "Package %s was not marked in group %s"
+msgstr "El paquet %s no s'ha marcat al grup %s"
+
+#: ../revisor/modgui/package_selection.py:427
+#, python-format
+msgid "No package named %s available to be installed: %s"
+msgstr "Cap paquet anomenat %s està disponible per ser instal·lat: %s"
+
+#: ../revisor/modgui/package_selection.py:441
+msgid "Adding in packages from Kickstart Data, please wait"
+msgstr "S'estan afegint als paquets des de les dades del Kickstart, espereu"
+
+#: ../revisor/modgui/package_selection.py:462
+#, python-format
+msgid ""
+"Errors encountered:\n"
+"\n"
+"%s: %s"
+msgstr ""
+"Errors trobats:\n"
+"\n"
+"%s: %s"
+
+#: ../revisor/modgui/package_selection.py:469
+msgid "Cannot pass check_options"
+msgstr "No es poden passar les opcions de comprovació (check_options)"
+
+#: ../revisor/modgui/package_selection.py:475
+#: ../revisor/modgui/select_media.py:474
+msgid "Doing Live Media but not customizing kickstart options"
+msgstr ""
+"S'està creant el medi autoarrencable però no s'està personalitzant les "
+"opcions del kickstart"
+
+#: ../revisor/modgui/package_selection.py:699
+#, python-format
+msgid "<i>No optional packages (%d mandatory)</i>"
+msgstr "<i>No hi ha paquets opcionals(%d obligatoris)</i>"
+
+#: ../revisor/modgui/package_selection.py:702
+#, python-format
+msgid "<i>%d of %d optional packages selected (%d mandatory)</i>"
+msgstr "<i>%d de %d paquets opcionals seleccionats (%d obligatoris)</i>"
+
+#: ../revisor/modgui/package_selection.py:770
+msgid "Uncategorized"
+msgstr "No classificat"
+
+#: ../revisor/modgui/package_selection.py:798
+#, python-format
+msgid "Packages in %s"
+msgstr "Paquets en %s"
+
+#: ../revisor/modgui/package_selection.py:846
+msgid "Building Packages List"
+msgstr "S'està creant la llista de paquets"
+
+#: ../revisor/modgui/package_selection.py:855
+#, python-format
+msgid "%s packages"
+msgstr "%s paquets"
+
+#: ../revisor/modgui/package_selection.py:890
+#, python-format
+msgid "For %s-%s:%s-%s.%s, we find %d matches"
+msgstr "Per %s-%s:%s-%s.%s, s'ha trobat %d coincidències"
+
+#: ../revisor/modgui/select_media.py:74
+msgid "No media selected. Please select at least one media type to compose."
+msgstr ""
+"Medi no seleccionat. Seleccioneu almenys un tipus de medi per composar."
+
+#: ../revisor/modgui/select_media.py:175
+msgid "No media types selected, select at least one media type."
+msgstr "Tipus de medis no seleccionats, seleccioneu al menys un tipus."
+
+#: ../revisor/modgui/select_media.py:248
+msgid ""
+"No installation media type selected, select at least one type of "
+"installation media."
+msgstr ""
+"Tipus de medi d'instal·lació no seleccionat, seleccioneu almenys un tipus."
+
+#: ../revisor/modgui/select_media.py:310
+msgid "No live media type selected, select at least one type of live media."
+msgstr ""
+"Tipus de medi autoarrencable no seleccionat, seleccioneu almenys un tipus."
+
+#: ../revisor/modgui/select_media.py:375
+msgid ""
+"No virtualization media type selected, select at least one type of "
+"virtualization media."
+msgstr ""
+"Cap tipus de medi de virtualització seleccionat, seleccioneu almenys un "
+"tipus de medi de virtualització."
+
+#: ../revisor/modgui/select_media.py:432
+msgid ""
+"No utility media type selected, select at least one type of utility media."
+msgstr ""
+"Cap tipus de medi d'utilitat seleccionat, seleccioneu almenys un tipus."
+
+#: ../revisor/modgui/select_media.py:505
+msgid "No Product Name specified"
+msgstr "Cap nom de producte especificat"
+
+#: ../revisor/modgui/select_media.py:508
+msgid "No Product Path specified"
+msgstr "Camí del producte no especificat"
+
+#: ../revisor/modgui/select_media.py:511
+msgid "No base name for the ISO(s) specified"
+msgstr "No s'ha especificat cap nom base per a les ISO"
+
+#: ../revisor/modgui/select_media.py:514
+msgid "No label for the ISO(s) specified"
+msgstr "No s'ha especificat etiqueta per a les ISO"
+
+#: ../revisor/modgui/select_media.py:517
+msgid "No version number specified"
+msgstr "Cap número de versió especificat"
+
+#: ../revisor/modgui/select_media.py:520
+msgid "No comps no glory"
+msgstr "No es pot fer res sense el comps"
+
+#: ../revisor/modgui/select_media.py:523
+msgid "Unable to find comps file. No comps no glory"
+msgstr ""
+"No s'ha pogut trobar el fitxer comps. No es pot fer res sense aquest fitxer"
+
+#: ../revisor/modisolinux/__init__.py:48
+msgid "Custom isolinux.cfg to replace the standard isolinux.cfg with."
+msgstr "L'isolinux.cfg personalitzat que reemplaçarà l'estàndard."
+
+#: ../revisor/modisolinux/__init__.py:57 ../revisor/modisolinux/__init__.py:64
+msgid ""
+"Both --kickstart-default and --isolinux-cfg have been specified, while they "
+"are mutually exclusive. --isolinux-cfg is going to be used."
+msgstr ""
+"S'han especificat dues opcions mútuament excloents: --kickstart-default i --"
+"isolinux.cfg. S'utilitzarà --isolinux.cfg."
+
+#: ../revisor/modisolinux/__init__.py:73
+#, python-format
+msgid "File %s is not readable"
+msgstr "El fitxer %s no és pot llegir"
+
+#: ../revisor/modisolinux/__init__.py:78
+msgid "How come isolinux_cfg is set to False?"
+msgstr "Com és que isolinux_cfg s'ha establert a fals?"
+
+#: ../revisor/modisolinux/__init__.py:81
+msgid "How come isolinux_cfg is an empty string?"
+msgstr "Com és que isolinux_cfg és una cadena buida?"
+
+#: ../revisor/modisolinux/__init__.py:84
+#, python-format
+msgid "Going to replace isolinux/isolinux.cfg with %s"
+msgstr "S'està procedint a substituir isolinux/isolinux.cfg per %s"
+
+#: ../revisor/modisolinux/__init__.py:87
+msgid "Deleted the old isolinux.cfg"
+msgstr "L'isolinux.cfg vell s'ha eliminat"
+
+#: ../revisor/modisolinux/__init__.py:90
+msgid "Inserted the new isolinux.cfg"
+msgstr "El nou isolinux.cfg s'ha inserit"
+
+#: ../revisor/modisolinux/__init__.py:92
+msgid "Could not copy in the new isolinux.cfg"
+msgstr "No s'ha pogut copiar al nou isolinux.cfg"
+
+#: ../revisor/modisolinux/__init__.py:94
+msgid "Could not unlink the old isolinux.cfg?"
+msgstr "No s'ha pogut desenllaçar l'isolinux.cfg vell?"
+
+#: ../revisor/modisolinux/__init__.py:96
+msgid "Not replacing isolinux.cfg"
+msgstr "No s'està reemplaçant isolinux.cfg"
+
+#: ../revisor/modrebrand/__init__.py:43
+msgid "Not rebranding pre_resolve_dependencies"
+msgstr "No s'està reanomenant pre_resolve_dependencies"
+
+#: ../revisor/modrebrand/__init__.py:57
+#, python-format
+msgid "Adding %s-%s-%s.%s"
+msgstr "S'està afegint %s-%s-%s.%s"
+
+#: ../revisor/modrebrand/__init__.py:60
+#, python-format
+msgid "Removing %s-%s-%s.%s"
+msgstr "S'està suprimint %s-%s-%s.%s"
+
+#: ../revisor/modrebrand/__init__.py:77
+msgid ""
+"Rebrand name. Revisor will select <name>-logos, <name>-release and <name>-"
+"release-notes packages, if available."
+msgstr ""
+"Nom per a reanomenar. El Revisor seleccionarà els paquets <name>-logos, "
+"<name>-release i <name>-release-notes, si estan disponibles."
+
+#: ../revisor/modrebrand/__init__.py:85
+#, python-format
+msgid "Setting rebrand to %s"
+msgstr "S'està intentant reanomenar com a %s"
+
+#: ../revisor/modreuseinstaller/__init__.py:47
+msgid "The URI to a tree we're supposed to reuse the installer images from."
+msgstr ""
+"L'URI cap a un arbre des d'on se suposa que es reutilitzarà les imatges de "
+"l'instal·lador."
+
+#: ../revisor/modreuseinstaller/__init__.py:66
+#, python-format
+msgid ""
+"Could not access %s/%s, required for reusing a previous tree. Cancelling the "
+"reuse of installer images"
+msgstr ""
+"No s'ha pogut accedir %s/%s, necessari per a reutilitzar un arbre anterior. "
+"S'està cancel·lant la reutilització de les imatges de l'instal·lador"
+
+#: ../revisor/modreuseinstaller/__init__.py:85
+#, python-format
+msgid "Copying %s/%s to %s/%s"
+msgstr "S'està copiant %s/%s a %s/%s"
+
+#: ../revisor/modreuseinstaller/__init__.py:88
+#, python-format
+msgid "Copying %s/.discinfo to %s/.discinfo"
+msgstr "S'està copiant %s/.discinfo a %s/.discinfo"
+
+#: ../revisor/modreuseinstaller/__init__.py:91
+#, python-format
+msgid "Copying %s/.treeinfo to %s/.treeinfo"
+msgstr "S'està copiant %s/.treeinfo a %s/.treeinfo"
+
+#: ../revisor/modserver/__init__.py:86
+msgid "Use the server mode for XML-RPC"
+msgstr "Utilitza el mode servidor per a l'XML_RPC"
+
+#: ../revisor/modserver/__init__.py:91
+msgid "Port to start Server on."
+msgstr "Port per iniciar el servidor."
+
+#: ../revisor/modserver/__init__.py:97
+msgid "Start the XML-RPC server and fork."
+msgstr "Inicia el sevidor XML-RPC i bifurca't."
+
+#: ../revisor/modvirt/__init__.py:85
+msgid "Virtualization Media Options"
+msgstr "Opcions del suport de virtualització"
+
+#: ../revisor/modvirt/__init__.py:92
+msgid "Build Xen virtual machine. (not implemented yet)"
+msgstr "Crea una màquina virtual Xen (encara no implementat)"
+
+#: ../revisor/modvirt/__init__.py:99
+msgid ""
+"Xen virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Mida de la unitat de la màquina virtual Xen, en MB. (Per defecte: 3000MB) "
+"(encara no implementat)"
+
+#: ../revisor/modvirt/__init__.py:107
+msgid "Build KVM virtual machine. (not implemented yet)"
+msgstr "Crea una màquina virtual KVM. (encara no implementat)"
+
+#: ../revisor/modvirt/__init__.py:114
+msgid ""
+"KVM virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Mida de la unitat de la màquina virtual KVM, en MB. (Per defecte: 3000MB) "
+"(encara no implementat)"
+
+#: ../revisor/modvirt/__init__.py:122
+msgid "Virtual machine file system type. (Default: ext3) (not implemented yet)"
+msgstr ""
+"Tipus de sistema de fitxers de la màquina virtual. (Per defecte: ext3) "
+"(encara no implementat)"
+
+#: ../revisor/modvirt/__init__.py:129
+msgid "Make virtual machine drive a sparse filesystem. (not implemented yet)"
+msgstr ""
+"Crea una unitat per a una màquina virtual amb un sistema de fitxers reduït "
+"(encara no implementat)"
+
+#: ../revisor/modvirt/__init__.py:135
+msgid ""
+"Make virtual machine stateless (changes do not persist.) (not implemented "
+"yet)"
+msgstr ""
+"Crea una màquina virtual sense estat (els canvis no persistiran.) (encara no "
+"implementat)"
+
+#: ../revisor/modvirt/__init__.py:141
+msgid ""
+"Build virtual machine as an appliance using a simple raw drive image and "
+"yum. (Doesn't require virt. tech. to be running locally.) (not implemented "
+"yet)"
+msgstr ""
+"Crea la màquina virtual com una aplicació usant una simple unitat d'imatge i "
+"yum. (No es necessita cap tecnologia de virtualització per ser executada "
+"localment.) (encara no implementada)"
+
+#: ../revisor/modvirt/__init__.py:243
+msgid "Unable to create virtual machine instance."
+msgstr "Impossible crear la instància de la màquina virtual."
+
+#: ../revisor/modvirt/__init__.py:304
+msgid "Error creating ext3 filesystem"
+msgstr "Error en crear el sistema de fitxers ext3"
+
+#: ../revisor/modvirt/__init__.py:500
+#, python-format
+msgid "Failed to mount '%s' to '%s'"
+msgstr "Error en muntar '%s' a '%s'"
+
+#: ../revisor/modvirt/__init__.py:518 ../revisor/modvirt/__init__.py:540
+msgid "Starting the virtual guest provision..."
+msgstr "S'està iniciant la provisió visitant virtual..."
+
+#: ../revisor/modwui/modwui/controllers.py:75
+#, python-format
+msgid "The path %s cannot be found"
+msgstr "No es pot trobar el camí %s"
+
+#: ../revisor/modwui/modwui/grids.py:22
+msgid "Name"
+msgstr "Nom"
+
+#: ../revisor/modwui/modwui/grids.py:23
+msgid "Description"
+msgstr "Descripció"
+
+#: ../revisor/modwui/modwui/options.py:90
+msgid "Submit"
+msgstr "Envia"
+
+#: ../conf/revisor.desktop.in.h:2
+msgid "Revisor, Pimp your distro"
+msgstr "Revisor, crea la teva distribució"
+
+#~ msgid "Adding conditional: %s / %s"
+#~ msgstr "S'està afegint la condició: %s / %s"
+
+#~ msgid "Bumping YUMs debuglevel (%d) to our debuglevel (%d)"
+#~ msgstr ""
+#~ "S'està canviant el debuglevel del YUM (%d) al nostre debuglevel (%d)"
+
+#~ msgid "YUMs debuglevel now %d"
+#~ msgstr "El debuglevel del YUM ara és %d"
+
+#~ msgid ""
+#~ "What we're getting from pykickstart is: %d groups, %d packages and %d "
+#~ "excluded packages. %d packages are being explicitly ignored."
+#~ msgstr ""
+#~ "El que s'està obtenint des del pykickstart és: %d grups, %d paquets i %d "
+#~ "paquets excluits. %d paquets estan sent explícitament ignorats."
+
+#~ msgid "Appending group @core"
+#~ msgstr "S'està afegint el grup @core"
+
+#~ msgid "Packages that do not need to be on the media: %s"
+#~ msgstr "Paquets que no necessiten estar en els suports: %s"
+
+#~ msgid "Creating pkgdir: %s"
+#~ msgstr "S'esta creant el pkgdir: %s"
+
+#~ msgid ""
+#~ "When composing in respin mode, you can only select one type of media "
+#~ "install, live or virtual. You can however select multiple media such as "
+#~ "cd, dvd, etc."
+#~ msgstr ""
+#~ "Quan es composi en mode respin, només podeu seleccionar un tipus "
+#~ "d'instal·lació de medi, arrencable o virtual. En canvi, podeu seleccionar "
+#~ "múltiples medis com ara cd, dvd, etc."
+
+#~ msgid ""
+#~ "Force Revisor to use the GUI. Does not fallback to CLI and thus shows GUI "
+#~ "related errors"
+#~ msgstr ""
+#~ "Força el Revisor a usar la interfície gràfica. No farà servir la línia "
+#~ "d'ordres i per tant mostra els errors relacionats amb la interfície"
+
+#~ msgid ""
+#~ "These could be as simple as 'noacpi' to disable advanced power control,"
+#~ msgstr ""
+#~ "Això pot ser tan simple com 'noacpi' per inhabilitar el control d'energia "
+#~ "avançat,"
+
+#~ msgid "or any other relevant kernel parameters."
+#~ msgstr "o qualsevol altre paràmetre rellevant del nucli."
+
+#~ msgid "In most situations, the default should suffice."
+#~ msgstr "En la majoria dels casos, el valor per defecte ha de ser suficient."
+
+#~ msgid "\tThis could be caused by one of the following:\n"
+#~ msgstr "\tAixò podria estar causat per algun dels factors següents:\n"
+
+#~ msgid "\t - not having a network connection available,\n"
+#~ msgstr "\t - no s'està tenint una connexió de xarxa disponible,\n"
+
+#~ msgid "\t - Server refusing connections,\n"
+#~ msgstr "\t - El servidor està rebutjant les connexions,\n"
+
+#~ msgid "\t - Using a mirror that isn't fully synchronized,\n"
+#~ msgstr ""
+#~ "\t - S'està utilitzant un servidor rèplica que no està totalment "
+#~ "sincronitzat,\n"
+
+#~ msgid "\t - Misconfigured repositories."
+#~ msgstr "\t - Els repositoris no estan ben configurats."
+
+#~ msgid "name"
+#~ msgstr "nom"
+
+#~ msgid "Root passwords do not match."
+#~ msgstr "No s'han trobat contrasenyes d'administrador."

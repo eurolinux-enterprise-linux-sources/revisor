@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Revisor
+_GenericName=Revisor
+_Comment=Revisor, Pimp your distro
+Categories=System;X-Red-Hat-Base;X-Fedora;PackageManager;GNOME;GTK;
+Exec=/usr/bin/revisor
+Terminal=false
+Type=Application
+Icon=revisor
+Encoding=UTF-8
+StartupNotify=true

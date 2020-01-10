@@ -1,0 +1,3999 @@
+# translation of revisor.master.po to
+# Copyright (C) 2008, 2009 Free Software Foundation, Inc.
+#
+#
+# Guido Grazioli <guido.grazioli@gmail.com>, 2008, 2009.
+# Francesco Tombolini <tombo@adamantio.net>, 2008, 2009.
+# mario_santagiuliana <mario at marionline.it>, 2009.
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:1
+msgid ""
+msgstr ""
+"Project-Id-Version: revisor.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-14 16:40+0000\n"
+"PO-Revision-Date: 2009-09-15 14:23+1000\n"
+"Last-Translator: \n"
+"Language-Team:  <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:1
+msgid ""
+"\n"
+"    Revisor, a product of Fedora Unity\n"
+"\n"
+"    Copyright 2007-2009 Fedora Unity Project\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"    See the GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"    Revisor, un prodotto di Fedora Unity\n"
+"    Copyright (C) 2005, 2006, 2007 Fedora Unity\n"
+"\n"
+"    Questo programma è un software gratuito; è possibile ridistribuirlo e/o modificarlo\n"
+"    sotto i termini della GNU General Public License come pubblicato dalla\n"
+"    Free Software Foundation; versione 2 della Licenza, o\n"
+"    (a propria discrezione) qualsiasi altra versione successiva.\n"
+"\n"
+"    Questo programma è distribuito nella speranza di poter essere utile,\n"
+"    ma SPROVVISTO DI QUALSIASI GARANZIA; senza alcuna garanzia implicita di\n"
+"    COMMERCIABILITÀ o IDONEITÀ PER UNO SCOPO PARTICOLARE.\n"
+"    Per maggiori informazioni consultare la GNU General Public License.\n"
+"\n"
+"    Dovresti aver ricevuto una copia della GNU General Public License\n"
+"    insieme a questo programma; in caso contrario, scrivere alla\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:21
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>"
+msgstr ""
+"\n"
+"Sviluppatori del programma:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Progettisti interfaccia grafica:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Traduttori:\n"
+"\t* Guido Grazioli <guido.grazioli@gmail.com> \n"
+"\t* Francesco Tombolini (tombo) <tombo@adamantio.net>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:33
+msgid "<b>More information about:</b>"
+msgstr "<b>Altre informazioni su:</b>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:34
+msgid "<b>Version:</b> @VERSION@-@RELEASE@"
+msgstr "<b>Versione:</b> @VERSION@-@RELEASE@"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:35
+msgid "<span weight=\"bold\">Revisor</span> is a product of Fedora Unity."
+msgstr "<span·weight=\"bold\">Revisor</span> è un prodotto di Fedora Unity."
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:36
+msgid "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+msgstr "<u><span·color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:37
+#: ../revisor/modgui/glade/revisor.glade.h:39
+msgid "About Revisor"
+msgstr "Informazioni su Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:38
+#: ../revisor/modgui/glade/revisor.glade.h:40
+msgid "Authors"
+msgstr "Autori"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:39
+msgid "Fedora Unity:"
+msgstr "Fedora Unity:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:40
+msgid "File"
+msgstr "File"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:41
+#: ../revisor/modgui/glade/revisor.glade.h:44
+msgid "License"
+msgstr "Licenza"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:42
+#: ../revisor/modgui/glade/revisor.glade.h:48 ../conf/revisor.desktop.in.h:1
+msgid "Revisor"
+msgstr "Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:43
+msgid "Revisor _Homepage"
+msgstr "_Homepage di Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:44
+msgid "Revisor:"
+msgstr "Revisor:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:45
+msgid "_Details"
+msgstr "_Dettagli"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:46
+#: ../revisor/modgui/glade/revisor.glade.h:64
+msgid "_Help"
+msgstr "A_iuto"
+
+#: ../revisor/modgui/glade/build_media.glade.h:1
+msgid "Building Your Media"
+msgstr "Creazione media"
+
+#: ../revisor/modgui/glade/build_media.glade.h:2
+msgid "Task Progress:"
+msgstr "Avanzamento operazione:"
+
+#: ../revisor/modgui/glade/build_media.glade.h:3
+msgid "Total Progress:"
+msgstr "Avanzamento totale:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:1
+msgid "Client / _Server"
+msgstr "Client / _Server"
+
+#: ../revisor/modgui/glade/build_type.glade.h:2
+msgid "Configuration _File Mode"
+msgstr "Modalità _File di configurazione"
+
+#: ../revisor/modgui/glade/build_type.glade.h:3
+msgid "Please select the build type to use:"
+msgstr "Prego selezionare il tipo di build da eseguire:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:4
+msgid "Select Build Type"
+msgstr "Seleziona tipo di build"
+
+#: ../revisor/modgui/glade/build_type.glade.h:5
+msgid "_Chroot Build"
+msgstr "Build in _Chroot"
+
+#: ../revisor/modgui/glade/build_type.glade.h:6
+msgid "_Normal Build"
+msgstr "Build _Normale"
+
+#: ../revisor/modgui/glade/build_type.glade.h:7
+msgid "_Virtualized Build"
+msgstr "Build _Virtualizzata"
+
+#: ../revisor/modgui/glade/dialog_filechooser.glade.h:1
+msgid "Choose a file or folder"
+msgstr "Selezionare un file o una cartella"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:1
+msgid "<b>Compose Results Location:</b>"
+msgstr "<b>Percorso dei risultati della composizione:</b>"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:2
+#: ../revisor/modgui/glade/load_kickstart.glade.h:1
+#: ../revisor/modgui/glade/ready_screen.glade.h:4
+msgid "Advanced Options"
+msgstr "Opzioni avanzate"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:3
+msgid "Congratulations, Compose Complete"
+msgstr "Congratulazioni, composizione completata"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:4
+msgid "Create _Jigdo"
+msgstr "Crea _Jigdo"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:5
+msgid "Create _Torrent"
+msgstr "Crea _Torrent"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:6
+msgid "Generate _Kickstart for Install Clients"
+msgstr "Genera file _Kickstart per installazione su client"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:7
+msgid "Send _Compose to Server"
+msgstr "Invia la _composizione a un server"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:8
+msgid "Setup _DHCPD Server"
+msgstr "Impostazioni server _DHCPD"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:9
+msgid "Setup _PXE Server"
+msgstr "Impostazioni server _PXE"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:10
+msgid "Write Image to _Media"
+msgstr "Scrivi i_mmagine sul supporto"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:11
+msgid "Write Image to _USB Device"
+msgstr "Scrivi immagine su dispositivo _USB"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:12
+msgid "_Continue..."
+msgstr "_Continua..."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:1
+msgid "Authentication Configuration"
+msgstr "Impostazioni di autenticazione"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:2
+msgid "Authentication options are not applicable on upgrades."
+msgstr "Le impostazioni di autenticazione non si applicano agli aggiornamenti."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:3
+msgid "Authentication:"
+msgstr "Autenticazione:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:4
+msgid "Enable Hesiod Support"
+msgstr "Abilitare supporto Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:5
+msgid "Enable Kerberos 5 Authentication"
+msgstr "Abilitare autenticazione Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:6
+msgid "Enable LDAP"
+msgstr "Abilitare LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:7
+msgid "Enable NIS"
+msgstr "Abilitare NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:8
+msgid "Enable SMB Authentication"
+msgstr "Abilitare autenticazione SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:9
+msgid "Enable nscd"
+msgstr "Abilitare nscd"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:10
+msgid "Hesiod"
+msgstr "Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:11
+msgid "Hesiod Authentication"
+msgstr "Autenticazione Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:12
+msgid "Hesiod LHS:"
+msgstr "Hesiod LHS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:13
+msgid "Hesiod RHS:"
+msgstr "Hesiod RHS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:14
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:15
+msgid "Kerberos 5 Authentication"
+msgstr "Autenticazione Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:16
+msgid "Kerberos Domain Controller (KDC):"
+msgstr "Kerberos Domain Controller (KDC):"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:17
+msgid "Kerberos Master Server:"
+msgstr "Kerberos Master Server:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:18
+msgid "Kerberos Realm:"
+msgstr "Kerberos Realm:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:19
+msgid "LDAP "
+msgstr "LDAP "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:20
+msgid "LDAP Authentication"
+msgstr "Autenticazione LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:21
+msgid "LDAP Base Name: "
+msgstr "Base name LDAP: "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:22
+msgid "LDAP Server: "
+msgstr "Server LDAP: "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:23
+msgid "NIS"
+msgstr "NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:24
+msgid "NIS Authentication"
+msgstr "Autenticazione NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:25
+msgid "NIS Domain:"
+msgstr "Dominio NIS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:26
+msgid "NIS Server:"
+msgstr "Server NIS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:27
+msgid "Name Switch Cache"
+msgstr "Name Switch Cache"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:28
+msgid "Name Switch Cache Daemon (nscd) Authentication"
+msgstr "Autenticazione nscd (Name Switch Cache Daemon)"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:29
+msgid "SMB"
+msgstr "SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:30
+msgid "SMB Authentication"
+msgstr "Autenticazione SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:31
+msgid "SMB Servers:"
+msgstr "Server SMB:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:32
+msgid "SMB Workgroup:"
+msgstr "Workgroup SMB:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:33
+msgid "Use MD5"
+msgstr "Utilizzare MD5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:34
+msgid "Use Shadow Passwords"
+msgstr "Utilizzare Shadow Password"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:35
+msgid "Use broadcast to find NIS server"
+msgstr "Usare broadcast per determinare il server NIS"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:1
+msgid "Basic Configuration (required)"
+msgstr "Configurazione base (obbligatoria)"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:2
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:8
+msgid "Confirm Password:"
+msgstr "Conferma password:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:3
+msgid "Default Language:"
+msgstr "Lingua predefinita:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:4
+msgid "Encrypt root password"
+msgstr "Crittografare password di root"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:5
+msgid "Keyboard:"
+msgstr "Tastiera:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:6
+msgid "Root Password:"
+msgstr "Password di root:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:7
+msgid "Target Architecture:"
+msgstr "Architettura target:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:8
+msgid "Time Zone:"
+msgstr "Fuso orario:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:9
+msgid "Use UTC clock"
+msgstr "Usa orologio UTC"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:1
+msgid "Boot Loader Options"
+msgstr "Opzioni del boot loader"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:2
+msgid "Custom kernel parameters: "
+msgstr "Parametri personalizzati del kernel: "
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:3
+msgid "Provide optional kernel parameters."
+msgstr "Inserire parametri personalizzati del kernel."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:1
+msgid "Color Depth"
+msgstr "Profondità colore"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:2
+msgid "Configure the X Window System"
+msgstr "Configurazione sistema X Window"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:3
+msgid "Default Desktop:"
+msgstr "Desktop predefinito:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:4
+#: ../revisor/modgui/glade/lm_security.glade.h:3
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:5
+msgid "Display Configuration"
+msgstr "Configurazione schermo"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:6
+msgid "Display configuration is not applicable on upgrades."
+msgstr "La configurazione dello schermo non si applica agli aggiornamenti."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:7
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:8
+msgid "Enabled in reconfiguration mode"
+msgstr "Abilitato in modalità riconfigurazione"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:9
+msgid "General"
+msgstr "Generale"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:10
+msgid "Horizontal Sync:"
+msgstr "Sincronia orizzontale:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:11
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:12
+msgid "On first boot, Setup Agent is: "
+msgstr "Al primo boot, il Setup Agent è: "
+
+#: ../revisor/modgui/glade/lm_display.glade.h:13
+msgid "Probe for monitor"
+msgstr "Rilevazione del monitor"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:14
+msgid "Probe for video card driver"
+msgstr "Rilevazione del driver per la scheda video"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:15
+msgid "Resolution"
+msgstr "Risoluzione"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:16
+msgid "Start the X Window System on boot"
+msgstr "Avviare il sistema X Window al boot"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:17
+msgid "Use custom monitor sync rates"
+msgstr "Usare valori personalizzati di sincronia"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:18
+msgid "Vertical Sync:"
+msgstr "Sincronia verticale:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:19
+msgid "Video Card"
+msgstr "Scheda video"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:20
+msgid "Video Card RAM: "
+msgstr "RAM della scheda video: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:1
+msgid "."
+msgstr "."
+
+#: ../revisor/modgui/glade/lm_network.glade.h:2
+msgid "Gateway:"
+msgstr "Gateway:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:3
+msgid "IP Address:"
+msgstr "Indirizzo IP:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:4
+msgid "Name Server:"
+msgstr "Server DNS: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:5
+msgid "Netmask: "
+msgstr "Netmask: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:6
+msgid "Network Configuration"
+msgstr "Configurazione di rete"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:7
+msgid "Network Device Information"
+msgstr "Informazioni sul dispositivo di rete"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:8
+msgid "Network Device:"
+msgstr "Dispositivo di rete:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:9
+msgid "Network Type:"
+msgstr "Tipo di rete:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:10
+msgid "Use Network Manager (available only if installed)"
+msgstr "Usa Network Manager (disponibile solo se installato)"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:11
+msgid "_Add Network Device"
+msgstr "_Aggiungi dispositivo di rete"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:12
+msgid "_Delete Network Device"
+msgstr "Elimina _dispositivo di rete"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:13
+msgid "_Edit Network Device"
+msgstr "_Modifica dispositivo di rete"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:1
+msgid "Active"
+msgstr "Attivo"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:2
+msgid "Disable firewall"
+msgstr "Disabilita firewall"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:4
+msgid "Enable firewall"
+msgstr "Abilita firewall"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:5
+msgid "Firewall Configuration"
+msgstr "Configurazione firewall"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:6
+msgid "Firewall configuration is not applicable on upgrades."
+msgstr "La configurazione del firewall non si applica agli aggiornamenti."
+
+#: ../revisor/modgui/glade/lm_security.glade.h:7
+msgid "SELinux:"
+msgstr "SELinux:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:8
+msgid "Security level:"
+msgstr "Livello di sicurezza:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:9
+msgid "Warn"
+msgstr "Attenzione"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:6
+msgid "Add user to the group \"wheel\""
+msgstr "Aggiungi l'utente al gruppo \"wheel\""
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:7
+msgid "Automatically login this user to the Desktop"
+msgstr "Login automatico di questo utente all'ambiente desktop"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:9
+msgid "Create User Account:"
+msgstr "Creazione account utente:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:10
+msgid "Customize your Live Media"
+msgstr "Personalizza il supporto Live"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:11
+msgid "Dump current user profile (and omit /etc/skel)"
+msgstr "Scarica il profilo edll'utente corrente (omettendo /etc/skel)"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:12
+msgid "Enable \"wheel\" group to sudo without password"
+msgstr "Abilita il gruppo \"wheel\" ad eseguire sudo senza password"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:13
+msgid "Full Name:"
+msgstr "Nome completo:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:14
+msgid "Password"
+msgstr "Password"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:15
+msgid "Username:"
+msgstr "Username:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:2
+msgid "Customize package manifest defined in kickstart data"
+msgstr "Personalizza il package manifest definito nel kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:3
+msgid ""
+"Customize/Review details about locale, users/passwords, security/"
+"authentication, networking and Xorg"
+msgstr ""
+"Personalizza i dettagli su localizzazione, utenti/password, sicurezza/"
+"autenticazione, rete e Xorg"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:4
+msgid "Include Kickstart file on Installation Media"
+msgstr "Includere il file kickstart nel supporto di installazione"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:5
+msgid "Kickstart Configuration File:"
+msgstr "File di configurazione Kickstart:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:6
+msgid "Load Kickstart Data"
+msgstr "Caricamento dati kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:7
+msgid ""
+"Select a kickstart file to be used to populate options for your selected "
+"media.\n"
+"If you did not select Live media creation, some options will be ignored.\n"
+"This step is not required and options loaded from the kickstart may also be "
+"customized further."
+msgstr ""
+"Selezionare un file kickstart per popolare le opzioni relative ai supporti "
+"selezionati.\n"
+"Se è stata richiesta la creazione di supporti Live, alcune opzioni saranno "
+"ignorate.\n"
+"Questo passo non è obbligatorio e le opzioni caricate dal kickstart\n"
+"potranno essere personalizzate ulteriormente nei passi successivi."
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:10
+msgid "Set installer to boot with kickstart by default"
+msgstr ""
+"Imposta il programma di installazione per avviarsi con kickstart per "
+"impostazione predefinita"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:11
+msgid "Use package manifest from kickstart data"
+msgstr "Usa il package manifest dai dati kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:12
+msgid "Use repositories configured in the kickstart file"
+msgstr "Usa i repository configurati nel file kickstart"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:1
+msgid "By Category"
+msgstr "Per categoria"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:2
+msgid "Deselect"
+msgstr "Deseleziona"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:3
+msgid "Deselect all optional packages"
+msgstr "Deselezionare tutti i pacchetti opzionali"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:4
+msgid "List"
+msgstr "Elenco"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:5
+msgid "Optional Packages... "
+msgstr "Pacchetti opzionali... "
+
+#: ../revisor/modgui/glade/package_selection.glade.h:6
+msgid "Package Selection"
+msgstr "Selezione pacchetti"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:7
+msgid "Please select the software you want to be available on your media:"
+msgstr "Selezionare il software da rendere disponibile sul supporto:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:8
+msgid "Search"
+msgstr "Cerca"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:9
+msgid "Search Criteria:"
+msgstr "Criteri di ricerca:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:10
+msgid "Select"
+msgstr "Seleziona"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:11
+msgid "Select All"
+msgstr "Seleziona tutti"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:12
+msgid "Select all optional packages"
+msgstr "Seleziona tutti i pacchetti opzionali"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:13
+msgid ""
+"Some packages associated with this group are not required to be installed "
+"but may provide additional functionality.  Please choose the packages which "
+"you would like to have installed."
+msgstr ""
+"Alcuni pacchetti associati a questo gruppo non sono obbligatori per "
+"l'installazione ma forniscono funzioni addizionali. Scegliere i pacchetti "
+"che si desidera installare."
+
+#: ../revisor/modgui/glade/package_selection.glade.h:14
+msgid "dialog1"
+msgstr "dialog1"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:1
+msgid "<b>Number of Packages:</b>"
+msgstr "<b>Numero di pacchetti:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:2
+msgid "<b>Package Set Size (Live/Installed):</b>"
+msgstr "<b>Dimensione del set di pacchetti (Live/Installati):</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:3
+msgid "<b>RPM Package Payload Size:</b>"
+msgstr "<b>Dimensione contenuti dei pacchetti RPM:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:5
+msgid "Build Unattended Install Media"
+msgstr "Crea supporti per installazioni non interattive"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:6
+msgid "Not Calculated, Yet"
+msgstr "Non ancora calcolata"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:7
+msgid "Package Details"
+msgstr "Dettagli sui pacchetti"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:8
+msgid "Ready to Compose Images"
+msgstr "Pronto per la composizione delle immagini"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:9
+msgid ""
+"Revisor is now ready to compose your images. Please review your selection "
+"details below:"
+msgstr ""
+"Revisor è pronto per la composizione delle immagini. Revisionare le "
+"impostazioni selezionate nell'elenco sottostante:"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:10
+msgid "Send to Build Server:"
+msgstr "Invia al build server:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:1
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+msgstr ""
+"\n"
+"Sviluppatori del programma:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Progettisti interfaccia grafica:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:11
+msgid ""
+"\n"
+"Revisor, a product of Fedora Unity\n"
+"\n"
+"Copyright 2007-2009 Fedora Unity Project\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public\n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"Revisor, un prodotto di Fedora Unity\n"
+"\n"
+"Copyright 2007-2009 Fedora Unity Project\n"
+"\n"
+"Questo programma è un software gratuito; è possibile ridistribuirlo e/o modificarlo"
+"sotto i termini della GNU General Public License come pubblicato dalla"
+"Free Software Foundation; versione 2 della Licenza, o"
+"(a propria discrezione) qualsiasi altra versione successiva.\n"
+"\n"
+"Questo programma è distribuito nella speranza di poter essere utile,"
+"ma SPROVVISTO DI QUALSIASI GARANZIA; senza alcuna garanzia implicita di"
+"COMMERCIABILITÀ o IDONEITÀ PER UNO SCOPO PARTICOLARE.\n"
+"Per maggiori informazioni consultare la GNU General Public License.\n"
+"\n"
+"Dovresti aver ricevuto una copia della GNU General Public License"
+"insieme a questo programma; in caso contrario, scrivere alla"
+"Free Software Foundation, Inc.,"
+"51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:23
+msgid ""
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>\n"
+msgstr ""
+"\n"
+"Traduttori:\n"
+"\t* Guido Grazioli <guido.grazioli@gmail.com>\n"
+"\t* Francesco Tombolini (tombo) <tombo@adamantio.net>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:27
+msgid " "
+msgstr " "
+
+#: ../revisor/modgui/glade/revisor.glade.h:29
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../revisor/modgui/glade/revisor.glade.h:30
+msgid "<b>Installation Media</b>"
+msgstr "<b>Supporto di Installazione</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:31
+msgid "<b>Live Media</b>"
+msgstr "<b>Supporto Live</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:32
+msgid "<i>Initializing GUI</i>"
+msgstr "<i>Inizializzazione GUI</i>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:33
+msgid "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+msgstr "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:34
+msgid "<span size=\"large\" weight=\"bold\">Title</span>"
+msgstr "<span size=\"large\" weight=\"bold\">Titolo</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:35
+msgid "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+msgstr "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:36
+msgid "<span size=\"x-large\" weight=\"bold\">Please Wait...</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Attendere prego...</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:37
+msgid "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+msgstr "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:38
+msgid "A Fedora Spin Designer"
+msgstr "Uno strumento per la creazione di Spin Fedora"
+
+#: ../revisor/modgui/glade/revisor.glade.h:41
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:9
+msgid "Configure Revisor"
+msgstr "Configurazione di Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:42
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:11
+msgid "Destination Directory:"
+msgstr "Directory di destinazione:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:43
+msgid "Dynamically Set Header Label"
+msgstr "Imposta etichetta dell'Header dinamicamente"
+
+#: ../revisor/modgui/glade/revisor.glade.h:45
+msgid "Message"
+msgstr "Messaggio"
+
+#: ../revisor/modgui/glade/revisor.glade.h:46
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:5
+#: ../revisor/modgui/glade/select_media.glade.h:6
+#: ../revisor/modgui/glade/select_media_installation.glade.h:6
+#: ../revisor/modgui/glade/select_media_live.glade.h:3
+#: ../revisor/modgui/glade/select_media_utility.glade.h:2
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:3
+msgid "Please select the type(s) of media you want to compose:"
+msgstr "Selezionare il tipo di supporto per la composizione:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:47
+msgid "Progress - Revisor"
+msgstr "Avanzamento - Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:49
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:21
+msgid "Revisor Configuration:"
+msgstr "Configurazione Revisor:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:50
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors as simple as\n"
+"possible. This wizard will walk you through the proces of building your own "
+"installer and/or Live media\n"
+"set(s) from and Yum repository."
+msgstr ""
+"Revisor è stato progettato per rendere più semplice possibile la creazione "
+"di distribuzioni\n"
+"personalizzate di Fedora. Questa auto composizione guida attraverso il "
+"processo di creazione del proprio\n"
+"sistema di installazione e/o set di supporti Live da repository yum."
+
+#: ../revisor/modgui/glade/revisor.glade.h:53
+msgid "Revisor is initializing."
+msgstr "Inizializzazione di Revisor."
+
+#: ../revisor/modgui/glade/revisor.glade.h:54
+msgid "Select Media Types"
+msgstr "Seleziona titpi di supporto"
+
+#: ../revisor/modgui/glade/revisor.glade.h:55
+msgid "Select Repositories:"
+msgstr "Selezionare i repository:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:56
+msgid "Spin Target:"
+msgstr "Target della spin:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:57
+msgid "Translators"
+msgstr "Traduttori"
+
+#: ../revisor/modgui/glade/revisor.glade.h:58
+msgid "Use _advanced interface"
+msgstr "Usa interfaccia _avanzata"
+
+#: ../revisor/modgui/glade/revisor.glade.h:59
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: ../revisor/modgui/glade/revisor.glade.h:60
+msgid "_Browse"
+msgstr "_Sfoglia"
+
+#: ../revisor/modgui/glade/revisor.glade.h:61
+msgid "_CD Set"
+msgstr "Set di _CD"
+
+#: ../revisor/modgui/glade/revisor.glade.h:62
+msgid "_DVD Set"
+msgstr "Set di _DVD"
+
+#: ../revisor/modgui/glade/revisor.glade.h:63
+msgid "_File"
+msgstr "_File"
+
+#: ../revisor/modgui/glade/revisor.glade.h:65
+msgid "_Optical (CD/DVD)"
+msgstr "_Ottico (CD/DVD)"
+
+#: ../revisor/modgui/glade/revisor.glade.h:66
+msgid "_USB"
+msgstr "_USB"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:1
+msgid "<b>Please fill out the repository information</b>"
+msgstr "<b>Inserire le informazioni sul repository</b>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:2
+msgid "<small><i>Base URL or Mirror List Mandatory</i></small>"
+msgstr "<small><i>URL base o elenco dei mirror obbligatorio</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:3
+msgid "<small><i>GPG Options</i></small>"
+msgstr "<small><i>Opzioni GPG</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:4
+msgid "<small><i>Optional</i></small>"
+msgstr "<small><i>Facoltativi</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:5
+msgid "<small><i>Other Options</i></small>"
+msgstr "<small><i>Altre opzioni</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:6
+msgid "Add Repository"
+msgstr "Aggiungi repository"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:7
+msgid "Base URL:"
+msgstr "URL base:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:8
+msgid "Configuration Section to Use:"
+msgstr "Sezione di configurazione da usare:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:10
+msgid "Description:"
+msgstr "Descrizione:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:12
+msgid "Enable/Disable Repositories from Selection Configuration:"
+msgstr "Abilita/disabilita i repository della configurazione selezionata:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:13
+msgid "Exclude Packages:"
+msgstr "Pacchetti da escludere:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:14
+msgid "GPG Check"
+msgstr "Controllo GPG"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:15
+msgid "GPG Key File:"
+msgstr "File chiave GPG:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:16
+msgid "Include Packages:"
+msgstr "Pacchetti da includere:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:17
+msgid "Mirror List:"
+msgstr "Elenco dei mirror:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:18
+msgid "Name:"
+msgstr "Nome:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:19
+msgid "Protect"
+msgstr "Protetto"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:20
+msgid "Repository Information"
+msgstr "Informazioni sul repository"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:22
+msgid "Save to Configuration"
+msgstr "Salva nella configurazione"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:1
+msgid "<b>Compose Options</b>"
+msgstr "<b>Opzioni di composizione</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:2
+msgid "<b>Media Types</b>"
+msgstr "<b>Tipi di supporto</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:3
+msgid "Installation Media Types"
+msgstr "Tipi di supporto Installazione"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:4
+msgid "Live Media Types"
+msgstr "Tipi di supporto Live"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:6
+msgid "Rebrand Media"
+msgstr "Supporto Rebrand"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:7
+msgid "Rescue / Utility Media"
+msgstr "Supporto di Ripristino / Utility"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:8
+#: ../revisor/modgui/glade/select_media.glade.h:7
+msgid "Select Media Type(s)"
+msgstr "Selezione tipo(i) di supporto"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:9
+msgid "Virtualization Media"
+msgstr "SUpporto di Virtualizzazione"
+
+#: ../revisor/modgui/glade/select_media.glade.h:1
+#: ../revisor/modgui/glade/select_media_installation.glade.h:1
+msgid "<b>Installation Media Types</b>"
+msgstr "<b>Tipi di supporto per le installazioni</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:2
+#: ../revisor/modgui/glade/select_media_live.glade.h:1
+msgid "<b>Live Media Types</b>"
+msgstr "<b>Tipi di supporto Live</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:3
+#: ../revisor/modgui/glade/select_media_installation.glade.h:2
+msgid "CD Set"
+msgstr "Set di CD"
+
+#: ../revisor/modgui/glade/select_media.glade.h:4
+#: ../revisor/modgui/glade/select_media_installation.glade.h:3
+msgid "DVD Set"
+msgstr "Set di DVD"
+
+#: ../revisor/modgui/glade/select_media.glade.h:5
+msgid "Optical Live Media"
+msgstr "Supporto Live ottico"
+
+#: ../revisor/modgui/glade/select_media.glade.h:8
+msgid "USB Live Media"
+msgstr "Supporto Live USB"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:4
+msgid "Installation Tree"
+msgstr "Albero di installazione"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:5
+msgid "PXE Payload"
+msgstr "Payload PXE"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:7
+msgid "Select Installation Media Type(s)"
+msgstr "Seleziona tipo di supporto di installazione"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:8
+msgid "Unified ISO Image"
+msgstr "Immagine ISO Unified"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:2
+msgid "Optical"
+msgstr "Ottico"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:4
+msgid "Select Live Media Type(s)"
+msgstr "Seleziona tipo di supporto Live"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:5
+msgid "USB Hard Disk"
+msgstr "Disco rigido USB"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:6
+msgid "USB Thumb Drive"
+msgstr "Chiavetta USB"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:1
+msgid "<b>Utility Media Types</b>"
+msgstr "<b>Tipi di supporto per le utilità</b>"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:3
+msgid "Rescue Image"
+msgstr "Immagine di ripristino"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:4
+msgid "Select Utility Media Type(s)"
+msgstr "Seleziona tipo di supporto Utility"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:1
+msgid "<b>Virtualization Media Types</b>"
+msgstr "<b>Tipi di supporto per la virtualizzazione</b>"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:2
+msgid "KVM Guest"
+msgstr "Guest KVM"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:4
+msgid "Select Virtualization Media Type(s)"
+msgstr "Seleziona tipo di supporto Virtualizzazione"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:5
+msgid "VMWare Appliance"
+msgstr "Appliance VMWare"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:6
+msgid "VMWare Guest"
+msgstr "Guest VMWare"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:7
+msgid "Xen Guest"
+msgstr "Guest Xen"
+
+#: ../revisor/modgui/glade/welcome_buttons.glade.h:1
+msgid "Get Started"
+msgstr "Inizia"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:1
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors simple as possible. This wizard will walk you through the process of "
+"building your own Installer and/or Live media set(s) from any Yum repository."
+msgstr ""
+"Revisor è stato progettato per rendere più semplice possibile la creazione "
+"di varianti di Fedora. Questa autocomposizione vi seguirà nei passi "
+"necessari alla creazione di supporti personalizzati di installazione e/o "
+"Live da qualsiasi repository Yum."
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:2
+msgid "Show Advanced Configuration and Options"
+msgstr "Mostra configurazione ed opzioni avanzate"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:3
+msgid "Welcome to Revisor, by Fedora Unity"
+msgstr "Benvenuto in Revisor, da Fedora Unity"
+
+#: ../revisor.py:37
+msgid "Cannot find anaconda-runtime in /usr/lib/anaconda-runtime"
+msgstr "Impossibile trovare il runtime di anaconda in /usr/lib/anaconda-runtime"
+
+#: ../revisor/base.py:103
+msgid "Running Revisor in CLI mode..."
+msgstr "Esecuzione di Revisor in modalità a linea di comando..."
+
+#: ../revisor/base.py:112
+msgid "Running Revisor in Hub mode..."
+msgstr "Esecuzione di revisor in modalità hub..."
+
+#: ../revisor/base.py:122
+msgid "Running Revisor in RPC Server mode..."
+msgstr "Esecuzione di Revisor in modalità server RPC..."
+
+#: ../revisor/base.py:126 ../revisor/base.py:132
+msgid "Running Revisor in GUI mode..."
+msgstr "Esecuzione di Revisor in modalità grafica..."
+
+#: ../revisor/base.py:187
+#, python-format
+msgid "Opening up /usr/bin/htmlview %s%s"
+msgstr "Apertura di /usr/bin/htmlview %s%s"
+
+#. self.mode.base_buttons_xml.get_widget("button_information").set_sensitive(True)
+#: ../revisor/base.py:191
+#, python-format
+msgid "Cannot fork process showing help, please use %s%s"
+msgstr "Impossibile eseguire il processo per mostrare l'help, usare %s%s"
+
+#: ../revisor/base.py:193
+#, python-format
+msgid "Cannot show Help in CLI mode, use %s%s"
+msgstr "Impossibile mostrare l'help in modalità testuale, usare %s%s"
+
+#: ../revisor/base.py:201
+msgid "Loading Repositories"
+msgstr "Caricamento repository"
+
+#: ../revisor/base.py:203
+#, python-format
+msgid "Getting configuration from %s"
+msgstr "Caricamento configurazione da %s"
+
+#: ../revisor/base.py:217 ../revisor/base.py:273 ../revisor/base.py:280
+#: ../revisor/base.py:290 ../revisor/base.py:300 ../revisor/base.py:360
+#: ../revisor/cfg.py:472 ../revisor/cfg.py:483 ../revisor/cfg.py:496
+#: ../revisor/pkgorder.py:219 ../revisor/pkgorder.py:244
+#: ../revisor/pkgorder.py:255 ../revisor/pkgorder.py:258
+#: ../revisor/pkgorder.py:267 ../revisor/pkgorder.py:276
+#, python-format
+msgid "Using deprecated YUM function: %s()"
+msgstr "Uso della funzione deprecata di YUM: %s()"
+
+#: ../revisor/base.py:219
+#, python-format
+msgid "yum.YumBase.doConfigSetup failed, probably an invalid configuration file %s"
+msgstr ""
+"yum.YumBase.doConfigSetup fallita, probabilmente il file di configurazione %"
+"s non è valido"
+
+#: ../revisor/base.py:254
+msgid "Another application is running which is accessing software information."
+msgstr "Un'altra applicazione in esecuzione sta accedendo alle informazioni software."
+
+#: ../revisor/base.py:259
+msgid "Fatal Error: Unable to retrieve software information.\n"
+msgstr "Errore fatale: impossibile recuperare le informazioni sul software.\n"
+
+#: ../revisor/base.py:269
+msgid "Setting up a Transaction Set"
+msgstr "Impostazione del set di transazione"
+
+#: ../revisor/base.py:276
+msgid "Getting myself a piece of the RPMDB"
+msgstr "Riserva di una parte di RPMDB"
+
+#: ../revisor/base.py:283
+msgid ""
+"Apparently we're running on an Enterprise Linux system (we can tell from the "
+"way yum sets up the RPM Database)"
+msgstr ""
+"Sembra che l'ambiente di esecuzione sia un Enterprise Linux (dal modo in cui "
+"yum imposta il database di RPM)"
+
+#: ../revisor/base.py:286
+msgid "Getting Repository Information"
+msgstr "Recupero informazioni sul repositorio"
+
+#: ../revisor/base.py:293
+#, python-format
+msgid "Arch list = %s"
+msgstr "Elenco architetture = %s"
+
+#: ../revisor/base.py:295
+msgid "Getting the Package Sacks"
+msgstr "Recupero dei Package Sack"
+
+#: ../revisor/base.py:305
+#, python-format
+msgid "All OK so far, %d packages in the Package Sack"
+msgstr "Tutto OK finora, %d pacchetti inclusi nel Package Sack"
+
+#: ../revisor/base.py:329
+msgid "Building a nice package list from ksdata, and adding it to the transaction"
+msgstr "Creazione da ksdata di un elenco pacchetti da aggiungere alla transazione"
+
+#: ../revisor/base.py:331
+#, python-format
+msgid "Package sack excludes are now: %r"
+msgstr "Pacchetti sack esclusi sono ora: %r"
+
+#: ../revisor/base.py:343
+msgid "You've configured Revisor to use "
+msgstr "Si è configurato Revisor per usare"
+
+#: ../revisor/base.py:351
+msgid "Using pkgsack excludes, the list of packages "
+msgstr "L'utilizzo di pkgsack esclude la lista dei pacchetti"
+
+#. Actually, let's figure out what mode we're in and call something
+#.
+#. Live Media:
+#.
+#. In live media composes, it is of essence to select packages using
+#. yum.selectGroup() and yum.install()
+#.
+#. Installation Media:
+#.
+#. Depending on whether we are in respin mode, we either select the
+#. packages using YUM's internal search mode, or manually.
+#: ../revisor/base.py:378
+msgid "What we're getting from pykickstart is: "
+msgstr "Cosa si otterrà da pykickstart è: "
+
+#: ../revisor/base.py:390
+msgid "Select kickstart packages"
+msgstr "Selezione pacchetti kickstart"
+
+#: ../revisor/base.py:393
+msgid "Kickstart mode: livecd-tools"
+msgstr "Modalità kickstart: livecd-tools"
+
+#: ../revisor/base.py:404
+msgid "Kickstart mode: respin"
+msgstr "Modalità kickstart: respin"
+
+#: ../revisor/base.py:413 ../revisor/base.py:423
+msgid "Kickstart mode: normal"
+msgstr "Modalità kickstart: normale"
+
+#: ../revisor/base.py:436 ../revisor/base.py:444 ../revisor/base.py:452
+msgid "Deprecated function called: "
+msgstr "Chiamata di funzione deprecata: "
+
+#: ../revisor/base.py:468
+msgid "Initting progress bar for "
+msgstr "Inizializzazione barra di avanzamento per "
+
+#: ../revisor/base.py:475
+msgid "Apparently we have not yet entered the Build Media stage"
+msgstr "Apparentemente, lo stadio Creazione Media non è ancora iniziato"
+
+#: ../revisor/base.py:504 ../revisor/misc.py:378
+#, python-format
+msgid "Checking dependencies for %s.%s"
+msgstr "Controllo dipendenze per %s.%s"
+
+#. pbar.cur_task += 1.0
+#: ../revisor/base.py:526 ../revisor/misc.py:411
+#, python-format
+msgid "Unresolvable dependency %s %s %s in %s.%s"
+msgstr "Dipendenza non risolta: %s %s %s in %s.%s"
+
+#: ../revisor/base.py:533 ../revisor/misc.py:418
+#, python-format
+msgid "Added %s-%s:%s-%s.%s for %s-%s:%s-%s.%s (requiring %s %s %s)"
+msgstr "Aggiunta di %s-%s:%s-%s.%s per %s-%s:%s-%s.%s (che richiede %s·%s·%s)"
+
+#: ../revisor/base.py:536 ../revisor/misc.py:246
+msgid "Checking dependencies - allowing conflicts within the package set"
+msgstr "Controllo dipendenze - conflitti tollerati nel set di pacchetti"
+
+#: ../revisor/base.py:537 ../revisor/base.py:581
+msgid "Resolving Dependencies"
+msgstr "Risoluzione delle dipendenze"
+
+#: ../revisor/base.py:553
+msgid "Pulling in build requirements"
+msgstr "Caricamento nella costruzione richieste"
+
+#: ../revisor/base.py:555
+msgid "Resolving Build Dependencies"
+msgstr "Risoluzione delle dipendenze di costruzione"
+
+#: ../revisor/base.py:576
+#, python-format
+msgid ""
+"The following packages were excluded using the kickstart package manifest, "
+"but were included for dependency resolving:\n"
+" - %s"
+msgstr ""
+"I seguenti pacchetti sono stati esclusi usando il manifest dei pacchetti di "
+"kickstart, ma sono stati reinclusi per risolvere dipendenze:\n"
+" - %s"
+
+#: ../revisor/base.py:580
+msgid "Checking dependencies - not allowing any conflicts within the package set"
+msgstr "Controllo dipendenze - non sono permessi conflitti nel set di pacchetti"
+
+#: ../revisor/base.py:608
+#, python-format
+msgid ""
+"Unable to resolve dependencies for some packages selected:\n"
+"\n"
+"%s"
+msgstr ""
+"Impossibile risolvere le dipendenze per alcuni dei pacchetti selezionati:\n"
+"\n"
+"%s"
+
+#. End of dependency resolving
+#: ../revisor/base.py:612 ../revisor/image.py:101
+msgid "Unable to build transaction"
+msgstr "Impossibile creare la transazione"
+
+#: ../revisor/base.py:617 ../revisor/image.py:106
+#, python-format
+msgid "Successfully built transaction: ret %s, msg %s"
+msgstr "Transazione creata correttamente: ret %s, msg %s"
+
+#: ../revisor/base.py:623
+#, python-format
+msgid ""
+"Errors where encountered while downloading package headers:\n"
+"\n"
+"%s"
+msgstr ""
+"Si sono verificati errori durante il recupero degli header dei pacchetti:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:632
+msgid ""
+"The package set after dependency resolving does not match the packages "
+"selected in the kickstart manifest"
+msgstr ""
+"L'insieme di pacchetti determinato dopo la risoluzione delle dipendenze non "
+"corrisponde ai pacchetti selezionati nel manifest di kickstart"
+
+#: ../revisor/base.py:668
+msgid "Creating a list of RPMs to include -debuginfo for"
+msgstr "Creazione di una lista di RPM da includere -debuginfo per"
+
+#: ../revisor/base.py:678
+msgid "Debuginfo RPM PO already in the list"
+msgstr "Debuginfo RPM PO già nella lista"
+
+#: ../revisor/base.py:680
+#, python-format
+msgid "Debuginfo RPM found in non-debuginfo repository %s"
+msgstr "Debuginfo RPM trovato nel repository non-debuginfo %s"
+
+#: ../revisor/base.py:684
+msgid "Downloading Debuginfo Packages"
+msgstr "Scaricamento pacchetti Debuginfo"
+
+#: ../revisor/base.py:699
+msgid "Creating a list of SRPMs"
+msgstr "Creazione dell'elenco di SRPM in corso"
+
+#: ../revisor/base.py:714
+msgid "Source RPM PO already in the list"
+msgstr "RPM dei sorgenti già presente nell'elenco"
+
+#: ../revisor/base.py:716
+#, python-format
+msgid "Source RPM found in non-source repository %s"
+msgstr "Pacchetto RPM di sorgenti trovato nel repositorio (non di sorgenti) %s"
+
+#: ../revisor/base.py:718
+#, python-format
+msgid "Error: Cannot find a source rpm for %s"
+msgstr "Errore: impossibile trovare il pacchetto rpm sorgente per %s"
+
+#: ../revisor/base.py:720 ../revisor/modgui/build_media.py:105
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:235
+msgid "Downloading Source Packages"
+msgstr "Download pacchetti dei sorgenti"
+
+#: ../revisor/base.py:740 ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:230
+msgid "Downloading Packages"
+msgstr "Download dei pacchetti"
+
+#: ../revisor/base.py:793
+#, python-format
+msgid "Overriding auto package selection with user package selection for %s..."
+msgstr ""
+"Selezione automatica dei pacchetti prevaricata dalla selezione utente per %"
+"s..."
+
+#: ../revisor/base.py:806
+#, python-format
+msgid "Adding required package %s-%s:%s-%s.%s"
+msgstr "Aggiunta del pacchetto necessario %s-%s:%s-%s.%s"
+
+#. This list has already been resolved
+#: ../revisor/base.py:809
+#, python-format
+msgid "%s. This is a required package."
+msgstr "%s. Questo è un pacchetto necessario."
+
+#: ../revisor/base.py:821
+#, python-format
+msgid "Adding suggested package %s-%s:%s-%s.%s"
+msgstr "Aggiunta del pacchetto consigliato %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:832
+#, python-format
+msgid "Adding all-arch package %s-%s:%s-%s.%s"
+msgstr "Aggiunta del pacchetto all-arch %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:869 ../revisor/base.py:895
+msgid "Did not succeed in adding in all required packages"
+msgstr "Impossibile aggiungere tutti i pacchetti necessari"
+
+#: ../revisor/base.py:903
+msgid "Populating statistics"
+msgstr "Popolamento statistiche"
+
+#: ../revisor/base.py:919
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a archivesize header"
+msgstr "Il pacchetto %s-%s:%s-%s.%s non contiene il dato archivesize nell'header"
+
+#: ../revisor/base.py:927
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a installedsize header"
+msgstr "Il pacchetto %s-%s:%s-%s.%s non contiene il dato installedsize nell'header"
+
+#: ../revisor/base.py:935
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a packagesize header"
+msgstr "Il pacchetto %s-%s:%s-%s.%s non contiene il dato packagesize nell'header"
+
+#: ../revisor/base.py:950
+#, python-format
+msgid "Total size of all packages (archivesize): %s %s"
+msgstr "Dimensione totale di tutti i pacchetti (archivesize): %s %s"
+
+#: ../revisor/base.py:951
+#, python-format
+msgid "Total size of all packages, (installedsize): %s %s"
+msgstr "Dimensione totale di tutti i pacchetti (installedsize): %s %s"
+
+#: ../revisor/base.py:952
+#, python-format
+msgid "Total size of all packages, (packagesize): %s %s"
+msgstr "Dimensione totale di tutti i pacchetti (packagesize): %s %s"
+
+#: ../revisor/base.py:987
+#, python-format
+msgid "Report of the %d most space consuming packages"
+msgstr "Riepilogo dei %d pacchetti di maggiori dimensioni"
+
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:1074 ../revisor/base.py:1762
+msgid "Linking in binary packages"
+msgstr "Collegamento nei pacchetti binari"
+
+#: ../revisor/base.py:1087
+msgid "Linking in source packages"
+msgstr "Collegamento nei pacchetti dei sorgenti"
+
+#: ../revisor/base.py:1099
+msgid "Linking in debuginfo packages"
+msgstr "Collegamento nei pacchetti debuginfo"
+
+#: ../revisor/base.py:1111
+msgid "Creating Repository Information"
+msgstr "Creazione delle informazioni del repository"
+
+#: ../revisor/base.py:1124
+msgid "Source Repo Information"
+msgstr "Informazioni Repo Sorgente"
+
+#: ../revisor/base.py:1137
+msgid "Debuginfo Repo Information"
+msgstr "Informazioni Repo Debuginfo"
+
+#. FIXME: Optionally recompose installer images
+#: ../revisor/base.py:1152
+msgid "Building Installation Images"
+msgstr "Creazione immagini di installazione"
+
+#: ../revisor/base.py:1169
+msgid "Using already existing installer images"
+msgstr "Uso delle immagini di installazione già esistenti"
+
+#: ../revisor/base.py:1183
+msgid "Linking in release notes"
+msgstr "Collegamento alle note di rilascio"
+
+#: ../revisor/base.py:1195
+#, python-format
+msgid "Copying updates.img from %s to %s"
+msgstr "Copia di updates.img da %s a %s"
+
+#: ../revisor/base.py:1204 ../revisor/pungi.py:412
+#, python-format
+msgid "copy_dir '%s' not accessible"
+msgstr "copy_dir '%s' non accessibile"
+
+#: ../revisor/base.py:1215
+#, python-format
+msgid "Size of the installation tree is %s MB"
+msgstr "La dimensione dell'albero di installazione è %s MB"
+
+#. On EL5, the yum cache is placed under the installroot
+#. That makes our lives difficult, hihi
+#. So, make sure that if we're on el_linux, the repository gets
+#. bind mounted and configured appropriately
+#: ../revisor/base.py:1265
+msgid "Running pkgorder"
+msgstr "Esecuzione di pkgorder"
+
+#: ../revisor/base.py:1328
+#, python-format
+msgid "Running with grouplist: %r"
+msgstr "Esecuzione con grouplist: %r"
+
+#: ../revisor/base.py:1331
+#, python-format
+msgid "Running with packagelist: %r"
+msgstr "Esecuzione con packagelist: %r"
+
+#: ../revisor/base.py:1338
+msgid "Appending group core and base"
+msgstr "Aggiunta dei gruppi core e base"
+
+#: ../revisor/base.py:1362
+#, python-format
+msgid "Appending default groups %r"
+msgstr "Aggiunta del gruppo predefinito %r"
+
+#. Do not do this because the installer still has all the groups available
+#. if group not in groupList:
+#. continue
+#: ../revisor/base.py:1378
+#, python-format
+msgid "Appending non-default group %s"
+msgstr "Aggiunta del gruppo non predefinito %s"
+
+#. Do not do this because the installer still has all the groups available
+#. if group not in groupList:
+#. continue
+#: ../revisor/base.py:1388
+#, python-format
+msgid "Appending non-default support group %s"
+msgstr "Aggiunta del gruppo di supporto non predefinito %s"
+
+#: ../revisor/base.py:1454
+#, python-format
+msgid "Not running package ordering, using file %s instead"
+msgstr "Ordinamento dei pacchetti non eseguito, file %s in uso per l'ordinamento"
+
+#: ../revisor/base.py:1456
+msgid "Not running package ordering"
+msgstr "Esecuzione dell'odinamento dei pacchetti non eseguita"
+
+#: ../revisor/base.py:1488
+msgid "^Install using kickstart"
+msgstr "^Installazione usando kickstart"
+
+#. Split Tree
+#: ../revisor/base.py:1511
+#, python-format
+msgid "Splitting Build Tree (%s)"
+msgstr "Suddivisione del build tree (%s)"
+
+#. Split repo
+#: ../revisor/base.py:1517
+#, python-format
+msgid "Splitting Repository (%s)"
+msgstr "Suddivisione del repositorio (%s)"
+
+#: ../revisor/base.py:1531 ../revisor/modgui/build_media.py:260
+#, python-format
+msgid "Creating %s ISO Image #%d"
+msgstr "Creazione immagine ISO %s #%d"
+
+#: ../revisor/base.py:1536 ../revisor/modgui/build_media.py:264
+#, python-format
+msgid "Creating %s ISO Image"
+msgstr "Creazione immagine ISO %s"
+
+#. For all images but source images; implant the md5 into the ISO for the media check
+#. FIXME: Well, it seems we don't deal with source images here.
+#: ../revisor/base.py:1550
+msgid "Implanting MD5 into ISO Images"
+msgstr "Inserimento MD5 nelle immagini ISO"
+
+#. mediatype = built_image["mediatype"]
+#. if not mediatype == 'source':
+#: ../revisor/base.py:1558
+#, python-format
+msgid "Implanting md5 into ISO Image: %s"
+msgstr "Inserimento md5 nell'immagine ISO: %s"
+
+#: ../revisor/base.py:1564
+msgid "Cannot implant ISO md5sum"
+msgstr "Impossibile impiantare la md5sum della ISO"
+
+#. Do some SHA1SUMMONING
+#: ../revisor/base.py:1572
+msgid "Creating SHA1SUMs for Images"
+msgstr "Creazione SHA1SUM per le immagini"
+
+#: ../revisor/base.py:1588
+msgid "Creating Rescue ISO Image"
+msgstr "Creazione immagine ISO di ripristino"
+
+#: ../revisor/base.py:1595
+msgid "Creating USB Key Installer"
+msgstr "Creazione installer chiavetta USB"
+
+#: ../revisor/base.py:1652 ../revisor/base.py:1675 ../revisor/base.py:1698
+#, python-format
+msgid "Copying %s to %s (%d files)"
+msgstr "Copia di %s su %s (%d file)"
+
+#: ../revisor/base.py:1656 ../revisor/base.py:1679 ../revisor/base.py:1702
+#, python-format
+msgid "Moving %s to %s (%d files)"
+msgstr "Spostamento di %s su %s (%d file)"
+
+#: ../revisor/base.py:1659 ../revisor/base.py:1682
+#, python-format
+msgid ""
+"Moving of the source tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Spostamento dell'albero sorgente fallito (tentativo di copia):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1662 ../revisor/base.py:1685
+#, python-format
+msgid ""
+"Copying of the source tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Copia dell'albero sorgente fallita:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1705
+#, python-format
+msgid ""
+"Moving of the installation tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Spostamento dell'albero di installazione fallito (tentativo di copia):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1708
+#, python-format
+msgid ""
+"Copying of the installation tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Copia dell'albero di installazione fallita:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1717
+msgid "Creating ext3 filesystem"
+msgstr "Creazione filesystem ext3"
+
+#: ../revisor/base.py:1724
+msgid "Configuring System"
+msgstr "Configurazione del sistema"
+
+#: ../revisor/base.py:1773
+msgid "Linking in Source packages"
+msgstr "Creazione link ai pacchetti dei sorgenti"
+
+#: ../revisor/base.py:1801
+#, python-format
+msgid "Setting rundir to %s"
+msgstr "Impostazione di rundir a %s"
+
+#: ../revisor/base.py:1807
+#, python-format
+msgid "Directory %s could not be created. Aborting"
+msgstr "Impossibile creare la directory %s. Terminato"
+
+#: ../revisor/base.py:1809
+#, python-format
+msgid "Running command: %s"
+msgstr "Esecuzione comando: %s"
+
+#: ../revisor/base.py:1810
+#, python-format
+msgid "Extra information: %s %s %s"
+msgstr "Informazioni extra: %s %s %s"
+
+#: ../revisor/base.py:1838
+#, python-format
+msgid "Got an error from %s (return code %s)"
+msgstr "Errore restituito da %s (codice di errore %s)"
+
+#: ../revisor/cfg.py:73
+#, python-format
+msgid "Setting %s to %r"
+msgstr "Impostazione di %s a %r"
+
+#: ../revisor/cfg.py:153 ../revisor/cfg.py:211
+#, python-format
+msgid "No group data found for %s"
+msgstr "Dati del gruppo %s non trovati"
+
+#: ../revisor/cfg.py:156 ../revisor/cfg.py:214
+#, python-format
+msgid "Why is yum throwing AttributeErrors? %s"
+msgstr "Yum segnala degli AttributeErrors: %s"
+
+#: ../revisor/cfg.py:244
+msgid "Checking working directories"
+msgstr "Controllo delle directory di lavoro"
+
+#: ../revisor/cfg.py:261 ../revisor/cfg.py:337
+#, python-format
+msgid ""
+"The directories Revisor uses in %s already exist. This could possibly hold "
+"data from a previous run. Please remove or move them to a safe location, "
+"then confirm to continue. If you do not move or remove the files, Revisor "
+"will simply delete them."
+msgstr ""
+"Le directory usate da Revisor sotto %s esistono già e potrebbero contenere "
+"dati provenienti da precedenti esecuzioni. Prima di dare conferma per "
+"continuare si prega di spostarli in una posizione sicura o cancellarli. Se i "
+"file non vengono spostati o cancellati, verranno cancellati da Revisor."
+
+#: ../revisor/cfg.py:263 ../revisor/cfg.py:339
+#, python-format
+msgid "The directories Revisor uses in %s already exist. Revisor deleted them."
+msgstr ""
+"Le directory usate da Revisor sotto %s erano già presenti, Revisor le ha "
+"eliminate."
+
+#: ../revisor/cfg.py:273
+#, python-format
+msgid "%s%s%s is a mount, trying to unmount"
+msgstr "%s%s%s è un mount, tentativo di smontaggio"
+
+#: ../revisor/cfg.py:277
+#, python-format
+msgid ""
+"Unable to unmount %s%s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Smontaggio di %s%s%s fallito con errore:\n"
+"\n"
+"%s\n"
+"\n"
+"Risolvere il problema quindi continuare."
+
+#: ../revisor/cfg.py:280
+#, python-format
+msgid "%s%s%s is not a mount"
+msgstr "%s%s%s non è un mount"
+
+#: ../revisor/cfg.py:300
+#, python-format
+msgid ""
+"Unable to unmount %s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Smontaggio di %s%s fallito con errore:\n"
+"\n"
+"%s\n"
+"\n"
+"Risolvere il problema quindi continuare."
+
+#: ../revisor/cfg.py:317
+msgid "Checking destination directories"
+msgstr "Controllo delle directory di destinazione"
+
+#: ../revisor/cfg.py:321
+#, python-format
+msgid "Set destination directory to %s"
+msgstr "Impostazione directory di destinazione a %s"
+
+#: ../revisor/cfg.py:369 ../revisor/modvirt/__init__.py:65
+#: ../revisor/modvirt/__init__.py:72
+#, python-format
+msgid "Cannot access %s, please check the permissions so we can try again."
+msgstr "Impossibile accedere a %s, controllare i permessi e riprovare."
+
+#: ../revisor/cfg.py:402
+#, python-format
+msgid "Architecture list: %r"
+msgstr "Elenco architetture: %r"
+
+#: ../revisor/cfg.py:434
+#, python-format
+msgid "Repository %s specified in the kickstart already exists"
+msgstr "Il repository %s specificato nel kickstart è già presente"
+
+#: ../revisor/cfg.py:439
+#, python-format
+msgid "Setting repo.baseurl to %s"
+msgstr "Impostazione di repo.baseurl a %s"
+
+#: ../revisor/cfg.py:442
+#, python-format
+msgid "Setting repo.mirrorlist to %s"
+msgstr "Impostazione di repo.mirrorlist a %s"
+
+#: ../revisor/cfg.py:461 ../revisor/cfg.py:465
+msgid "Could not clean metadata you might be working with old data"
+msgstr ""
+"Impossibile fare pulizia nei metadati, forse si sta lavorando su dati non "
+"aggiornati"
+
+#: ../revisor/cfg.py:486
+#, python-format
+msgid "No groups present! Error was: %s"
+msgstr "Nessun gruppo presente! Errore riscontrato: %s"
+
+#: ../revisor/cfg.py:558
+msgid ""
+"You cannot choose the system's yum configuration file /etc/yum.conf for use "
+"with Revisor. Aborting."
+msgstr ""
+"Non è consentito selezionare il file di configurazione di sistema di yum /"
+"etc/yum.conf per essere usato con Revisor. Uscita."
+
+#: ../revisor/cfg.py:560
+#, python-format
+msgid "File %s does not exist (used as 'main' configuration directive in model %s)"
+msgstr ""
+"Il file %s non esiste (è usato come direttiva di configurazione 'main' nel "
+"modello %s)"
+
+#: ../revisor/cfg.py:578
+#, python-format
+msgid ""
+"YUM Configuration file %s uses one of the following variables: %s, %s or %s. "
+"Please edit the configuration file and substitute those variables for the "
+"actual values"
+msgstr ""
+"Il file di configurazione di YUM %s usa una delle seguenti variabili: %s, %s "
+"or %s. Modificare il file di configurazione e sostituire queste variabili "
+"per i valori attuali"
+
+#: ../revisor/cfg.py:585
+msgid "The ISO label cannot be longer then 32 characters due to Joliet limitations"
+msgstr "L'etichetta ISO non può eccedere i 32 caratteri per le limitazioni Joliet"
+
+#: ../revisor/cfg.py:595
+#, python-format
+msgid "Kickstart file %s cannot be read."
+msgstr "Impossibile leggere il file kickstart %s."
+
+#: ../revisor/cfg.py:603
+#, python-format
+msgid ""
+"The file configured as a comps file (%s) cannot be read. When composing "
+"installation media, this is FATAL."
+msgstr ""
+"Impossibile leggere il file configurato come comps (%s). Durante la "
+"composizione del supporto di installazione, questo errore è FATALE."
+
+#: ../revisor/cfg.py:611
+#, python-format
+msgid "The updates.img specified isn't readable: %s"
+msgstr "Il file updates.img specificato non è leggibile: %s"
+
+#: ../revisor/cfg.py:616
+msgid "Updates.img seems to not be a file... Is it an URL?"
+msgstr "Updates.img non sembra un file... E' forse un URL?"
+
+#: ../revisor/cfg.py:627
+msgid "Preferred kernel should be one of: normal, PAE, xen, debug."
+msgstr "Il kernel preferito dovrebbe essere uno tra: normal, PAE, xen, debug."
+
+#: ../revisor/cfg.py:641
+msgid ""
+"The version you selected as a base for pykickstart compatibility and "
+"required package sets does not exist"
+msgstr ""
+"La versione selezionata come base per la compatibilità pykickstart e per i "
+"set di pacchetti richiesti non esiste"
+
+#: ../revisor/cfg.py:651
+#, python-format
+msgid ""
+"You have selected a model with architecture %s which doesn't compose on the "
+"system architecture %s."
+msgstr ""
+"E' stato selezionato un modello con architettura %s che non è possibile "
+"comporre sull'architettura di sistema %s."
+
+#: ../revisor/cfg.py:659
+msgid "Setting options from configuration file"
+msgstr "Impostazione delle opzioni dal file di configurazione"
+
+#: ../revisor/cfg.py:687
+#, python-format
+msgid "No model %s in configuration file %s"
+msgstr "Il modello %s non è contenuto nel file di configurazione %s"
+
+#: ../revisor/cfg.py:689
+#, python-format
+msgid "Setting model to %s"
+msgstr "Modello impostato a %s"
+
+#. Not specifying a model and not configuring a model is fatal for CLI
+#: ../revisor/cfg.py:698 ../revisor/cfg.py:708 ../revisor/cfg.py:710
+#, python-format
+msgid ""
+"No model specified on the command line and no existing model configuration "
+"in %s"
+msgstr ""
+"Nessun modello specificato nella linea di comando e nessuna configurazione "
+"di modello esistente in %s"
+
+#: ../revisor/cfg.py:700
+#, python-format
+msgid ""
+"Model %s configured in configuration file %s, but there is no such model "
+"configuration"
+msgstr ""
+"Il modello %s è presente nel file di configurazione %s, ma non è presente la "
+"configurazione per questo modello"
+
+#: ../revisor/cfg.py:714
+#, python-format
+msgid "Tried to load model %s but it doesn't exist inconfiguration file %s"
+msgstr ""
+"Si è tentato di caricare il modello %s ma non è presente nel file di "
+"configurazione %s"
+
+#: ../revisor/cfg.py:731
+#, python-format
+msgid "Model %s has no configuration directive 'main' which is required"
+msgstr "Il modello %s non ha la direttiva di configurazione obbligatoria 'main'"
+
+#: ../revisor/cfg.py:734
+#, python-format
+msgid "Testing for configuration parameter %s"
+msgstr "Verifica del parametro di configurazione %s"
+
+#: ../revisor/cfg.py:763
+#, python-format
+msgid "Setting %s to %r (from configuration file model %s)"
+msgstr "Impostazione di %s a %r (dal modello del file di configurazione %s)"
+
+#: ../revisor/cfg.py:797
+#, python-format
+msgid "Configuration file %s not readable"
+msgstr "File di configurazione %s non leggibile"
+
+#: ../revisor/cfg.py:800 ../revisor/modgui/configuration.py:486
+#, python-format
+msgid "Reading configuration file %s"
+msgstr "Lettura file di configurazione %s"
+
+#: ../revisor/cfg.py:804
+#, python-format
+msgid "Invalid configuration file %s"
+msgstr "File di configurazione %s non valido"
+
+#: ../revisor/cfg.py:807
+#, python-format
+msgid "No master configuration section [revisor] in configuration file %s"
+msgstr "Sezione principale [revisor] non presente nel file di configurazione %s"
+
+#: ../revisor/cfg.py:841
+#, python-format
+msgid "Setting %s to %r (from configuration file)"
+msgstr "Impostazione di %s a %r (dal file di configurazione)"
+
+#: ../revisor/cfg.py:845
+msgid "Setting options from command-line"
+msgstr "Impostazione delle opzioni da linea di comando"
+
+#: ../revisor/cfg.py:859 ../revisor/cfg.py:866
+#, python-format
+msgid "Setting %s to %r (from command line)"
+msgstr "Impostazione di %s a %r (dalla linea di comando)"
+
+#: ../revisor/cfg.py:861
+#, python-format
+msgid "Checked setting %s through plugin"
+msgstr "Impostazione %s controllata mediante il plugin"
+
+#: ../revisor/cfg.py:864
+#, python-format
+msgid "No check_setting_%s()"
+msgstr "No check_setting_%s()"
+
+#: ../revisor/cfg.py:868
+#, python-format
+msgid "Not setting %s to %r (command line matches default)"
+msgstr "Parametro %s non impostato a %r (la linea di comando corrisponde al default)"
+
+#: ../revisor/cfg.py:911
+msgid ""
+"Updates.img is only usable with installation media. Please remove --updates-"
+"img or also build installation media."
+msgstr ""
+"Updates.img è utilizzabile solamente per i supporti di installazione. "
+"Rimuovere l'opzione --updates-img o scegliere di creare anche i supporti di "
+"installazione."
+
+#: ../revisor/cfg.py:915
+msgid "Kickstart failed"
+msgstr "Kickstart fallito"
+
+#: ../revisor/cfg.py:922 ../revisor/cfg.py:927
+#, python-format
+msgid "Kickstart file %s not readable"
+msgstr "File kickstart %s non leggibile"
+
+#: ../revisor/cfg.py:924 ../revisor/cfg.py:929
+#, python-format
+msgid "Kickstart file %s fails to load, continuing with defaults"
+msgstr ""
+"Impossibile caricare il file kickstart %s, continuo con le impostazioni "
+"predefinite"
+
+#: ../revisor/cfg.py:932
+msgid "No kickstart file specified"
+msgstr "File kickstart non specificato"
+
+#: ../revisor/cfg.py:935 ../revisor/cfg.py:953
+msgid "No media specified"
+msgstr "Nessun supporto specificato"
+
+#: ../revisor/cfg.py:980
+#, python-format
+msgid "pulling self.packages_list[%r][%r][%r][%r]"
+msgstr "caricamento self.packages_list[%r][%r][%r][%r]"
+
+#: ../revisor/cfg.py:985
+#, python-format
+msgid "returning pkg_list: %r"
+msgstr "pkg_list risultante: %r"
+
+#: ../revisor/cfg.py:1113
+msgid "Run from image"
+msgstr "Esegui dall'immagine"
+
+#: ../revisor/cfg.py:1114
+msgid "Run from RAM - requires 1 GB+"
+msgstr "Esegui dalla RAM - richiede 1 GB+"
+
+#: ../revisor/image.py:91
+#, python-format
+msgid ""
+"Error encountered during installation of the software you selected:\n"
+"\n"
+"--> %s"
+msgstr ""
+"Si è verificato un errore durante l'installazione del software selezionato:\n"
+"\n"
+"--> %s"
+
+#: ../revisor/image.py:97
+msgid "Running package installation"
+msgstr "Installazione dei pacchetti"
+
+#: ../revisor/image.py:108
+msgid "Installing Software"
+msgstr "Installazione software"
+
+#: ../revisor/image.py:143
+msgid "SELinux requested but not enabled on host"
+msgstr "SELinux richiesto ma non abilitato sull'host"
+
+#: ../revisor/image.py:195
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, instead of %s)"
+msgstr ""
+"Impostazione di self.cfg.payload_livemedia a %s (dal comando 'part /' nel "
+"kickstart, invece di %s)"
+
+#: ../revisor/image.py:199
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from total installed size of RPMs, "
+"instead of %s)"
+msgstr ""
+"Impostazione di self.cfg.payload_livemedia a %s (dalla dimensione totale "
+"degli RPM installati, invece di %s)"
+
+#: ../revisor/image.py:204
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, as per the respin mode)"
+msgstr ""
+"Impostazione di self.cfg.payload_livemedia a %s (dal comando 'part /' nel "
+"kickstart, come dalla modalità respin)"
+
+#: ../revisor/image.py:221
+#, python-format
+msgid "Filesystem type set to: %s"
+msgstr "Tipo di filesystem impostato su: %s"
+
+#. #
+#. # Runtime Options
+#. #
+#: ../revisor/__init__.py.in:89
+msgid "Runtime Options"
+msgstr "Opzioni runtime"
+
+#: ../revisor/__init__.py.in:94
+msgid "Use the CLI rather then GUI"
+msgstr "Usare l'interfaccia testuale al posto di quella grafica"
+
+#: ../revisor/__init__.py.in:100
+msgid "Force Revisor to use the "
+msgstr "Forza revisor ad usare la"
+
+#: ../revisor/__init__.py.in:109
+msgid "List available models"
+msgstr "Elenco dei modelli disponibili"
+
+#: ../revisor/__init__.py.in:115
+msgid "Development mode. Skips some tasks that take time."
+msgstr "Modalità sviluppatore. Salta alcune operazioni che richiedono tempo."
+
+#: ../revisor/__init__.py.in:121
+msgid "Report the sizes of all RPMs selected in a list"
+msgstr "Riporta le dimensioni di tutti gli RPM selezionati in una lista"
+
+#: ../revisor/__init__.py.in:127
+msgid ""
+"Force Revisor to interpret the package manifest as complete package nevra "
+"(name, epoch, version, release and architecture). Implies --kickstart-exact"
+msgstr ""
+"Forza Revisor a interpretare il manifest dei pacchetti come un completo "
+"package nevra (name, epoch, version, release and architecture). Implica --"
+"kickstart-exact"
+
+#: ../revisor/__init__.py.in:133
+msgid ""
+"Tells Revisor to ignore @core and @base (or %packages --nobase) and only add "
+"what is in the package manifest"
+msgstr ""
+"Permette a Revisor di ignorare i gruppi @core e @base (o %packages --nobase) "
+"e aggiungere solamente i paccchetti nel manifest dei pacchetti"
+
+#: ../revisor/__init__.py.in:140
+msgid ""
+"Should Revisor not clean up at all (0), clean up it's temporary build data "
+"(1), or everything -this includes the yum cache (2)"
+msgstr ""
+"Imposta Revisor per non effettuare alcun clean (0), effettuare il clean dei "
+"soli dati di build temporanei (1), o di tutto compresa la cache di yum (2)"
+
+#: ../revisor/__init__.py.in:147
+msgid "Size of the USB Thumb Drive. Default to 4G."
+msgstr "Dimensione del disco USB. Predefinito a 4G."
+
+#: ../revisor/__init__.py.in:156
+msgid "Set debugging level (0 by default)"
+msgstr "Imposta livello di debug (predefinito 0)"
+
+#: ../revisor/__init__.py.in:161
+msgid "Use a different logfile"
+msgstr "Usa un logfile differente"
+
+#: ../revisor/__init__.py.in:170
+msgid "Answer all questions as 'yes'"
+msgstr "Rispondi 'si' a tutte le domande"
+
+#. #
+#. # Configuration Options
+#. #
+#: ../revisor/__init__.py.in:175
+msgid "Configuration Options"
+msgstr "Opzioni di configurazione"
+
+#. Might be disabled for testing purposes
+#. default = os.path.join(BASE_CONFD_DIR,"fedora-7-gold.cfg"),
+#: ../revisor/__init__.py.in:182
+msgid "Use kickstart file"
+msgstr "Utilizzare file kickstart"
+
+#: ../revisor/__init__.py.in:189
+msgid "Save options to given file (as a kickstart)"
+msgstr "Salva le opzioni nel file specificato (come un kickstart)"
+
+#: ../revisor/__init__.py.in:196
+msgid "Revisor configuration file to use"
+msgstr "File di configurazione di Revisor da usare"
+
+#: ../revisor/__init__.py.in:203
+msgid "Get the sources to go with the binaries"
+msgstr "Includi anche i sorgenti dei binari installati"
+
+#: ../revisor/__init__.py.in:209
+msgid "Destination directory for products"
+msgstr "Directory di destinazione per i prodotti"
+
+#: ../revisor/__init__.py.in:216
+msgid "Working directory"
+msgstr "Directory di lavoro"
+
+#: ../revisor/__init__.py.in:223
+msgid "Model to use for composing"
+msgstr "Modello da usare per la composizione"
+
+#: ../revisor/__init__.py.in:230
+msgid "Mode to use for composing updated spins"
+msgstr "Modalità per la composizione di spin aggiornate"
+
+#: ../revisor/__init__.py.in:236
+msgid ""
+"Sometimes, it's better to copy local data rather then (sym)linking it. If "
+"you have enough space..."
+msgstr ""
+"Alcune volte è meglio copiare i dati locali piuttosto che creare link "
+"simbolici.Sempre che ci sia sufficiente spazio disco..."
+
+#: ../revisor/__init__.py.in:242
+msgid "Directory to copy onto the media"
+msgstr "Directory da copiare sul supporto"
+
+#. #
+#. # Installation Media Options
+#. #
+#: ../revisor/__init__.py.in:247
+msgid "Installation Media Options"
+msgstr "Opzioni supporto di installazione"
+
+#: ../revisor/__init__.py.in:252
+msgid "Create Installation Media CDs (Capacity per disc: 685MB)"
+msgstr "Crea CD di installazione (capacità per disco: 685MB)"
+
+#: ../revisor/__init__.py.in:258
+msgid "Create Installation Media DVDs (Capacity per disc: 4.3GB)"
+msgstr "Crea DVD di installazione (capacità per disco: 4.3GB)"
+
+#: ../revisor/__init__.py.in:264
+msgid "Create Installation Media Dual-Layered DVDs (Capacity per disc: 8.5GB)"
+msgstr "Crea DVD dual-layer di installazione (capacità per disco: 8.5GB)"
+
+#: ../revisor/__init__.py.in:270
+msgid "Create Installation Media Blu-Ray Discs (Capacity per disc: 25GB)"
+msgstr "Crea dischi di installazione Blu-Ray (capacita per disco: 25GB)"
+
+#: ../revisor/__init__.py.in:276
+msgid "Create Installation Media Duallayer Blu-Ray Discs (Capacity per disc: 50GB)"
+msgstr "Crea dischi di installazione Blu-Ray dual layer (capacita per disco: 50GB)"
+
+#: ../revisor/__init__.py.in:282
+msgid "Create Installation Media that goes onto a USB thumbdrive"
+msgstr "Crea un Media di installazione che andrà in un drive USB"
+
+#: ../revisor/__init__.py.in:288
+msgid "Create Unified ISO from install tree"
+msgstr "Crea una Unified ISO dall'albero di installazione"
+
+#: ../revisor/__init__.py.in:301
+msgid "Create the Installation Tree."
+msgstr "Crea l'albero di installazione."
+
+#: ../revisor/__init__.py.in:307
+msgid ""
+"Create a Full Installation Tree. Includes all binary (sub-)packages created "
+"from source packages."
+msgstr ""
+"Crea un albero di installazione completo. Include tutti i (sotto-)pacchetti "
+"binari creati dai pacchetti sorgenti."
+
+#: ../revisor/__init__.py.in:313
+msgid ""
+"Create a Self-Sustaining Installation Tree. Includes all build requirements "
+"for included source packages."
+msgstr ""
+"Crea un albero di installazione auto-mantenuto. Include tutti i pacchetti "
+"richiesti per compilare i pacchetti sorgente inclusi."
+
+#: ../revisor/__init__.py.in:319
+msgid "Create Media without graphical installer."
+msgstr "Crea supporti senza installazione grafica."
+
+#: ../revisor/__init__.py.in:325
+msgid "Include kickstart file on media or in the tree"
+msgstr "Includere il file kickstart sui supporti o nell'albero di installazione"
+
+#: ../revisor/__init__.py.in:331
+msgid ""
+"In the bootloader menu (isolinux.cfg), set kickstart to boot by default "
+"(works with --kickstart-include)"
+msgstr ""
+"Nel menu del bootloader (isolinux.cfg), imposta l'avvio predefinito con "
+"kickstart (funziona con --kickstart-include)"
+
+#: ../revisor/__init__.py.in:337
+msgid "Filter anything from comps that is not in the package set"
+msgstr "Filtra qualsiasi pacchetto da comps che non sia nel set di pacchetti"
+
+#: ../revisor/__init__.py.in:343
+msgid "Use Revisor's comps file instead of those from the repositories"
+msgstr "Usa il file comps di Revisor al posto di quelli dei repositori"
+
+#: ../revisor/__init__.py.in:349
+msgid "Comps file to include on the installation media"
+msgstr "File comps da includere nel supporto di installazione"
+
+#: ../revisor/__init__.py.in:355
+msgid "Include specified updates.img on installation media."
+msgstr "Includere il file updates.img specificato sul supporto di installazione"
+
+#: ../revisor/__init__.py.in:362
+msgid "Product Name"
+msgstr "Nome prodotto"
+
+#: ../revisor/__init__.py.in:368
+msgid "Product Path (e.g. Fedora/ or Packages/ -but without the appending slash)"
+msgstr "Percorso prodotto (es. Fedora/ o Pacchetti/ - senza la slash finale)"
+
+#: ../revisor/__init__.py.in:374
+msgid ""
+"ISO Label Base. Note that other things are appended but that the length can "
+"be 32 chars maximum."
+msgstr ""
+"ISO Label Base. Notare che altre stringhe posso essere aggiunge ma la "
+"lunghezza massima è 32 caratteri."
+
+#: ../revisor/__init__.py.in:380
+msgid "The base name for the ISOs"
+msgstr "Il base name della immagine ISO"
+
+#: ../revisor/__init__.py.in:386
+msgid "Product Version"
+msgstr "Versione prodotto"
+
+#: ../revisor/__init__.py.in:392
+msgid ""
+"Base Product Version - relevant to required packages and pykickstart "
+"compatibility"
+msgstr ""
+"Versione base prodotto - rilevante per i paccheti obbligatori e la "
+"compatibilità con pykickstart"
+
+#. #
+#. # Utility Media Options
+#. #
+#: ../revisor/__init__.py.in:397
+msgid "Utility Media Options"
+msgstr "Opzioni supporto di utilità"
+
+#: ../revisor/__init__.py.in:402
+msgid "Create Rescue Media"
+msgstr "Crea immagine di ripristino"
+
+#. #
+#. # Live Media Options
+#. #
+#: ../revisor/__init__.py.in:407
+msgid "Live Media Options"
+msgstr "Impostazioni disco Live"
+
+#: ../revisor/__init__.py.in:412
+msgid "Create Live Media CD/DVD"
+msgstr "Crea CD/DVD Live"
+
+#: ../revisor/__init__.py.in:418
+msgid "Create Live Media Thumb Drive Image (will be depreciated)"
+msgstr "Crea immagine Live su chiavetta USB (sarà deprecata)"
+
+#: ../revisor/__init__.py.in:424
+msgid "Create Live Media Hard Disk Image (will be depreciated)"
+msgstr "Crea immagine Live su disco rigido (sarà deprecata)"
+
+#: ../revisor/__init__.py.in:430
+msgid "Create Live Media Raw Hard Disk Image"
+msgstr "Crea immagine Live raw su disco rigido"
+
+#: ../revisor/__init__.py.in:436
+msgid "Interactively work in the live image before building the ISO image."
+msgstr "Lavora interattivamente sull'immagine live prima di creare l'immagine ISO."
+
+#: ../revisor/__init__.py.in:442
+msgid "Skip file system compression."
+msgstr "Non eseguire la compressione del file system."
+
+#: ../revisor/__init__.py.in:448
+msgid "Skip prelinking the contents of the filesystem."
+msgstr "Non eseguire il prelinking dei contenuti del file system."
+
+#: ../revisor/__init__.py.in:454
+msgid ""
+"Ignore filesystem overhead. Useless blocks will not be removed from the "
+"filesystem."
+msgstr ""
+"Ignora l'overhead del file system. I blocchi inutilizzati non verranno "
+"rimossi dal file system."
+
+#: ../revisor/__init__.py.in:460
+msgid "Set the preferred kernel. One of normal, PAE, xen or debug."
+msgstr "Imposta il kernel preferito. Uno tra normale, PAE, xen e debug"
+
+#: ../revisor/__init__.py.in:503
+#, python-format
+msgid " %s - No Description"
+msgstr " %s - Nessuna descrizione"
+
+#: ../revisor/__init__.py.in:505
+#, python-format
+msgid ""
+"The configured model %s does not have a valid file as 'main' configuration "
+"option."
+msgstr ""
+"Il modello configurato %s non ha un file valido come opzione di "
+"configurazione 'main'."
+
+#: ../revisor/__init__.py.in:507
+#, python-format
+msgid ""
+"The configured model %s does not have the mandatory 'main' configuration "
+"directive."
+msgstr ""
+"Il modello configurato %s non presenta la direttiva obbligatoria di "
+"configurazione 'main'."
+
+#: ../revisor/__init__.py.in:533
+msgid "Interrupted by user"
+msgstr "Interrotto dall'utente"
+
+#: ../revisor/__init__.py.in:537 ../revisor/__init__.py.in:543
+msgid "Traceback occurred, please report a bug at http://fedorahosted.org/revisor"
+msgstr "Traceback generato, riportare il bug a http://fedorahosted.org/revisor"
+
+#: ../revisor/kickstart.py:212 ../revisor/kickstart.py:215
+#, python-format
+msgid "Appending group @%s"
+msgstr "Aggiunta del gruppo @%s"
+
+#: ../revisor/kickstart.py:224
+#, python-format
+msgid "Selecting %s as a default group"
+msgstr "Selezione di %s come gruppo predefinito"
+
+#: ../revisor/kickstart.py:281 ../revisor/kickstart.py:403
+#: ../revisor/kickstart.py:660
+#, python-format
+msgid "Found group: %s"
+msgstr "Trovato gruppo: %s"
+
+#: ../revisor/kickstart.py:287 ../revisor/kickstart.py:410
+#, python-format
+msgid "Repository metadata cannot be found: %s: %s"
+msgstr "Impossibile trovare i metadati del repositorio: %s: %s"
+
+#: ../revisor/kickstart.py:290 ../revisor/kickstart.py:413
+#, python-format
+msgid "Group not found: %s"
+msgstr "Gruppo non trovato: %s"
+
+#: ../revisor/kickstart.py:302 ../revisor/kickstart.py:330
+#: ../revisor/kickstart.py:714
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s"
+msgstr "Aggiunta di %s-%s:%s-%s.%s"
+
+#: ../revisor/kickstart.py:342 ../revisor/kickstart.py:606
+#: ../revisor/kickstart.py:725
+#, python-format
+msgid "From Excludes: Removing %s-%s:%s-%s.%s from transaction"
+msgstr "Da esclusioni: Rimozione %s-%s:%s-%s.%s dalla transazione"
+
+#: ../revisor/kickstart.py:345 ../revisor/kickstart.py:609
+#: ../revisor/kickstart.py:728
+#, python-format
+msgid ""
+"Apparently trying to exclude a package that is not available in the "
+"repositories loaded, or hasn't been added to the transaction: %s"
+msgstr ""
+"Tentativo di escludere un pacchetto non disponibile nei repositori caricati, "
+"o che non è stato aggiunto alla transazione: %s"
+
+#: ../revisor/kickstart.py:351 ../revisor/kickstart.py:615
+#, python-format
+msgid ""
+"\n"
+"The following errors occured when selecting groups and packages from "
+"kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"You can continue with these minor errors but obviously the results may not "
+"be what you expected."
+msgstr ""
+"\n"
+"I seguenti errori sono occorso mentre si selezionaveno gruppi e pacchetti da "
+"kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"E' possibile continuare comunque ignorando queste anomalie minori, ma il "
+"risultato potrebbe non corrispondere a quanto richiesto."
+
+#: ../revisor/kickstart.py:357 ../revisor/kickstart.py:621
+msgid "This is what was selected to be installed:"
+msgstr "Riepilogo della selezione per l'installazione:"
+
+#: ../revisor/kickstart.py:425
+#, python-format
+msgid "Selecting required packages for group %s"
+msgstr "Selezione dei pacchetti necessari per il gruppo %s"
+
+#: ../revisor/kickstart.py:429 ../revisor/kickstart.py:450
+#: ../revisor/kickstart.py:471 ../revisor/kickstart.py:490
+#, python-format
+msgid "Including %s"
+msgstr "Inclusione di %s"
+
+#: ../revisor/kickstart.py:439
+#, python-format
+msgid "From Groups (required): Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Dai gruppi (necessario): Aggiunto %s-%s:%s-%s.%s alla transazione"
+
+#: ../revisor/kickstart.py:446
+#, python-format
+msgid "Selecting default packages for group %s"
+msgstr "Selezione dei pacchetti predefiniti per il gruppo %s"
+
+#: ../revisor/kickstart.py:459
+#, python-format
+msgid "From Groups (default): Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Dai gruppi (predefinito): Aggiunto %s-%s:%s-%s.%s alla transazione"
+
+#: ../revisor/kickstart.py:466
+#, python-format
+msgid "Selecting optional packages for group %s"
+msgstr "Selezione dei pacchetti opzionali per il gruppo %s"
+
+#: ../revisor/kickstart.py:480 ../revisor/kickstart.py:499
+#, python-format
+msgid "From Groups (optional): Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Dai gruppi (opzionale): Aggiunto %s-%s:%s-%s.%s alla transazione"
+
+#: ../revisor/kickstart.py:486
+#, python-format
+msgid "No include parameter for group %s, using defaults"
+msgstr "Nessun paramentro di inclusione per il gruppo %s, verrà usato il default"
+
+#: ../revisor/kickstart.py:508 ../revisor/kickstart.py:677
+#: ../revisor/pkgorder.py:111
+#, python-format
+msgid "Testing condition: %s / %s"
+msgstr "Verifica condizione: %s / %s"
+
+#: ../revisor/kickstart.py:523
+#, python-format
+msgid "From package list, including: %s"
+msgstr "Dalla lista pacchetti, inclusione: %s"
+
+#: ../revisor/kickstart.py:526
+#, python-format
+msgid "Package %s is in excludeList, continuing"
+msgstr "Il pacchetto %s è nella excludeList, continuo"
+
+#: ../revisor/kickstart.py:534
+msgid "No packages found!"
+msgstr "Nessun pacchetto trovato!"
+
+#: ../revisor/kickstart.py:539 ../revisor/kickstart.py:568
+#, python-format
+msgid "From Packages: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Dai pacchetti: Aggiunta %s-%s:%s-%s.%s alla transazione"
+
+#: ../revisor/kickstart.py:546
+#, python-format
+msgid "Could not find package '%s', searching..."
+msgstr "Impossibile trovare il pacchetto '%s', ricerca..."
+
+#: ../revisor/kickstart.py:559 ../revisor/misc.py:210
+#, python-format
+msgid "Found packages matching '%s': %s"
+msgstr "Trovati pacchetti corrispondenti a '%s': %s"
+
+#: ../revisor/kickstart.py:570
+#, python-format
+msgid "From Packages: Not adding %s now because it is in the ignore list"
+msgstr ""
+"Per l'opzione Packages: %s non aggiunto perchè presenta nell'elenco "
+"pacchetti da ignorare "
+
+#: ../revisor/kickstart.py:581
+#, python-format
+msgid ""
+"More then one package found for %s-%s-%s.%s - going to add them all to the "
+"transaction"
+msgstr ""
+"Trovato più di un pacchetto per %s-%s-%s.%s - verranno tutti aggiunti alla "
+"transazione"
+
+#: ../revisor/kickstart.py:583 ../revisor/misc.py:224
+#, python-format
+msgid "Could not find package %s-%s-%s.%s"
+msgstr "Impossibile trovare il pacchetto %s-%s-%s.%s"
+
+#: ../revisor/kickstart.py:586 ../revisor/misc.py:227
+#, python-format
+msgid "From Packages (exact string %s-%s-%s.%s), selecting %s-%s-%s.%s"
+msgstr "Dai pacchetti (stringa esatta %s-%s-%s.%s), selezionato %s-%s-%s.%s"
+
+#: ../revisor/kickstart.py:657
+#, python-format
+msgid "No such group %s"
+msgstr "Il gruppo %s non esiste"
+
+#: ../revisor/logger.py:86
+msgid "Error"
+msgstr "Errore"
+
+#: ../revisor/logger.py:101
+msgid "Warning"
+msgstr "Attenzione"
+
+#: ../revisor/logger.py:114 ../revisor/logger.py:123
+msgid "Do you want to continue? [Y/n]"
+msgstr "Si desidera continuare? [S/n]"
+
+#: ../revisor/logger.py:117 ../revisor/logger.py:126
+msgid "Abort! Abort! Abort!"
+msgstr "Arresto! Arresto! Arresto!"
+
+#: ../revisor/misc.py:42
+msgid "This tool has to run with root privileges. Aborting"
+msgstr ""
+"Questo strumento deve essere eseguito con i privilegi di root. Non è "
+"possibile continuare"
+
+#. SELinux in enforcing mode
+#: ../revisor/misc.py:53
+msgid ""
+"SELinux is in enforcing mode on this host. Composing media will fail. Please "
+"set SELinux to permissive mode."
+msgstr ""
+"SELinux è impostato in modalità enforcing su questo host, per questo la "
+"crezione del supporto fallirà. Impostare la modalità di SELinux a permissive "
+"per continuare."
+
+#: ../revisor/misc.py:58
+msgid ""
+"SELinux on this host is disabled. Composed media will not have SELinux, and "
+"as a result the system you install from the composed media will not have "
+"SELinux either."
+msgstr ""
+"SELinux su questo host è disabilitato, per questo SELinux non sarà "
+"disponibile sul supporto creato e di conseguenza nei sistemi in cui il "
+"supporto creato verrà installato"
+
+#: ../revisor/misc.py:94
+msgid "cfg parameter to revisor.misc.download_packages() "
+msgstr "parametro cfg per revisor.misc.download_packages() "
+
+#: ../revisor/misc.py:107
+#, python-format
+msgid "Using local copy of %s-%s-%s.%s at %s"
+msgstr "Uso copia locale di %s-%s-%s.%s su %s"
+
+#: ../revisor/misc.py:117
+msgid "Unable to find a suitable mirror."
+msgstr "Impossibile trovare un mirror idoneo."
+
+#: ../revisor/misc.py:129
+#, python-format
+msgid "Errors were encountered while downloading packages: %s"
+msgstr "Si sono verificati degli errori durante il download dei pacchetti: %s"
+
+#: ../revisor/misc.py:197 ../revisor/misc.py:235
+#, python-format
+msgid "Resolved %s"
+msgstr "Determinato a %s"
+
+#: ../revisor/misc.py:222
+#, python-format
+msgid "More then one package found for %s-%s-%s.%s"
+msgstr "Trovato più di un pacchetto per %s-%s-%s.%s"
+
+#: ../revisor/misc.py:238
+#, python-format
+msgid "Looking to resolve package %s to a Provides, but we still can't find it."
+msgstr ""
+"Tentativo di determinare un Provides per il pacchetto %s, ma non è ancora "
+"stato possibile trovarlo."
+
+#: ../revisor/misc.py:250
+#, python-format
+msgid "Inclusive dependency resolving starts at %s"
+msgstr "La risoluzione inclusiva delle dipendenze inizia a %s"
+
+#: ../revisor/misc.py:271
+#, python-format
+msgid "Inclusive dependency resolving ends at %s"
+msgstr "La risoluzione inclusiva delle dipendenze finisce a %s"
+
+#: ../revisor/misc.py:319
+#, python-format
+msgid "Cannot find a source rpm for %s"
+msgstr "Impossibile trovare il pacchetto rpm sorgente per %s"
+
+#: ../revisor/misc.py:342
+#, python-format
+msgid "Disabling %s repository"
+msgstr "Repository %s disabilitato"
+
+#: ../revisor/misc.py:357
+#, python-format
+msgid "No such repository: %s"
+msgstr "Repository non trovato: %s"
+
+#: ../revisor/misc.py:359
+#, python-format
+msgid "Enabling %s repository"
+msgstr "Repository %s abilitato"
+
+#: ../revisor/misc.py:564 ../revisor/misc.py:569
+#, python-format
+msgid "Creating destination directory: %s"
+msgstr "Creazione directory di destinazione: %s"
+
+#: ../revisor/misc.py:567
+#, python-format
+msgid "Removing destination directory: %s"
+msgstr "Rimozione directory di destinazione: %s"
+
+#: ../revisor/misc.py:581
+#, python-format
+msgid "Linking %s => %s"
+msgstr "Creazione link %s => %s"
+
+#: ../revisor/misc.py:584
+#, python-format
+msgid "Package hard link failed: %s: %s"
+msgstr "Hardlink al pacchetto fallito: %s: %s"
+
+#: ../revisor/misc.py:589
+#, python-format
+msgid "Copying: %s to %s"
+msgstr "Copia: %s su %s"
+
+#: ../revisor/misc.py:592
+#, python-format
+msgid "Symlinking: %s to %s"
+msgstr "Creazione link simbolico: %s su %s"
+
+#: ../revisor/misc.py:595
+msgid "Package symlink succeeded"
+msgstr "Symlink al pacchetto creato con successo"
+
+#: ../revisor/misc.py:597 ../revisor/misc.py:604
+#, python-format
+msgid "Package link failed, trying copy: %s: %s"
+msgstr "Link al pacchetto fallito, tentativo di copia: %s: %s"
+
+#. If the group is not in the kickstart groups, skip it
+#. if not group in self.cfg.ksobj._get("packages","groupList"):
+#. continue
+#: ../revisor/pkgorder.py:85
+#, python-format
+msgid "Adding group: %s"
+msgstr "Aggiunta gruppo: %r"
+
+#: ../revisor/pkgorder.py:96
+#, python-format
+msgid "The following packages are in group %s: %r"
+msgstr "I seguenti pacchetti sono nel gruppo %s: %r"
+
+#: ../revisor/pkgorder.py:103 ../revisor/pkgorder.py:116
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Aggiunta di %s-%s:%s-%s.%s alla transazione"
+
+#: ../revisor/pkgorder.py:124
+#, python-format
+msgid "%d dependencies already resolved"
+msgstr "%d dipendenze già risolte"
+
+#: ../revisor/pkgorder.py:134
+#, python-format
+msgid "Adding package(s): %r"
+msgstr "Aggiunta dei pacchetti: %r"
+
+#: ../revisor/pkgorder.py:180
+#, python-format
+msgid "Unable to create yum configuration file for package ordering at %s"
+msgstr ""
+"Impossibile creare il file di configurazione di yum per l'ordinamento dei "
+"pacchetti in %s"
+
+#: ../revisor/pkgorder.py:192
+#, python-format
+msgid "-> package %s"
+msgstr "-> pacchetto %s"
+
+#: ../revisor/plugins.py:60 ../revisor/plugins.py:77
+#, python-format
+msgid "Plugin %s failed to load (%s: %s)"
+msgstr "Impossibile caricare il plugin %s (%s: %s)"
+
+#: ../revisor/plugins.py:71
+#, python-format
+msgid "ImportError for plugin %s: %s"
+msgstr "ImportError per il plugin %s: %s"
+
+#: ../revisor/plugins.py:74
+#, python-format
+msgid "RuntimeError for plugin %s: %s"
+msgstr "RuntimeError per il plugin %s: %s"
+
+#: ../revisor/plugins.py:94 ../revisor/plugins.py:96
+#, python-format
+msgid "Cannot set defaults for plugin %s: %s"
+msgstr "Impossibile impostare il default per il plugin %s: %s"
+
+#: ../revisor/plugins.py:98
+#, python-format
+msgid "Cannot set defaults for plugin %s: Unknown Error"
+msgstr "Impossibile impostare i default per il plugin %s: errore sconosciuto"
+
+#: ../revisor/plugins.py:101
+#, python-format
+msgid "Not setting defaults for plugin %s: No function 'set_defaults()'"
+msgstr ""
+"Impossibile impostare i default per il plugin %s: funzione 'set_defaults()' "
+"non disponibile"
+
+#: ../revisor/plugins.py:118
+#, python-format
+msgid "Cannot set runtime for plugin %s: %s"
+msgstr "Impossibile impostare il runtime per il plugin %s: %s"
+
+#: ../revisor/plugins.py:120
+#, python-format
+msgid "Not setting runtime for plugin %s: No function 'set_runtime()'"
+msgstr ""
+"Impossibile impostare il runtime per il plugin %s: funzione 'set_runtime()' "
+"non disponibile"
+
+#: ../revisor/plugins.py:137
+#, python-format
+msgid "Cannot add options for plugin %s: %s"
+msgstr "Impossibile aggiungere opzioni al plugin %s: %s"
+
+#: ../revisor/plugins.py:139
+#, python-format
+msgid "Not adding options for plugin %s: No function 'add_options()'"
+msgstr ""
+"Impossibile aggiungere opzioni al plugin %s: funzione 'add_options()' non "
+"disponibile"
+
+#: ../revisor/plugins.py:157
+#, python-format
+msgid "Cannot check options for plugin %s: %s"
+msgstr "Impossibile verificare le opzioni del plugin %s: %s"
+
+#: ../revisor/plugins.py:159
+#, python-format
+msgid "Not checking options for plugin %s: No function 'check_options()'"
+msgstr ""
+"Impossibile verificare le opzioni del plugin %s: funzione 'check_options()' "
+"non disponibile"
+
+#: ../revisor/plugins.py:195
+#, python-format
+msgid "Cannot execute hook %s for plugin %s: %s"
+msgstr "Impossibile eseguire la chiamata %s per il plugin %s: %s"
+
+#: ../revisor/progress.py:79 ../revisor/modgui/build_media.py:88
+#: ../revisor/modgui/build_media.py:94 ../revisor/modgui/build_media.py:98
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:105 ../revisor/modgui/build_media.py:110
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:117
+#: ../revisor/modgui/build_media.py:118 ../revisor/modgui/build_media.py:119
+#: ../revisor/modgui/build_media.py:124 ../revisor/modgui/build_media.py:129
+#: ../revisor/modgui/build_media.py:141 ../revisor/modgui/build_media.py:142
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:152
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:154
+#: ../revisor/modgui/build_media.py:155 ../revisor/modgui/build_media.py:156
+#: ../revisor/modgui/build_media.py:157 ../revisor/modgui/build_media.py:158
+#: ../revisor/modgui/build_media.py:161 ../revisor/modgui/build_media.py:164
+#: ../revisor/modgui/build_media.py:169 ../revisor/modgui/build_media.py:174
+#: ../revisor/modgui/build_media.py:179 ../revisor/modgui/build_media.py:182
+#: ../revisor/modgui/build_media.py:189 ../revisor/modgui/build_media.py:193
+#: ../revisor/modgui/build_media.py:248 ../revisor/modgui/build_media.py:255
+#: ../revisor/modgui/build_media.py:256 ../revisor/modgui/build_media.py:260
+#: ../revisor/modgui/build_media.py:264 ../revisor/modgui/build_media.py:269
+#: ../revisor/modgui/build_media.py:270 ../revisor/modgui/build_media.py:271
+#: ../revisor/modgui/build_media.py:272 ../revisor/modgui/build_media.py:273
+#: ../revisor/modgui/build_media.py:274 ../revisor/modgui/build_media.py:275
+#: ../revisor/modgui/build_media.py:276 ../revisor/modgui/build_media.py:277
+#: ../revisor/modgui/build_media.py:280 ../revisor/modgui/build_media.py:283
+#: ../revisor/modgui/build_media.py:287 ../revisor/modgui/build_media.py:290
+#: ../revisor/modgui/build_media.py:294 ../revisor/modgui/build_media.py:298
+#: ../revisor/modgui/build_media.py:307
+msgid "Pending..."
+msgstr "In attesa..."
+
+#: ../revisor/progress.py:80 ../revisor/progress.py:83
+#: ../revisor/modgui/build_media.py:308 ../revisor/modgui/build_media.py:311
+msgid "Running..."
+msgstr "In esecuzione..."
+
+#: ../revisor/progress.py:84 ../revisor/progress.py:87
+#: ../revisor/modgui/build_media.py:215 ../revisor/modgui/build_media.py:221
+#: ../revisor/modgui/build_media.py:225 ../revisor/modgui/build_media.py:229
+#: ../revisor/modgui/build_media.py:230 ../revisor/modgui/build_media.py:235
+#: ../revisor/modgui/build_media.py:240 ../revisor/modgui/build_media.py:241
+#: ../revisor/modgui/build_media.py:242 ../revisor/modgui/build_media.py:243
+msgid "Done"
+msgstr "Completato"
+
+#: ../revisor/progress.py:190
+msgid "Preparing transaction"
+msgstr "Preparazione della transazione"
+
+#: ../revisor/progress.py:202 ../revisor/progress.py:366
+#, python-format
+msgid "Unable to open %s: %s"
+msgstr "Impossibile aprire %s: %s"
+
+#: ../revisor/progress.py:203 ../revisor/progress.py:204
+#: ../revisor/progress.py:367
+#, python-format
+msgid "Installing %s"
+msgstr "Installazione di %s"
+
+#: ../revisor/progress.py:226 ../revisor/progress.py:387
+#, python-format
+msgid "Updated: %s"
+msgstr "Aggiornato: %s"
+
+#: ../revisor/progress.py:228 ../revisor/progress.py:389
+#, python-format
+msgid "Installed: %s"
+msgstr "Installato: %s"
+
+#: ../revisor/progress.py:241
+#, python-format
+msgid "Cleanup %s"
+msgstr "Pulizia di %s"
+
+#: ../revisor/progress.py:256 ../revisor/progress.py:415
+#, python-format
+msgid "Erased: %s"
+msgstr "Eliminato: %s"
+
+#: ../revisor/progress.py:441
+#, python-format
+msgid "Downloading %s"
+msgstr "Download di %s"
+
+#: ../revisor/progress.py:541
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../revisor/pungi.py:61
+#, python-format
+msgid "Error: Cannot create destination dir %s"
+msgstr "Errore: impossibile creare la dir di destinazione %s"
+
+#: ../revisor/pungi.py:67
+#, python-format
+msgid "Error: Cannot remove destination dir %s"
+msgstr "Errore: impossibile eliminare la dir di destinazione %s"
+
+#: ../revisor/pungi.py:72
+#, python-format
+msgid "Error: Cannot recreate destination dir %s"
+msgstr "Errore: impossibile ricreare la dir di destinazione %s"
+
+#: ../revisor/pungi.py:337
+msgid "Getting relnotes..."
+msgstr "Scaricamento note rilascio..."
+
+#: ../revisor/pungi.py:358
+#, python-format
+msgid "An error occured extracting the release files: %s"
+msgstr "Errore nell'estrazione dei file di rilascio: %s"
+
+#: ../revisor/pungi.py:367
+#, python-format
+msgid "Copying %s"
+msgstr "Copia di %s"
+
+#: ../revisor/pungi.py:373
+#, python-format
+msgid "Copying release note file %s"
+msgstr "Copia del file delle note di rilascio %s"
+
+#: ../revisor/pungi.py:377
+#, python-format
+msgid "File %s not readable"
+msgstr "Il file %s non è leggibile."
+
+#: ../revisor/pungi.py:387
+#, python-format
+msgid "Could not access directory %s, cannot copy extra files onto the media."
+msgstr ""
+"Impossibile accedere alla directory %s per i copiare i file extra sul "
+"supporto."
+
+#: ../revisor/pungi.py:393
+#, python-format
+msgid "Could not create files/ directory: %s"
+msgstr "Impossibile creare la directory files/: %s"
+
+#: ../revisor/pungi.py:404
+#, python-format
+msgid "Creating %s"
+msgstr "Creazione di %s"
+
+#: ../revisor/pungi.py:408
+#, python-format
+msgid "Copying %s to %s"
+msgstr "Copia di %s su %s"
+
+#: ../revisor/pungi.py:456
+#, python-format
+msgid "Disc %s #%d is oversized (%r > %r)"
+msgstr "Disco %s #%d : sovradimensionato (%r > %r)"
+
+#: ../revisor/pungi.py:460 ../revisor/pungi.py:472
+#, python-format
+msgid "Removing tree %s"
+msgstr "Eliminazione dell'albero %s"
+
+#: ../revisor/pungi.py:468
+#, python-format
+msgid "Disc %s #%d is undersized (%r <= %r)"
+msgstr "Disco %s #%d è troppo piccolo (%r <= %r)"
+
+#: ../revisor/pungi.py:480
+#, python-format
+msgid "Disc %s #%d is OK in size (%r <= %r)"
+msgstr "Disco %s #%d : dimensioni OK (%r <= %r)"
+
+#: ../revisor/pungi.py:531
+msgid ""
+"Hacking anaconda's .discinfo because it'll shit itself if it reads it's own "
+"output"
+msgstr ""
+"Hacking del file .discinfo di anaconda, per evitare problemi di esecuzione "
+"quando anaconda legge in input il proprio output"
+
+#: ../revisor/modcobbler/__init__.py:69 ../revisor/modcobbler/__init__.py:219
+#: ../revisor/modcobbler/__init__.py:256
+#, python-format
+msgid "There is a problem connecting to %s"
+msgstr "Si è verificato un problema nella connessione a %s"
+
+#: ../revisor/modcobbler/__init__.py:83
+#, python-format
+msgid ""
+" Distro: %s\n"
+"  Existing Profiles:"
+msgstr ""
+" Distro: %s\n"
+"  Profili esistenti:"
+
+#: ../revisor/modcobbler/__init__.py:85
+#, python-format
+msgid "   Profile: %s"
+msgstr "   Profilo: %s"
+
+#: ../revisor/modcobbler/__init__.py:87
+msgid "No listing found on cobbler server."
+msgstr "Nessun elenco trovato sul server cobbler"
+
+#: ../revisor/modcobbler/__init__.py:104
+msgid "Add compose to a Cobbler server as both a Distribution and Profile."
+msgstr ""
+"Aggiungi la composizione al server Cobbler sia come distribuzione che come "
+"profilo."
+
+#: ../revisor/modcobbler/__init__.py:111
+msgid ""
+"Add compose options as a Profile to a Cobbler server. [Requires --cobbler-"
+"use-distro]"
+msgstr ""
+"Aggiungi le opzioni di composizione a un server Cobbler come profilo. "
+"[Richiede --cobbler-use-distro]"
+
+#: ../revisor/modcobbler/__init__.py:118
+msgid "Use a Cobbler distro as source for package data."
+msgstr "Usa una distribuzione Cobbler come sorgente dati per i pacchetti."
+
+#: ../revisor/modcobbler/__init__.py:125
+msgid "Use a Cobbler profile as source for kickstart data."
+msgstr "Utilizza un profilo di Cobbler come sorgente per i dati kickstart."
+
+#: ../revisor/modcobbler/__init__.py:132
+msgid "List options provided by cobbler."
+msgstr "Elenca le opzioni di cobbler."
+
+#: ../revisor/modcobbler/__init__.py:138
+msgid "Use remote cobbler server."
+msgstr "Usare server cobbler remoto."
+
+#: ../revisor/modcobbler/__init__.py:144
+msgid "Remote cobbler server port."
+msgstr "Porta del server cobbler remoto."
+
+#: ../revisor/modcobbler/__init__.py:201
+msgid ""
+"Specifying a Cobbler server is only supported for read-only actions. "
+"Currently, --cobbler-use-distro and --cobbler-use-profile."
+msgstr ""
+"Specificare un server Cobbler è permesso solo per azioni in sola lettura. Ad "
+"oggi, --cobbler-use-distro e --cobbler-use-profile."
+
+#: ../revisor/modcobbler/__init__.py:226
+#, python-format
+msgid "The distro '%s' does not exist."
+msgstr "La distribuzione '%s' non esiste."
+
+#: ../revisor/modcobbler/__init__.py:240 ../revisor/modcobbler/__init__.py:263
+#, python-format
+msgid "The profile '%s' does not exist."
+msgstr "Il profilo '%s' non esiste."
+
+#: ../revisor/moddelta/__init__.py:35
+msgid "Package deltarpm not installed"
+msgstr "Il pacchetto deltarpm non è installato"
+
+#: ../revisor/moddelta/__init__.py:69
+msgid ""
+"Generate a delta ISO image. Currently only valid for a single disc or "
+"directory holding Installation Media ISOs named exactly the same as the "
+"product."
+msgstr ""
+"Genera una immagine ISO delta. Attualmente disponibile solo per un singolo "
+"disco o directory contenente immagini ISO di installazione esattamente con "
+"lo stesso nome del prodotto."
+
+#: ../revisor/modjigdo/__init__.py:45
+msgid "Package jigdo not installed"
+msgstr "Il pacchetto jigdo non è installato"
+
+#: ../revisor/modjigdo/__init__.py:60
+msgid "Generate Jigdo files and templates using the installation tree"
+msgstr "Generare file e modelli Jigdo usando l'albero di installazione"
+
+#: ../revisor/modjigdo/__init__.py:66
+msgid ""
+"Generate Jigdo files against the Revisor YUM Cache (labels different "
+"repositories)."
+msgstr ""
+"Generare file Jigdo usando la cache YUM di Revisor (etichetta differenti "
+"repository)"
+
+#: ../revisor/modjigdo/__init__.py:76
+msgid ""
+"You cannot use both the installation tree and the yum cache to build Jigdo "
+"templates against."
+msgstr ""
+"Impossibile utilizzare sia l'albero di installazione che la cache di yum per "
+"creare modelli Jigdo."
+
+#: ../revisor/modgui/build_media.py:88 ../revisor/modgui/build_media.py:215
+msgid "Retrieve Software Information"
+msgstr "Scaricamento informazioni software"
+
+#: ../revisor/modgui/build_media.py:94 ../revisor/modgui/build_media.py:225
+msgid "Select Packages from Kickstart"
+msgstr "Selezione pacchetti dal kickstart"
+
+#: ../revisor/modgui/build_media.py:98 ../revisor/modgui/build_media.py:221
+msgid "Resolve Dependencies"
+msgstr "Risoluzione dipendenze"
+
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:229
+msgid "Populating Statistics"
+msgstr "Popolamento statistiche"
+
+#: ../revisor/modgui/build_media.py:110 ../revisor/modgui/build_media.py:169
+msgid "Linking in Binary Packages"
+msgstr "Collegamento dei pacchetti binari"
+
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:174
+msgid "Linking in Source Packages"
+msgstr "Collegamento dei pacchetti dei sorgenti"
+
+#: ../revisor/modgui/build_media.py:117 ../revisor/modgui/build_media.py:241
+msgid "Create Repository Information"
+msgstr "Creare informazioni sul repositorio"
+
+#: ../revisor/modgui/build_media.py:118 ../revisor/modgui/build_media.py:242
+msgid "Build isolinux and Installer"
+msgstr "Creare isolinux e Installer"
+
+#: ../revisor/modgui/build_media.py:119 ../revisor/modgui/build_media.py:243
+msgid "Linking in Release Notes"
+msgstr "Collegamento delle note di rilascio"
+
+#: ../revisor/modgui/build_media.py:124
+msgid "Creating CD ISO Images"
+msgstr "Creazione immagini ISO CD"
+
+#: ../revisor/modgui/build_media.py:129
+msgid "Creating DVD ISO Images"
+msgstr "Creazione immagini DVD ISO"
+
+#: ../revisor/modgui/build_media.py:141 ../revisor/modgui/build_media.py:269
+msgid "Resolve Dependencies for Installation"
+msgstr "Risoluzione dipendenze per l'installazione"
+
+#: ../revisor/modgui/build_media.py:142 ../revisor/modgui/build_media.py:270
+msgid "Downloading Extra Packages"
+msgstr "Download dei pacchetti extra"
+
+#: ../revisor/modgui/build_media.py:152 ../revisor/modgui/build_media.py:271
+msgid "Creating ext3 Filesystem"
+msgstr "Creazione filesystem ext3"
+
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:272
+msgid "Installing packages"
+msgstr "Installazione pacchetti"
+
+#: ../revisor/modgui/build_media.py:154 ../revisor/modgui/build_media.py:273
+msgid "Configure System"
+msgstr "Configura sistema"
+
+#: ../revisor/modgui/build_media.py:155 ../revisor/modgui/build_media.py:274
+msgid "Configure Networking"
+msgstr "Configura networking"
+
+#: ../revisor/modgui/build_media.py:156 ../revisor/modgui/build_media.py:275
+msgid "Create RAM Filesystem"
+msgstr "Crea filesystem in RAM"
+
+#: ../revisor/modgui/build_media.py:157 ../revisor/modgui/build_media.py:276
+msgid "Relabel System"
+msgstr "Etichettatura (relabel) del sistema"
+
+#: ../revisor/modgui/build_media.py:158 ../revisor/modgui/build_media.py:277
+msgid "Configure Bootloader"
+msgstr "Configurazione del bootloader"
+
+#: ../revisor/modgui/build_media.py:161
+msgid "Launch shell"
+msgstr "Esegui terminale"
+
+#: ../revisor/modgui/build_media.py:164 ../revisor/modgui/build_media.py:283
+msgid "Unmounting filesystems"
+msgstr "Smontaggio del filesystem"
+
+#: ../revisor/modgui/build_media.py:179 ../revisor/modgui/build_media.py:287
+msgid "Compressing Image"
+msgstr "Compressione immagine"
+
+#: ../revisor/modgui/build_media.py:182
+msgid "Creating ISO Image"
+msgstr "Creazione immagine ISO"
+
+#: ../revisor/modgui/build_media.py:189 ../revisor/modgui/build_media.py:294
+msgid "Dumping ISO Image to USB Media"
+msgstr "Copia immagine ISO sul dispositivo USB"
+
+#: ../revisor/modgui/build_media.py:193 ../revisor/modgui/build_media.py:298
+msgid "Cleaning up Build Environment"
+msgstr "Pulizia dell'ambiente di creazione"
+
+#: ../revisor/modgui/build_media.py:240
+msgid "Linking in Packages"
+msgstr "Collegamento ai pacchetti"
+
+#: ../revisor/modgui/build_media.py:248
+msgid "Ordering Packages"
+msgstr "Ordinamento pacchetti"
+
+#: ../revisor/modgui/build_media.py:255
+#, python-format
+msgid "Splitting Packages for %s Media"
+msgstr "Divisione dei pacchetti per i supporti %s"
+
+#: ../revisor/modgui/build_media.py:256
+#, python-format
+msgid "Splitting Repository Information for %s Media"
+msgstr "Divisione delle informazioni sui repository per i supporti %s"
+
+#: ../revisor/modgui/build_media.py:280
+msgid "Launching shell"
+msgstr "Esecuzione del terminale"
+
+#: ../revisor/modgui/build_media.py:290
+msgid "Creating Live ISO Image"
+msgstr "Creazione immagine ISO Live"
+
+#: ../revisor/modgui/configuration.py:122
+msgid "You have not specified a Base URL or Mirror List"
+msgstr "Non è stato specificato un URL base o un elenco Mirror"
+
+#: ../revisor/modgui/configuration.py:125
+msgid "GPG Check enabled but no valid GPG Key file found"
+msgstr "Controllo GPG abilitato, ma non è stato trovato un file chiave GPG valido"
+
+#: ../revisor/modgui/configuration.py:138
+#, python-format
+msgid "ValueError in baseurl: %s"
+msgstr "ValueError in baseurl:·%s"
+
+#: ../revisor/modgui/configuration.py:144
+#, python-format
+msgid "ValueError in mirrorlist: %s"
+msgstr "ValueError in mirrorlist:·%s"
+
+#: ../revisor/modgui/configuration.py:221
+#, python-format
+msgid "%s is not a valid Revisor configuration file"
+msgstr "%s non è un file di configurazione di Revisor valido"
+
+#: ../revisor/modgui/configuration.py:250
+msgid ""
+"The configured model does not have the mandatory 'main' configuration "
+"directive."
+msgstr ""
+"Il modello configurato non presenta la direttiva obbligatoria di "
+"configurazione 'main'."
+
+#: ../revisor/modgui/configuration.py:252
+msgid "Invalid model. Please choose a valid model."
+msgstr "Modello non valido. Selezionare un modello valido."
+
+#: ../revisor/modgui/configuration.py:364
+#, python-format
+msgid "File %s is not accessible."
+msgstr "Il file %s non è accessibile."
+
+#: ../revisor/modgui/configuration.py:371
+msgid "The 'main' option configuration directive has a non-accessible file: "
+msgstr "La direttiva di configurazione 'main' contiene un file non accessibile: "
+
+#: ../revisor/modgui/configuration.py:374
+msgid "Configuration file's 'main' directive OK"
+msgstr "Direttiva 'main' del file di configurazione OK"
+
+#: ../revisor/modgui/configuration.py:408
+msgid ""
+"You have not selected any of the basic repositories. Please make sure that "
+"one of 'fedora', 'core', 'base' or 'development', or an equivalent "
+"repository has been configured"
+msgstr ""
+"Non sono stati selezionati repository di base. Assicurarsi che almeno uno "
+"tra i repository 'fedora', 'core', 'base' o 'development', o uno "
+"equivalente, sia stato configurato"
+
+#: ../revisor/modgui/configuration.py:412
+#, python-format
+msgid ""
+"Configuration file '%s', section '%s' does not have the mandatory 'main' "
+"option"
+msgstr ""
+"Il file di configurazione '%s', nella sezione '%s', non contiene l'opzione "
+"obbligatoria 'main'"
+
+#: ../revisor/modgui/configuration.py:500
+#, python-format
+msgid "Could not read configuration file %s"
+msgstr "Impossibile leggere il file di configurazione %s"
+
+#: ../revisor/modgui/finished_screen.py:47
+msgid "Check current directory."
+msgstr "Controllare la directory corrente."
+
+#: ../revisor/modgui/__init__.py:121
+msgid "GUI Mode didn't get RevisorBase instance, which is fatal."
+msgstr "La modalità GUI non ha determinato l'instanza RevisorBase, errore fatale."
+
+#: ../revisor/modgui/__init__.py:190
+#, python-format
+msgid "Opening up /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+msgstr "Apertura di /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+
+#: ../revisor/modgui/__init__.py:323
+msgid "Error downloading packages"
+msgstr "Errore durante il download dei pacchetti"
+
+#: ../revisor/modgui/__init__.py:338
+msgid "Continue"
+msgstr "Continua"
+
+#: ../revisor/modgui/__init__.py:339
+msgid "Dependencies added"
+msgstr "Dipendenze aggiunte"
+
+#: ../revisor/modgui/__init__.py:340
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"L'aggiornamento di questi pacchetti richiede cambiamenti aggiuntivi ad altri "
+"pacchetti per operare correttamente."
+
+#: ../revisor/modgui/__init__.py:349
+msgid "Adding for dependencies:\n"
+msgstr "In aggiunta per dipendenze:\n"
+
+#: ../revisor/modgui/__init__.py:350
+msgid "Removing for dependencies:\n"
+msgstr "In rimozione per dipendenze:\n"
+
+#: ../revisor/modgui/__init__.py:351
+msgid "Updating for dependencies:\n"
+msgstr "In aggiornamento per dipendenze:\n"
+
+#: ../revisor/modgui/lm_basic.py:163 ../revisor/modgui/lm_basic.py:168
+#: ../revisor/modgui/lm_basic.py:174 ../revisor/modgui/lm_basic.py:276
+#: ../revisor/modgui/lm_usercustomize.py:158
+msgid "Using kickstart configuration, edit entry here"
+msgstr "Utilizzo della configurazione kickstart, modifica l'entry qui"
+
+#: ../revisor/modgui/lm_basic.py:201 ../revisor/modgui/lm_usercustomize.py:108
+msgid "These passwords do not match"
+msgstr "Queste password non corrispondono"
+
+#: ../revisor/modgui/lm_basic.py:295
+msgid "Please select a root password."
+msgstr "Selezionare la password di root."
+
+#: ../revisor/modgui/lm_basic.py:299
+msgid "You should really select a more complex root password."
+msgstr "La password di root scelta non è abbastanza complessa."
+
+#: ../revisor/modgui/lm_network.py:110 ../revisor/modgui/lm_network.py:162
+#: ../revisor/modgui/lm_network.py:218 ../revisor/modgui/lm_network.py:282
+#: ../revisor/modgui/lm_network.py:385 ../revisor/modgui/lm_network.py:432
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../revisor/modgui/lm_network.py:112 ../revisor/modgui/lm_network.py:164
+#: ../revisor/modgui/lm_network.py:235 ../revisor/modgui/lm_network.py:295
+#: ../revisor/modgui/lm_network.py:434
+msgid "Static IP"
+msgstr "IP statico"
+
+#: ../revisor/modgui/lm_network.py:114 ../revisor/modgui/lm_network.py:222
+#: ../revisor/modgui/lm_network.py:284 ../revisor/modgui/lm_network.py:387
+#: ../revisor/modgui/lm_network.py:436
+msgid "BOOTP"
+msgstr "BOOTP"
+
+#: ../revisor/modgui/lm_network.py:225 ../revisor/modgui/lm_network.py:287
+msgid "Please fill in the network information"
+msgstr "Inserire le informazioni di rete"
+
+#: ../revisor/modgui/lm_network.py:339
+#, python-format
+msgid ""
+"A network device with the name %s already exists.  Please choose another "
+"device name"
+msgstr ""
+"Dispositivo di rete con nome %s già esistente. Selezionare un altro nome di "
+"dispositivo"
+
+#. create table with custom checklists
+#: ../revisor/modgui/lm_security.py:60
+msgid "Trusted devices:"
+msgstr "Dispositivi trusted:"
+
+#: ../revisor/modgui/lm_security.py:92
+msgid "Trusted services:"
+msgstr "Servizi trusted:"
+
+#: ../revisor/modgui/lm_security.py:124
+msgid "Other ports: (1029:tcp)"
+msgstr "Altre porte: (1029:tcp)"
+
+#: ../revisor/modgui/load_kickstart.py:139
+#, python-format
+msgid "Kickstart file %s not accessible."
+msgstr "File kickstart %s non accessibile."
+
+#: ../revisor/modgui/load_kickstart.py:146
+msgid "Kickstart file not good."
+msgstr "File di kickstart non valido."
+
+#: ../revisor/modgui/package_selection.py:154
+msgid "Selecting all packages"
+msgstr "Selezione di tutti i pacchetti"
+
+#: ../revisor/modgui/package_selection.py:409
+#, python-format
+msgid "No such package %s from group %s"
+msgstr "Nessun pacchetto %s dal gruppo %s"
+
+#: ../revisor/modgui/package_selection.py:418
+#, python-format
+msgid "Package %s was not marked in group %s"
+msgstr "Il pacchetto %s non è stato contrassegnato nel gruppo %s"
+
+#: ../revisor/modgui/package_selection.py:427
+#, python-format
+msgid "No package named %s available to be installed: %s"
+msgstr "Nessun pacchetto con nome %s disponibile per l'installazione: %s"
+
+#: ../revisor/modgui/package_selection.py:441
+msgid "Adding in packages from Kickstart Data, please wait"
+msgstr "Aggiunta dei pacchetti dai dati del kickstart, si prega di attendere"
+
+#: ../revisor/modgui/package_selection.py:462
+#, python-format
+msgid ""
+"Errors encountered:\n"
+"\n"
+"%s: %s"
+msgstr ""
+"Errori riscontrati:\n"
+"\n"
+"%s: %s"
+
+#: ../revisor/modgui/package_selection.py:469
+msgid "Cannot pass check_options"
+msgstr "Impossibile passare il parametro check_options"
+
+#: ../revisor/modgui/package_selection.py:475
+#: ../revisor/modgui/select_media.py:474
+msgid "Doing Live Media but not customizing kickstart options"
+msgstr "Creazione dei supporti Live senza modifiche alle opzioni kickstart"
+
+#: ../revisor/modgui/package_selection.py:699
+#, python-format
+msgid "<i>No optional packages (%d mandatory)</i>"
+msgstr "<i>Nessun pacchetto opzionale (%d obbligatori)</i>"
+
+#: ../revisor/modgui/package_selection.py:702
+#, python-format
+msgid "<i>%d of %d optional packages selected (%d mandatory)</i>"
+msgstr "<i>selezionati %d su %d pacchetti opzionali (%d obbligatori)</i>"
+
+#: ../revisor/modgui/package_selection.py:770
+msgid "Uncategorized"
+msgstr "Non categorizzato"
+
+#: ../revisor/modgui/package_selection.py:798
+#, python-format
+msgid "Packages in %s"
+msgstr "Pacchetti in %s"
+
+#: ../revisor/modgui/package_selection.py:846
+msgid "Building Packages List"
+msgstr "Creazione elenco dei pacchetti"
+
+#: ../revisor/modgui/package_selection.py:855
+#, python-format
+msgid "%s packages"
+msgstr "%s pacchetti"
+
+#: ../revisor/modgui/package_selection.py:890
+#, python-format
+msgid "For %s-%s:%s-%s.%s, we find %d matches"
+msgstr "Per %s-%s:%s-%s.%s, sono state trovate %d corrispondenze"
+
+#: ../revisor/modgui/select_media.py:74
+msgid "No media selected. Please select at least one media type to compose."
+msgstr "Nessun tipo di supporto selezionato. Selezionare almeno un tipo di supporto."
+
+#: ../revisor/modgui/select_media.py:175
+msgid "No media types selected, select at least one media type."
+msgstr "Nessun tipo di supporto selezionato, selezionarne almeno uno."
+
+#: ../revisor/modgui/select_media.py:248
+msgid ""
+"No installation media type selected, select at least one type of "
+"installation media."
+msgstr ""
+"Tipo di supporto per l'installazione non specificato, selezionarne almeno "
+"uno."
+
+#: ../revisor/modgui/select_media.py:310
+msgid "No live media type selected, select at least one type of live media."
+msgstr "Tipo di supporto per live media non specificato, selezionarne almeno uno."
+
+#: ../revisor/modgui/select_media.py:375
+msgid ""
+"No virtualization media type selected, select at least one type of "
+"virtualization media."
+msgstr ""
+"Tipo di supporto per la virtualizzazione non specificato, selezionarne "
+"almeno uno."
+
+#: ../revisor/modgui/select_media.py:432
+msgid "No utility media type selected, select at least one type of utility media."
+msgstr "Tipo di supporto utility non specificato, selezionarne almeno uno."
+
+#: ../revisor/modgui/select_media.py:505
+msgid "No Product Name specified"
+msgstr "Nome prodotto non specificato"
+
+#: ../revisor/modgui/select_media.py:508
+msgid "No Product Path specified"
+msgstr "Percorso prodotto non specificato"
+
+#: ../revisor/modgui/select_media.py:511
+msgid "No base name for the ISO(s) specified"
+msgstr "Nome base per la(e) ISO non specificato"
+
+#: ../revisor/modgui/select_media.py:514
+msgid "No label for the ISO(s) specified"
+msgstr "Etichetta per la(e) ISO non specificata"
+
+#: ../revisor/modgui/select_media.py:517
+msgid "No version number specified"
+msgstr "Numero di versione non specificato"
+
+#: ../revisor/modgui/select_media.py:520
+msgid "No comps no glory"
+msgstr "No comps no glory"
+
+#: ../revisor/modgui/select_media.py:523
+msgid "Unable to find comps file. No comps no glory"
+msgstr "Impossibile trovare il file comps. No comps no glory"
+
+#: ../revisor/modisolinux/__init__.py:48
+msgid "Custom isolinux.cfg to replace the standard isolinux.cfg with."
+msgstr "isolinux.cfg personalizzato in sostituzione dell'isolinux.cfg standard."
+
+#: ../revisor/modisolinux/__init__.py:57 ../revisor/modisolinux/__init__.py:64
+msgid ""
+"Both --kickstart-default and --isolinux-cfg have been specified, while they "
+"are mutually exclusive. --isolinux-cfg is going to be used."
+msgstr ""
+"Sia --kickstart-default che --isolinux-cfg sono stati specificati, ma sono "
+"opzioni mutuamente esclusive. Verrà utilizzato solo --isolinux-cfg."
+
+#: ../revisor/modisolinux/__init__.py:73
+#, python-format
+msgid "File %s is not readable"
+msgstr "Il file %s non è accessibile."
+
+#: ../revisor/modisolinux/__init__.py:78
+msgid "How come isolinux_cfg is set to False?"
+msgstr "Come mai isolinux_cfg è impostata su False?"
+
+#: ../revisor/modisolinux/__init__.py:81
+msgid "How come isolinux_cfg is an empty string?"
+msgstr "Come mai isolinux_cfg è una stringa vuota?"
+
+#: ../revisor/modisolinux/__init__.py:84
+#, python-format
+msgid "Going to replace isolinux/isolinux.cfg with %s"
+msgstr "Sostituzione di isolinux/isolinux.cfg con %s"
+
+#: ../revisor/modisolinux/__init__.py:87
+msgid "Deleted the old isolinux.cfg"
+msgstr "Vecchio isolinux.cfg eliminato"
+
+#: ../revisor/modisolinux/__init__.py:90
+msgid "Inserted the new isolinux.cfg"
+msgstr "Nuovo isolinux.cfg inserito"
+
+#: ../revisor/modisolinux/__init__.py:92
+msgid "Could not copy in the new isolinux.cfg"
+msgstr "Impossibile copiare il nuovo isolinux.cfg"
+
+#: ../revisor/modisolinux/__init__.py:94
+msgid "Could not unlink the old isolinux.cfg?"
+msgstr "Impossibile eliminare il precedente isolinux.cfg"
+
+#: ../revisor/modisolinux/__init__.py:96
+msgid "Not replacing isolinux.cfg"
+msgstr "isolinux.cfg non sostituita"
+
+#: ../revisor/modrebrand/__init__.py:43
+msgid "Not rebranding pre_resolve_dependencies"
+msgstr "Impossibile rimarcare pre_resolve_dependencies"
+
+#: ../revisor/modrebrand/__init__.py:57
+#, python-format
+msgid "Adding %s-%s-%s.%s"
+msgstr "Aggiunta di %s-%s-%s.%s"
+
+#: ../revisor/modrebrand/__init__.py:60
+#, python-format
+msgid "Removing %s-%s-%s.%s"
+msgstr "Rimozione di %s-%s-%s.%s"
+
+#: ../revisor/modrebrand/__init__.py:77
+msgid ""
+"Rebrand name. Revisor will select <name>-logos, <name>-release and <name>-"
+"release-notes packages, if available."
+msgstr ""
+"Nome per rebrand. Revisor selezionerà i pacchetti <nome>-logos, <nome>-"
+"release e <nome>-release-notes, se disponibili."
+
+#: ../revisor/modrebrand/__init__.py:85
+#, python-format
+msgid "Setting rebrand to %s"
+msgstr "Impostazione rimarcatura a %s"
+
+#: ../revisor/modreuseinstaller/__init__.py:47
+msgid "The URI to a tree we're supposed to reuse the installer images from."
+msgstr ""
+"Il percorso URI di un albero di directory che contiene le immagini "
+"diinstallazione da riutilizzare"
+
+#: ../revisor/modreuseinstaller/__init__.py:66
+#, python-format
+msgid ""
+"Could not access %s/%s, required for reusing a previous tree. Cancelling the "
+"reuse of installer images"
+msgstr ""
+"Impossibile accedere a %s/%s, necessario per riutilizzare un albero "
+"precedente. Il riuso delle immagini di installazione è stato annullato"
+
+#: ../revisor/modreuseinstaller/__init__.py:85
+#, python-format
+msgid "Copying %s/%s to %s/%s"
+msgstr "Copia %s/%s su %s/%s"
+
+#: ../revisor/modreuseinstaller/__init__.py:88
+#, python-format
+msgid "Copying %s/.discinfo to %s/.discinfo"
+msgstr "Copia %s/.discinfo su %s/.discinfo"
+
+#: ../revisor/modreuseinstaller/__init__.py:91
+#, python-format
+msgid "Copying %s/.treeinfo to %s/.treeinfo"
+msgstr "Copia %s/.treeinfo su %s/.treeinfo"
+
+#: ../revisor/modserver/__init__.py:86
+msgid "Use the server mode for XML-RPC"
+msgstr "Utilizza XML-RPC in modalità server"
+
+#: ../revisor/modserver/__init__.py:91
+msgid "Port to start Server on."
+msgstr "Porta su cui eseguire il server."
+
+#: ../revisor/modserver/__init__.py:97
+msgid "Start the XML-RPC server and fork."
+msgstr "Esegui il server XML-RPC e continua."
+
+#: ../revisor/modvirt/__init__.py:85
+msgid "Virtualization Media Options"
+msgstr "Opzioni per i supporti per virtualizzazione"
+
+#: ../revisor/modvirt/__init__.py:92
+msgid "Build Xen virtual machine. (not implemented yet)"
+msgstr "Crea macchina virtuale Xen. (non ancora implementato)"
+
+#: ../revisor/modvirt/__init__.py:99
+msgid ""
+"Xen virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Dimensione disco della macchina virtuale Xen, in MB. (Predefinito: 3000MB) "
+"(non ancora implementato)"
+
+#: ../revisor/modvirt/__init__.py:107
+msgid "Build KVM virtual machine. (not implemented yet)"
+msgstr "Crea macchina virtuale KVM. (non ancora implementato)"
+
+#: ../revisor/modvirt/__init__.py:114
+msgid ""
+"KVM virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Dimensione disco della macchina virtuale KVM, in MB. (Predefinito: 3000MB) "
+"(non ancora implementato)"
+
+#: ../revisor/modvirt/__init__.py:122
+msgid "Virtual machine file system type. (Default: ext3) (not implemented yet)"
+msgstr ""
+"Tipo di filesystem per la macchina virtuale (Predefinito: ext3) (non ancora "
+"implementato)"
+
+#: ../revisor/modvirt/__init__.py:129
+msgid "Make virtual machine drive a sparse filesystem. (not implemented yet)"
+msgstr ""
+"Rendi il drive della virtual machine uno sparse filesystem (non ancora "
+"implementato)"
+
+#: ../revisor/modvirt/__init__.py:135
+msgid ""
+"Make virtual machine stateless (changes do not persist.) (not implemented "
+"yet)"
+msgstr ""
+"Rendi la macchina virtuale stateless (le modifiche non persistono). (non "
+"ancora implementato)"
+
+#: ../revisor/modvirt/__init__.py:141
+msgid ""
+"Build virtual machine as an appliance using a simple raw drive image and "
+"yum. (Doesn't require virt. tech. to be running locally.) (not implemented "
+"yet)"
+msgstr ""
+"Crea la macchina virtuale come una appliance utilizzando un'immagine disco "
+"raw e yum (non necessita di estensioni per la virtualizzazione eseguite in "
+"locale.) (non ancora implementato)"
+
+#: ../revisor/modvirt/__init__.py:243
+msgid "Unable to create virtual machine instance."
+msgstr "Impossibile creare l'istanza di macchina virtuale."
+
+#: ../revisor/modvirt/__init__.py:304
+msgid "Error creating ext3 filesystem"
+msgstr "Errore durante la creazione del filesystem ext3"
+
+#: ../revisor/modvirt/__init__.py:500
+#, python-format
+msgid "Failed to mount '%s' to '%s'"
+msgstr "Impossibile montare '%s' su '%s'"
+
+#: ../revisor/modvirt/__init__.py:518 ../revisor/modvirt/__init__.py:540
+msgid "Starting the virtual guest provision..."
+msgstr "Inizializzazione costruzione del virtual guest..."
+
+#: ../revisor/modwui/modwui/controllers.py:75
+#, python-format
+msgid "The path %s cannot be found"
+msgstr "Il percorso %s non può essere trovato"
+
+#: ../revisor/modwui/modwui/grids.py:22
+msgid "Name"
+msgstr "Nome"
+
+#: ../revisor/modwui/modwui/grids.py:23
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../revisor/modwui/modwui/options.py:90
+msgid "Submit"
+msgstr "Invia"
+
+#: ../conf/revisor.desktop.in.h:2
+msgid "Revisor, Pimp your distro"
+msgstr "Revisor, editor di distro"
+

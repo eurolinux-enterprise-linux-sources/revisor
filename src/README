@@ -1,0 +1,35 @@
+Revisor is a tool you use to compose and customize your own set
+of Installation Media, or Live Media.
+
+Please note that we currently are targeting Fedora 11+. Patches are always welcome.
+
+Concept from Fedora Unity. Coding by:
+
+Jonathan Steffan
+Jeroen van Meeuwen
+(see AUTHORS)
+
+Updated information:
+ - http://revisor.fedoraunity.org/
+ - https://fedorahosted.org/revisor
+
+Extra Documentation:
+ - http://fedoraproject.org/wiki/JeroenVanMeeuwen/Revisor
+
+Installing from Fedora 7+:
+
+yum install revisor
+
+Building from git clone:
+
+./autogen.sh
+rpmdev-setuptree
+make srpm
+
+Building the rpm:
+
+make rpm
+
+Or with mock:
+
+mock ~/rpmbuild/SRPMS/revisor*.rpm

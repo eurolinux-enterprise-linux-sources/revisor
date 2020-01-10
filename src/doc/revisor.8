@@ -1,0 +1,212 @@
+.\" revisor - Fedora compose and customize tool
+.TH "revisor" "8" "Fedora Unity Project"  "Jeroen van Meeuwen" ""
+.SH "NAME"
+revisor \- Fedora compose and customize tool
+.SH "SYNOPSIS"
+.PP
+revisor [options]
+.SH "DESCRIPTION"
+.PP
+Revisor is a customization program for Fedora, CentOS and other Red Hat-based distribution deriatives.
+
+.SH "OPTIONS"
+.PP
+The options below, if specified on the CLI, will override any global and model options specified in the configuration file(s) loaded.
+.PP
+-h, \fB--help\fP            show a help message and exit
+
+.SH Runtime Options:
+.PP
+\fB--cli\fP
+    Force Revisor to run in CLI mode. (see also 'Running in CLI or in GUI mode')
+
+\fB--gui\fP
+    Force Revisor to run in GUI mode. Does not fallback to CLI and thus shows GUI related errors. (see also 'Running in CLI or in GUI mode')
+
+\fB--list-models\fP
+    List available models. This lists the available models from a Revisor configuration file. See also \fBrevisor.conf(5)\fP.
+
+\fB--debug\fP [level]
+    Enable debugging level. The level runs from 0 (high-level messages) to 9 (very, very low-level messages).
+
+\fB--yes\fP
+    Answer 'yes' to all questions.
+
+.SH Configuration Options:
+.PP
+\fB--kickstart=[kickstart file]\fP
+    Use kickstart file
+
+\fB--kickstart-save=[file name]\fP
+    Save options to given file (as a kickstart)
+
+\fB--config=[config file]\fP
+    Revisor configuration file to use
+
+\fB--source\fP
+    Get the sources to go with the binaries
+
+\fB--destination-directory=[directory]\fP
+    Destination directory for products
+
+\fB--working-directory=[directory]\fP
+    Working directory
+
+\fB--model=[model]\fP
+    Model to use for composing. Use \fB--list-models\fP to get a list of models.
+
+\fB--respin\fP
+    Mode to use for composing updated spins
+
+.SH Installation Media Options:
+.PP
+\fB--install-cd\fP
+    Create Installation Media CDs
+
+\fB--install-dvd\fP
+    Create Installation Media DVDs
+
+\fB--install-unified\fP
+    Create Unified ISO from install tree
+
+\fB--install-dvd-dl\fP
+    Create Installation Media Dual-Layered DVDs
+
+\fB--install-raw\fP
+    Build raw HDD install image.
+
+\fB--install-tree\fP
+    Build install tree.
+
+\fB--kickstart-include\fP
+    Include kickstart file on media
+
+\fB--kickstart-default\fP
+    Set kickstart to boot by default
+
+\fB--revisor-comps\fP
+    Use Revisor's comps file instead of the repositories.
+
+\fB--updates-img=[updates image]\fP
+    Include specified updates.img on installation media.
+
+.SH Live Media Options:
+.PP
+\fB--live-optical\fP
+    Create Live Media CD/DVD
+
+\fB--live-usb-thumb\fP
+    Create Live Media Thumb Drive Image
+
+\fB--live-usb-hd\fP
+    Create Live Media Hard Disk Image
+
+\fB--live-raw\fP
+    Create Live Media Raw Hard Disk Image
+
+\fB--live-shell\fP
+    Interactively work in the live image before building the ISO image.
+
+\fB--skip-compression\fP
+    Skip file system compression.
+
+\fB--skip-prelink\fP
+    Skip prelinking the contents of the filesystem.
+
+\fB--ignore-deleted\fP
+    Ignore filesystem overhead. Useless blocks will not be removed from the filesystem.
+
+\fB--preferred-kernel\fP
+    Set the preferred kernel. One of normal, PAE, xen or debug.
+
+.SH Virtualization Media Options (Available with revisor-modvirt):
+.PP
+\fB--virt-xen=[guest name]\fP
+    Build Xen virtual machine. (not implemented yet)
+
+\fB--virt-xen-size=[drive size in MB]\fP
+    Xen virtual machine drive size, in MB. (Default: 3000MB) (not implemented yet)
+
+\fB--virt-kvm=[guest name]\fP
+    Build KVM virtual machine. (not implemented yet)
+
+\fB--virt-kvm-size=[drive size in MB]\fP
+    KVM virtual machine drive size, in MB. (Default: 3000MB) (not implemented yet)
+
+\fB--virt-fstype=[filesystem type]\fP
+    Virtual machine file system type. (Default: ext3) (not implemented yet)
+
+\fB--virt-sparse\fP
+    Make virtual machine drive a sparse filesystem. (not implemented yet)
+
+\fB--virt-stateless\fP
+    Make virtual machine stateless (changes do not persist.) (not implemented yet)
+
+\fB--virt-appliance\fP
+    Build virtual machine as an appliance using a simple raw drive image and yum. (Doesn't require virt. tech. to be running locally.) (not implemented yet)
+
+.SH Cobbler Options (Available with revisor-modcobbler):
+
+\fB--cobbler-add=[name]\fP
+    Add compose to a Cobbler server as both a Distribution and Profile.
+
+\fB--cobbler-add-profile=[profile-name]\fP
+    Add compose options as a Profile to a Cobbler server. Requires \fB--cobbler-use-distro\fP to be specified as well.
+
+\fB--cobbler-use-distro=[distro-name]\fP
+    Use a Cobbler distro as source for packages.
+
+\fB--cobbler-use-profile=[profile-name]\fP
+    Use a Cobbler profile as source for kickstart data.
+
+\fB--cobbler-list\fP
+    List options provided by cobbler.
+
+\fB--cobbler-server=[server-address]\fP
+    Use remote cobbler server.
+
+.SH Delta Options (Available with revisor-moddelta):
+
+\fB--delta=[old-iso-image]\fP
+    Generate a delta ISO image. Currently only valid for a single disc or directory holding Installation Media ISOs named exactly the same as the product.
+
+.SH Jigdo Options (Available with revisor-modjigdo):
+
+\fB--mirror-directory=[directory]\fP
+    Use this directory as the base.
+
+.SH "Running in CLI or in GUI mode"
+
+The \fB--cli\fP and \fB--gui\fP options are particularly useful when debugging. When running Revisor on a server with X11Forwarding enabled, you might want to force CLI mode with \fB--cli\fP
+while if you are troubleshooting the GUI you force Revisor to run in GUI mode by specifying \fB--gui\fP.
+
+Revisor will (always) first attempt to start in GUI mode. If that fails because of some reason, Revisor falls back to running in CLI mode unless of course \fB--gui\fP had been specified
+on the command line. Possible reasons to fail starting in GUI mode include:
+
+    - Display environment variable not set.
+    - Connection to display refused.
+    - Package revisor-modgui not installed.
+    - Cannot open display (Also known as 'Cannot import gtk')
+
+.SH "Modules in Revisor"
+
+Revisor by has a number of modules available:
+
+    - \fBrevisor-cobbler\fP
+        Some detailed plugin description here
+
+    - \fBrevisor-delta\fP
+        Some detailed plugin description here
+
+    - \fBrevisor-gui\fP
+        Some detailed plugin description here
+
+    - \fBrevisor-jigdo\fP
+        Some detailed plugin description here
+
+    - \fBrevisor-virt\fP
+        Some detailed plugin description here
+
+.SH "SEE ALSO"
+
+\fBpungi(8)\fP, \fBlivecd-creator(8)\fP, \fBcobbler(8)\fP, \fBjigdo(1)\fP

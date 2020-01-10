@@ -1,0 +1,80 @@
+2008-02-13  Gauthier Ancelin <gauthier.ancelin@laposte.net> (via
+gauthier@fedoraproject.org)
+
+  * po/fr.po: added new translated strings. Next translations to come...
+
+2008-01-19  Piotr Drąg <raven@pmail.pl> (via raven@fedoraproject.org)
+
+  * po/pl.po: Updated Polish translation
+
+2008-01-11  Gauthier Ancelin <gauthier.ancelin@laposte.net> (via
+gauthier@fedoraproject.org)
+
+  * po/fr.po: Translated 207 strings, next translations to come...
+
+2007-11-17  Piotr Drąg <raven@pmail.pl> (via raven@fedoraproject.org)
+
+  * po/pl.po: 	
+
+Updated Polish translation
+
+2007-10-29  Domingo Becker <domingobecker@gmail.com> (via
+beckerde@fedoraproject.org)
+
+  * po/es.po: some more spanish strings
+
+2007-10-27  Henrique Junior <henrique_csj@yahoo.com.br> (via
+lspooky@fedoraproject.org)
+
+  * po/pt_BR.po: Updated Brazilian Portuguese Translation by Henrique Junior
+
+2007-10-11  Piotr Drąg <raven@pmail.pl> (via raven@fedoraproject.org)
+
+  * po/pl.po: Updated Polish translation
+
+2007-09-27  Igor Pires Soares <igorsoares@gmail.com> (via
+igor@fedoraproject.org)
+
+  * po/pt_BR.po: Updated Brazilian Portuguese Translation by LonelySpooky
+
+2007-09-25  Diego Búrigo Zacarão <diegobz@gmail.com> (via
+diegobz@fedoraproject.org)
+
+  * po/pt_BR.po: Finished Translation - Some updates
+
+2007-09-14  Miloš Komarčević <kmilos@gmail.com> (via kmilos@fedoraproject.org)
+
+  * po/sr@Latn.po: Started Serbian Latin translation
+
+2007-09-14  Miloš Komarčević <kmilos@gmail.com> (via kmilos@fedoraproject.org)
+
+  * po/sr.po: Started Serbian translation
+
+2007-09-13  Piotr Drąg <raven@pmail.pl> (via raven@fedoraproject.org)
+
+  * po/pl.po: Updated pl translation
+
+2007-09-12  Dimitris Glezos <dimitris@glezos.com> (via glezos@fedoraproject.org)
+
+  * po/el.po: Minor updates
+
+2007-09-12  Diego Búrigo Zacarão <diegobz@gmail.com> (via
+diegobz@fedoraproject.org)
+
+  * po/pt_BR.po: Finished Translation!
+msgfmt -cv pt_BR.po
+594 mensagens traduzidas.
+
+2007-09-11  Bart Couvreur <couf@skynet.be> (via couf@fedoraproject.org)
+
+  * po/nl.po: Small change (testing commit)
+
+2007-09-11  Diego Búrigo Zacarão <diegobz@gmail.com> (via
+diegobz@fedoraproject.org)
+
+  * po/pt_BR.po: A string in pt_BR updated
+
+2007-09-11  Dimitris Glezos <dimitris@glezos.com> (via glezos@fedoraproject.org)
+
+  * po/el.po: A very minor change
+

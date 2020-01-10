@@ -1,0 +1,3670 @@
+# translation of revisor.master.sr.po to Serbian
+# Serbian translations for revisor
+# Copyright (C) 2007 Fedora Unity
+# This file is distributed under the same license as the revisor package.
+#
+# Miloš Komarčević <kmilos@gmail.com>, 2007.
+# Milos Mijatovic <mijatix@gmail.com>, 2008.
+# Jovan Krunic <jovan.krunic@gmail.com>, 2008.
+# Igor Miletic <grejigl-gnomeprevod@yahoo.ca>, 2008.
+#  <>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: revisor.master.sr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-05 01:30+0000\n"
+"PO-Revision-Date: 2008-10-22 00:10-0400\n"
+"Last-Translator:  <>\n"
+"Language-Team: Serbian <fedora-trans-sr@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:1
+msgid ""
+"\n"
+"    Revisor, a product of Fedora Unity\n"
+"    Copyright (C) 2005, 2006, 2007 Fedora Unity\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"    See the GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"    Revisor, proizvod Fedora Unity\n"
+"    Autorska prava (C) 2005, 2006, 2007 Fedora Unity\n"
+"    \n"
+"    Ovaj program je slobodan softver, možete ga prosleđivati i/ili menjati\n"
+"    pod uslovima GNU Opšte Javne Licence pošto je objavljen od\n"
+"    Fondacije Slobodnog Softvera; bilo verzije 2 licence, ili\n"
+"    (kao opcija) neke druge verzije.\n"
+"\n"
+"    Ovaj program je distribuiran u nadi da će biti od koristi,\n"
+"    ali BEZ IKAKVE GARANCIJE; čak i bez implicitne garancije\n"
+"    SPREMNOSTI ZA TRŽIŠTE ili ODGOVARANJA ODREĐENOJ SVRSI. \n"
+"    Pogledajte GNU Opštu javnu licencu za više detalja.\n"
+"\n"
+"    Trebalo bi da ste primili kopiju GNU Opšte javne licence\n"
+"    sa ovim programom; ako niste, pišite\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:20
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>"
+msgstr ""
+"\n"
+"Razvoj programa:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Dizajneri sučelja:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Prevodioci:\n"
+"\t* Miloš Mijatović (mijatix) <mmilos@ic.fon.bg.ac.yu>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:32
+msgid "<b>More information about:</b>"
+msgstr "<b>Više informacija o:</b>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:33
+msgid "<b>Version:</b> @VERSION@-@RELEASE@"
+msgstr "<b>Verzija:</b> @VERZIJA@-@RELEASE@"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:34
+msgid "<span weight=\"bold\">Revisor</span> is a product of Fedora Unity."
+msgstr "<span weight=\"bold\">Revisor</span> je proizvod Fedora Unity."
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:35
+msgid "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+msgstr "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:36
+#: ../revisor/modgui/glade/revisor.glade.h:38
+msgid "About Revisor"
+msgstr "O Revisor-u"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:37
+#: ../revisor/modgui/glade/revisor.glade.h:39
+msgid "Authors"
+msgstr "Autori"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:38
+msgid "Fedora Unity:"
+msgstr "Fedora Unity:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:39
+msgid "File"
+msgstr "Datoteka"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:40
+#: ../revisor/modgui/glade/revisor.glade.h:43
+msgid "License"
+msgstr "Licenca"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:41
+#: ../revisor/modgui/glade/revisor.glade.h:47 ../conf/revisor.desktop.in.h:1
+msgid "Revisor"
+msgstr "Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:42
+msgid "Revisor _Homepage"
+msgstr "Revisor _Početna stranica"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:43
+msgid "Revisor:"
+msgstr "Revisor:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:44
+msgid "_Details"
+msgstr "D_etalji"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:45
+#: ../revisor/modgui/glade/revisor.glade.h:63
+msgid "_Help"
+msgstr "_Pomoć"
+
+#: ../revisor/modgui/glade/build_media.glade.h:1
+msgid "Building Your Media"
+msgstr "Pravljenje Vašeg medijuma"
+
+#: ../revisor/modgui/glade/build_media.glade.h:2
+msgid "Task Progress:"
+msgstr "Napredak procesa:"
+
+#: ../revisor/modgui/glade/build_media.glade.h:3
+msgid "Total Progress:"
+msgstr "Ukupni napredak:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:1
+msgid "Client / _Server"
+msgstr "Klijent / _server"
+
+#: ../revisor/modgui/glade/build_type.glade.h:2
+msgid "Configuration _File Mode"
+msgstr "Režim datoteke podešavanja"
+
+#: ../revisor/modgui/glade/build_type.glade.h:3
+msgid "Please select the build type to use:"
+msgstr "Molim izaberite vrstu izgradnje koju ćete koristiti:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:4
+msgid "Select Build Type"
+msgstr "Izaberite vrstu izgradnje"
+
+#: ../revisor/modgui/glade/build_type.glade.h:5
+msgid "_Chroot Build"
+msgstr "_Chroot izgradnja"
+
+#: ../revisor/modgui/glade/build_type.glade.h:6
+msgid "_Normal Build"
+msgstr "_Normal izgradnja"
+
+#: ../revisor/modgui/glade/build_type.glade.h:7
+msgid "_Virtualized Build"
+msgstr "_Virtualized izgradnja"
+
+#: ../revisor/modgui/glade/dialog_filechooser.glade.h:1
+msgid "Choose a file or folder"
+msgstr "Izaberite datoteku ili direktorijum"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:1
+msgid "<b>Compose Results Location:</b>"
+msgstr "<b>Napišite lokaciju rezultata:</b>"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:2
+#: ../revisor/modgui/glade/load_kickstart.glade.h:1
+#: ../revisor/modgui/glade/ready_screen.glade.h:4
+msgid "Advanced Options"
+msgstr "Napredne opcije"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:3
+msgid "Congratulations, Compose Complete"
+msgstr "Čestitam, pisanje je gotovo"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:4
+msgid "Create _Jigdo"
+msgstr "Napravi _Jigdo"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:5
+msgid "Create _Torrent"
+msgstr "Napravi _Torrent"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:6
+msgid "Generate _Kickstart for Install Clients"
+msgstr "Napravi _Kickstart za instalacione klijente"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:7
+msgid "Send _Compose to Server"
+msgstr "Pošalji _Compose na server"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:8
+msgid "Setup _DHCPD Server"
+msgstr "Podesi _DHCPD server"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:9
+msgid "Setup _PXE Server"
+msgstr "Podesi _PXE server"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:10
+msgid "Write Image to _Media"
+msgstr "Ispiši sliku na _Media"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:11
+msgid "Write Image to _USB Device"
+msgstr "Ispiši sliku na _USB uređaj"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:12
+msgid "_Continue..."
+msgstr "_Nastavi..."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:1
+msgid "Authentication Configuration"
+msgstr "Podešavanje autentifikacije"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:2
+msgid "Authentication options are not applicable on upgrades."
+msgstr "Opcije autentifikacije se ne mogu primeniti na nadgradnje."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:3
+msgid "Authentication:"
+msgstr "Autentifikacija:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:4
+msgid "Enable Hesiod Support"
+msgstr "Omogući hesiod podršku"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:5
+msgid "Enable Kerberos 5 Authentication"
+msgstr "Omogući Kerberos 5 autentifikaciju"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:6
+msgid "Enable LDAP"
+msgstr "Omogući LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:7
+msgid "Enable NIS"
+msgstr "Omogući NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:8
+msgid "Enable SMB Authentication"
+msgstr "Omogući SMB autentifikaciju"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:9
+msgid "Enable nscd"
+msgstr "Omogući nscd"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:10
+msgid "Hesiod"
+msgstr "Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:11
+msgid "Hesiod Authentication"
+msgstr "Hesiod autentifikacija"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:12
+msgid "Hesiod LHS:"
+msgstr "Hesiod LHS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:13
+msgid "Hesiod RHS:"
+msgstr "Hesiod RHS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:14
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:15
+msgid "Kerberos 5 Authentication"
+msgstr "Kerberos 5 autentifikacija"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:16
+msgid "Kerberos Domain Controller (KDC):"
+msgstr "Kerberos kontroler domena (KDC):"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:17
+msgid "Kerberos Master Server:"
+msgstr "Kerberos glavni server:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:18
+msgid "Kerberos Realm:"
+msgstr "Kerberos područje:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:19
+msgid "LDAP "
+msgstr "LDAP "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:20
+msgid "LDAP Authentication"
+msgstr "LDAP autentifikacija"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:21
+msgid "LDAP Base Name: "
+msgstr "LDAP osnovno ime:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:22
+msgid "LDAP Server: "
+msgstr "LDAP server:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:23
+msgid "NIS"
+msgstr "NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:24
+msgid "NIS Authentication"
+msgstr "NIS autentifikacija"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:25
+msgid "NIS Domain:"
+msgstr "NIS domen"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:26
+msgid "NIS Server:"
+msgstr "NIS server:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:27
+msgid "Name Switch Cache"
+msgstr "Keš promene imena"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:28
+msgid "Name Switch Cache Daemon (nscd) Authentication"
+msgstr "Autentifikacija sistemske usluge keša promene imena (nscd)"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:29
+msgid "SMB"
+msgstr "SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:30
+msgid "SMB Authentication"
+msgstr "SMB autentifikacija"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:31
+msgid "SMB Servers:"
+msgstr "SMB serveri:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:32
+msgid "SMB Workgroup:"
+msgstr "SMB radna grupa:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:33
+msgid "Use MD5"
+msgstr "Koristi MD5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:34
+msgid "Use Shadow Passwords"
+msgstr "Koristi shadow lozinke"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:35
+msgid "Use broadcast to find NIS server"
+msgstr "Koristi emitovanje da nađeš NIS server"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:1
+msgid "Basic Configuration (required)"
+msgstr "Osnovno podešavanje (obavezno)"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:2
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:8
+msgid "Confirm Password:"
+msgstr "Potvrdi lozinku:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:3
+msgid "Default Language:"
+msgstr "Podrazumevani jezik:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:4
+msgid "Encrypt root password"
+msgstr "Šifriraj root lozinku"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:5
+msgid "Keyboard:"
+msgstr "Tastatura:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:6
+msgid "Root Password:"
+msgstr "Root lozinka:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:7
+msgid "Target Architecture:"
+msgstr "Ciljna arhitektura:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:8
+msgid "Time Zone:"
+msgstr "Vremenska zona:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:9
+msgid "Use UTC clock"
+msgstr "Koristi UTC časovnik"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:1
+msgid "Boot Loader Options"
+msgstr "Opcije programa za učitavanje"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:2
+msgid "Custom kernel parameters: "
+msgstr "Prilagođeni parametri jezgra:"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:3
+msgid "Provide optional kernel parameters."
+msgstr "Obezbedi opcione parametre jezgra."
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:6
+msgid "These could be as simple as 'noacpi' to disable advanced power control,"
+msgstr ""
+"Ovo može biti jednostavno kao „noacpi“ da bi se onemogućilo napredno "
+"upravljanje napajanjem,"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:8
+msgid "or any other relevant kernel parameters."
+msgstr "ili bilo kojim bitnim parametrom jezgra."
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:12
+msgid "In most situations, the default should suffice."
+msgstr "U najvećem broju slučajeva, podrazumevana vrednost će biti dovoljna."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:1
+msgid "Color Depth"
+msgstr "Deo sa bojama"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:2
+msgid "Configure the X Window System"
+msgstr "Podesi Iks sistem prozora"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:3
+msgid "Default Desktop:"
+msgstr "Podrazumevana radna površina:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:4
+#: ../revisor/modgui/glade/lm_security.glade.h:3
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:5
+msgid "Display Configuration"
+msgstr "Podešavanje ekrana"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:6
+msgid "Display configuration is not applicable on upgrades."
+msgstr "Podešavanje ekrana se ne može primeniti na nadgradnje."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:7
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:8
+msgid "Enabled in reconfiguration mode"
+msgstr "Omogućeno u režimu ponovnog podešavanja"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:9
+msgid "General"
+msgstr "Uopšteno"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:10
+msgid "Horizontal Sync:"
+msgstr "Horizontalno usaglašavanje"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:11
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:12
+msgid "On first boot, Setup Agent is: "
+msgstr "Prilikom prvog podizanja, agent podešavanja je:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:13
+msgid "Probe for monitor"
+msgstr "Ispitivanje monitora"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:14
+msgid "Probe for video card driver"
+msgstr "Ispitivanje upravljačkog programa video kartice"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:15
+msgid "Resolution"
+msgstr "Rezolucija"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:16
+msgid "Start the X Window System on boot"
+msgstr "Pokreni Iks sistem prozora prilikom podizanja sistema"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:17
+msgid "Use custom monitor sync rates"
+msgstr "Koristi prilagođene stope usaglašavanja monitora"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:18
+msgid "Vertical Sync:"
+msgstr "Vertikalno usaglašavanje:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:19
+msgid "Video Card"
+msgstr "Video kartica"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:20
+msgid "Video Card RAM: "
+msgstr "RAM memorija video kartice"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:1
+msgid "."
+msgstr "."
+
+#: ../revisor/modgui/glade/lm_network.glade.h:2
+msgid "Gateway:"
+msgstr "Mrežni prolaz:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:3
+msgid "IP Address:"
+msgstr "IP adresa:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:4
+msgid "Name Server:"
+msgstr "Server imena:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:5
+msgid "Netmask: "
+msgstr "Mrežna maska:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:6
+msgid "Network Configuration"
+msgstr "Podešavanje mreže "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:7
+msgid "Network Device Information"
+msgstr "Informacije o mrežnom uređaju"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:8
+msgid "Network Device:"
+msgstr "Mrežni uređaj: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:9
+msgid "Network Type:"
+msgstr "Vrsta mreže:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:10
+msgid "Use Network Manager (available only if installed)"
+msgstr "Koristi upravljač mrežom (dostupan je samo ukoliko je instaliran)"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:11
+msgid "_Add Network Device"
+msgstr "_Dodaj mrežni uređaj"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:12
+msgid "_Delete Network Device"
+msgstr "_Obriši mrežni uređaj"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:13
+msgid "_Edit Network Device"
+msgstr "_Uredi mrežni uređaj"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:1
+msgid "Active"
+msgstr "Aktivan"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:2
+msgid "Disable firewall"
+msgstr "Onemogući zaštitni zid"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:4
+msgid "Enable firewall"
+msgstr "Omogući zaštitni zid"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:5
+msgid "Firewall Configuration"
+msgstr "Podešavanje zaštitnog zida"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:6
+msgid "Firewall configuration is not applicable on upgrades."
+msgstr "Podešavanja zaštitnog zida se ne mogu primeniti na nadgradnje."
+
+#: ../revisor/modgui/glade/lm_security.glade.h:7
+msgid "SELinux:"
+msgstr "SELinux:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:8
+msgid "Security level:"
+msgstr "Nivo bezbednosti:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:9
+msgid "Warn"
+msgstr "Upozori"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:2
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:10
+msgid "Customize your Live Media"
+msgstr "Prilagodite Vaš živi medijum"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:6
+msgid "Add user to the group \"wheel\""
+msgstr "Dodaj korisnika u grupu \"wheel\""
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:7
+msgid "Automatically login this user to the Desktop"
+msgstr "Automatski prijavi ovog korisnika na radnu površinu"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:9
+msgid "Create User Account:"
+msgstr "Napravi korisnički nalog:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:11
+msgid "Dump current user profile (and omit /etc/skel)"
+msgstr "Odbaci trenutni korisnički profil (i zaobiđi /etc/skel)"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:12
+msgid "Enable \"wheel\" group to sudo without password"
+msgstr "Omogući grupi \"wheel\" da izvršava sudo naredbu bez lozinke"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:13
+msgid "Full Name:"
+msgstr "Puno ime:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:14
+msgid "Password"
+msgstr "Lozinka"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:15
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:2
+msgid "Customize package manifest defined in kickstart data"
+msgstr "Prilagodi manifest paketa definisan u kickstart podacima"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:3
+msgid ""
+"Customize/Review details about locale, users/passwords, security/"
+"authentication, networking and Xorg"
+msgstr ""
+"Prilagodi/pregledaj detalji o locale, korisnicima/lozinkama, bezbednosti/"
+"autentifikaciji, umrežavanju i Xorg-u"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:4
+msgid "Include Kickstart file on Installation Media"
+msgstr "Uključi Kickstart datoteku na instalacionom medijumu"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:5
+msgid "Kickstart Configuration File:"
+msgstr "Kickstart datoteka podešavanja:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:6
+msgid "Load Kickstart Data"
+msgstr "Učitaj Kickstart podatke"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:7
+msgid ""
+"Select a kickstart file to be used to populate options for your selected "
+"media.\n"
+"If you did not select Live media creation, some options will be ignored.\n"
+"This step is not required and options loaded from the kickstart may also be "
+"customized further."
+msgstr ""
+"Izaberi kickstart datoteku koja će biti korišćena da se ispune opcije "
+"izabranih medijujma.\n"
+"Ako ne izaberete pravljenje živog medijuma, neke opcije će biti zanemarene.\n"
+"Ovaj korak nije obavezan i opcije koje su učitane iz kickstart-a mogu takođe "
+"biti prilagođene kasnije."
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:10
+msgid "Set installer to boot with kickstart by default"
+msgstr "Podesi instaler da se podrazumevano podiže sa kickstart-om"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:11
+msgid "Use package manifest from kickstart data"
+msgstr "Koristi manifest paketa iz kickstart podataka"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:12
+msgid "Use repositories configured in the kickstart file"
+msgstr "Koristi spremišta podešena u kickstart datoteci"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:1
+msgid "By Category"
+msgstr "Po kategoriji"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:2
+msgid "Deselect"
+msgstr "Poništi odabir"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:3
+msgid "Deselect all optional packages"
+msgstr "Poništi odabir svih izbornih paketa"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:4
+msgid "List"
+msgstr "Ispiši"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:5
+msgid "Optional Packages... "
+msgstr "Izborni paketi... "
+
+#: ../revisor/modgui/glade/package_selection.glade.h:6
+msgid "Package Selection"
+msgstr "Odabir paketa"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:7
+msgid "Please select the software you want to be available on your media:"
+msgstr ""
+"Molimo odaberite softver koji želite da bude dostupan na Vašem medijumu"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:8
+msgid "Search"
+msgstr "Pretraga"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:9
+msgid "Search Criteria:"
+msgstr "Kriterijumi pretrage:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:10
+msgid "Select"
+msgstr "Izaberi"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:11
+msgid "Select All"
+msgstr "Izaberi sve"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:12
+msgid "Select all optional packages"
+msgstr "Izaberi sve opcione pakete"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:13
+msgid ""
+"Some packages associated with this group are not required to be installed "
+"but may provide additional functionality.  Please choose the packages which "
+"you would like to have installed."
+msgstr ""
+"Neki paketi pridruženi ovoj grupi, nisu obavezni da budu instalirani, ali "
+"mogu da pruže dodatnu funkcionalnost.  Molimo vas, izaberite koje pakete "
+"biste želeli da instalirate."
+
+#: ../revisor/modgui/glade/package_selection.glade.h:14
+msgid "dialog1"
+msgstr "dialog1"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:1
+msgid "<b>Number of Packages:</b>"
+msgstr "<b>Broj paketa:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:2
+msgid "<b>Package Set Size (Live/Installed):</b>"
+msgstr "<b>Podesi veličinu paketa (Živi/Instalirani):</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:3
+msgid "<b>RPM Package Payload Size:</b>"
+msgstr "<b>Veličina sadržaja RPM paketa:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:5
+msgid "Build Unattended Install Media"
+msgstr "Izgradi nenadgledani instalacioni medijum"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:6
+msgid "Not Calculated, Yet"
+msgstr "Još nije proračunato"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:7
+msgid "Package Details"
+msgstr "Detalji paketa"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:8
+msgid "Ready to Compose Images"
+msgstr "Spreman da napišem slike"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:9
+msgid ""
+"Revisor is now ready to compose your images. Please review your selection "
+"details below:"
+msgstr ""
+"je sada spreman da napiše Vaše slike. Molim pregledajte detelje Vašeg izbora "
+"ispod:"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:10
+msgid "Send to Build Server:"
+msgstr "Pošalji na server za izgradnju:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:1
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+msgstr ""
+"\n"
+"Razvoj programa:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Dizajneri sučelja:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:11
+msgid ""
+"\n"
+"Revisor, a product of Fedora Unity\n"
+"Copyright (C) 2005 - 2008 Fedora Unity\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public\n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"Revisor, proizvod Fedora Unity\n"
+"Copyright (C) 2005, 2006, 2007 Fedora Unity\n"
+"\n"
+"Ovaj program je slobodan softver, možete ga prosleđivati i/ili menjatipod "
+"uslovima GNU Opšte Javne Licence pošto je objavljen odFondacije Slobodnog "
+"Softvera; bilo verzije 2 licence, il(kao opcija) neke kasnije verzije.\n"
+"\n"
+"Ovaj program je distribuiran u nadi da će biti od koristi, ali BEZ IKAKVE "
+"GARANCIJE; čak i bez implicitne garancije SPREMNOSTI ZA TRŽIŠTE ili "
+"ODGOVARANJA ODREĐENOJ SVRSI. Pogledajte GNU Opštu javnu\n"
+"licencu za više detalja.\n"
+"\n"
+"Trebalo bi da ste primili kopiju GNU Opšte javne licence sa ovim programom; "
+"ako niste, pišite Free Software Foundation, Inc., 51 Franklin St, Fifth "
+"Floor, Boston, MA  02110-1301  USA\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:22
+msgid ""
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>\n"
+msgstr ""
+"\n"
+"Prevodioci:\n"
+"\t* Miloš Mijatović (mijatix) <mmilos@ic.fon.bg.ac.yu>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:26
+msgid " "
+msgstr " "
+
+#: ../revisor/modgui/glade/revisor.glade.h:28
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../revisor/modgui/glade/revisor.glade.h:29
+msgid "<b>Installation Media</b>"
+msgstr "<b>Medijum za instalaciju</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:30
+msgid "<b>Live Media</b>"
+msgstr "<b>Živi medijum</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:31
+msgid "<i>Initializing GUI</i>"
+msgstr "<i>Pokrećem GUI</i>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:32
+msgid "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+msgstr "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:33
+msgid "<span size=\"large\" weight=\"bold\">Title</span>"
+msgstr "<span size=\"large\" weight=\"bold\">Title</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:34
+msgid "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+msgstr "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:35
+msgid "<span size=\"x-large\" weight=\"bold\">Please Wait...</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Molim, sačekajte...</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:36
+msgid "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+msgstr "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:37
+msgid "A Fedora Spin Designer"
+msgstr "Fedora Spin Designer"
+
+#: ../revisor/modgui/glade/revisor.glade.h:40
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:9
+msgid "Configure Revisor"
+msgstr "Konfigurišite Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:41
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:11
+msgid "Destination Directory:"
+msgstr "Odredišni direktorijum:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:42
+msgid "Dynamically Set Header Label"
+msgstr "Dinamički postavite oznake zaglavlja"
+
+#: ../revisor/modgui/glade/revisor.glade.h:44
+msgid "Message"
+msgstr "Poruka"
+
+#: ../revisor/modgui/glade/revisor.glade.h:45
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:5
+#: ../revisor/modgui/glade/select_media.glade.h:6
+#: ../revisor/modgui/glade/select_media_installation.glade.h:6
+#: ../revisor/modgui/glade/select_media_live.glade.h:3
+#: ../revisor/modgui/glade/select_media_utility.glade.h:2
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:3
+msgid "Please select the type(s) of media you want to compose:"
+msgstr "Molim vas izaberite vrstu(e) medijuma koje želite da sastavite:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:46
+msgid "Progress - Revisor"
+msgstr "Progress - Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:48
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:21
+msgid "Revisor Configuration:"
+msgstr "Podešavanja Revisor-a:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:49
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors as simple as\n"
+"possible. This wizard will walk you through the proces of building your own "
+"installer and/or Live media\n"
+"set(s) from and Yum repository."
+msgstr ""
+"Revisor je napravljen od početka, da bi omogućio što lakšu izgradnju "
+"proizvoljnih\n"
+" Fedora ukusa. Ovaj čarobnjak će vas provesti kroz proces izgradnje vašeg "
+"sopstvenog instalera i/ili živih skupova medijuma\n"
+" i Yum riznica."
+
+#: ../revisor/modgui/glade/revisor.glade.h:52
+msgid "Revisor is initializing."
+msgstr "Revisor se inicijalizuje."
+
+#: ../revisor/modgui/glade/revisor.glade.h:53
+msgid "Select Media Types"
+msgstr "Izaberite tipove medijuma"
+
+#: ../revisor/modgui/glade/revisor.glade.h:54
+msgid "Select Repositories:"
+msgstr "Izaberite riznice:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:55
+msgid "Spin Target:"
+msgstr "Obrnite cilj:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:56
+msgid "Translators"
+msgstr "Prevodioci"
+
+#: ../revisor/modgui/glade/revisor.glade.h:57
+msgid "Use _advanced interface"
+msgstr "Koristite _napredno sučelje"
+
+#: ../revisor/modgui/glade/revisor.glade.h:58
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: ../revisor/modgui/glade/revisor.glade.h:59
+msgid "_Browse"
+msgstr "_Pretražujte"
+
+#: ../revisor/modgui/glade/revisor.glade.h:60
+msgid "_CD Set"
+msgstr "_Cd skup"
+
+#: ../revisor/modgui/glade/revisor.glade.h:61
+msgid "_DVD Set"
+msgstr "_DVD skup"
+
+#: ../revisor/modgui/glade/revisor.glade.h:62
+msgid "_File"
+msgstr "Da_toteka"
+
+#: ../revisor/modgui/glade/revisor.glade.h:64
+msgid "_Optical (CD/DVD)"
+msgstr "_Optički (CD/DVD)"
+
+#: ../revisor/modgui/glade/revisor.glade.h:65
+msgid "_USB"
+msgstr "_USB"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:1
+msgid "<b>Please fill out the repository information</b>"
+msgstr "<b>Molim vas, popunite informacije o riznici</b>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:2
+msgid "<small><i>Base URL or Mirror List Mandatory</i></small>"
+msgstr "<small><i>Neophodni osnovni URL ili lista odraza</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:3
+msgid "<small><i>GPG Options</i></small>"
+msgstr "<small><i>GPG  opcije</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:4
+msgid "<small><i>Optional</i></small>"
+msgstr "<small><i>Opcionalno</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:5
+msgid "<small><i>Other Options</i></small>"
+msgstr "<small><i>Druge opcije</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:6
+msgid "Add Repository"
+msgstr "Dodajte riznicu"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:7
+msgid "Base URL:"
+msgstr "Osnovni URL:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:8
+msgid "Configuration Section to Use:"
+msgstr "Konfiguracijski odeljak za korišćenje:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:10
+msgid "Description:"
+msgstr "Opis:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:12
+msgid "Enable/Disable Repositories from Selection Configuration:"
+msgstr "Uključi/isključi riznice iz izabranih podešavanja:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:13
+msgid "Exclude Packages:"
+msgstr "Izuzmi pakete:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:14
+msgid "GPG Check"
+msgstr "GPG provera"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:15
+msgid "GPG Key File:"
+msgstr "GPG ključna datoteka:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:16
+msgid "Include Packages:"
+msgstr "Umetni pakete:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:17
+msgid "Mirror List:"
+msgstr "Lista odraza:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:18
+msgid "Name:"
+msgstr "Ime:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:19
+msgid "Protect"
+msgstr "Zaštiti"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:20
+msgid "Repository Information"
+msgstr "Informacije o riznici"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:22
+msgid "Save to Configuration"
+msgstr "Sačuvaj u podešavanjima"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:1
+msgid "<b>Compose Options</b>"
+msgstr "<b>Sastavi opcije</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:2
+msgid "<b>Media Types</b>"
+msgstr "<b>Vrste medijuma</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:3
+msgid "Installation Media Types"
+msgstr "Vrste instalacionih medijuma"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:4
+msgid "Live Media Types"
+msgstr "Vrste živih medijuma"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:6
+msgid "Rebrand Media"
+msgstr "Reimenovanje medijuma"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:7
+msgid "Rescue / Utility Media"
+msgstr "Medijumi za spašavanje / alate"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:8
+#: ../revisor/modgui/glade/select_media.glade.h:7
+msgid "Select Media Type(s)"
+msgstr "Izaberite vrstu(e) medijuma"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:9
+msgid "Virtualization Media"
+msgstr "Medijumi za virtuelizaciju"
+
+#: ../revisor/modgui/glade/select_media.glade.h:1
+#: ../revisor/modgui/glade/select_media_installation.glade.h:1
+msgid "<b>Installation Media Types</b>"
+msgstr "<b>Vrste instalacionih medijuma</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:2
+#: ../revisor/modgui/glade/select_media_live.glade.h:1
+msgid "<b>Live Media Types</b>"
+msgstr "<b>Vrste živih medijuma</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:3
+#: ../revisor/modgui/glade/select_media_installation.glade.h:2
+msgid "CD Set"
+msgstr "CD skup"
+
+#: ../revisor/modgui/glade/select_media.glade.h:4
+#: ../revisor/modgui/glade/select_media_installation.glade.h:3
+msgid "DVD Set"
+msgstr "DVD skup"
+
+#: ../revisor/modgui/glade/select_media.glade.h:5
+msgid "Optical Live Media"
+msgstr "Optički živi medijum"
+
+#: ../revisor/modgui/glade/select_media.glade.h:8
+msgid "USB Live Media"
+msgstr "USB živi medijum"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:4
+msgid "Installation Tree"
+msgstr "Istalaciono drvo"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:5
+msgid "PXE Payload"
+msgstr "PXE Payload"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:7
+msgid "Select Installation Media Type(s)"
+msgstr "Izaberite vrstu(e) instalacionog medijuma"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:8
+msgid "Unified ISO Image"
+msgstr "Ujednačen ISO otisak"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:2
+msgid "Optical"
+msgstr "Optički"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:4
+msgid "Select Live Media Type(s)"
+msgstr "Izaberite vrstu(e) živog otiska"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:5
+msgid "USB Hard Disk"
+msgstr "USB čvrsti disk"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:6
+msgid "USB Thumb Drive"
+msgstr "USB mali uređaj"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:1
+msgid "<b>Utility Media Types</b>"
+msgstr "<b>Vrste alatnih medijuma</b>"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:3
+msgid "Rescue Image"
+msgstr "Otisak za spašavanje"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:4
+msgid "Select Utility Media Type(s)"
+msgstr "Izaberite vrstu(e) alatnih medijuma"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:1
+msgid "<b>Virtualization Media Types</b>"
+msgstr "<b>Vrste medijuma za virtuelizaciju</b>"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:2
+msgid "KVM Guest"
+msgstr "KVM gost"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:4
+msgid "Select Virtualization Media Type(s)"
+msgstr "Izaberite vrstu(e) medijuma za virtuelizaciju"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:5
+msgid "VMWare Appliance"
+msgstr "VMWare uređaj"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:6
+msgid "VMWare Guest"
+msgstr "VMWare gost"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:7
+msgid "Xen Guest"
+msgstr "Xen gost"
+
+#: ../revisor/modgui/glade/welcome_buttons.glade.h:1
+msgid "Get Started"
+msgstr "Počnite"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:1
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors simple as possible. This wizard will walk you through the process of "
+"building your own Installer and/or Live media set(s) from any Yum repository."
+msgstr ""
+"Revisor je napravljen od početka, da bi omogućio što lakšu izgradnju "
+"proizvoljnih Fedora ukusa. Ovaj čarobnjak će vas provesti kroz proces izgradnje "
+"vašeg sopstvenog instalera i/ili živih skupova medijuma i Yum riznica."
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:2
+msgid "Show Advanced Configuration and Options"
+msgstr "Prikaži napredna podešavanja i opcije"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:3
+msgid "Welcome to Revisor, by Fedora Unity"
+msgstr "Dobrodošli u Revisor, želi vam Fedora zajednica"
+
+#: ../revisor.py:34
+msgid "Cannot find anaconda-runtime in /usr/lib/anaconda-runtime"
+msgstr "Ne mogu da pronađem anaconda-runtime u /usr/lib/anaconda-runtime"
+
+#: ../revisor/base.py:104
+msgid "Running Revisor in CLI mode..."
+msgstr "Izvršavam Revisor u CLI režimu..."
+
+#: ../revisor/base.py:110
+msgid "Running Revisor in RPC Server mode..."
+msgstr "Izvršavam Revisor u RPC Server režimu..."
+
+#: ../revisor/base.py:114 ../revisor/base.py:119
+msgid "Running Revisor in GUI mode..."
+msgstr "Izvršavam Revisor u GUI režimu..."
+
+#: ../revisor/base.py:174
+#, python-format
+msgid "Opening up /usr/bin/htmlview %s%s"
+msgstr "Otvaram /usr/bin/htmlview %s%s"
+
+#. self.mode.base_buttons_xml.get_widget("button_information").set_sensitive(True)
+#: ../revisor/base.py:178
+#, python-format
+msgid "Cannot fork process showing help, please use %s%s"
+msgstr ""
+"Ne mogu da izvršim račvanje procesa prikazivanja pomoći, molimo koristite %s%s"
+
+#: ../revisor/base.py:180
+#, python-format
+msgid "Cannot show Help in CLI mode, use %s%s"
+msgstr "Ne mogu da prikažem pomoć u CLI režimu, koristim %s%s"
+
+#: ../revisor/base.py:188
+msgid "Loading Repositories"
+msgstr "Učitavam spremišta"
+
+#: ../revisor/base.py:190
+#, python-format
+msgid "Getting configuration from %s"
+msgstr "Uzimam podešavanja iz %s"
+
+#: ../revisor/base.py:197 ../revisor/base.py:258 ../revisor/base.py:265
+#: ../revisor/base.py:275 ../revisor/base.py:285 ../revisor/cfg.py:473
+#: ../revisor/cfg.py:484 ../revisor/cfg.py:497 ../revisor/pkgorder.py:172
+#: ../revisor/pkgorder.py:177 ../revisor/pkgorder.py:188
+#: ../revisor/pkgorder.py:191 ../revisor/pkgorder.py:200
+#: ../revisor/pkgorder.py:209
+#, python-format
+msgid "Using deprecated YUM function: %s()"
+msgstr "Koristim prevaziđenu YUM funkciju: %s()"
+
+#: ../revisor/base.py:199
+#, python-format
+msgid ""
+"yum.YumBase.doConfigSetup failed, probably an invalid configuration file %s"
+msgstr ""
+"yum.YumBase.doConfigSetup nije uspelo, datoteka podešavanja verovatno nije "
+"ispravna %s"
+
+#: ../revisor/base.py:202
+#, python-format
+msgid "Bumping YUMs debuglevel (%d) to our debuglevel (%d)"
+msgstr ""
+"Pomeram YUM nivo za otklanjanje grešaka (%d) na naš nivo za otklanjanje grešaka "
+"(%d)"
+
+#: ../revisor/base.py:204
+#, python-format
+msgid "YUMs debuglevel now %d"
+msgstr "YUM nivo za otklanjanje grešaka je sada %d"
+
+#: ../revisor/base.py:239
+msgid "Another application is running which is accessing software information."
+msgstr "Pokrenuta je druga aplikacija koja pristupa informacijama o softveru."
+
+#: ../revisor/base.py:244
+msgid "Fatal Error: Unable to retrieve software information.\n"
+msgstr "Kobna greška: Neuspešno pribavljanje podataka o softveru\n"
+
+#: ../revisor/base.py:245
+msgid "\tThis could be caused by one of the following:\n"
+msgstr "\tUzrok ovome može biti jedno od sledećeg:\n"
+
+#: ../revisor/base.py:246
+msgid "\t - not having a network connection available,\n"
+msgstr "\t - ne postoji dostupna mrežna konekcija,\n"
+
+#: ../revisor/base.py:247
+msgid "\t - Server refusing connections,\n"
+msgstr "\t - server odbija povezivanja,\n"
+
+#: ../revisor/base.py:248
+msgid "\t - Using a mirror that isn't fully synchronized,\n"
+msgstr "\t - koristi se mirror server koji nije u potpunosti sinhronizovan,\n"
+
+#: ../revisor/base.py:249
+msgid "\t - Misconfigured repositories."
+msgstr "\t - pogrešno konfigurisani repozitorijumi."
+
+#: ../revisor/base.py:254
+msgid "Setting up a Transaction Set"
+msgstr "Postavljam skup transakcija"
+
+#: ../revisor/base.py:261
+msgid "Getting myself a piece of the RPMDB"
+msgstr "Sam uzimam deo RPMDB"
+
+#: ../revisor/base.py:268
+msgid ""
+"Apparently we're running on an Enterprise Linux system (we can tell from the "
+"way yum sets up the RPM Database)"
+msgstr ""
+"Izgleda da smo pokrenuti na Enterprise Linux sistemu (možemo to da Vam "
+"kažemo na osnovu načina na koji yum postavlja RPM bazu podataka)"
+
+#: ../revisor/base.py:271
+msgid "Getting Repository Information"
+msgstr "Uzimam informacije o skladištu"
+
+#: ../revisor/base.py:278
+#, python-format
+msgid "Arch list = %s"
+msgstr "Arh. spisak = %s"
+
+#: ../revisor/base.py:280
+msgid "Getting the Package Sacks"
+msgstr "Uzimam Package Sacks"
+
+#: ../revisor/base.py:290
+#, python-format
+msgid "All OK so far, %d packages in the Package Sack"
+msgstr "Sve je u redu za sada, %d paketa u Package Sack"
+
+#: ../revisor/base.py:303
+msgid ""
+"Building a nice package list from ksdata, and adding it to the transaction"
+msgstr "Gradim listu paketa iz ksdata, i dodajem ih u transakciju "
+
+#: ../revisor/base.py:308
+msgid "Kickstart mode: respin"
+msgstr "Kickstart režim: respin"
+
+#: ../revisor/base.py:311
+msgid "Kickstart mode: normal"
+msgstr "Kickstart režim: normalan"
+
+#: ../revisor/base.py:319
+#, python-format
+msgid ""
+"What we're getting from pykickstart is: %d groups, %d packages and %d "
+"excluded packages. %d packages are being explicitly ignored."
+msgstr ""
+"Iz pykickstart smo dobili: %d grupa, %d paketa i %d izuzetih paketa. %d "
+"paketa je eksplicitno ignorisano. "
+
+#: ../revisor/base.py:329 ../revisor/base.py:625
+msgid "Select kickstart packages"
+msgstr "Izaberite kickstart pakete"
+
+#: ../revisor/base.py:337
+#, python-format
+msgid "Using pkgsack excludes, the list of packages to exclude is now: %r"
+msgstr "Korišćenjem pkgsack izuzetih, lista izuzetih paketa je sada: %r"
+
+#: ../revisor/base.py:354 ../revisor/base.py:653
+msgid "Appending group @core"
+msgstr "Dodajem grupu @core"
+
+#: ../revisor/base.py:369 ../revisor/base.py:668
+msgid "Appending group @base"
+msgstr "Dodajem grupu @base"
+
+#: ../revisor/base.py:388 ../revisor/base.py:679
+#, python-format
+msgid "Found group: %s"
+msgstr "Pronađena grupa: %s"
+
+#: ../revisor/base.py:394
+#, python-format
+msgid "Repository metadata cannot be found: %s: %s"
+msgstr "Metapodaci repozitorijuma ne mogu biti pronađeni: %s: %s"
+
+#: ../revisor/base.py:397
+#, python-format
+msgid "Group not found: %s"
+msgstr "Ne mogu da pronađem grupu: %s"
+
+#: ../revisor/base.py:409
+#, python-format
+msgid "Selecting required packages for group %s"
+msgstr "Biram zahtevane pakete za grupu %s"
+
+#: ../revisor/base.py:413 ../revisor/base.py:434 ../revisor/base.py:455
+#: ../revisor/base.py:474
+#, python-format
+msgid "Including %s"
+msgstr "Uključujem %s"
+
+#: ../revisor/base.py:423 ../revisor/base.py:443
+#, python-format
+msgid "From Groups: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Iz grupa: Dodajem %s-%s:%s-%s.%s transakciji"
+
+#: ../revisor/base.py:430
+#, python-format
+msgid "Selecting default packages for group %s"
+msgstr "Biram podrazumevane pakete za grupu %s"
+
+#: ../revisor/base.py:450
+#, python-format
+msgid "Selecting optional packages for group %s"
+msgstr "Biram opcione pakete za grupu %s"
+
+#: ../revisor/base.py:464 ../revisor/base.py:483
+#, python-format
+msgid "From Groups --optional: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Iz grupa --opciono: Dodajem %s-%s:%s-%s.%s transakciji"
+
+#: ../revisor/base.py:470
+#, python-format
+msgid "No include parameter for group %s, using defaults"
+msgstr ""
+"Nema parametra uključivanja za grupu %s, koristim podrazumevane vrednosti"
+
+#: ../revisor/base.py:492 ../revisor/base.py:696
+#, python-format
+msgid "Testing condition: %s / %s"
+msgstr "Proveravam uslov: %s / %s"
+
+#: ../revisor/base.py:506
+#, python-format
+msgid "From package list, including: %s"
+msgstr "Iz liste paketa, uključujući: %s"
+
+#: ../revisor/base.py:509
+#, python-format
+msgid "Package %s is in excludeList, continuing"
+msgstr "Paket %s se nalazi u listi izuzetih, nastavljam"
+
+#: ../revisor/base.py:517
+msgid "No packages found!"
+msgstr "Paketi nisu nađeni!"
+
+#: ../revisor/base.py:522 ../revisor/base.py:551
+#, python-format
+msgid "From Packages: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Iz paketa: Dodajem %s-%s:%s-%s.%s u transakciju"
+
+#: ../revisor/base.py:529
+#, python-format
+msgid "Could not find package '%s', searching..."
+msgstr "Nisam mogao da pronađem paket „%s“, tražim..."
+
+#: ../revisor/base.py:542
+#, python-format
+msgid "Found packages matching '%s': %s"
+msgstr "Pronađeni paketi koji se poklapaju „%s“: %s"
+
+#: ../revisor/base.py:553
+#, python-format
+msgid "From Packages: Not adding %s now because it is in the ignore list"
+msgstr "Iz paketa: Ne dodajem %s sada zato što je na listi za ignorisanje"
+
+#: ../revisor/base.py:564
+#, python-format
+msgid ""
+"More then one package found for %s-%s-%s.%s - going to add them all to the "
+"transaction"
+msgstr ""
+"Pronašao sam više od jednog paketa za %s-%s-%s.%s - dodaću ih sve u "
+"transakciju"
+
+#: ../revisor/base.py:566
+#, python-format
+msgid "Could not find package %s-%s-%s.%s"
+msgstr "Nisam mogao da pronađem paket %s-%s-%s.%s"
+
+#: ../revisor/base.py:569
+#, python-format
+msgid "From Packages (exact string %s-%s-%s.%s), selecting %s-%s-%s.%s"
+msgstr "Iz paketa (string %s-%s-%s.%s), obeležavam %s-%s-%s.%s"
+
+#: ../revisor/base.py:589 ../revisor/base.py:744
+#, python-format
+msgid "From Excludes: Removing %s-%s:%s-%s.%s from transaction"
+msgstr "Iz izuzetih: Uklanjam %s-%s:%s-%s.%s iz transakcije"
+
+#: ../revisor/base.py:592 ../revisor/base.py:747
+#, python-format
+msgid ""
+"Apparently trying to exclude a package that is not available in the "
+"repositories loaded, or hasn't been added to the transaction: %s"
+msgstr ""
+"Izgleda da pokušavate da izuzmete paket koji nije dostupan u učitanim "
+"spremištima, ili nije bio dodat transakciji: %s"
+
+#: ../revisor/base.py:598
+#, python-format
+msgid ""
+"\n"
+"The following errors occured when selecting groups and packages from "
+"kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"You can continue with these minor errors but obviously the results may not "
+"be what you expected."
+msgstr ""
+"\n"
+"Desile su se sledeće greške prilikom odabira grupa i paketa izkickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"Možete nastaviti i sa ovim beznačajnim greškama ali očigledno rezultat ne "
+"može biti onakav kakav ste očekivali."
+
+#: ../revisor/base.py:604
+msgid "This is what was selected to be installed:"
+msgstr "Ovo je selektovano za instalaciju:"
+
+#: ../revisor/base.py:617
+#, python-format
+msgid ""
+"What we're getting from pykickstart is: %d groups, %d packages and %d "
+"excluded packages."
+msgstr "Iz pykickstart-a smo dobili: %d grupa, %d paketa i %d izuzetih paketa."
+
+#: ../revisor/base.py:636
+#, python-format
+msgid "Using pkgsack excludes, excluded packages is now: %r"
+msgstr "Korišćenjem pkgsack izuzetaka, spisak izuzetih paketa je sada: %r"
+
+#: ../revisor/base.py:676
+#, python-format
+msgid "No such group %s"
+msgstr "Ne postoji grupa %s"
+
+#: ../revisor/base.py:733
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s"
+msgstr "Dodajem %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:765
+msgid "Initting progress bar for "
+msgstr "Inicijalizujem traku napredovanja za "
+
+#: ../revisor/base.py:772
+msgid "Apparently we have not yet entered the Build Media stage"
+msgstr "Očigledno još nismo ušli u fazu izgradnje medijuma"
+
+#: ../revisor/base.py:801
+#, python-format
+msgid "Checking dependencies for %s.%s"
+msgstr "Proveravam zavisnosti za %s.%s"
+
+#. pbar.cur_task += 1.0
+#: ../revisor/base.py:823
+#, python-format
+msgid "Unresolvable dependency %s %s %s in %s.%s"
+msgstr "Nerazrešiva zavisnost %s %s %s u %s.%s"
+
+#: ../revisor/base.py:830
+#, python-format
+msgid "Added %s-%s:%s-%s.%s for %s-%s:%s-%s.%s (requiring %s %s %s)"
+msgstr "Dodati %s-%s:%s-%s.%s za %s-%s:%s-%s.%s (zahtevam %s %s %s)"
+
+#: ../revisor/base.py:833
+msgid "Checking dependencies - allowing conflicts within the package set"
+msgstr "Proveravam zavisnosti - dozvoljavam sukobe među skupovima paketa"
+
+#: ../revisor/base.py:834 ../revisor/base.py:863
+msgid "Resolving Dependencies"
+msgstr "Razrešavam zavisnosti"
+
+#: ../revisor/base.py:856
+#, python-format
+msgid ""
+"The following packages were excluded using the kickstart package manifest, "
+"but were included for dependency resolving:\n"
+" - %s"
+msgstr ""
+"Sledeći paketi su izuzeti korišćenjem kickstart manifesta paketa, ali su "
+"uvršteni zbog razrešenja zavisnosti:\n"
+" - %s"
+
+#: ../revisor/base.py:862
+msgid ""
+"Checking dependencies - not allowing any conflicts within the package set"
+msgstr "Proveravam zavisnosti - nisu dozvoljeni sukobi među skupovima paketa"
+
+#: ../revisor/base.py:890
+#, python-format
+msgid ""
+"Unable to resolve dependencies for some packages selected:\n"
+"\n"
+"%s"
+msgstr ""
+"Ne mogu da razrešim zavisnosti za neke izabrane pakete: \n"
+"\n"
+"%s"
+
+#. End of dependency resolving
+#: ../revisor/base.py:894 ../revisor/image.py:97
+msgid "Unable to build transaction"
+msgstr "Ne mogu da izgradim prenos"
+
+#: ../revisor/base.py:899 ../revisor/image.py:102
+#, python-format
+msgid "Successfully built transaction: ret %s, msg %s"
+msgstr "Uspešno sam izgradio transakciju: ret %s, msg %s"
+
+#: ../revisor/base.py:905
+#, python-format
+msgid ""
+"Errors where encountered while downloading package headers:\n"
+"\n"
+"%s"
+msgstr ""
+"Pojavile su se greške prilikom preuzimanja zaglavlja paketa:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:914
+msgid ""
+"The package set after dependency resolving does not match the packages "
+"selected in the kickstart manifest"
+msgstr ""
+"Skup paketa posle razrešavanja zavisnosti se ne poklapa sa paketima izabranim "
+"u kickstart manifestu"
+
+#: ../revisor/base.py:938
+#, python-format
+msgid "No such repository: %s"
+msgstr "Nema takvog spremišta: %s"
+
+#: ../revisor/base.py:940
+#, python-format
+msgid "Enabling %s repository"
+msgstr "Omogućujem %s riznicu"
+
+#: ../revisor/base.py:958
+#, python-format
+msgid "Disabling %s repository"
+msgstr "Onemogućujem %s riznicu"
+
+#: ../revisor/base.py:979
+#, python-format
+msgid "Error: Cannot find a source rpm for %s"
+msgstr "Greška: Ne mogu da pronađem izvorni rpm za %s"
+
+#: ../revisor/base.py:981 ../revisor/modgui/build_media.py:106
+#: ../revisor/modgui/build_media.py:142 ../revisor/modgui/build_media.py:219
+msgid "Downloading Source Packages"
+msgstr "Preuzimam izvorne pakete"
+
+#: ../revisor/base.py:1010 ../revisor/progress.py:441
+#, python-format
+msgid "Downloading %s"
+msgstr "Preuzimam %s"
+
+#: ../revisor/base.py:1040 ../revisor/modgui/build_media.py:101
+#: ../revisor/modgui/build_media.py:214
+msgid "Downloading Packages"
+msgstr "Preuzimam pakete"
+
+#: ../revisor/base.py:1049
+msgid "Unable to find a suitable mirror."
+msgstr "Ne mogu da pronađem odgovarajući mirror."
+
+#: ../revisor/base.py:1061
+#, python-format
+msgid "Errors were encountered while downloading packages: %s"
+msgstr "Došlo je do pojave grešaka prilikom preuzimanja paketa: %s"
+
+#: ../revisor/base.py:1102
+#, python-format
+msgid "Overriding auto package selection with user package selection for %s..."
+msgstr "Prepisujem auto-selekciju paketa selekcijom korisnika za %s..."
+
+#: ../revisor/base.py:1115
+#, python-format
+msgid "Adding required package %s-%s:%s-%s.%s"
+msgstr "Dodajem zahtevani paket %s-%s:%s-%s.%s"
+
+#. This list has already been resolved
+#: ../revisor/base.py:1118
+#, python-format
+msgid "%s. This is a required package."
+msgstr "%s. Ovo je zahtevani paket."
+
+#: ../revisor/base.py:1130
+#, python-format
+msgid "Adding suggested package %s-%s:%s-%s.%s"
+msgstr "Dodajem predloženi paket %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:1140
+#, python-format
+msgid "Packages that do not need to be on the media: %s"
+msgstr "Paketi koji ne trebaju da budu na mediju: %s"
+
+#: ../revisor/base.py:1165 ../revisor/base.py:1191
+msgid "Did not succeed in adding in all required packages"
+msgstr "Nisam uspeo u dodavanju svih zahtevanih paketa"
+
+#: ../revisor/base.py:1199
+msgid "Populating statistics"
+msgstr "Popunjavam statistike"
+
+#: ../revisor/base.py:1215
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a archivesize header"
+msgstr "Paket %s-%s:%s-%s.%s izgleda da nema zaglavlje za veličinu arhive"
+
+#: ../revisor/base.py:1223
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a installedsize header"
+msgstr ""
+"Paket %s-%s:%s-%s.%s izgleda da nema zaglavlje za instaliranu veličinu paketa"
+
+#: ../revisor/base.py:1231
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a packagesize header"
+msgstr "Paket %s-%s:%s-%s.%s izgleda da nema zaglavlje za veličinu paketa"
+
+#: ../revisor/base.py:1241
+#, python-format
+msgid "Total size of all packages (archivesize): %s %s"
+msgstr "Ukupna veličina svih paketa (veličina arhive): %s %s"
+
+#: ../revisor/base.py:1242
+#, python-format
+msgid "Total size of all packages, (installedsize): %s %s"
+msgstr "Ukupna veličina svih paketa, (veličina instaliranog): %s %s"
+
+#: ../revisor/base.py:1243
+#, python-format
+msgid "Total size of all packages, (packagesize): %s %s"
+msgstr "ukupna veličina svih paketa, (veličina paketa): %s %s"
+
+#: ../revisor/base.py:1278
+#, python-format
+msgid "Report of the %d most space consuming packages"
+msgstr "Izveštaj o %d paketima koji zauzimaju najviše prostora"
+
+#: ../revisor/base.py:1373 ../revisor/base.py:1387 ../revisor/base.py:2008
+#, python-format
+msgid "Creating pkgdir: %s"
+msgstr "Pravim pkgdir: %s"
+
+#. Now for each txmbr in
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:1396
+msgid "Linking in packages"
+msgstr "Povezivanje u paketima"
+
+#: ../revisor/base.py:1415 ../revisor/base.py:2032
+#, python-format
+msgid "Package hard link failed: %s: %s"
+msgstr "Nije uspelo povezivanje paketa: %s: %s"
+
+#: ../revisor/base.py:1420 ../revisor/base.py:2037
+#, python-format
+msgid "Copying: %s to %s"
+msgstr "Umnožavam %s u %s"
+
+#: ../revisor/base.py:1423 ../revisor/base.py:2040
+#, python-format
+msgid "Symlinking: %s to %s"
+msgstr "Simbolički povezujem: %s u %s"
+
+#: ../revisor/base.py:1426 ../revisor/base.py:2043
+msgid "Package symlink succeeded"
+msgstr "Uspešno simboličko povezivanje paketa"
+
+#: ../revisor/base.py:1428 ../revisor/base.py:1435 ../revisor/base.py:2045
+#: ../revisor/base.py:2052
+#, python-format
+msgid "Package link failed, trying copy: %s: %s"
+msgstr "Povezivanje paketa nije uspelo, pokušavam umnožavanje: %s: %s"
+
+#: ../revisor/base.py:1445
+msgid "Creating Repository Information"
+msgstr "Pravim informacije o spremištu"
+
+#. FIXME: Optionally recompose installer images
+#: ../revisor/base.py:1460
+msgid "Building Installation Images"
+msgstr "Pravim instalacione slike"
+
+#: ../revisor/base.py:1466
+msgid "Using already existing installer images"
+msgstr "Koristim već postojeće odraze instalacionog programa"
+
+#: ../revisor/base.py:1480
+msgid "Linking in release notes"
+msgstr "Povezujem beleške o izdanju"
+
+#: ../revisor/base.py:1492
+#, python-format
+msgid "Copying updates.img from %s to %s"
+msgstr "Umnožavam updates.img iz %s u %s"
+
+#: ../revisor/base.py:1501 ../revisor/pungi.py:412
+#, python-format
+msgid "copy_dir '%s' not accessible"
+msgstr "Ne mogu da pristupim copy_dir „%s“"
+
+#: ../revisor/base.py:1512
+#, python-format
+msgid "Size of the installation tree is %s MB"
+msgstr "Veličina instalacionog stabla je %s MB "
+
+#. On EL5, the yum cache is placed under the installroot
+#. That makes our lives difficult, hihi
+#. So, make sure that if we're on el_linux, the repository gets
+#. bind mounted and configured appropriately
+#: ../revisor/base.py:1562
+msgid "Running pkgorder"
+msgstr "Izvršavam pkgorder"
+
+#: ../revisor/base.py:1625
+msgid "Appending group core and base"
+msgstr "Pridodajem sržnu i bažičnu grupu"
+
+#: ../revisor/base.py:1632
+#, python-format
+msgid "Appending default group %s"
+msgstr "Pridodajem podrazumevanu grupu. %s"
+
+#: ../revisor/base.py:1672
+#, python-format
+msgid "Appending non-default group %s"
+msgstr "Pridodajem nepodrazumevanu grupu. %s"
+
+#: ../revisor/base.py:1678
+#, python-format
+msgid "Appending non-default support group %s"
+msgstr "Pridodajem podrazumevanu grupu za podršku. %s"
+
+#: ../revisor/base.py:1745
+#, python-format
+msgid "Not running package ordering, using file %s instead"
+msgstr "Ne pokrećem ređanje paketa, koristim umeto toga datoteku %s"
+
+#: ../revisor/base.py:1747
+msgid "Not running package ordering"
+msgstr "Ne izvršavam ređanje paketa"
+
+#: ../revisor/base.py:1779
+msgid "^Install using kickstart"
+msgstr "^Instaliraj koristeći kickstart"
+
+#. Split Tree
+#: ../revisor/base.py:1802
+#, python-format
+msgid "Splitting Build Tree (%s)"
+msgstr "Delim stablo gradnje (%s)"
+
+#. Split repo
+#: ../revisor/base.py:1808
+#, python-format
+msgid "Splitting Repository (%s)"
+msgstr "Delim spremište (%s)"
+
+#: ../revisor/base.py:1822 ../revisor/modgui/build_media.py:244
+#, python-format
+msgid "Creating %s ISO Image #%d"
+msgstr "Pravim %s ISO sliku #%d"
+
+#: ../revisor/base.py:1827 ../revisor/modgui/build_media.py:248
+#, python-format
+msgid "Creating %s ISO Image"
+msgstr "Pravim %s ISO sliku"
+
+#. For all images but source images; implant the md5 into the ISO for the media check
+#. FIXME: Well, it seems we don't deal with source images here.
+#: ../revisor/base.py:1841
+msgid "Implanting MD5 into ISO Images"
+msgstr "Ugrađujem MD5 u ISO slike"
+
+#. mediatype = built_image["mediatype"]
+#. if not mediatype == 'source':
+#: ../revisor/base.py:1849
+#, python-format
+msgid "Implanting md5 into ISO Image: %s"
+msgstr "Ugrađujem MD5 u ISO sliku: %s"
+
+#: ../revisor/base.py:1855
+msgid "Cannot implant ISO md5sum"
+msgstr "Ne mogu da uvezem ISO md5 sumu"
+
+#. Do some SHA1SUMMONING
+#: ../revisor/base.py:1863
+msgid "Creating SHA1SUMs for Images"
+msgstr "Pravim SHA1SUM-ove za slike"
+
+#: ../revisor/base.py:1879
+msgid "Creating Rescue ISO Image"
+msgstr "Pravim ISO sliku za spašavanje"
+
+#: ../revisor/base.py:1939
+#, python-format
+msgid "Copying %s to %s (%d files)"
+msgstr "Umnožavam %s u %s (%d datoteka/e)"
+
+#: ../revisor/base.py:1943
+#, python-format
+msgid "Moving %s to %s (%d files)"
+msgstr "Umnožavam %s u %s(%d datoteka/e)"
+
+#: ../revisor/base.py:1946
+#, python-format
+msgid ""
+"Moving of the source tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Premeštanje izvornog stabla nije uspelo (pokušavam umnožavanje):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1949
+#, python-format
+msgid ""
+"Copying of the source tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Premeštanje izvornog stabla nije uspelo:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1954 ../revisor/pungi.py:408
+#, python-format
+msgid "Copying %s to %s"
+msgstr "Umnožavam %s u %s"
+
+#: ../revisor/base.py:1958
+#, python-format
+msgid ""
+"Copying of the installation tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Premeštanje instalacionog stabla nije uspelo:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1964
+msgid "Creating ext3 filesystem"
+msgstr "Pravim ext3 sistem datoteka"
+
+#: ../revisor/base.py:1971
+msgid "Configuring System"
+msgstr "Podešavam sistem"
+
+#. Now for each txmbr in
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:2017
+msgid "Linking in Source packages"
+msgstr "Povezivanje u paketima izvornog koda"
+
+#: ../revisor/base.py:2072
+#, python-format
+msgid "Setting rundir to %s"
+msgstr "Postavljam rundir na %s"
+
+#: ../revisor/base.py:2078
+#, python-format
+msgid "Directory %s could not be created. Aborting"
+msgstr "Nisam uspeo da napravim direktorijum %s. Odustajem"
+
+#: ../revisor/base.py:2080
+#, python-format
+msgid "Running command: %s"
+msgstr "Pokrećem naredbu: %s"
+
+#: ../revisor/base.py:2081
+#, python-format
+msgid "Extra information: %s %s %s"
+msgstr "Dodatne informacije: %s %s %s"
+
+#: ../revisor/base.py:2109
+#, python-format
+msgid "Got an error from %s (return code %s)"
+msgstr "Dobijena je greška iz %s (povratni kod %s)"
+
+#: ../revisor/cfg.py:73
+#, python-format
+msgid "Setting %s to %r"
+msgstr "Postavljam %s na %r"
+
+#: ../revisor/cfg.py:152 ../revisor/cfg.py:210
+#, python-format
+msgid "No group data found for %s"
+msgstr "Nisu pronađeni podaci o grupi za %s"
+
+#: ../revisor/cfg.py:155 ../revisor/cfg.py:213
+#, python-format
+msgid "Why is yum throwing AttributeErrors? %s"
+msgstr "Zbog čega yum odbacuje AttributeErrors? %s"
+
+#: ../revisor/cfg.py:243
+msgid "Checking working directories"
+msgstr "Proveravam radne direktorijume"
+
+#: ../revisor/cfg.py:260 ../revisor/cfg.py:338
+#, python-format
+msgid ""
+"The directories Revisor uses in %s already exist. This could possibly hold "
+"data from a previous run. Please remove or move them to a safe location, "
+"then confirm to continue. If you do not move or remove the files, Revisor "
+"will simply delete them."
+msgstr ""
+"Direktorijumi koje koristi Revisor u %s već postoje. Ovo može verovatno "
+"sadržati podatke iz prethodnog izvršavanja. Molimo vas izbacite ili "
+"premestite ih na sigurno mesto i onda potvrdite za nastavak. Ako ne "
+"premestite ili uklonite datoteke, Revisor će ih jednostavno obrisati."
+
+#: ../revisor/cfg.py:262 ../revisor/cfg.py:340
+#, python-format
+msgid "The directories Revisor uses in %s already exist. Revisor deleted them."
+msgstr ""
+"Direktorijumi koje Revisor koristi u %s već postoje. Revisor ih je obrisao."
+
+#: ../revisor/cfg.py:272
+#, python-format
+msgid "%s%s%s is a mount, trying to unmount"
+msgstr "%s%s%s je montiran, pokušavam da demontiram"
+
+#: ../revisor/cfg.py:276
+#, python-format
+msgid ""
+"Unable to unmount %s%s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Ne mogu da demontiram %s%s%s uz grešku:\n"
+"\n"
+"%s\n"
+"\n"
+"Molim rešite problem i nastavite."
+
+#: ../revisor/cfg.py:279
+#, python-format
+msgid "%s%s%s is not a mount"
+msgstr "%s%s%s nije montiran"
+
+#: ../revisor/cfg.py:299
+#, python-format
+msgid ""
+"Unable to unmount %s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Ne mogu da demontiram %s%s uz grešku:\n"
+"\n"
+"%s\n"
+"\n"
+"Molim rešite problem i nastavite."
+
+#: ../revisor/cfg.py:316
+msgid "Checking destination directories"
+msgstr "Proveravam direktorijume odredišta"
+
+#: ../revisor/cfg.py:320
+#, python-format
+msgid "Set destination directory to %s"
+msgstr "Postavite odredišni direktorijum do %s"
+
+#: ../revisor/cfg.py:364 ../revisor/cfg.py:371 ../revisor/cfg.py:378
+#: ../revisor/modvirt/__init__.py:66 ../revisor/modvirt/__init__.py:73
+#, python-format
+msgid "Cannot access %s, please check the permissions so we can try again."
+msgstr ""
+"Ne mogu da pristupim %s, molim vas proverite ovlašćenja tako da možemo da "
+"pokušamo ponovo."
+
+#: ../revisor/cfg.py:403
+#, python-format
+msgid "Architecture list: %r"
+msgstr "Spisak arhitektura: %r"
+
+#: ../revisor/cfg.py:435
+#, python-format
+msgid "Repository %s specified in the kickstart already exists"
+msgstr "Riznica %s određena u kickstart-u već postoji"
+
+#: ../revisor/cfg.py:440
+#, python-format
+msgid "Setting repo.baseurl to %s"
+msgstr "Postavljam repo.baseurl za %s"
+
+#: ../revisor/cfg.py:443
+#, python-format
+msgid "Setting repo.mirrorlist to %s"
+msgstr "Postavljam repo.mirrorlist za %s"
+
+#: ../revisor/cfg.py:462 ../revisor/cfg.py:466
+msgid "Could not clean metadata you might be working with old data"
+msgstr "Ne mogu da očistim metapodatke, moguće je da radite sa starim podacima"
+
+#: ../revisor/cfg.py:487
+#, python-format
+msgid "No groups present! Error was: %s"
+msgstr "Ne postoji grupa! Greška je: %s"
+
+#: ../revisor/cfg.py:559
+msgid ""
+"You cannot choose the system's yum configuration file /etc/yum.conf for use "
+"with Revisor. Aborting."
+msgstr ""
+"Ne možete izabrati sistemsku yum datoteku podešavanja /etc/yum.conf za "
+"upotrebu sa Revisor-om. Odustajem."
+
+#: ../revisor/cfg.py:561
+#, python-format
+msgid ""
+"File %s does not exist (used as 'main' configuration directive in model %s)"
+msgstr ""
+"Datoteka %s ne postoji (korišćena kao „glavna“ direktiva za podešavanje u "
+"modelu %s)"
+
+#: ../revisor/cfg.py:567
+msgid ""
+"The ISO label cannot be longer then 32 characters due to Joliet limitations"
+msgstr "ISO oznaka ne može biti veća od 32 karaktera zbog Joliet ograničenja"
+
+#: ../revisor/cfg.py:577
+#, python-format
+msgid "Kickstart file %s cannot be read."
+msgstr "Ne mogu da pročitam datoteku %s."
+
+#: ../revisor/cfg.py:585
+#, python-format
+msgid ""
+"The file configured as a comps file (%s) cannot be read. When composing "
+"installation media, this is FATAL."
+msgstr ""
+"Datoteka podešena kao comps datoteka (%s) nije čitljiva. Ovo je kobno kada "
+"sastavljate istalacione medijume."
+
+#: ../revisor/cfg.py:593
+#, python-format
+msgid "The updates.img specified isn't readable: %s"
+msgstr "Određeni updates.img nije čitljiv: %s"
+
+#: ../revisor/cfg.py:598
+msgid "Updates.img seems to not be a file... Is it an URL?"
+msgstr "Izgleda da updates.img nije datoteka... Da li je URL?"
+
+#: ../revisor/cfg.py:609
+msgid "Preferred kernel should be one of: normal, PAE, xen, debug."
+msgstr ""
+"Pretpostavljena vrsta jezgra bi trebala da bude jedna od ponuđenih: normalna, "
+"PAE, xen, za uklanjanje grešaka."
+
+#: ../revisor/cfg.py:623
+msgid ""
+"The version you selected as a base for pykickstart compatibility and "
+"required package sets does not exist"
+msgstr ""
+"Verzija koju ste izabrali kao osnovu za pykickstart usaglašenost i obavezne "
+"skupove paketa, ne postoji"
+
+#: ../revisor/cfg.py:633
+#, python-format
+msgid ""
+"You have selected a model with architecture %s which doesn't compose on the "
+"system architecture %s."
+msgstr ""
+"Izabrali ste model sa arhitekturom %s koja se ne gradi nad arhitekturom "
+"sistema %s"
+
+#: ../revisor/cfg.py:641
+msgid "Setting options from configuration file"
+msgstr "Postavljam opcije iz datoteke za podešavanja"
+
+#: ../revisor/cfg.py:669
+#, python-format
+msgid "No model %s in configuration file %s"
+msgstr "Ne postoji model %s u datoteci podešavanja %s"
+
+#: ../revisor/cfg.py:671
+#, python-format
+msgid "Setting model to %s"
+msgstr "Postavljam model na %s"
+
+#. Not specifying a model and not configuring a model is fatal for CLI
+#: ../revisor/cfg.py:680 ../revisor/cfg.py:690 ../revisor/cfg.py:692
+#, python-format
+msgid ""
+"No model specified on the command line and no existing model configuration "
+"in %s"
+msgstr ""
+"Nijedan model nije određen u komandnoj liniji i nijedno podešavanje modela u %"
+"s"
+
+#: ../revisor/cfg.py:682
+#, python-format
+msgid ""
+"Model %s configured in configuration file %s, but there is no such model "
+"configuration"
+msgstr ""
+"Model %s je podešen u datoteci podešavanja %s, ali ne postoji takvo "
+"podešavanje modela"
+
+#: ../revisor/cfg.py:696
+#, python-format
+msgid "Tried to load model %s but it doesn't exist inconfiguration file %s"
+msgstr ""
+"Pokušao sam da učitam model %s, ali on ne postoji u datoteci podešavanja %s"
+
+#: ../revisor/cfg.py:710
+#, python-format
+msgid "Model %s has no configuration directive 'main' which is required"
+msgstr "Model %s nema „glavnu“direktivu za podešavanja koja se zahteva"
+
+#: ../revisor/cfg.py:713
+#, python-format
+msgid "Testing for configuration parameter %s"
+msgstr "Ispitujem konfiguracijske parametre %s"
+
+#: ../revisor/cfg.py:742
+#, python-format
+msgid "Setting %s to %r (from configuration file model %s)"
+msgstr "Postavljam %s na %r (iz modela datoteke podešavanja %s)"
+
+#: ../revisor/cfg.py:776
+#, python-format
+msgid "Configuration file %s not readable"
+msgstr "Datoteka podešavanja %s nije čitljiva"
+
+#: ../revisor/cfg.py:779 ../revisor/modgui/configuration.py:465
+#, python-format
+msgid "Reading configuration file %s"
+msgstr "Čitam datoteku podešavanja %s"
+
+#: ../revisor/cfg.py:783
+#, python-format
+msgid "Invalid configuration file %s"
+msgstr "Nevažeća datoteka podešavanja %s"
+
+#: ../revisor/cfg.py:786
+#, python-format
+msgid "No master configuration section [revisor] in configuration file %s"
+msgstr "Ne postoji odeljak podešavanja [revisor] u datoteci podešavanja %s"
+
+#: ../revisor/cfg.py:820
+#, python-format
+msgid "Setting %s to %r (from configuration file)"
+msgstr "Postavljam %s na %r (iz datoteke podešavanja)"
+
+#: ../revisor/cfg.py:824
+msgid "Setting options from command-line"
+msgstr "Postavljam opcije iz komandne linije"
+
+#: ../revisor/cfg.py:838 ../revisor/cfg.py:845
+#, python-format
+msgid "Setting %s to %r (from command line)"
+msgstr "Postavljam %s na %r (iz komandne linije)"
+
+#: ../revisor/cfg.py:840
+#, python-format
+msgid "Checked setting %s through plugin"
+msgstr "Proverio sam postavku %s kroz dodatak"
+
+#: ../revisor/cfg.py:843
+#, python-format
+msgid "No check_setting_%s()"
+msgstr "Bez check_setting_%s()"
+
+#: ../revisor/cfg.py:847
+#, python-format
+msgid "Not setting %s to %r (command line matches default)"
+msgstr "Postavljam %s na %r (komandna linija se preklapa sa podrazumevanim)"
+
+#: ../revisor/cfg.py:889
+msgid ""
+"Updates.img is only usable with installation media. Please remove --updates-"
+"img or also build installation media."
+msgstr ""
+"Updates.img je samo upotrebljiva sa instalacionim medijumom. Molim vas "
+"uklonite --updates-img ili takođe izgradite instalacioni medijum."
+
+#: ../revisor/cfg.py:893
+msgid "Kickstart failed"
+msgstr "Kickstart nije uspeo"
+
+#: ../revisor/cfg.py:898
+#, python-format
+msgid "Kickstart file %s not readable"
+msgstr "Kickstart datoteka %s nije čitljiva"
+
+#: ../revisor/cfg.py:900
+#, python-format
+msgid "Kickstart file %s fails to load, continuing with defaults"
+msgstr ""
+"Nije uspelo učitavanje kickstart datoteke %s, nastavljam sa podrazumevanim "
+"vrednostima"
+
+#: ../revisor/cfg.py:903
+msgid "No kickstart file specified"
+msgstr "Nije određena kickstart datoteka"
+
+#: ../revisor/cfg.py:906 ../revisor/cfg.py:927
+msgid "No media specified"
+msgstr "Nijedan medijum nije određen"
+
+#: ../revisor/cfg.py:909
+msgid ""
+"When composing in respin mode, you can only select one type of media "
+"install, live or virtual. You can however select multiple media such as cd, "
+"dvd, etc."
+msgstr ""
+"Kada sastavljate u respin načinu rada, možete samo odrediti jedan tip "
+"medijumske instalacije, živu ili virtuelnu. Možete takođe odrediti nekoliko "
+"medijuma, kao što su CD, DVD, itd."
+
+#: ../revisor/cfg.py:954
+#, python-format
+msgid "pulling self.packages_list[%r][%r][%r][%r]"
+msgstr "povlačim self.packages_list[%r][%r][%r][%r]"
+
+#: ../revisor/cfg.py:959
+#, python-format
+msgid "returning pkg_list: %r"
+msgstr "vraćam pkg_list: %r"
+
+#: ../revisor/cfg.py:1077
+msgid "Run from image"
+msgstr "Izvršavaj sa otiska"
+
+#: ../revisor/cfg.py:1078
+msgid "Run from RAM - requires 1 GB+"
+msgstr "Izvršavaj sa RAM memorije - zahteva najmanje 1 GB"
+
+#. #
+#. # Runtime Options
+#. #
+#: ../revisor/__init__.py.in:85
+msgid "Runtime Options"
+msgstr "Opcije izvršavanja"
+
+#: ../revisor/__init__.py.in:90
+msgid "Use the CLI rather then GUI"
+msgstr "Koristi CLI rađe nego GKI"
+
+#: ../revisor/__init__.py.in:95
+msgid ""
+"Force Revisor to use the GUI. Does not fallback to CLI and thus shows GUI "
+"related errors"
+msgstr ""
+"Prisili Revisor da koristi GUI. Ne odnosi se na CLI i prema tome prikazuje "
+"greške koje se odnose na GUI "
+
+#: ../revisor/__init__.py.in:100
+msgid "List available models"
+msgstr "Izlistaj dostupne modele"
+
+#: ../revisor/__init__.py.in:105
+msgid "Development mode. Skips some tasks that take time."
+msgstr "Razvojni način rada. Izuzima neke zadatke koji uzimaju dosta vremena."
+
+#: ../revisor/__init__.py.in:110
+msgid "Report the sizes of all RPMs selected in a list"
+msgstr "Izvesti o veličinama svih RPM-ova koji su izabrani na listi"
+
+#: ../revisor/__init__.py.in:115
+msgid ""
+"Force Revisor to interpret the package manifest as complete package nevra "
+"(name, epoch, version, release and architecture). Implies --kickstart-exact"
+msgstr ""
+"Prisili Revisor da interpretira manifeste paketa kao kompletni ievia paketa "
+"(ime, epohu,verziju, izdanje i arhitekturu) -package nevra (name, epoch, "
+"version, release and architecture). Implies --kickstart-exact"
+
+#: ../revisor/__init__.py.in:120
+msgid ""
+"Tells Revisor to ignore @core and @base (or %packages --nobase) and only add "
+"what is in the package manifest"
+msgstr ""
+"Ukazuje revizoru da zanemari @core i @base (ili %packages --nobase) i samo "
+"dodaje ono što je manifest paketa"
+
+#: ../revisor/__init__.py.in:126
+msgid ""
+"Should Revisor not clean up at all (0), clean up it's temporary build data "
+"(1), or everything -this includes the yum cache (2)"
+msgstr ""
+"Treba li revizor da očisti sve (0), očisti svoje privremeno napravljene "
+"podatke (1) ili sve - ovo uključuje yum keš (2)"
+
+#: ../revisor/__init__.py.in:132
+msgid "Size of the USB Thumb Drive. Default to 4G."
+msgstr "Veličina USB mali uređaj. Podrazumevano za 4G."
+
+#: ../revisor/__init__.py.in:141
+msgid "Set debugging level (0 by default)"
+msgstr "Postavi nivo za uklanjanje grešaka (0 je podrazumevana vrednost)"
+
+#: ../revisor/__init__.py.in:150
+msgid "Answer all questions as 'yes'"
+msgstr "Odgovori na sva pitanja sa „da“"
+
+#. #
+#. # Configuration Options
+#. #
+#: ../revisor/__init__.py.in:155
+msgid "Configuration Options"
+msgstr "Opcije podešavanja"
+
+#. Might be disabled for testing purposes
+#. default = os.path.join(BASE_CONFD_DIR,"fedora-7-gold.cfg"),
+#: ../revisor/__init__.py.in:162
+msgid "Use kickstart file"
+msgstr "Koristi kickstart datoteku"
+
+#: ../revisor/__init__.py.in:168
+msgid "Save options to given file (as a kickstart)"
+msgstr "Sačuvaj opcije u datu datoteku (kao kickstart)"
+
+#: ../revisor/__init__.py.in:174
+msgid "Revisor configuration file to use"
+msgstr "Revisor-ova datoteka podešavanja za korišćenje"
+
+#: ../revisor/__init__.py.in:180
+msgid "Get the sources to go with the binaries"
+msgstr "Preuzmi izvore koji idu sa binarnim datotekama"
+
+#: ../revisor/__init__.py.in:185
+msgid "Destination directory for products"
+msgstr "Odredični direktorijum za proizvode"
+
+#: ../revisor/__init__.py.in:191
+msgid "Working directory"
+msgstr "Direktorijum za rad"
+
+#: ../revisor/__init__.py.in:197
+msgid "Model to use for composing"
+msgstr "Model namenjen sastavljanju"
+
+#: ../revisor/__init__.py.in:203
+msgid "Mode to use for composing updated spins"
+msgstr "Način rada za sastavljanje ažuriranih izdanja"
+
+#: ../revisor/__init__.py.in:208
+msgid ""
+"Sometimes, it's better to copy local data rather then (sym)linking it. If "
+"you have enough space..."
+msgstr ""
+"Ponekad, bolje je da umnožavate lokalne podatke rađe nego da ih (simbolički) "
+"povezujete. Pod uslovom da imate dovoljno prostora..."
+
+#: ../revisor/__init__.py.in:213
+msgid "Directory to copy onto the media"
+msgstr "Direktorijum za umnožavanje na medijume"
+
+#. #
+#. # Installation Media Options
+#. #
+#: ../revisor/__init__.py.in:218
+msgid "Installation Media Options"
+msgstr "Opcije medijuma za instalaciju"
+
+#: ../revisor/__init__.py.in:223
+msgid "Create Installation Media CDs (Capacity per disc: 685MB)"
+msgstr "Napravite instalacione medijske CDove (kapacitet po disku: 685MB)"
+
+#: ../revisor/__init__.py.in:228
+msgid "Create Installation Media DVDs (Capacity per disc: 4.3GB)"
+msgstr "Napravite instalacione DVD medijume (kapacitet po disku: 4.3GB)"
+
+#: ../revisor/__init__.py.in:233
+msgid "Create Installation Media Dual-Layered DVDs (Capacity per disc: 8.5GB)"
+msgstr ""
+"Napravite instalacione dvoslojne DVD medijume (kapacitet po disku: 8.5GB)"
+
+#: ../revisor/__init__.py.in:238
+msgid "Create Installation Media Blu-Ray Discs (Capacity per disc: 50GB)"
+msgstr "Napravite instalacione BluRej disk medijume (kapacitet po disku: 50GB)"
+
+#: ../revisor/__init__.py.in:243
+msgid "Create Unified ISO from install tree"
+msgstr "Napravite ujednačene ISO-e iz instalacionog stabla"
+
+#: ../revisor/__init__.py.in:254
+msgid "Create the Installation Tree."
+msgstr "Napravite instalaciono stablo."
+
+#: ../revisor/__init__.py.in:259
+msgid "Create Media without graphical installer."
+msgstr "Napravite medijum bez grafičkog instalera."
+
+#: ../revisor/__init__.py.in:264
+msgid "Include kickstart file on media or in the tree"
+msgstr "Uključi kickstart datoteku na medijumu ili u stablu"
+
+#: ../revisor/__init__.py.in:269
+msgid ""
+"In the bootloader menu (isolinux.cfg), set kickstart to boot by default "
+"(works with --kickstart-include)"
+msgstr ""
+"U meniju pokretačkog programa (isolinux.cfg), postavite kickstart da se "
+"podrazumevano podiže sa sistemom (radi sa --kickstart-include)"
+
+#: ../revisor/__init__.py.in:274
+msgid "Filter anything from comps that is not in the package set"
+msgstr "Prečistite sve iz comps-a, što nije u skupu paketa"
+
+#: ../revisor/__init__.py.in:279
+msgid "Use Revisor's comps file instead of those from the repositories"
+msgstr "Koristi Revisor-ovu comps datoteku umesto onih iz riznica"
+
+#: ../revisor/__init__.py.in:284
+msgid "Comps file to include on the installation media"
+msgstr "Comps datoteka za umetanje na instalacione medijume"
+
+#: ../revisor/__init__.py.in:289
+msgid "Include specified updates.img on installation media."
+msgstr "Umetnite navedeni updates.img na instalacioni medijum."
+
+#: ../revisor/__init__.py.in:295
+msgid "Product Name"
+msgstr "Ime proizvoda"
+
+#: ../revisor/__init__.py.in:300
+msgid ""
+"Product Path (e.g. Fedora/ or Packages/ -but without the appending slash)"
+msgstr ""
+"Putanja proizvoda (npr. Fedora/ or Packages/ - ali bez dodatih kosih linija)"
+
+#: ../revisor/__init__.py.in:305
+msgid ""
+"ISO Label Base. Note that other things are appended but that the length can "
+"be 32 chars maximum."
+msgstr ""
+"ISO Label Base. Primetite da su druge stvari dodate, ali da dužina može biti "
+"maksimalno 32 karaktera."
+
+#: ../revisor/__init__.py.in:310
+msgid "The base name for the ISOs"
+msgstr "Osnovno ime za ISO-e"
+
+#: ../revisor/__init__.py.in:315
+msgid "Product Version"
+msgstr "Verzija proizvoda"
+
+#: ../revisor/__init__.py.in:320
+msgid ""
+"Base Product Version - relevant to required packages and pykickstart "
+"compatibility"
+msgstr ""
+"Verzija osnovnog proizvoda - značajna za obavezne pakete i pykickstart "
+"kompatibilnost"
+
+#. #
+#. # Utility Media Options
+#. #
+#: ../revisor/__init__.py.in:325
+msgid "Utility Media Options"
+msgstr "Opcije za alatne medijume"
+
+#: ../revisor/__init__.py.in:330
+msgid "Create Rescue Media"
+msgstr "Napravite medijum za spašavanje"
+
+#. #
+#. # Live Media Options
+#. #
+#: ../revisor/__init__.py.in:335
+msgid "Live Media Options"
+msgstr "Opcije živog medijuma"
+
+#: ../revisor/__init__.py.in:340
+msgid "Create Live Media CD/DVD"
+msgstr "Napravite živi CD/DVD medijum"
+
+#: ../revisor/__init__.py.in:345
+msgid "Create Live Media Thumb Drive Image (will be depreciated)"
+msgstr "Napravite sliku malog uređaja živog medijuma (biće umanjena)"
+
+#: ../revisor/__init__.py.in:350
+msgid "Create Live Media Hard Disk Image (will be depreciated)"
+msgstr "Napravite sliku čvrstog diska živog medijuma (biće umanjena)"
+
+#: ../revisor/__init__.py.in:355
+msgid "Create Live Media Raw Hard Disk Image"
+msgstr "Napravite sliku sirovog čvrstog diska živog medijuma"
+
+#: ../revisor/__init__.py.in:360
+msgid "Interactively work in the live image before building the ISO image."
+msgstr "Interaktivan rad na živoj slici pre izgradnje ISO slike."
+
+#: ../revisor/__init__.py.in:365
+msgid "Skip file system compression."
+msgstr "Preskoči sažimanje sistema datoteka."
+
+#: ../revisor/__init__.py.in:370
+msgid "Skip prelinking the contents of the filesystem."
+msgstr "Preskoči prevezivanje sadržaja sistema datoteka."
+
+#: ../revisor/__init__.py.in:375
+msgid ""
+"Ignore filesystem overhead. Useless blocks will not be removed from the "
+"filesystem."
+msgstr ""
+"Zanemari prekoračenje sistema datoteka. Beskorisni blokovi neće biti uklonjeni "
+"sa sistema datoteka."
+
+#: ../revisor/__init__.py.in:380
+msgid "Set the preferred kernel. One of normal, PAE, xen or debug."
+msgstr ""
+"Postavite pretpostavljeno jezgro. Jedno od sledećih: normalno, PAE, xen ili "
+"debug."
+
+#: ../revisor/__init__.py.in:441
+msgid "Interrupted by user"
+msgstr "Prekinuto od strane korisnika"
+
+#: ../revisor/__init__.py.in:448
+msgid ""
+"Traceback occurred, please report a bug at http://fedorahosted.org/revisor"
+msgstr ""
+"Povratni trag se desio, molim vas prijavite grešku na http://fedorahosted."
+"org/revisor"
+
+#: ../revisor/logger.py:86
+msgid "Error"
+msgstr "Greška"
+
+#: ../revisor/logger.py:101
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: ../revisor/logger.py:114 ../revisor/logger.py:123
+msgid "Do you want to continue? [Y/n]"
+msgstr "Želite li da nastavite? [Y/n]"
+
+#: ../revisor/logger.py:117 ../revisor/logger.py:126
+msgid "Abort! Abort! Abort!"
+msgstr "Odustajte! Odustajte! Odustajte!"
+
+#: ../revisor/image.py:87
+#, python-format
+msgid ""
+"Error encountered during installation of the software you selected:\n"
+"\n"
+"%s"
+msgstr ""
+"Nastala je greška u toku instalacije softvera koji ste odredili:\n"
+"\n"
+"%s"
+
+#: ../revisor/image.py:93
+msgid "Running package installation"
+msgstr "Izvršavam instalaciju paketa"
+
+#. self.cfg.yumobj.ts.check()
+#. self.cfg.yumobj.ts.order()
+#: ../revisor/image.py:107
+msgid "Installing Software"
+msgstr "Instaliram programe"
+
+#: ../revisor/image.py:142
+msgid "SELinux requested but not enabled on host"
+msgstr "SELinux zatražen ali nije uključen na domaćinu"
+
+#: ../revisor/image.py:194
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, instead of %s)"
+msgstr ""
+"Postavljam self.cfg.payload_livemedia na %s (iz 'part /' komande u kickstart "
+"datoteci, umesto %s)"
+
+#: ../revisor/image.py:199
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from total installed size of RPMs, "
+"instead of %s)"
+msgstr ""
+"Postavljam self.cfg.payload_livemedia na %s (iz ukupne veličine instaliranih "
+"RPM paketa, umesto %s)"
+
+#: ../revisor/pkgorder.py:135
+#, python-format
+msgid "Unable to create yum configuration file for package ordering at %s"
+msgstr ""
+"Ne mogu da napravim yum datoteku za podešavanja za paket koji se ređa na %s"
+
+#: ../revisor/pkgorder.py:154
+#, python-format
+msgid "-> package %s"
+msgstr "-> paket %s"
+
+#: ../revisor/plugins.py:57 ../revisor/plugins.py:74
+#, python-format
+msgid "Plugin %s failed to load (%s: %s)"
+msgstr "Dodatak %s nije uspeo da se učita (%s: %s)"
+
+#: ../revisor/plugins.py:68
+#, python-format
+msgid "ImportError for plugin %s: %s"
+msgstr "Greška uvoza za dodatak %s: %s"
+
+#: ../revisor/plugins.py:71
+#, python-format
+msgid "RuntimeError for plugin %s: %s"
+msgstr "Greška izvršavanja dodatka %s: %s"
+
+#: ../revisor/plugins.py:91 ../revisor/plugins.py:93
+#, python-format
+msgid "Cannot set defaults for plugin %s: %s"
+msgstr "Ne mogu da postavim podrazumevane vrednosti za dodatak %s: %s"
+
+#: ../revisor/plugins.py:95
+#, python-format
+msgid "Cannot set defaults for plugin %s: Unknown Error"
+msgstr "Ne podešavam podrazumevane vrednosti za dodatak %s: Nepoznata greška"
+
+#: ../revisor/plugins.py:98
+#, python-format
+msgid "Not setting defaults for plugin %s: No function 'set_defaults()'"
+msgstr ""
+"Ne podešavam podrazumevane vrednosti za dodatak %s: Nema funkcije "
+"„set_defaults()“"
+
+#: ../revisor/plugins.py:115
+#, python-format
+msgid "Cannot set runtime for plugin %s: %s"
+msgstr "Ne mogu da postavim vreme izvršenja za dodatak %s: %s"
+
+#: ../revisor/plugins.py:117
+#, python-format
+msgid "Not setting runtime for plugin %s: No function 'set_runtime()'"
+msgstr ""
+"Ne podešavam vreme izvršenja za dodatak %s: Nema funkcije „set_runtime()“"
+
+#: ../revisor/plugins.py:134
+#, python-format
+msgid "Cannot add options for plugin %s: %s"
+msgstr "Ne mogu da dodam opcije za dodatak %s: %s"
+
+#: ../revisor/plugins.py:136
+#, python-format
+msgid "Not adding options for plugin %s: No function 'add_options()'"
+msgstr "Ne dodajem opcije za dodatak %s: Nema funkcije „add_options()“"
+
+#: ../revisor/plugins.py:154
+#, python-format
+msgid "Cannot check options for plugin %s: %s"
+msgstr "Ne mogu da proverim opcije za dodatak %s: %s"
+
+#: ../revisor/plugins.py:156
+#, python-format
+msgid "Not checking options for plugin %s: No function 'check_options()'"
+msgstr "Ne proveravam opcije za dodatak %s: Nema funkcije „check_options()“"
+
+#: ../revisor/plugins.py:192
+#, python-format
+msgid "Cannot execute hook %s for plugin %s: %s"
+msgstr "Ne mogu da izvršim %s za dodatak %s: %s"
+
+#: ../revisor/progress.py:79 ../revisor/modgui/build_media.py:89
+#: ../revisor/modgui/build_media.py:95 ../revisor/modgui/build_media.py:99
+#: ../revisor/modgui/build_media.py:100 ../revisor/modgui/build_media.py:101
+#: ../revisor/modgui/build_media.py:106 ../revisor/modgui/build_media.py:111
+#: ../revisor/modgui/build_media.py:112 ../revisor/modgui/build_media.py:113
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:119
+#: ../revisor/modgui/build_media.py:124 ../revisor/modgui/build_media.py:136
+#: ../revisor/modgui/build_media.py:137 ../revisor/modgui/build_media.py:142
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:148
+#: ../revisor/modgui/build_media.py:149 ../revisor/modgui/build_media.py:150
+#: ../revisor/modgui/build_media.py:151 ../revisor/modgui/build_media.py:152
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:156
+#: ../revisor/modgui/build_media.py:159 ../revisor/modgui/build_media.py:163
+#: ../revisor/modgui/build_media.py:166 ../revisor/modgui/build_media.py:173
+#: ../revisor/modgui/build_media.py:177 ../revisor/modgui/build_media.py:232
+#: ../revisor/modgui/build_media.py:239 ../revisor/modgui/build_media.py:240
+#: ../revisor/modgui/build_media.py:244 ../revisor/modgui/build_media.py:248
+#: ../revisor/modgui/build_media.py:253 ../revisor/modgui/build_media.py:254
+#: ../revisor/modgui/build_media.py:255 ../revisor/modgui/build_media.py:256
+#: ../revisor/modgui/build_media.py:257 ../revisor/modgui/build_media.py:258
+#: ../revisor/modgui/build_media.py:259 ../revisor/modgui/build_media.py:260
+#: ../revisor/modgui/build_media.py:261 ../revisor/modgui/build_media.py:264
+#: ../revisor/modgui/build_media.py:267 ../revisor/modgui/build_media.py:271
+#: ../revisor/modgui/build_media.py:274 ../revisor/modgui/build_media.py:278
+#: ../revisor/modgui/build_media.py:282 ../revisor/modgui/build_media.py:291
+msgid "Pending..."
+msgstr "Na čekanju..."
+
+#: ../revisor/progress.py:80 ../revisor/progress.py:83
+#: ../revisor/modgui/build_media.py:292 ../revisor/modgui/build_media.py:295
+msgid "Running..."
+msgstr "Izvršava se..."
+
+#: ../revisor/progress.py:84 ../revisor/progress.py:87
+#: ../revisor/modgui/build_media.py:199 ../revisor/modgui/build_media.py:205
+#: ../revisor/modgui/build_media.py:209 ../revisor/modgui/build_media.py:213
+#: ../revisor/modgui/build_media.py:214 ../revisor/modgui/build_media.py:219
+#: ../revisor/modgui/build_media.py:224 ../revisor/modgui/build_media.py:225
+#: ../revisor/modgui/build_media.py:226 ../revisor/modgui/build_media.py:227
+msgid "Done"
+msgstr "Urađeno"
+
+#: ../revisor/progress.py:190
+msgid "Preparing transaction"
+msgstr "Pripremam transakciju"
+
+#: ../revisor/progress.py:202 ../revisor/progress.py:366
+#, python-format
+msgid "Unable to open %s: %s"
+msgstr "Ne mogu da otvorim %s: %s"
+
+#: ../revisor/progress.py:203 ../revisor/progress.py:204
+#: ../revisor/progress.py:367
+#, python-format
+msgid "Installing %s"
+msgstr "Instaliram %s"
+
+#: ../revisor/progress.py:226 ../revisor/progress.py:387
+#, python-format
+msgid "Updated: %s"
+msgstr "Ažurirano: %s"
+
+#: ../revisor/progress.py:228 ../revisor/progress.py:389
+#, python-format
+msgid "Installed: %s"
+msgstr "Instalirano: %s"
+
+#: ../revisor/progress.py:241
+#, python-format
+msgid "Cleanup %s"
+msgstr "Čišćenje %s"
+
+#: ../revisor/progress.py:256 ../revisor/progress.py:415
+#, python-format
+msgid "Erased: %s"
+msgstr "Obrisano: %s"
+
+#: ../revisor/progress.py:541
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../revisor/pungi.py:62
+#, python-format
+msgid "Error: Cannot create destination dir %s"
+msgstr "Greška: ne mogu da napravim odredišni direktorijum %s "
+
+#: ../revisor/pungi.py:68
+#, python-format
+msgid "Error: Cannot remove destination dir %s"
+msgstr "Greška: ne mogu da uklonim odredišni direktorijum %s "
+
+#: ../revisor/pungi.py:73
+#, python-format
+msgid "Error: Cannot recreate destination dir %s"
+msgstr "Greška: ne mogu ponovo da napravim odredišni direktorijum %s"
+
+#: ../revisor/pungi.py:340
+msgid "Getting relnotes..."
+msgstr "Uzimam beleške o izdanju..."
+
+#: ../revisor/pungi.py:361
+#, python-format
+msgid "An error occured extracting the release files: %s"
+msgstr "Desila se greška prilikom izdvajanja datoteka: %s"
+
+#: ../revisor/pungi.py:370
+#, python-format
+msgid "Copying %s"
+msgstr "Umnožavam %s"
+
+#: ../revisor/pungi.py:387
+#, python-format
+msgid "Could not access directory %s, cannot copy extra files onto the media."
+msgstr ""
+"Ne mogu da pristupim direktorijumu %s, ne mogu da umnožim dodatne datoteke "
+"na medijumu."
+
+#: ../revisor/pungi.py:393
+#, python-format
+msgid "Could not create files/ directory: %s"
+msgstr "Ne mogu da napravim files/ direktorijum: %s"
+
+#: ../revisor/pungi.py:404
+#, python-format
+msgid "Creating %s"
+msgstr "Pravim %s"
+
+#: ../revisor/pungi.py:452
+#, python-format
+msgid "Disc %s #%d is oversized (%r > %r)"
+msgstr "Disk %s #%d je prevelik (%r > %r)"
+
+#: ../revisor/pungi.py:456
+#, python-format
+msgid "Removing tree %s"
+msgstr "Uklanjam stablo %s"
+
+#: ../revisor/pungi.py:464
+#, python-format
+msgid "Disc %s #%d is OK in size (%r <= %r)"
+msgstr "Disk %s #%d je OK u veličini (%r <= %r)"
+
+#: ../revisor/pungi.py:515
+msgid ""
+"Hacking anaconda's .discinfo because it'll shit itself if it reads it's own "
+"output"
+msgstr ""
+"Hakujem anaconda-in .discinfo zato što će se zaglaviti ako bude čitao "
+"sopstveni izlaz"
+
+#: ../revisor/modcobbler/__init__.py:69 ../revisor/modcobbler/__init__.py:218
+#: ../revisor/modcobbler/__init__.py:255
+#, python-format
+msgid "There is a problem connecting to %s"
+msgstr "Postoji problem u povezivanju sa %s"
+
+#: ../revisor/modcobbler/__init__.py:82
+#, python-format
+msgid ""
+" Distro: %s\n"
+"  Existing Profiles:"
+msgstr ""
+" Distribucija: %s\n"
+"  Postojeći profili:"
+
+#: ../revisor/modcobbler/__init__.py:82
+msgid "name"
+msgstr "ime"
+
+#: ../revisor/modcobbler/__init__.py:84
+#, python-format
+msgid "   Profile: %s"
+msgstr "   Profil: %s"
+
+#: ../revisor/modcobbler/__init__.py:86
+msgid "No listing found on cobbler server."
+msgstr "Nije pronađeno listiranje na cobbler serveru."
+
+#: ../revisor/modcobbler/__init__.py:103
+msgid "Add compose to a Cobbler server as both a Distribution and Profile."
+msgstr "Dodaj pisaanje na Cobbler server i kao distribuciju i kao profil."
+
+#: ../revisor/modcobbler/__init__.py:110
+msgid ""
+"Add compose options as a Profile to a Cobbler server. [Requires --cobbler-"
+"use-distro]"
+msgstr ""
+"Dodaj opcije pisanja kao profil na  Cobbler server. [Zahteva --cobbler-use-"
+"distro]"
+
+#: ../revisor/modcobbler/__init__.py:117
+msgid "Use a Cobbler distro as source for package data."
+msgstr "Koristi Cobbler distribuciju kao izvor za podatke o paketima."
+
+#: ../revisor/modcobbler/__init__.py:124
+msgid "Use a Cobbler profile as source for kickstart data."
+msgstr "Koristi cobbler profil kao izvor za kickstart podatke."
+
+#: ../revisor/modcobbler/__init__.py:131
+msgid "List options provided by cobbler."
+msgstr "Ispiši opcije koje obezbeđuje cobbler."
+
+#: ../revisor/modcobbler/__init__.py:137
+msgid "Use remote cobbler server."
+msgstr "Koristi udaljeni cobbler server."
+
+#: ../revisor/modcobbler/__init__.py:143
+msgid "Remote cobbler server port."
+msgstr "Priključak udaljenog cobbler servera."
+
+#: ../revisor/modcobbler/__init__.py:200
+msgid ""
+"Specifying a Cobbler server is only supported for read-only actions. "
+"Currently, --cobbler-use-distro and --cobbler-use-profile."
+msgstr ""
+"Odrećivanje Cobbler servera je podržano samo za akcije čitanja. Trenutno,  --"
+"cobbler-use-distro i --cobbler-use-profile."
+
+#: ../revisor/modcobbler/__init__.py:225
+#, python-format
+msgid "The distro '%s' does not exist."
+msgstr "Distribucija „%s“ ne postoji."
+
+#: ../revisor/modcobbler/__init__.py:239 ../revisor/modcobbler/__init__.py:262
+#, python-format
+msgid "The profile '%s' does not exist."
+msgstr "Profil „%s“ ne postoji."
+
+#: ../revisor/moddelta/__init__.py:36
+msgid "Package deltarpm not installed"
+msgstr "Paket deltarpm nije instaliran"
+
+#: ../revisor/moddelta/__init__.py:70
+msgid ""
+"Generate a delta ISO image. Currently only valid for a single disc or "
+"directory holding Installation Media ISOs named exactly the same as the "
+"product."
+msgstr ""
+"Generiše delta ISO sliku. Trenutno je važeći samo za jedan disk ili "
+"direktorijum koji sadrži ISO-e instalacionih medijuma koji se zovu isto kao "
+"proizvod."
+
+#: ../revisor/modjigdo/__init__.py:46
+msgid "Package jigdo not installed"
+msgstr "Paket jigdo nije instaliran"
+
+#: ../revisor/modjigdo/__init__.py:61
+msgid "Generate Jigdo files and templates using the installation tree"
+msgstr "Napravi Jigdo datoteke i šablone koristeći instalaciono stablo"
+
+#: ../revisor/modjigdo/__init__.py:67
+msgid ""
+"Generate Jigdo files against the Revisor YUM Cache (labels different "
+"repositories)."
+msgstr ""
+"Napravi Jigdo datoteke sa Revisor YUM kešom (označava različita spremišta)."
+
+#: ../revisor/modjigdo/__init__.py:77
+msgid ""
+"You cannot use both the installation tree and the yum cache to build Jigdo "
+"templates against."
+msgstr ""
+"Ne možete koristiti i instalaciono stablo i yum keš da pravite  Jigdo "
+"šablone."
+
+#: ../revisor/modgui/build_media.py:89 ../revisor/modgui/build_media.py:199
+msgid "Retrieve Software Information"
+msgstr "Pribavi informacije o softveru"
+
+#: ../revisor/modgui/build_media.py:95 ../revisor/modgui/build_media.py:209
+msgid "Select Packages from Kickstart"
+msgstr "Izaberi pakete iz Kickstart"
+
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:205
+msgid "Resolve Dependencies"
+msgstr "Razreši zavisnosti"
+
+#: ../revisor/modgui/build_media.py:100 ../revisor/modgui/build_media.py:213
+msgid "Populating Statistics"
+msgstr "Popunjavam statistike"
+
+#: ../revisor/modgui/build_media.py:111 ../revisor/modgui/build_media.py:224
+msgid "Linking in Packages"
+msgstr "Povezujem u pakete"
+
+#: ../revisor/modgui/build_media.py:112 ../revisor/modgui/build_media.py:225
+msgid "Create Repository Information"
+msgstr "Pravim informacije o spremištu"
+
+#: ../revisor/modgui/build_media.py:113 ../revisor/modgui/build_media.py:226
+msgid "Build isolinux and Installer"
+msgstr "Gradim isolinux i instaler"
+
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:227
+msgid "Linking in Release Notes"
+msgstr "Povezujem u beleške o izdanju"
+
+#: ../revisor/modgui/build_media.py:119
+msgid "Creating CD ISO Images"
+msgstr "Pravim CD ISO slike"
+
+#: ../revisor/modgui/build_media.py:124
+msgid "Creating DVD ISO Images"
+msgstr "Pravim DVD ISO slike"
+
+#: ../revisor/modgui/build_media.py:136 ../revisor/modgui/build_media.py:253
+msgid "Resolve Dependencies for Installation"
+msgstr "Razreši zavisnosti za instalaciju"
+
+#: ../revisor/modgui/build_media.py:137 ../revisor/modgui/build_media.py:254
+msgid "Downloading Extra Packages"
+msgstr "Preuzimam dodatne pakete"
+
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:255
+msgid "Creating ext3 Filesystem"
+msgstr "Pravim ext3 sistem datoteka"
+
+#: ../revisor/modgui/build_media.py:148 ../revisor/modgui/build_media.py:256
+msgid "Installing packages"
+msgstr "Instaliram pakete"
+
+#: ../revisor/modgui/build_media.py:149 ../revisor/modgui/build_media.py:257
+msgid "Configure System"
+msgstr "Podesi sistem"
+
+#: ../revisor/modgui/build_media.py:150 ../revisor/modgui/build_media.py:258
+msgid "Configure Networking"
+msgstr "Podesi umrežavanje"
+
+#: ../revisor/modgui/build_media.py:151 ../revisor/modgui/build_media.py:259
+msgid "Create RAM Filesystem"
+msgstr "Napravi RAM sistem datoteka"
+
+#: ../revisor/modgui/build_media.py:152 ../revisor/modgui/build_media.py:260
+msgid "Relabel System"
+msgstr "Ponovo označi sistem"
+
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:261
+msgid "Configure Bootloader"
+msgstr "Podesi program za učitavanje"
+
+#: ../revisor/modgui/build_media.py:156
+msgid "Launch shell"
+msgstr "Pokrećem komandno okruženje"
+
+#: ../revisor/modgui/build_media.py:159 ../revisor/modgui/build_media.py:267
+msgid "Unmounting filesystems"
+msgstr "Demontiram sisteme datoteka"
+
+#: ../revisor/modgui/build_media.py:163 ../revisor/modgui/build_media.py:271
+msgid "Compressing Image"
+msgstr "Sažimam sliku"
+
+#: ../revisor/modgui/build_media.py:166
+msgid "Creating ISO Image"
+msgstr "Pravim ISO sliku"
+
+#: ../revisor/modgui/build_media.py:173 ../revisor/modgui/build_media.py:278
+msgid "Dumping ISO Image to USB Media"
+msgstr "Prebacujem ISO sliku na USB medijum"
+
+#: ../revisor/modgui/build_media.py:177 ../revisor/modgui/build_media.py:282
+msgid "Cleaning up Build Environment"
+msgstr "Čistim okruženje za izgradnju"
+
+#: ../revisor/modgui/build_media.py:232
+msgid "Ordering Packages"
+msgstr "Naručujem pakete"
+
+#: ../revisor/modgui/build_media.py:239
+#, python-format
+msgid "Splitting Packages for %s Media"
+msgstr "Delim pakete za %s medijum"
+
+#: ../revisor/modgui/build_media.py:240
+#, python-format
+msgid "Splitting Repository Information for %s Media"
+msgstr "Delim informacije o spremištu za %s medijum"
+
+#: ../revisor/modgui/build_media.py:264
+msgid "Launching shell"
+msgstr "Pokrećem komandno okruženje"
+
+#: ../revisor/modgui/build_media.py:274
+msgid "Creating Live ISO Image"
+msgstr "Pravim živi ISO otisak"
+
+#: ../revisor/modgui/configuration.py:123
+msgid "You have not specified a Base URL or Mirror List"
+msgstr "Niste odredili osnovni URL ili listu odraza"
+
+#: ../revisor/modgui/configuration.py:126
+msgid "GPG Check enabled but no valid GPG Key file found"
+msgstr "GPG provera omogućena ali nije pronađena važeća GPG ključna datoteka"
+
+#: ../revisor/modgui/configuration.py:139
+#, python-format
+msgid "ValueError in baseurl: %s"
+msgstr "ValueError u baseurl: %s"
+
+#: ../revisor/modgui/configuration.py:145
+#, python-format
+msgid "ValueError in mirrorlist: %s"
+msgstr "ValueError u listi odraza: %s"
+
+#: ../revisor/modgui/configuration.py:218
+#, python-format
+msgid "%s is not a valid Revisor configuration file"
+msgstr "%s nije važeća Revisor datoteka podešavanja"
+
+#: ../revisor/modgui/configuration.py:238
+msgid ""
+"The configured model does not have the mandatory 'main' configuration "
+"directive."
+msgstr "Model podešavanja ne poseduje obaveznu „main“ naredbu podešavanja."
+
+#: ../revisor/modgui/configuration.py:240
+msgid "Invalid model. Please choose a valid model."
+msgstr "Nevažeći model. Molim izaberite važeći model."
+
+#: ../revisor/modgui/configuration.py:352
+#, python-format
+msgid "File %s is not accessible."
+msgstr "Ne mogu da pristupim %s datoteci."
+
+#: ../revisor/modgui/configuration.py:359
+msgid "The 'main' option configuration directive has a non-accessible file: "
+msgstr ""
+"„main“ opcija naredbe podešavanja ima datoteku kojoj se ne može pristupiti:"
+
+#: ../revisor/modgui/configuration.py:362
+msgid "Configuration file's 'main' directive OK"
+msgstr "Naredba „main“datoteke podešavanja u redu"
+
+#: ../revisor/modgui/configuration.py:396
+msgid ""
+"You have not selected any of the basic repositories. Please make sure that "
+"one of 'fedora', 'core', 'base' or 'development', or an equivalent "
+"repository has been configured"
+msgstr ""
+"Niste izabrali nijedno od obaveznih spremišta. Molim uverite se da je jedno "
+"od „fedora“, „core“, „base“ ili „development“, ili neko ekvivalentno "
+"spremište podešeno"
+
+#: ../revisor/modgui/configuration.py:400
+#, python-format
+msgid ""
+"Configuration file '%s', section '%s' does not have the mandatory 'main' "
+"option"
+msgstr ""
+"Datoteka podešavanja „%s“, odeljak „%s“ ne poseduje obaveznu „main“ opciju"
+
+#: ../revisor/modgui/configuration.py:479
+#, python-format
+msgid "Could not read configuration file %s"
+msgstr "Ne mogu da pročitam datoteku podešavanja %s"
+
+#: ../revisor/modgui/finished_screen.py:48
+msgid "Check current directory."
+msgstr "Proveri trenutni direktorijum."
+
+#: ../revisor/modgui/__init__.py:122
+msgid "GUI Mode didn't get RevisorBase instance, which is fatal."
+msgstr "GUI nije dobio instancu RevisorBase-a što je fatalno."
+
+#: ../revisor/modgui/__init__.py:191
+#, python-format
+msgid "Opening up /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+msgstr "Otvaram up /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+
+#: ../revisor/modgui/__init__.py:324
+msgid "Error downloading packages"
+msgstr "Greška prilikom preuzimanja paketa"
+
+#: ../revisor/modgui/__init__.py:339
+msgid "Continue"
+msgstr "Nastavi"
+
+#: ../revisor/modgui/__init__.py:340
+msgid "Dependencies added"
+msgstr "Dodate zavisnosti"
+
+#: ../revisor/modgui/__init__.py:341
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Ažuriranje ovih paketa zahteva dodatne promene paketa za odgovarajuću "
+"operaciju."
+
+#: ../revisor/modgui/__init__.py:350
+msgid "Adding for dependencies:\n"
+msgstr "Dodajem zavisnosti:\n"
+
+#: ../revisor/modgui/__init__.py:351
+msgid "Removing for dependencies:\n"
+msgstr "Uklanjam zavisnosti:\n"
+
+#: ../revisor/modgui/__init__.py:352
+msgid "Updating for dependencies:\n"
+msgstr "Ažuriram zavisnosti:\n"
+
+#: ../revisor/modgui/lm_basic.py:164 ../revisor/modgui/lm_basic.py:169
+#: ../revisor/modgui/lm_basic.py:175 ../revisor/modgui/lm_basic.py:277
+#: ../revisor/modgui/lm_usercustomize.py:159
+msgid "Using kickstart configuration, edit entry here"
+msgstr "Koristim kickstart podešavanje, uredite unos ovde"
+
+#: ../revisor/modgui/lm_basic.py:202 ../revisor/modgui/lm_usercustomize.py:109
+msgid "These passwords do not match"
+msgstr "Ove lozinke se ne poklapaju"
+
+#: ../revisor/modgui/lm_basic.py:296
+msgid "Please select a root password."
+msgstr "Molim izaberite root lozinku."
+
+#: ../revisor/modgui/lm_basic.py:300
+msgid "You should really select a more complex root password."
+msgstr "Stvarno bi trebalo da izaberete složeniju root lozinku."
+
+#: ../revisor/modgui/lm_network.py:111 ../revisor/modgui/lm_network.py:163
+#: ../revisor/modgui/lm_network.py:219 ../revisor/modgui/lm_network.py:283
+#: ../revisor/modgui/lm_network.py:386 ../revisor/modgui/lm_network.py:433
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../revisor/modgui/lm_network.py:113 ../revisor/modgui/lm_network.py:165
+#: ../revisor/modgui/lm_network.py:236 ../revisor/modgui/lm_network.py:296
+#: ../revisor/modgui/lm_network.py:435
+msgid "Static IP"
+msgstr "Statička IP"
+
+#: ../revisor/modgui/lm_network.py:115 ../revisor/modgui/lm_network.py:223
+#: ../revisor/modgui/lm_network.py:285 ../revisor/modgui/lm_network.py:388
+#: ../revisor/modgui/lm_network.py:437
+msgid "BOOTP"
+msgstr "BOOTP"
+
+#: ../revisor/modgui/lm_network.py:226 ../revisor/modgui/lm_network.py:288
+msgid "Please fill in the network information"
+msgstr "Molim popunite informacije o mreži"
+
+#: ../revisor/modgui/lm_network.py:340
+#, python-format
+msgid ""
+"A network device with the name %s already exists.  Please choose another "
+"device name"
+msgstr ""
+"Mrežni uređaj koji se zove %s već postoji.  Molim izaberite drugo ime uređaja"
+
+#. create table with custom checklists
+#: ../revisor/modgui/lm_security.py:61
+msgid "Trusted devices:"
+msgstr "Uređaji od poverenja:"
+
+#: ../revisor/modgui/lm_security.py:93
+msgid "Trusted services:"
+msgstr "Servisi od poverenja:"
+
+#: ../revisor/modgui/lm_security.py:125
+msgid "Other ports: (1029:tcp)"
+msgstr "Drugi portovi: (1029:tcp)"
+
+#: ../revisor/modgui/load_kickstart.py:140
+#, python-format
+msgid "Kickstart file %s not accessible."
+msgstr "Ne mogu da pristupim Kickstart datoteci %s."
+
+#: ../revisor/modgui/load_kickstart.py:147
+msgid "Kickstart file not good."
+msgstr "Kickstart datoteka nije dobra."
+
+#: ../revisor/modgui/package_selection.py:154
+msgid "Selecting all packages"
+msgstr "Biram sve pakete"
+
+#: ../revisor/modgui/package_selection.py:409
+#, python-format
+msgid "No such package %s from group %s"
+msgstr "Nema takvog paketa %s iz grupe %s"
+
+#: ../revisor/modgui/package_selection.py:418
+#, python-format
+msgid "Package %s was not marked in group %s"
+msgstr "Paket %s nije označen u grupi %s"
+
+#: ../revisor/modgui/package_selection.py:427
+#, python-format
+msgid "No package named %s available to be installed: %s"
+msgstr "Nema paketa koji se zove %s dostupnog za instalaciju: %s"
+
+#: ../revisor/modgui/package_selection.py:441
+msgid "Adding in packages from Kickstart Data, please wait"
+msgstr "Dodajem pakete iz Kickstart Data, molim sačekajte"
+
+#: ../revisor/modgui/package_selection.py:462
+#, python-format
+msgid ""
+"Errors encountered:\n"
+"\n"
+"%s: %s"
+msgstr ""
+"Greške koje su se pojavile:\n"
+"\n"
+"%s: %s"
+
+#: ../revisor/modgui/package_selection.py:469
+msgid "Cannot pass check_options"
+msgstr "Ne mogu da prođem proveru opcija"
+
+#: ../revisor/modgui/package_selection.py:475
+#: ../revisor/modgui/select_media.py:475
+msgid "Doing Live Media but not customizing kickstart options"
+msgstr "Radim Živi medijum, ali ne prilagođavam kickstart opcije"
+
+#: ../revisor/modgui/package_selection.py:699
+#, python-format
+msgid "<i>No optional packages (%d mandatory)</i>"
+msgstr "<i>Nema izbornih paketa (%d neophodno)</i>"
+
+#: ../revisor/modgui/package_selection.py:702
+#, python-format
+msgid "<i>%d of %d optional packages selected (%d mandatory)</i>"
+msgstr "<i>izabrano %d od %d izbornih paketa (%d neophodno)</i>"
+
+#: ../revisor/modgui/package_selection.py:770
+msgid "Uncategorized"
+msgstr "Nekategorisano"
+
+#: ../revisor/modgui/package_selection.py:798
+#, python-format
+msgid "Packages in %s"
+msgstr "Paketi u %s "
+
+#: ../revisor/modgui/package_selection.py:846
+msgid "Building Packages List"
+msgstr "Pravim listu paketa"
+
+#: ../revisor/modgui/package_selection.py:855
+#, python-format
+msgid "%s packages"
+msgstr "%s paketa"
+
+#: ../revisor/modgui/package_selection.py:890
+#, python-format
+msgid "For %s-%s:%s-%s.%s, we find %d matches"
+msgstr "Za %s-%s:%s-%s.%s, nalazimo %d poklapanja"
+
+#: ../revisor/modgui/select_media.py:75
+msgid "No media selected. Please select at least one media type to compose."
+msgstr ""
+"Nije izabrana medijum. Izaberite barem jednu vrstu medijuma za sastavljanje."
+
+#: ../revisor/modgui/select_media.py:176
+msgid "No media types selected, select at least one media type."
+msgstr "Nije izabrana vrsta medijuma, izaberite barem jednu vrstu medijuma."
+
+#: ../revisor/modgui/select_media.py:249
+msgid ""
+"No installation media type selected, select at least one type of "
+"installation media."
+msgstr ""
+"Nije izabrana vrsta instalacionog medijuma, izaberite barem jednu vrstu "
+"instalacionog medijuma."
+
+#: ../revisor/modgui/select_media.py:311
+msgid "No live media type selected, select at least one type of live media."
+msgstr ""
+"Nije izabrana vrsta živog medijuma, izaberite barem jednu vrstu živog "
+"medijuma."
+
+#: ../revisor/modgui/select_media.py:376
+msgid ""
+"No virtualization media type selected, select at least one type of "
+"virtualization media."
+msgstr ""
+"Nije izabrana vrsta medijuma virtualizacije, izaberite barem jednu vrstu "
+"medijuma virtualizacije."
+
+#: ../revisor/modgui/select_media.py:433
+msgid ""
+"No utility media type selected, select at least one type of utility media."
+msgstr ""
+"Nije izabrana vrsta pomoćnog medijuma, izaberite barem jednu vrstu pomoćnog "
+"medijuma."
+
+#: ../revisor/modgui/select_media.py:506
+msgid "No Product Name specified"
+msgstr "Nije navedeno ime proizvoda"
+
+#: ../revisor/modgui/select_media.py:509
+msgid "No Product Path specified"
+msgstr "Nije navedena putanja proizvoda"
+
+#: ../revisor/modgui/select_media.py:512
+msgid "No base name for the ISO(s) specified"
+msgstr "Nije navedeno osnovno ime za ISO(e)"
+
+#: ../revisor/modgui/select_media.py:515
+msgid "No label for the ISO(s) specified"
+msgstr "Nije navedena oznaka za ISO(e)"
+
+#: ../revisor/modgui/select_media.py:518
+msgid "No version number specified"
+msgstr "Nije naveden broj verzije"
+
+#: ../revisor/modgui/select_media.py:521
+msgid "No comps no glory"
+msgstr "Nema comps-a, nema slave"
+
+#: ../revisor/modgui/select_media.py:524
+msgid "Unable to find comps file. No comps no glory"
+msgstr "Ne mogu da pronađem comps datoteku. Nema comps-a, nema slave"
+
+#: ../revisor/modrebrand/__init__.py:79
+#, python-format
+msgid "Removing package %s-%s:%s-%s.%s for rebranding"
+msgstr "Izbacujem pakete %s-%s:%s-%s.%s za remarkiranje"
+
+#: ../revisor/modrebrand/__init__.py:91
+msgid ""
+"Rebrand name. Revisor will select <name>-logos, <name>-release and <name>-"
+"release-notes packages, if available."
+msgstr ""
+"Rebrand ime. Revisor izabrati <name>-logoe, <name>-izdanje i  <name>-pakete "
+"beleški o izdanju, ako je to moguće."
+
+#: ../revisor/modserver/__init__.py:88
+msgid "Use the server mode for XML-RPC"
+msgstr "Koristi serverski način rada za XML-RPC"
+
+#: ../revisor/modserver/__init__.py:93
+msgid "Port to start Server on."
+msgstr "Port na kome će se pokrenuti server."
+
+#: ../revisor/modserver/__init__.py:99
+msgid "Start the XML-RPC server and fork."
+msgstr "Pokreni XML-RPC server i račvanje."
+
+#: ../revisor/modvirt/__init__.py:86
+msgid "Virtualization Media Options"
+msgstr "Opcije medijuma virtuelizacije"
+
+#: ../revisor/modvirt/__init__.py:93
+msgid "Build Xen virtual machine. (not implemented yet)"
+msgstr "Napravi Xen virtuelnu mašinu. (još nije implementirano)"
+
+#: ../revisor/modvirt/__init__.py:100
+msgid ""
+"Xen virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Veličina diska Xen virtuelne mašine, u MB. (Podrazumevana: 3000MB) (još nije "
+"implementirano)"
+
+#: ../revisor/modvirt/__init__.py:108
+msgid "Build KVM virtual machine. (not implemented yet)"
+msgstr "Napravi KVM virtualnu mašinu. (još nije implementirano)"
+
+#: ../revisor/modvirt/__init__.py:115
+msgid ""
+"KVM virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Veličina diska KVM virtuelne mašine, u MB. (Podrazumevana: 3000MB) (još nije "
+"implementirano)"
+
+#: ../revisor/modvirt/__init__.py:123
+msgid "Virtual machine file system type. (Default: ext3) (not implemented yet)"
+msgstr ""
+"Vrsta sistema datoteka virtuelne mašine. (Podrazumevana: ext3) (još nije "
+"implementirano)"
+
+#: ../revisor/modvirt/__init__.py:130
+msgid "Make virtual machine drive a sparse filesystem. (not implemented yet)"
+msgstr ""
+"Napravite prazan sistem datoteka virtuelne mašine. (još nije implementirano)"
+
+#: ../revisor/modvirt/__init__.py:136
+msgid ""
+"Make virtual machine stateless (changes do not persist.) (not implemented "
+"yet)"
+msgstr ""
+"Napravite virtuelnu mašinu bez stanja (promene nisu trajne.) (još nije "
+"implementirano)"
+
+#: ../revisor/modvirt/__init__.py:142
+msgid ""
+"Build virtual machine as an appliance using a simple raw drive image and "
+"yum. (Doesn't require virt. tech. to be running locally.) (not implemented "
+"yet)"
+msgstr ""
+"Napravite virtualnu mašinu koristeći jednostavnu sirovu sliku diska i yum. "
+"(Ne zahteva virt. tech. za lokalno izvršavanje.) (još nije implementirano)"
+
+#: ../revisor/modvirt/__init__.py:244
+msgid "Unable to create virtual machine instance."
+msgstr "Ne mogu da napravim instancu virtuelne mašine."
+
+#: ../revisor/modvirt/__init__.py:305
+msgid "Error creating ext3 filesystem"
+msgstr "Greška tokom pravljenja ext3 sistema datoteka"
+
+#: ../revisor/modvirt/__init__.py:501
+#, python-format
+msgid "Failed to mount '%s' to '%s'"
+msgstr "Nisam uspeo da montiram „%s“ na „%s“"
+
+#: ../revisor/modvirt/__init__.py:519 ../revisor/modvirt/__init__.py:541
+msgid "Starting the virtual guest provision..."
+msgstr "Započinjem obezbeđivanje virtuelnog gosta..."
+
+#: ../conf/revisor.desktop.in.h:2
+msgid "Revisor, Pimp your distro"
+msgstr "Revisor, poboljšajte Vašu distribuciju"
+
+#~ msgid "Root passwords do not match."
+#~ msgstr "Root lozinke se ne poklapaju."
+
+#~ msgid ""
+#~ "Unable to retrieve software information. This could be caused by not "
+#~ "having a network connection available."
+#~ msgstr ""
+#~ "Ne mogu da dobavim informacije o softveru. Ovo može biti prouzrokovano "
+#~ "nedostatkom dostupne mrežne konekcije."
+
+#~ msgid "Resolved %s"
+#~ msgstr "Razrešeno %s"
+
+#~ msgid ""
+#~ "Looking to resolve package %s to a Provides, but we still can't find it."
+#~ msgstr ""
+#~ "Pokušavam da razrešim paket %s u Provides, ali još uvek ne možemo da ga "
+#~ "pronađemo."
+
+#~ msgid "Adding req. pkg %s-%s:%s-%s.%s"
+#~ msgstr "Dodajem req. pkg %s-%s:%s-%s.%s"
+
+#~ msgid "<u><span color=\"blue\">http://fedoraunity.org</span></u>"
+#~ msgstr "<u><span color=\"blue\">http://fedoraunity.org</span></u>"
+
+#~ msgid "This tool has to run with root privileges. Aborting"
+#~ msgstr "Ovaj alat mora da se izvršava sa root ovlašćenjima. Odustajem"
+
+#~ msgid "Create Installation Media CDs"
+#~ msgstr "Napravite instalacioni CD medijume"
+
+#~ msgid "Plugin %s failed to load"
+#~ msgstr "Dodatak %s nije uspeo da se učita"

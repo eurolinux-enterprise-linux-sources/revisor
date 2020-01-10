@@ -1,0 +1,3705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Oszkár Ocsenás <ocsenaso@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:1
+msgid ""
+"\n"
+"    Revisor, a product of Fedora Unity\n"
+"    Copyright (C) 2005, 2006, 2007 Fedora Unity\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"    See the GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:20
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>"
+msgstr ""
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:32
+#, fuzzy
+msgid "<b>More information about:</b>"
+msgstr "További információk a médiabővítményekről"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:33
+#, fuzzy
+msgid "<b>Version:</b> @VERSION@-@RELEASE@"
+msgstr "A Lynx kiadás előtti változata"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:34
+msgid "<span weight=\"bold\">Revisor</span> is a product of Fedora Unity."
+msgstr ""
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:35
+msgid "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+msgstr ""
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:36
+#: ../revisor/modgui/glade/revisor.glade.h:38
+#, fuzzy
+msgid "About Revisor"
+msgstr "Az AisleRiot névjegye"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:37
+#: ../revisor/modgui/glade/revisor.glade.h:39
+#, fuzzy
+msgid "Authors"
+msgstr "Szerzők"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:38
+#, fuzzy
+msgid "Fedora Unity:"
+msgstr "Unity kiszolgáló"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:39
+#, fuzzy
+msgid "File"
+msgstr "Fájl"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:40
+#: ../revisor/modgui/glade/revisor.glade.h:43
+#, fuzzy
+msgid "License"
+msgstr "Licenc"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:41
+#: ../revisor/modgui/glade/revisor.glade.h:47
+#: ../conf/revisor.desktop.in.h:1
+msgid "Revisor"
+msgstr ""
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:42
+#, fuzzy
+msgid "Revisor _Homepage"
+msgstr "A Brasero honlapja"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:43
+msgid "Revisor:"
+msgstr ""
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:44
+#, fuzzy
+msgid "_Details"
+msgstr "_Részletek"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:45
+#: ../revisor/modgui/glade/revisor.glade.h:63
+#, fuzzy
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../revisor/modgui/glade/build_media.glade.h:1
+#, fuzzy
+msgid "Building Your Media"
+msgstr "Médialejátszó"
+
+#: ../revisor/modgui/glade/build_media.glade.h:2
+#, fuzzy
+msgid "Task Progress:"
+msgstr "Előrehaladás törtrésze"
+
+#: ../revisor/modgui/glade/build_media.glade.h:3
+#, fuzzy
+msgid "Total Progress:"
+msgstr "Összesen: "
+
+#: ../revisor/modgui/glade/build_type.glade.h:1
+#, fuzzy
+msgid "Client / _Server"
+msgstr "Terminálkiszolgáló kliens"
+
+#: ../revisor/modgui/glade/build_type.glade.h:2
+#, fuzzy
+msgid "Configuration _File Mode"
+msgstr "Proxybeállítás módja"
+
+#: ../revisor/modgui/glade/build_type.glade.h:3
+#, fuzzy
+msgid "Please select the build type to use:"
+msgstr "Az érték megadásához használja a felfelé és lefelé nyílbillentyűket, vagy gépelje be az értéket."
+
+#: ../revisor/modgui/glade/build_type.glade.h:4
+#, fuzzy
+msgid "Select Build Type"
+msgstr "Fájltípus ki_választása (%s)"
+
+#: ../revisor/modgui/glade/build_type.glade.h:5
+#, fuzzy
+msgid "_Chroot Build"
+msgstr "Build dátuma"
+
+#: ../revisor/modgui/glade/build_type.glade.h:6
+#, fuzzy
+msgid "_Normal Build"
+msgstr "Build dátuma"
+
+#: ../revisor/modgui/glade/build_type.glade.h:7
+#, fuzzy
+msgid "_Virtualized Build"
+msgstr "Build dátuma"
+
+#: ../revisor/modgui/glade/dialog_filechooser.glade.h:1
+#, fuzzy
+msgid "Choose a file or folder"
+msgstr "A kijelölt fájl vagy mappa törlése"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:1
+#, fuzzy
+msgid "<b>Compose Results Location:</b>"
+msgstr "_Hivatkozás helyének másolása"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:2
+#: ../revisor/modgui/glade/load_kickstart.glade.h:1
+#: ../revisor/modgui/glade/ready_screen.glade.h:4
+#, fuzzy
+msgid "Advanced Options"
+msgstr "Speciális beállítások"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:3
+#, fuzzy
+msgid "Congratulations, Compose Complete"
+msgstr "Egészítsd ki a szimbólumok listáját"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:4
+#, fuzzy
+msgid "Create _Jigdo"
+msgstr "=ERROR(\"...\") létrehozása"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:5
+#, fuzzy
+msgid "Create _Torrent"
+msgstr "Új torrent létrehozása"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:6
+msgid "Generate _Kickstart for Install Clients"
+msgstr ""
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:7
+#, fuzzy
+msgid "Send _Compose to Server"
+msgstr "A kiszolgálónak küldendő adatok"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:8
+#, fuzzy
+msgid "Setup _DHCPD Server"
+msgstr "DHCPD DHCP kiszolgáló adminisztrációja"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:9
+#, fuzzy
+msgid "Setup _PXE Server"
+msgstr "Játékkiszolgáló és felhasználónév beállítása"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:10
+#, fuzzy
+msgid "Write Image to _Media"
+msgstr "Válassza ki a kiírandó lemezképet"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:11
+#, fuzzy
+msgid "Write Image to _USB Device"
+msgstr "Lemezkép CD- vagy DVD-lemezre írása"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:12
+#, fuzzy
+msgid "_Continue..."
+msgstr "Folytatás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:1
+#, fuzzy
+msgid "Authentication Configuration"
+msgstr "Felhasználóazonosítási beállítások"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:2
+#, fuzzy
+msgid "Authentication options are not applicable on upgrades."
+msgstr "A felhasználóazonosítás beállításai nem alkalmazhatók frissítéskor."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:3
+#, fuzzy
+msgid "Authentication:"
+msgstr "Felhasználóazonosítás:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:4
+#, fuzzy
+msgid "Enable Hesiod Support"
+msgstr "A Hesiod-támogatás bekapcsolása"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:5
+#, fuzzy
+msgid "Enable Kerberos 5 Authentication"
+msgstr "Kerberos 5 felhasználóazonosítás használata"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:6
+#, fuzzy
+msgid "Enable LDAP"
+msgstr "Az LDAP engedélyezése"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:7
+#, fuzzy
+msgid "Enable NIS"
+msgstr "A NIS használata"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:8
+#, fuzzy
+msgid "Enable SMB Authentication"
+msgstr "Az SMB-s felhasználóazonosítás bekapcsolása"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:9
+#, fuzzy
+msgid "Enable nscd"
+msgstr "Az nscd bekapcsolása"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:10
+#, fuzzy
+msgid "Hesiod"
+msgstr "Hesiod felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:11
+#, fuzzy
+msgid "Hesiod Authentication"
+msgstr "Hesiod felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:12
+#, fuzzy
+msgid "Hesiod LHS:"
+msgstr "Hesiod felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:13
+#, fuzzy
+msgid "Hesiod RHS:"
+msgstr "Hesiod felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:14
+#, fuzzy
+msgid "Kerberos 5"
+msgstr "Kerberos 4"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:15
+#, fuzzy
+msgid "Kerberos 5 Authentication"
+msgstr "Kerberos 5-ös felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:16
+#, fuzzy
+msgid "Kerberos Domain Controller (KDC):"
+msgstr "Kerberos tartományvezérlő (KDC):"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:17
+#, fuzzy
+msgid "Kerberos Master Server:"
+msgstr "Kerberos Master kiszolgáló:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:18
+#, fuzzy
+msgid "Kerberos Realm:"
+msgstr "Kerberos 5-ös felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:19
+#, fuzzy
+msgid "LDAP "
+msgstr "Az LDAP engedélyezése"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:20
+#, fuzzy
+msgid "LDAP Authentication"
+msgstr "LDAP felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:21
+#, fuzzy
+msgid "LDAP Base Name: "
+msgstr "LDAP alapnév: "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:22
+#, fuzzy
+msgid "LDAP Server: "
+msgstr "LDAP-kiszolgáló: "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:23
+#, fuzzy
+msgid "NIS"
+msgstr "A NIS használata"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:24
+#, fuzzy
+msgid "NIS Authentication"
+msgstr "NIS felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:25
+#, fuzzy
+msgid "NIS Domain:"
+msgstr "NIS-tartomány:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:26
+#, fuzzy
+msgid "NIS Server:"
+msgstr "NIS-kiszolgáló:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:27
+#, fuzzy
+msgid "Name Switch Cache"
+msgstr "Névváltási gyorstár"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:28
+#, fuzzy
+msgid "Name Switch Cache Daemon (nscd) Authentication"
+msgstr "NSCD-alapú (Name Switch Cache Daemon) felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:29
+#, fuzzy
+msgid "SMB"
+msgstr "SMB-s felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:30
+#, fuzzy
+msgid "SMB Authentication"
+msgstr "SMB-s felhasználóazonosítás"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:31
+#, fuzzy
+msgid "SMB Servers:"
+msgstr "SMB-kiszolgálók:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:32
+#, fuzzy
+msgid "SMB Workgroup:"
+msgstr "SMB-munkacsoport:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:33
+#, fuzzy
+msgid "Use MD5"
+msgstr "MD5 használata"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:34
+#, fuzzy
+msgid "Use Shadow Passwords"
+msgstr "Árnyékjelszavak használata"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:35
+#, fuzzy
+msgid "Use broadcast to find NIS server"
+msgstr "NIS-kiszolgálók keresése broadcasttal"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:1
+#, fuzzy
+msgid "Basic Configuration (required)"
+msgstr "Alapbeállítások (kötelező)"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:2
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:8
+#, fuzzy
+msgid "Confirm Password:"
+msgstr "Még egyszer:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:3
+#, fuzzy
+msgid "Default Language:"
+msgstr "Alapértelmezett nyelv:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:4
+#, fuzzy
+msgid "Encrypt root password"
+msgstr "A rendszergazdai jelszó titkosítása"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:5
+#, fuzzy
+msgid "Keyboard:"
+msgstr "Billentyűzet:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:6
+#, fuzzy
+msgid "Root Password:"
+msgstr "Rendszergazdai jelszó:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:7
+#, fuzzy
+msgid "Target Architecture:"
+msgstr "Célarchitektúra:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:8
+#, fuzzy
+msgid "Time Zone:"
+msgstr "Időzóna:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:9
+#, fuzzy
+msgid "Use UTC clock"
+msgstr "UTC-s óra használata"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:1
+#, fuzzy
+msgid "Boot Loader Options"
+msgstr "A rendszerbetöltő program beállításai"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:2
+#, fuzzy
+msgid "Custom kernel parameters: "
+msgstr "Csatornafüggetlen paraméterek"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:3
+msgid "Provide optional kernel parameters."
+msgstr ""
+
+#: ../revisor/modgui/glade/lm_display.glade.h:1
+#, fuzzy
+msgid "Color Depth"
+msgstr "Színmélység"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:2
+#, fuzzy
+msgid "Configure the X Window System"
+msgstr "Az X Window grafikus rendszer beállítása"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:3
+#, fuzzy
+msgid "Default Desktop:"
+msgstr "Alapértelmezett grafikus felület:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:4
+#: ../revisor/modgui/glade/lm_security.glade.h:3
+#, fuzzy
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:5
+#, fuzzy
+msgid "Display Configuration"
+msgstr "Képernyőbeállítások"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:6
+#, fuzzy
+msgid "Display configuration is not applicable on upgrades."
+msgstr "A képernyőbeállítások nem alkalmazhatók frissítéskor."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:7
+#, fuzzy
+msgid "Enabled"
+msgstr "Bekapcsolva"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:8
+#, fuzzy
+msgid "Enabled in reconfiguration mode"
+msgstr "Bekapcsolva átkonfigurálási módban"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:9
+#, fuzzy
+msgid "General"
+msgstr "Tábornok"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:10
+#, fuzzy
+msgid "Horizontal Sync:"
+msgstr "Vízszintes szinkr.:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:11
+#, fuzzy
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:12
+#, fuzzy
+msgid "On first boot, Setup Agent is: "
+msgstr "Első rendszerindításkor a Setup Agent legyen: "
+
+#: ../revisor/modgui/glade/lm_display.glade.h:13
+#, fuzzy
+msgid "Probe for monitor"
+msgstr "A monitor jellemzőinek lekérdezése"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:14
+msgid "Probe for video card driver"
+msgstr ""
+
+#: ../revisor/modgui/glade/lm_display.glade.h:15
+#, fuzzy
+msgid "Resolution"
+msgstr "Felbontás"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:16
+#, fuzzy
+msgid "Start the X Window System on boot"
+msgstr "A X Window automatikusan induljon el"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:17
+#, fuzzy
+msgid "Use custom monitor sync rates"
+msgstr "Egyéni monitorfrekvenciák használata"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:18
+#, fuzzy
+msgid "Vertical Sync:"
+msgstr "Függőleges frekvencia:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:19
+#, fuzzy
+msgid "Video Card"
+msgstr "Videokártya"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:20
+#, fuzzy
+msgid "Video Card RAM: "
+msgstr "Videokártya-RAM: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:1
+msgid "."
+msgstr ""
+
+#: ../revisor/modgui/glade/lm_network.glade.h:2
+#, fuzzy
+msgid "Gateway:"
+msgstr "Átjáró:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:3
+#, fuzzy
+msgid "IP Address:"
+msgstr "IP-cím:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:4
+#, fuzzy
+msgid "Name Server:"
+msgstr "Névkiszolgáló:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:5
+#, fuzzy
+msgid "Netmask: "
+msgstr "Hálózati maszk: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:6
+#, fuzzy
+msgid "Network Configuration"
+msgstr "Hálózati beállítások"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:7
+#, fuzzy
+msgid "Network Device Information"
+msgstr "A hálózati eszköz jellemzői"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:8
+#, fuzzy
+msgid "Network Device:"
+msgstr "Hálózati eszköz:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:9
+#, fuzzy
+msgid "Network Type:"
+msgstr "Hálózattípus:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:10
+msgid "Use Network Manager (available only if installed)"
+msgstr ""
+
+#: ../revisor/modgui/glade/lm_network.glade.h:11
+#, fuzzy
+msgid "_Add Network Device"
+msgstr "Hálózati eszköz _hozzáadása"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:12
+#, fuzzy
+msgid "_Delete Network Device"
+msgstr "Hálózati eszköz _törlése"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:13
+#, fuzzy
+msgid "_Edit Network Device"
+msgstr "Hálózati eszköz mó_dosítása"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:1
+#, fuzzy
+msgid "Active"
+msgstr "Aktív"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:2
+#, fuzzy
+msgid "Disable firewall"
+msgstr "A tűzfal kikapcsolása"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:4
+#, fuzzy
+msgid "Enable firewall"
+msgstr "A tűzfal bekapcsolása"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:5
+#, fuzzy
+msgid "Firewall Configuration"
+msgstr "Tűzfalbeállítások"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:6
+#, fuzzy
+msgid "Firewall configuration is not applicable on upgrades."
+msgstr "A tűzfalbeállítások nem alkalmazhatók frissítéskor."
+
+#: ../revisor/modgui/glade/lm_security.glade.h:7
+#, fuzzy
+msgid "SELinux:"
+msgstr "SELinux környezet"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:8
+#, fuzzy
+msgid "Security level:"
+msgstr "Biztonsági szint:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:9
+#, fuzzy
+msgid "Warn"
+msgstr "FIGY"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:6
+#, fuzzy
+msgid "Add user to the group \"wheel\""
+msgstr "Nem létező csoporthoz próbált meg felvenni egy felhasználót"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:7
+#, fuzzy
+msgid "Automatically login this user to the Desktop"
+msgstr "Felhasználói fiók létrejött! Ezt a fiókot lehet használni mostantól a belépésre..."
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:9
+#, fuzzy
+msgid "Create User Account:"
+msgstr "Új felhasználói fiók"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:10
+#, fuzzy
+msgid "Customize your Live Media"
+msgstr "Keresés cserélhető adathordozókon"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:11
+msgid "Dump current user profile (and omit /etc/skel)"
+msgstr ""
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:12
+msgid "Enable \"wheel\" group to sudo without password"
+msgstr ""
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:13
+#, fuzzy
+msgid "Full Name:"
+msgstr "Teljes név:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:14
+#, fuzzy
+msgid "Password"
+msgstr "Jelszó"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:15
+#, fuzzy
+msgid "Username:"
+msgstr "Felhasználónév:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:2
+msgid "Customize package manifest defined in kickstart data"
+msgstr ""
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:3
+msgid "Customize/Review details about locale, users/passwords, security/authentication, networking and Xorg"
+msgstr ""
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:4
+msgid "Include Kickstart file on Installation Media"
+msgstr ""
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:5
+#, fuzzy
+msgid "Kickstart Configuration File:"
+msgstr "Az alábbi beállításokat választotta, elmentésükhöz kattintson \"A fájl mentése\" gombra. "
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:6
+#, fuzzy
+msgid "Load Kickstart Data"
+msgstr "nem lehet betölteni a profil adatokat"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:7
+msgid ""
+"Select a kickstart file to be used to populate options for your selected media.\n"
+"If you did not select Live media creation, some options will be ignored.\n"
+"This step is not required and options loaded from the kickstart may also be customized further."
+msgstr ""
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:10
+msgid "Set installer to boot with kickstart by default"
+msgstr ""
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:11
+msgid "Use package manifest from kickstart data"
+msgstr ""
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:12
+msgid "Use repositories configured in the kickstart file"
+msgstr ""
+
+#: ../revisor/modgui/glade/package_selection.glade.h:1
+#, fuzzy
+msgid "By Category"
+msgstr "Csomagok böngészése kategória szerint"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:2
+#, fuzzy
+msgid "Deselect"
+msgstr "Ki_jelölés megszüntetése"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:3
+#, fuzzy
+msgid "Deselect all optional packages"
+msgstr "/S_zerkesztés/Összes _csoport kijelölésének megszüntetése"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:4
+#, fuzzy
+msgid "List"
+msgstr "Lista"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:5
+#, fuzzy
+msgid "Optional Packages... "
+msgstr "Minden csomag"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:6
+#, fuzzy
+msgid "Package Selection"
+msgstr "Csomagválasztás"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:7
+msgid "Please select the software you want to be available on your media:"
+msgstr ""
+
+#: ../revisor/modgui/glade/package_selection.glade.h:8
+#, fuzzy
+msgid "Search"
+msgstr "Keresés"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:9
+#, fuzzy
+msgid "Search Criteria:"
+msgstr "<b>Keresési feltételek</b>"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:10
+#, fuzzy
+msgid "Select"
+msgstr "Kiválasztás"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:11
+#, fuzzy
+msgid "Select All"
+msgstr "Mindent kijelöl"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:12
+#, fuzzy
+msgid "Select all optional packages"
+msgstr "Válassza ki a telepítendő csomagokat."
+
+#: ../revisor/modgui/glade/package_selection.glade.h:13
+msgid "Some packages associated with this group are not required to be installed but may provide additional functionality.  Please choose the packages which you would like to have installed."
+msgstr ""
+
+#: ../revisor/modgui/glade/package_selection.glade.h:14
+#, fuzzy
+msgid "dialog1"
+msgstr "dialog1"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:1
+#, fuzzy
+msgid "<b>Number of Packages:</b>"
+msgstr "Minden csomag"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:2
+#, fuzzy
+msgid "<b>Package Set Size (Live/Installed):</b>"
+msgstr " -Z             Minden telepített csomag méretbeli változásának megjelenítése\n"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:3
+#, fuzzy
+msgid "<b>RPM Package Payload Size:</b>"
+msgstr " -Z             Minden telepített csomag méretbeli változásának megjelenítése\n"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:5
+#, fuzzy
+msgid "Build Unattended Install Media"
+msgstr "Médiabővítmények telepítése"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:6
+#, fuzzy
+msgid "Not Calculated, Yet"
+msgstr "Még nincs megvalósítva."
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:7
+#, fuzzy
+msgid "Package Details"
+msgstr "Meg kell adnia egy egy csomagot, amihez részletező keresendő"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:8
+#, fuzzy
+msgid "Ready to Compose Images"
+msgstr "Magasság _igazítása a képekhez"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:9
+msgid "Revisor is now ready to compose your images. Please review your selection details below:"
+msgstr ""
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:10
+#, fuzzy
+msgid "Send to Build Server:"
+msgstr "A kiszolgálónak küldendő adatok"
+
+#: ../revisor/modgui/glade/revisor.glade.h:1
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:11
+msgid ""
+"\n"
+"Revisor, a product of Fedora Unity\n"
+"Copyright (C) 2005 - 2008 Fedora Unity\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public\n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:22
+msgid ""
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>\n"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:26
+#, fuzzy
+msgid " "
+msgstr " "
+
+#: ../revisor/modgui/glade/revisor.glade.h:28
+#, fuzzy, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../revisor/modgui/glade/revisor.glade.h:29
+#, fuzzy
+msgid "<b>Installation Media</b>"
+msgstr "%s cserélhető adathordozó"
+
+#: ../revisor/modgui/glade/revisor.glade.h:30
+#, fuzzy
+msgid "<b>Live Media</b>"
+msgstr "%s cserélhető adathordozó"
+
+#: ../revisor/modgui/glade/revisor.glade.h:31
+#, fuzzy
+msgid "<i>Initializing GUI</i>"
+msgstr "Szerkesztés (grafikus szerkesztővel)"
+
+#: ../revisor/modgui/glade/revisor.glade.h:32
+msgid "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:33
+#, fuzzy
+msgid "<span size=\"large\" weight=\"bold\">Title</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Tesztelés…</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:34
+msgid "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:35
+#, fuzzy
+msgid "<span size=\"x-large\" weight=\"bold\">Please Wait...</span>"
+msgstr "<span weight=\"bold\" size=\"x-large\">Fájlszűrők</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:36
+#, fuzzy
+msgid "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+msgstr "<span size=\"xx-large\" weight=\"bold\"> Synaptic verzió</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:37
+#, fuzzy
+msgid "A Fedora Spin Designer"
+msgstr "Qt Designer-fájl"
+
+#: ../revisor/modgui/glade/revisor.glade.h:40
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:9
+#, fuzzy
+msgid "Configure Revisor"
+msgstr "A játék beállítása"
+
+#: ../revisor/modgui/glade/revisor.glade.h:41
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:11
+#, fuzzy
+msgid "Destination Directory:"
+msgstr "Válassza ki a célkönyvtárt"
+
+#: ../revisor/modgui/glade/revisor.glade.h:42
+#, fuzzy
+msgid "Dynamically Set Header Label"
+msgstr "A(z) „%1” partíciócímke beállítása a következőn: %2"
+
+#: ../revisor/modgui/glade/revisor.glade.h:44
+#, fuzzy
+msgid "Message"
+msgstr "Üzenet"
+
+#: ../revisor/modgui/glade/revisor.glade.h:45
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:5
+#: ../revisor/modgui/glade/select_media.glade.h:6
+#: ../revisor/modgui/glade/select_media_installation.glade.h:6
+#: ../revisor/modgui/glade/select_media_live.glade.h:3
+#: ../revisor/modgui/glade/select_media_utility.glade.h:2
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:3
+msgid "Please select the type(s) of media you want to compose:"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:46
+#, fuzzy
+msgid "Progress - Revisor"
+msgstr "Előrehaladás törtrésze"
+
+#: ../revisor/modgui/glade/revisor.glade.h:48
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:21
+#, fuzzy
+msgid "Revisor Configuration:"
+msgstr "Felhasználóazonosítási beállítások"
+
+#: ../revisor/modgui/glade/revisor.glade.h:49
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora flavors as simple as\n"
+"possible. This wizard will walk you through the proces of building your own installer and/or Live media\n"
+"set(s) from and Yum repository."
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor.glade.h:52
+#, fuzzy
+msgid "Revisor is initializing."
+msgstr "Hiba a könyvjelzők előkészítésekor: A fájl nem egy vinagre könyvjelzőfájl"
+
+#: ../revisor/modgui/glade/revisor.glade.h:53
+#, fuzzy
+msgid "Select Media Types"
+msgstr "Médiaoszlop kiválasztása"
+
+#: ../revisor/modgui/glade/revisor.glade.h:54
+#, fuzzy
+msgid "Select Repositories:"
+msgstr "Megváltoztak a tárolók"
+
+#: ../revisor/modgui/glade/revisor.glade.h:55
+#, fuzzy
+msgid "Spin Target:"
+msgstr "Célarchitektúra:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:56
+#, fuzzy
+msgid "Translators"
+msgstr "Fordítók"
+
+#: ../revisor/modgui/glade/revisor.glade.h:57
+#, fuzzy
+msgid "Use _advanced interface"
+msgstr "az adott felület használata"
+
+#: ../revisor/modgui/glade/revisor.glade.h:58
+#, fuzzy
+msgid "Welcome"
+msgstr "Üdvözlünk"
+
+#: ../revisor/modgui/glade/revisor.glade.h:59
+#, fuzzy
+msgid "_Browse"
+msgstr "Bö_ngészés"
+
+#: ../revisor/modgui/glade/revisor.glade.h:60
+#, fuzzy
+msgid "_CD Set"
+msgstr "A téma beállítása"
+
+#: ../revisor/modgui/glade/revisor.glade.h:61
+#, fuzzy
+msgid "_DVD Set"
+msgstr "A téma beállítása"
+
+#: ../revisor/modgui/glade/revisor.glade.h:62
+#, fuzzy
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../revisor/modgui/glade/revisor.glade.h:64
+#, fuzzy
+msgid "_Optical (CD/DVD)"
+msgstr "CD/DVD írása"
+
+#: ../revisor/modgui/glade/revisor.glade.h:65
+#, fuzzy
+msgid "_USB"
+msgstr "<b>USB-verzió:</b>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:1
+#, fuzzy
+msgid "<b>Please fill out the repository information</b>"
+msgstr "Adja meg a következő információkat a regisztrált fiók módosításához."
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:2
+msgid "<small><i>Base URL or Mirror List Mandatory</i></small>"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:3
+#, fuzzy
+msgid "<small><i>GPG Options</i></small>"
+msgstr "Használat: gpg [opciók] "
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:4
+#, fuzzy
+msgid "<small><i>Optional</i></small>"
+msgstr "(Elhagyható) Ál_név:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:5
+#, fuzzy
+msgid "<small><i>Other Options</i></small>"
+msgstr "A szinkronizálás további beállításai"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:6
+#, fuzzy
+msgid "Add Repository"
+msgstr "Tároló hozzáadása"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:7
+#, fuzzy
+msgid "Base URL:"
+msgstr "Alap-_URL:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:8
+#, fuzzy
+msgid "Configuration Section to Use:"
+msgstr "%s beállítása szabványos konfiguráció használatára"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:10
+#, fuzzy
+msgid "Description:"
+msgstr "Leírás:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:12
+msgid "Enable/Disable Repositories from Selection Configuration:"
+msgstr ""
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:13
+#, fuzzy
+msgid "Exclude Packages:"
+msgstr "Minden csomag"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:14
+#, fuzzy
+msgid "GPG Check"
+msgstr "Ugrásellenőrzés"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:15
+#, fuzzy
+msgid "GPG Key File:"
+msgstr "Személyes kulcs fájlja"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:16
+#, fuzzy
+msgid "Include Packages:"
+msgstr "Minden csomag"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:17
+#, fuzzy
+msgid "Mirror List:"
+msgstr "Játékoslista"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:18
+#, fuzzy
+msgid "Name:"
+msgstr "Név:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:19
+#, fuzzy
+msgid "Protect"
+msgstr "Védelem"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:20
+#, fuzzy
+msgid "Repository Information"
+msgstr "Érvénytelen tárolóinformáció"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:22
+#, fuzzy
+msgid "Save to Configuration"
+msgstr "A terminál beállításainak fájlba mentése"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:1
+#, fuzzy
+msgid "<b>Compose Options</b>"
+msgstr "Általános beállítások"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:2
+#, fuzzy
+msgid "<b>Media Types</b>"
+msgstr "Játéktípusok"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:3
+#, fuzzy
+msgid "Installation Media Types"
+msgstr "Minden támogatott típus"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:4
+#, fuzzy
+msgid "Live Media Types"
+msgstr "Minden támogatott típus"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:6
+#, fuzzy
+msgid "Rebrand Media"
+msgstr "%s cserélhető adathordozó"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:7
+#, fuzzy
+msgid "Rescue / Utility Media"
+msgstr "Lemezcsatlakoztató"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:8
+#: ../revisor/modgui/glade/select_media.glade.h:7
+#, fuzzy
+msgid "Select Media Type(s)"
+msgstr "Nem támogatott médiatípus"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:9
+#, fuzzy
+msgid "Virtualization Media"
+msgstr "%s cserélhető adathordozó"
+
+#: ../revisor/modgui/glade/select_media.glade.h:1
+#: ../revisor/modgui/glade/select_media_installation.glade.h:1
+#, fuzzy
+msgid "<b>Installation Media Types</b>"
+msgstr "Minden támogatott típus"
+
+#: ../revisor/modgui/glade/select_media.glade.h:2
+#: ../revisor/modgui/glade/select_media_live.glade.h:1
+#, fuzzy
+msgid "<b>Live Media Types</b>"
+msgstr "Minden támogatott típus"
+
+#: ../revisor/modgui/glade/select_media.glade.h:3
+#: ../revisor/modgui/glade/select_media_installation.glade.h:2
+#, fuzzy
+msgid "CD Set"
+msgstr "A téma beállítása"
+
+#: ../revisor/modgui/glade/select_media.glade.h:4
+#: ../revisor/modgui/glade/select_media_installation.glade.h:3
+#, fuzzy
+msgid "DVD Set"
+msgstr "A téma beállítása"
+
+#: ../revisor/modgui/glade/select_media.glade.h:5
+#, fuzzy
+msgid "Optical Live Media"
+msgstr "Brasero optikai médiafüggvénytár"
+
+#: ../revisor/modgui/glade/select_media.glade.h:8
+#, fuzzy
+msgid "USB Live Media"
+msgstr "Windows Media hang"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:4
+#, fuzzy
+msgid "Installation Tree"
+msgstr "Véletlenszerű fa"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:5
+#, fuzzy
+msgid "PXE Payload"
+msgstr "Láncolt hasznos teher"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:7
+#, fuzzy
+msgid "Select Installation Media Type(s)"
+msgstr "Válassza ki az elidőzési kattintás típusát"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:8
+#, fuzzy
+msgid "Unified ISO Image"
+msgstr "ISO fájl felépítése.\n"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:2
+#, fuzzy
+msgid "Optical"
+msgstr "Optikai erősítő"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:4
+#, fuzzy
+msgid "Select Live Media Type(s)"
+msgstr "Válassza ki az elidőzési kattintás típusát"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:5
+#, fuzzy
+msgid "USB Hard Disk"
+msgstr "Merevlemez finomhangolása"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:6
+#, fuzzy
+msgid "USB Thumb Drive"
+msgstr "CD-meghajtó vagy lemezkép"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:1
+#, fuzzy
+msgid "<b>Utility Media Types</b>"
+msgstr "Lemezcsatlakoztató"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:3
+#, fuzzy
+msgid "Rescue Image"
+msgstr "Kép méretezése"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:4
+#, fuzzy
+msgid "Select Utility Media Type(s)"
+msgstr "Válassza ki az elidőzési kattintás típusát"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:1
+#, fuzzy
+msgid "<b>Virtualization Media Types</b>"
+msgstr "Minden támogatott típus"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:2
+#, fuzzy
+msgid "KVM Guest"
+msgstr "Vendég bejelentkezés"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:4
+#, fuzzy
+msgid "Select Virtualization Media Type(s)"
+msgstr "Válassza ki az elidőzési kattintás típusát"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:5
+#, fuzzy
+msgid "VMWare Appliance"
+msgstr "Általános berendezés"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:6
+#, fuzzy
+msgid "VMWare Guest"
+msgstr "Vendég bejelentkezés"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:7
+#, fuzzy
+msgid "Xen Guest"
+msgstr "Vendég bejelentkezés"
+
+#: ../revisor/modgui/glade/welcome_buttons.glade.h:1
+#, fuzzy
+msgid "Get Started"
+msgstr "A titkosítás elkezdéséhez kulcsokra lesz szüksége."
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:1
+msgid "Revisor has been designed from the ground up to make building custom Fedora flavors simple as possible. This wizard will walk you through the process of building your own Installer and/or Live media set(s) from any Yum repository."
+msgstr ""
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:2
+#, fuzzy
+msgid "Show Advanced Configuration and Options"
+msgstr "Segítség megjelenítése a beállításokhoz, és kilépés."
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:3
+msgid "Welcome to Revisor, by Fedora Unity"
+msgstr ""
+
+#: ../revisor.py:34
+msgid "Cannot find anaconda-runtime in /usr/lib/anaconda-runtime"
+msgstr ""
+
+#: ../revisor/base.py:104
+#, fuzzy
+msgid "Running Revisor in CLI mode..."
+msgstr "Vi kompatibilis módban fut a program"
+
+#: ../revisor/base.py:110
+msgid "Running Revisor in RPC Server mode..."
+msgstr ""
+
+#: ../revisor/base.py:114
+#: ../revisor/base.py:119
+#, fuzzy
+msgid "Running Revisor in GUI mode..."
+msgstr "Vi kompatibilis módban fut a program"
+
+#: ../revisor/base.py:174
+#, python-format
+msgid "Opening up /usr/bin/htmlview %s%s"
+msgstr ""
+
+#. self.mode.base_buttons_xml.get_widget("button_information").set_sensitive(True)
+#: ../revisor/base.py:178
+#, python-format
+msgid "Cannot fork process showing help, please use %s%s"
+msgstr ""
+
+#: ../revisor/base.py:180
+#, python-format
+msgid "Cannot show Help in CLI mode, use %s%s"
+msgstr ""
+
+#: ../revisor/base.py:188
+#, fuzzy
+msgid "Loading Repositories"
+msgstr "Megváltoztak a tárolók"
+
+#: ../revisor/base.py:190
+#, fuzzy, python-format
+msgid "Getting configuration from %s"
+msgstr "Beállítások olvasása a következőből: %s"
+
+#: ../revisor/base.py:197
+#: ../revisor/base.py:258
+#: ../revisor/base.py:265
+#: ../revisor/base.py:275
+#: ../revisor/base.py:285
+#: ../revisor/cfg.py:473
+#: ../revisor/cfg.py:484
+#: ../revisor/cfg.py:497
+#: ../revisor/pkgorder.py:172
+#: ../revisor/pkgorder.py:177
+#: ../revisor/pkgorder.py:188
+#: ../revisor/pkgorder.py:191
+#: ../revisor/pkgorder.py:200
+#: ../revisor/pkgorder.py:209
+#, python-format
+msgid "Using deprecated YUM function: %s()"
+msgstr ""
+
+#: ../revisor/base.py:199
+#, python-format
+msgid "yum.YumBase.doConfigSetup failed, probably an invalid configuration file %s"
+msgstr ""
+
+#: ../revisor/base.py:202
+#, python-format
+msgid "Bumping YUMs debuglevel (%d) to our debuglevel (%d)"
+msgstr ""
+
+#: ../revisor/base.py:204
+#, fuzzy, python-format
+msgid "YUMs debuglevel now %d"
+msgstr "A képernyő el_sötétítése most"
+
+#: ../revisor/base.py:239
+msgid "Another application is running which is accessing software information."
+msgstr ""
+
+#: ../revisor/base.py:244
+msgid "Fatal Error: Unable to retrieve software information.\n"
+msgstr ""
+
+#: ../revisor/base.py:254
+#, fuzzy
+msgid "Setting up a Transaction Set"
+msgstr "kicsomagolt (nincs beállítva)"
+
+#: ../revisor/base.py:261
+msgid "Getting myself a piece of the RPMDB"
+msgstr ""
+
+#: ../revisor/base.py:268
+msgid "Apparently we're running on an Enterprise Linux system (we can tell from the way yum sets up the RPM Database)"
+msgstr ""
+
+#: ../revisor/base.py:271
+#, fuzzy
+msgid "Getting Repository Information"
+msgstr "Érvénytelen tárolóinformáció"
+
+#: ../revisor/base.py:278
+#, fuzzy, python-format
+msgid "Arch list = %s"
+msgstr "Játékoslista"
+
+#: ../revisor/base.py:280
+#, fuzzy
+msgid "Getting the Package Sacks"
+msgstr "Belső hiba a csomagnév elhozásakor"
+
+#: ../revisor/base.py:290
+#, python-format
+msgid "All OK so far, %d packages in the Package Sack"
+msgstr ""
+
+#: ../revisor/base.py:303
+msgid "Building a nice package list from ksdata, and adding it to the transaction"
+msgstr ""
+
+#: ../revisor/base.py:308
+#, fuzzy
+msgid "Kickstart mode: respin"
+msgstr "Alapértelmezett átméretezési mód"
+
+#: ../revisor/base.py:311
+#, fuzzy
+msgid "Kickstart mode: normal"
+msgstr "Normál mód opció:"
+
+#: ../revisor/base.py:319
+#, python-format
+msgid "What we're getting from pykickstart is: %d groups, %d packages and %d excluded packages. %d packages are being explicitly ignored."
+msgstr ""
+
+#: ../revisor/base.py:329
+#: ../revisor/base.py:618
+#, fuzzy
+msgid "Select kickstart packages"
+msgstr "Válassza ki a telepítendő csomagokat."
+
+#: ../revisor/base.py:337
+#, python-format
+msgid "Using pkgsack excludes, the list of packages to exclude is now: %r"
+msgstr ""
+
+#: ../revisor/base.py:354
+#: ../revisor/base.py:646
+#, fuzzy
+msgid "Appending group @core"
+msgstr "<b>Dublin Core-entitások</b>"
+
+#: ../revisor/base.py:369
+#: ../revisor/base.py:661
+#, fuzzy
+msgid "Appending group @base"
+msgstr "Kiinduló kártya: Ász"
+
+#: ../revisor/base.py:381
+#: ../revisor/base.py:672
+#, fuzzy, python-format
+msgid "Found group: %s"
+msgstr "Nem találom a '%s'- t csoport gyorstárban!"
+
+#: ../revisor/base.py:387
+#, fuzzy, python-format
+msgid "Repository metadata cannot be found: %s: %s"
+msgstr "A Moniker-felület nem található"
+
+#: ../revisor/base.py:390
+#, fuzzy, python-format
+msgid "Group not found: %s"
+msgstr "%s: %s nincs a /etc/group-ban\n"
+
+#: ../revisor/base.py:402
+#, fuzzy, python-format
+msgid "Selecting required packages for group %s"
+msgstr "%s: árnyék csoport jelszavak kellenek ehhez: -A\n"
+
+#: ../revisor/base.py:406
+#: ../revisor/base.py:427
+#: ../revisor/base.py:448
+#: ../revisor/base.py:467
+#, fuzzy, python-format
+msgid "Including %s"
+msgstr "Beleértve: %s\n"
+
+#: ../revisor/base.py:416
+#: ../revisor/base.py:436
+#, fuzzy, python-format
+msgid "From Groups: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "\"%s\" új felhasználó hozzáadása az extra csoportokhoz...\n"
+
+#: ../revisor/base.py:423
+#, python-format
+msgid "Selecting default packages for group %s"
+msgstr ""
+
+#: ../revisor/base.py:443
+#, python-format
+msgid "Selecting optional packages for group %s"
+msgstr ""
+
+#: ../revisor/base.py:457
+#: ../revisor/base.py:476
+#, python-format
+msgid "From Groups --optional: Adding %s-%s:%s-%s.%s to transaction"
+msgstr ""
+
+#: ../revisor/base.py:463
+#, python-format
+msgid "No include parameter for group %s, using defaults"
+msgstr ""
+
+#: ../revisor/base.py:485
+#: ../revisor/base.py:689
+#, fuzzy, python-format
+msgid "Testing condition: %s / %s"
+msgstr "Meghatározatlan feltétel"
+
+#: ../revisor/base.py:499
+#, fuzzy, python-format
+msgid "From package list, including: %s"
+msgstr "Leszedi a csomaglista szűrőjét"
+
+#: ../revisor/base.py:502
+#, fuzzy, python-format
+msgid "Package %s is in excludeList, continuing"
+msgstr "A(z) '%s' csomag nem található a változások között"
+
+#: ../revisor/base.py:510
+#, fuzzy
+msgid "No packages found!"
+msgstr "Nem találtam csomagokat"
+
+#: ../revisor/base.py:515
+#: ../revisor/base.py:544
+#, fuzzy, python-format
+msgid "From Packages: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "A pkg-config segítségével más csomagokból származó támogató programkönyvtárakat vehet fel"
+
+#: ../revisor/base.py:522
+#, fuzzy, python-format
+msgid "Could not find package '%s', searching..."
+msgstr "A csomaginformációk inicializálása meghiúsult"
+
+#: ../revisor/base.py:535
+#, fuzzy, python-format
+msgid "Found packages matching '%s': %s"
+msgstr "Nincs ilyen csomag: %s.\n"
+
+#: ../revisor/base.py:546
+#, python-format
+msgid "From Packages: Not adding %s now because it is in the ignore list"
+msgstr ""
+
+#: ../revisor/base.py:557
+#, python-format
+msgid "More then one package found for %s-%s-%s.%s - going to add them all to the transaction"
+msgstr ""
+
+#: ../revisor/base.py:559
+#, fuzzy, python-format
+msgid "Could not find package %s-%s-%s.%s"
+msgstr "A csomag („%s”) nem található."
+
+#: ../revisor/base.py:562
+#, python-format
+msgid "From Packages (exact string %s-%s-%s.%s), selecting %s-%s-%s.%s"
+msgstr ""
+
+#: ../revisor/base.py:582
+#: ../revisor/base.py:737
+#, fuzzy, python-format
+msgid "From Excludes: Removing %s-%s:%s-%s.%s from transaction"
+msgstr "\"%s\" felhasználó eltávolítása a(z) \"%s\" csoportból...\n"
+
+#: ../revisor/base.py:585
+#: ../revisor/base.py:740
+#, python-format
+msgid "Apparently trying to exclude a package that is not available in the repositories loaded, or hasn't been added to the transaction: %s"
+msgstr ""
+
+#: ../revisor/base.py:591
+#, python-format
+msgid ""
+"\n"
+"The following errors occured when selecting groups and packages from kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"You can continue with these minor errors but obviously the results may not be what you expected."
+msgstr ""
+
+#: ../revisor/base.py:597
+msgid "This is what was selected to be installed:"
+msgstr ""
+
+#: ../revisor/base.py:610
+#, python-format
+msgid "What we're getting from pykickstart is: %d groups, %d packages and %d excluded packages."
+msgstr ""
+
+#: ../revisor/base.py:629
+#, python-format
+msgid "Using pkgsack excludes, excluded packages is now: %r"
+msgstr ""
+
+#: ../revisor/base.py:669
+#, fuzzy, python-format
+msgid "No such group %s"
+msgstr "newgrp: Nincs ilyen csoport."
+
+#: ../revisor/base.py:726
+#, fuzzy, python-format
+msgid "Adding %s-%s:%s-%s.%s"
+msgstr " Hozzáadás"
+
+#: ../revisor/base.py:758
+#, fuzzy
+msgid "Initting progress bar for "
+msgstr "Szöveg a folyamatjelzőn"
+
+#: ../revisor/base.py:765
+msgid "Apparently we have not yet entered the Build Media stage"
+msgstr ""
+
+#: ../revisor/base.py:794
+#, fuzzy, python-format
+msgid "Checking dependencies for %s.%s"
+msgstr "hibás blokkok keresése"
+
+#. pbar.cur_task += 1.0
+#: ../revisor/base.py:816
+#, fuzzy, python-format
+msgid "Unresolvable dependency %s %s %s in %s.%s"
+msgstr "Munkaasztalon tartás"
+
+#: ../revisor/base.py:823
+#, fuzzy, python-format
+msgid "Added %s-%s:%s-%s.%s for %s-%s:%s-%s.%s (requiring %s %s %s)"
+msgstr "a (szimbolikus) mód módosítások kényszerítése a hozzáadott fájlokra"
+
+#: ../revisor/base.py:826
+msgid "Checking dependencies - allowing conflicts within the package set"
+msgstr ""
+
+#: ../revisor/base.py:827
+#: ../revisor/base.py:856
+#, fuzzy
+msgid "Resolving Dependencies"
+msgstr "Függőségek feloldása..."
+
+#: ../revisor/base.py:849
+#, python-format
+msgid ""
+"The following packages were excluded using the kickstart package manifest, but were included for dependency resolving:\n"
+" - %s"
+msgstr ""
+
+#: ../revisor/base.py:855
+msgid "Checking dependencies - not allowing any conflicts within the package set"
+msgstr ""
+
+#: ../revisor/base.py:883
+#, python-format
+msgid ""
+"Unable to resolve dependencies for some packages selected:\n"
+"\n"
+"%s"
+msgstr ""
+
+#. End of dependency resolving
+#: ../revisor/base.py:887
+#: ../revisor/image.py:97
+#, fuzzy
+msgid "Unable to build transaction"
+msgstr "Nem hozható létre számlista."
+
+#: ../revisor/base.py:892
+#: ../revisor/image.py:102
+#, python-format
+msgid "Successfully built transaction: ret %s, msg %s"
+msgstr ""
+
+#: ../revisor/base.py:898
+#, python-format
+msgid ""
+"Errors where encountered while downloading package headers:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../revisor/base.py:907
+msgid "The package set after dependency resolving does not match the packages selected in the kickstart manifest"
+msgstr ""
+
+#: ../revisor/base.py:931
+#, fuzzy, python-format
+msgid "No such repository: %s"
+msgstr "Nincs kiválasztott repó."
+
+#: ../revisor/base.py:933
+#, fuzzy, python-format
+msgid "Enabling %s repository"
+msgstr "_Tároló hozzáadása"
+
+#: ../revisor/base.py:951
+#, fuzzy, python-format
+msgid "Disabling %s repository"
+msgstr "_Tároló hozzáadása"
+
+#: ../revisor/base.py:972
+#, python-format
+msgid "Error: Cannot find a source rpm for %s"
+msgstr ""
+
+#: ../revisor/base.py:974
+#: ../revisor/modgui/build_media.py:106
+#: ../revisor/modgui/build_media.py:142
+#: ../revisor/modgui/build_media.py:219
+#, fuzzy
+msgid "Downloading Source Packages"
+msgstr "Forráscsomagok telepítésére, javítására vagy eltávolítására szolgáló eszköz"
+
+#: ../revisor/base.py:1003
+#: ../revisor/progress.py:441
+#, fuzzy, python-format
+msgid "Downloading %s"
+msgstr "Letöltés"
+
+#: ../revisor/base.py:1033
+#: ../revisor/modgui/build_media.py:101
+#: ../revisor/modgui/build_media.py:214
+#, fuzzy
+msgid "Downloading Packages"
+msgstr "Csomagok letöltése"
+
+#: ../revisor/base.py:1042
+#, fuzzy
+msgid "Unable to find a suitable mirror."
+msgstr "Nem található megfelelő szótárforrás"
+
+#: ../revisor/base.py:1054
+#, python-format
+msgid "Errors were encountered while downloading packages: %s"
+msgstr ""
+
+#: ../revisor/base.py:1095
+#, python-format
+msgid "Overriding auto package selection with user package selection for %s..."
+msgstr ""
+
+#: ../revisor/base.py:1108
+#, fuzzy, python-format
+msgid "Adding required package %s-%s:%s-%s.%s"
+msgstr "Az --appname vagy --package kapcsolók egyike szükséges.\n"
+
+#. This list has already been resolved
+#: ../revisor/base.py:1111
+#, fuzzy, python-format
+msgid "%s. This is a required package."
+msgstr "Ez a csomag telepíthetetlen\n"
+
+#: ../revisor/base.py:1123
+#, fuzzy, python-format
+msgid "Adding suggested package %s-%s:%s-%s.%s"
+msgstr "Csomaglisták olvasása"
+
+#: ../revisor/base.py:1133
+#, python-format
+msgid "Packages that do not need to be on the media: %s"
+msgstr ""
+
+#: ../revisor/base.py:1158
+#: ../revisor/base.py:1184
+msgid "Did not succeed in adding in all required packages"
+msgstr ""
+
+#: ../revisor/base.py:1192
+#, fuzzy
+msgid "Populating statistics"
+msgstr "Fejtörő-statisztika"
+
+#: ../revisor/base.py:1208
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a archivesize header"
+msgstr ""
+
+#: ../revisor/base.py:1216
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a installedsize header"
+msgstr ""
+
+#: ../revisor/base.py:1224
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a packagesize header"
+msgstr ""
+
+#: ../revisor/base.py:1234
+#, python-format
+msgid "Total size of all packages (archivesize): %s %s"
+msgstr ""
+
+#: ../revisor/base.py:1235
+#, python-format
+msgid "Total size of all packages, (installedsize): %s %s"
+msgstr ""
+
+#: ../revisor/base.py:1236
+#, python-format
+msgid "Total size of all packages, (packagesize): %s %s"
+msgstr ""
+
+#: ../revisor/base.py:1271
+#, python-format
+msgid "Report of the %d most space consuming packages"
+msgstr ""
+
+#: ../revisor/base.py:1366
+#: ../revisor/base.py:1380
+#: ../revisor/base.py:2001
+#, fuzzy, python-format
+msgid "Creating pkgdir: %s"
+msgstr "%s könyvtár létrehozása"
+
+#. Now for each txmbr in
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:1389
+#, fuzzy
+msgid "Linking in packages"
+msgstr "%s %s csomagok az alábbi szakaszban: %s"
+
+#: ../revisor/base.py:1408
+#: ../revisor/base.py:2025
+#, fuzzy, python-format
+msgid "Package hard link failed: %s: %s"
+msgstr "közvetlen hivatkozás nem sikerült, helyette szimbolikus hivatkozást használok"
+
+#: ../revisor/base.py:1413
+#: ../revisor/base.py:2030
+#, fuzzy, python-format
+msgid "Copying: %s to %s"
+msgstr "Másolás a(z) %s-ba..."
+
+#: ../revisor/base.py:1416
+#: ../revisor/base.py:2033
+#, fuzzy, python-format
+msgid "Symlinking: %s to %s"
+msgstr "Forgatás"
+
+#: ../revisor/base.py:1419
+#: ../revisor/base.py:2036
+#, fuzzy
+msgid "Package symlink succeeded"
+msgstr "%s: a SCSI kiadás végrehajtása sikeres\n"
+
+#: ../revisor/base.py:1421
+#: ../revisor/base.py:1428
+#: ../revisor/base.py:2038
+#: ../revisor/base.py:2045
+#, fuzzy, python-format
+msgid "Package link failed, trying copy: %s: %s"
+msgstr "Egy csomag telepítése meghiúsult. Kísérlet a helyreállításra:"
+
+#: ../revisor/base.py:1438
+#, fuzzy
+msgid "Creating Repository Information"
+msgstr "Érvénytelen tárolóinformáció"
+
+#. FIXME: Optionally recompose installer images
+#: ../revisor/base.py:1453
+#, fuzzy
+msgid "Building Installation Images"
+msgstr "Asztalképek használata"
+
+#: ../revisor/base.py:1459
+msgid "Using already existing installer images"
+msgstr ""
+
+#: ../revisor/base.py:1473
+#, fuzzy
+msgid "Linking in release notes"
+msgstr "A kiadási megjegyzések nem tölthetők le"
+
+#: ../revisor/base.py:1485
+#, fuzzy, python-format
+msgid "Copying updates.img from %s to %s"
+msgstr "Frissítések letöltésének előkészítése a kiszolgálóról…"
+
+#: ../revisor/base.py:1494
+#: ../revisor/pungi.py:412
+#, fuzzy, python-format
+msgid "copy_dir '%s' not accessible"
+msgstr "A levelet nem tudtam másolni"
+
+#: ../revisor/base.py:1505
+#, python-format
+msgid "Size of the installation tree is %s MB"
+msgstr ""
+
+#. On EL5, the yum cache is placed under the installroot
+#. That makes our lives difficult, hihi
+#. So, make sure that if we're on el_linux, the repository gets
+#. bind mounted and configured appropriately
+#: ../revisor/base.py:1555
+#, fuzzy
+msgid "Running pkgorder"
+msgstr "Hiba %s futtatásakor"
+
+#: ../revisor/base.py:1618
+msgid "Appending group core and base"
+msgstr ""
+
+#: ../revisor/base.py:1625
+#, fuzzy, python-format
+msgid "Appending default group %s"
+msgstr "Az ablak létrehozásához hozzárendelt alapértelmezett csoport"
+
+#: ../revisor/base.py:1665
+#, fuzzy, python-format
+msgid "Appending non-default group %s"
+msgstr "Egy alapértelmezett nem munkanap"
+
+#: ../revisor/base.py:1671
+#, python-format
+msgid "Appending non-default support group %s"
+msgstr ""
+
+#: ../revisor/base.py:1738
+#, python-format
+msgid "Not running package ordering, using file %s instead"
+msgstr ""
+
+#: ../revisor/base.py:1740
+#, fuzzy
+msgid "Not running package ordering"
+msgstr "%s nem egy érvényes DEB csomag."
+
+#: ../revisor/base.py:1772
+#, fuzzy
+msgid "^Install using kickstart"
+msgstr "A Kickstart Configurator névjegye"
+
+#. Split Tree
+#: ../revisor/base.py:1795
+#, fuzzy, python-format
+msgid "Splitting Build Tree (%s)"
+msgstr "Spool mappa fa %s"
+
+#. Split repo
+#: ../revisor/base.py:1801
+#, fuzzy, python-format
+msgid "Splitting Repository (%s)"
+msgstr "_Tároló hozzáadása"
+
+#: ../revisor/base.py:1815
+#: ../revisor/modgui/build_media.py:244
+#, fuzzy, python-format
+msgid "Creating %s ISO Image #%d"
+msgstr "Brasero – Lemezkép létrehozása"
+
+#: ../revisor/base.py:1820
+#: ../revisor/modgui/build_media.py:248
+#, fuzzy, python-format
+msgid "Creating %s ISO Image"
+msgstr "Brasero – Lemezkép létrehozása"
+
+#. For all images but source images; implant the md5 into the ISO for the media check
+#. FIXME: Well, it seems we don't deal with source images here.
+#: ../revisor/base.py:1834
+msgid "Implanting MD5 into ISO Images"
+msgstr ""
+
+#. mediatype = built_image["mediatype"]
+#. if not mediatype == 'source':
+#: ../revisor/base.py:1842
+#, python-format
+msgid "Implanting md5 into ISO Image: %s"
+msgstr ""
+
+#: ../revisor/base.py:1848
+msgid "Cannot implant ISO md5sum"
+msgstr ""
+
+#. Do some SHA1SUMMONING
+#: ../revisor/base.py:1856
+#, fuzzy
+msgid "Creating SHA1SUMs for Images"
+msgstr "A lapokra illesztendő képek"
+
+#: ../revisor/base.py:1872
+#, fuzzy
+msgid "Creating Rescue ISO Image"
+msgstr "ISO fájl felépítése.\n"
+
+#: ../revisor/base.py:1932
+#, fuzzy, python-format
+msgid "Copying %s to %s (%d files)"
+msgstr "Csatolandó fájlok"
+
+#: ../revisor/base.py:1936
+#, fuzzy, python-format
+msgid "Moving %s to %s (%d files)"
+msgstr "Fájlok áthelyezése a Kukába"
+
+#: ../revisor/base.py:1939
+#, python-format
+msgid ""
+"Moving of the source tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../revisor/base.py:1942
+#, fuzzy, python-format
+msgid ""
+"Copying of the source tree failed:\n"
+"\n"
+"%s"
+msgstr "A(z) „%s” forrás betöltése sikertelen: %s"
+
+#: ../revisor/base.py:1947
+#: ../revisor/pungi.py:408
+#, fuzzy, python-format
+msgid "Copying %s to %s"
+msgstr "Másolás a(z) %s-ba..."
+
+#: ../revisor/base.py:1951
+#, fuzzy, python-format
+msgid ""
+"Copying of the installation tree failed:\n"
+"\n"
+"%s"
+msgstr "A(z) „%s” téma telepítése meghiúsult."
+
+#: ../revisor/base.py:1957
+#, fuzzy
+msgid "Creating ext3 filesystem"
+msgstr "A fájlrendszer kihasználtságának megjelenítése"
+
+#: ../revisor/base.py:1964
+#, fuzzy
+msgid "Configuring System"
+msgstr "Rendszereszközök"
+
+#. Now for each txmbr in
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:2010
+#, fuzzy
+msgid "Linking in Source packages"
+msgstr "Forráscsatorna a fájlban:"
+
+#: ../revisor/base.py:2065
+#, fuzzy, python-format
+msgid "Setting rundir to %s"
+msgstr "%s: Hiba a(z) %s beállítása közben a következőre: %s"
+
+#: ../revisor/base.py:2071
+#, fuzzy, python-format
+msgid "Directory %s could not be created. Aborting"
+msgstr "A(z) „%s” könyvtár nem hozható létre: a g_mkdir_with_parents() hívás meghiúsult: %s"
+
+#: ../revisor/base.py:2073
+#, fuzzy, python-format
+msgid "Running command: %s"
+msgstr "Parancs futtatása: %s…\n"
+
+#: ../revisor/base.py:2074
+#, fuzzy, python-format
+msgid "Extra information: %s %s %s"
+msgstr "Extra hibakeresési információk megjelenítése"
+
+#: ../revisor/base.py:2102
+#, fuzzy, python-format
+msgid "Got an error from %s (return code %s)"
+msgstr "ismeretlen HTTP-hibakód érkezett: %d"
+
+#: ../revisor/cfg.py:73
+#, fuzzy, python-format
+msgid "Setting %s to %r"
+msgstr "$%2s $%1s tulajdonságának beállítása erre: %s"
+
+#: ../revisor/cfg.py:152
+#: ../revisor/cfg.py:210
+#, fuzzy, python-format
+msgid "No group data found for %s"
+msgstr "Nem találhatók metaadatok a könyvtár fájljaihoz"
+
+#: ../revisor/cfg.py:155
+#: ../revisor/cfg.py:213
+#, python-format
+msgid "Why is yum throwing AttributeErrors? %s"
+msgstr ""
+
+#: ../revisor/cfg.py:243
+#, fuzzy
+msgid "Checking working directories"
+msgstr "ismeretlen könyvtármódszer"
+
+#: ../revisor/cfg.py:260
+#: ../revisor/cfg.py:338
+#, python-format
+msgid "The directories Revisor uses in %s already exist. This could possibly hold data from a previous run. Please remove or move them to a safe location, then confirm to continue. If you do not move or remove the files, Revisor will simply delete them."
+msgstr ""
+
+#: ../revisor/cfg.py:262
+#: ../revisor/cfg.py:340
+#, python-format
+msgid "The directories Revisor uses in %s already exist. Revisor deleted them."
+msgstr ""
+
+#: ../revisor/cfg.py:272
+#, fuzzy, python-format
+msgid "%s%s%s is a mount, trying to unmount"
+msgstr "A csomag megpróbál írni a(z) %s/%s eltérített célpontba"
+
+#: ../revisor/cfg.py:276
+#, python-format
+msgid ""
+"Unable to unmount %s%s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+
+#: ../revisor/cfg.py:279
+#, fuzzy, python-format
+msgid "%s%s%s is not a mount"
+msgstr "%s: a(z) \"%s\" nem csatolási pont\n"
+
+#: ../revisor/cfg.py:299
+#, python-format
+msgid ""
+"Unable to unmount %s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+
+#: ../revisor/cfg.py:316
+#, fuzzy
+msgid "Checking destination directories"
+msgstr "ismeretlen könyvtármódszer"
+
+#: ../revisor/cfg.py:320
+#, fuzzy, python-format
+msgid "Set destination directory to %s"
+msgstr ""
+"A PARANCS futtatása a gyökérkönyvtár ÚJGYÖKÉRRE állításával.\n"
+"\n"
+
+#: ../revisor/cfg.py:364
+#: ../revisor/cfg.py:371
+#: ../revisor/cfg.py:378
+#: ../revisor/modvirt/__init__.py:66
+#: ../revisor/modvirt/__init__.py:73
+#, python-format
+msgid "Cannot access %s, please check the permissions so we can try again."
+msgstr ""
+
+#: ../revisor/cfg.py:403
+#, fuzzy, python-format
+msgid "Architecture list: %r"
+msgstr "Játékoslista"
+
+#: ../revisor/cfg.py:435
+#, fuzzy, python-format
+msgid "Repository %s specified in the kickstart already exists"
+msgstr "A megadott szó már létezik a javítási listában."
+
+#: ../revisor/cfg.py:440
+#, fuzzy, python-format
+msgid "Setting repo.baseurl to %s"
+msgstr "Azonosító/tulajdonos beállítása: %d/%s..."
+
+#: ../revisor/cfg.py:443
+#, fuzzy, python-format
+msgid "Setting repo.mirrorlist to %s"
+msgstr "Azonosító/tulajdonos beállítása: %d/%s..."
+
+#: ../revisor/cfg.py:462
+#: ../revisor/cfg.py:466
+msgid "Could not clean metadata you might be working with old data"
+msgstr ""
+
+#: ../revisor/cfg.py:487
+#, python-format
+msgid "No groups present! Error was: %s"
+msgstr ""
+
+#: ../revisor/cfg.py:559
+msgid "You cannot choose the system's yum configuration file /etc/yum.conf for use with Revisor. Aborting."
+msgstr ""
+
+#: ../revisor/cfg.py:561
+#, python-format
+msgid "File %s does not exist (used as 'main' configuration directive in model %s)"
+msgstr ""
+
+#: ../revisor/cfg.py:567
+msgid "The ISO label cannot be longer then 32 characters due to Joliet limitations"
+msgstr ""
+
+#: ../revisor/cfg.py:577
+#, fuzzy, python-format
+msgid "Kickstart file %s cannot be read."
+msgstr "nem olvashatók fájlnevek a következőből: %s"
+
+#: ../revisor/cfg.py:585
+#, python-format
+msgid "The file configured as a comps file (%s) cannot be read. When composing installation media, this is FATAL."
+msgstr ""
+
+#: ../revisor/cfg.py:593
+#, python-format
+msgid "The updates.img specified isn't readable: %s"
+msgstr ""
+
+#: ../revisor/cfg.py:598
+msgid "Updates.img seems to not be a file... Is it an URL?"
+msgstr ""
+
+#: ../revisor/cfg.py:609
+msgid "Preferred kernel should be one of: normal, PAE, xen, debug."
+msgstr ""
+
+#: ../revisor/cfg.py:623
+msgid "The version you selected as a base for pykickstart compatibility and required package sets does not exist"
+msgstr ""
+
+#: ../revisor/cfg.py:633
+#, python-format
+msgid "You have selected a model with architecture %s which doesn't compose on the system architecture %s."
+msgstr ""
+
+#: ../revisor/cfg.py:641
+#, fuzzy
+msgid "Setting options from configuration file"
+msgstr "A konfigurációs fájlból eltávolítandó könyvtár"
+
+#: ../revisor/cfg.py:669
+#, fuzzy, python-format
+msgid "No model %s in configuration file %s"
+msgstr "Könyvtárak megjelenítése a konfigurációs fájlban"
+
+#: ../revisor/cfg.py:671
+#, fuzzy, python-format
+msgid "Setting model to %s"
+msgstr "%s: Hiba a(z) %s beállítása közben a következőre: %s"
+
+#. Not specifying a model and not configuring a model is fatal for CLI
+#: ../revisor/cfg.py:680
+#: ../revisor/cfg.py:690
+#: ../revisor/cfg.py:692
+#, python-format
+msgid "No model specified on the command line and no existing model configuration in %s"
+msgstr ""
+
+#: ../revisor/cfg.py:682
+#, python-format
+msgid "Model %s configured in configuration file %s, but there is no such model configuration"
+msgstr ""
+
+#: ../revisor/cfg.py:696
+#, python-format
+msgid "Tried to load model %s but it doesn't exist inconfiguration file %s"
+msgstr ""
+
+#: ../revisor/cfg.py:710
+#, python-format
+msgid "Model %s has no configuration directive 'main' which is required"
+msgstr ""
+
+#: ../revisor/cfg.py:713
+#, fuzzy, python-format
+msgid "Testing for configuration parameter %s"
+msgstr "A nyomtatási feladat beállítása"
+
+#: ../revisor/cfg.py:742
+#, fuzzy, python-format
+msgid "Setting %s to %r (from configuration file model %s)"
+msgstr "A konfigurációs fájlból eltávolítandó könyvtár"
+
+#: ../revisor/cfg.py:776
+#, fuzzy, python-format
+msgid "Configuration file %s not readable"
+msgstr "A(z) %s olvasható, de nem írható; nem sikerült a beállítófájlba írni."
+
+#: ../revisor/cfg.py:779
+#: ../revisor/modgui/configuration.py:465
+#, fuzzy, python-format
+msgid "Reading configuration file %s"
+msgstr "nem sikerült olvasásra megnyitni a beállítási fájlt"
+
+#: ../revisor/cfg.py:783
+#, fuzzy, python-format
+msgid "Invalid configuration file %s"
+msgstr "--- A konfigurációs állományban meghatározott %s meghajtó érvénytelen.\n"
+
+#: ../revisor/cfg.py:786
+#, python-format
+msgid "No master configuration section [revisor] in configuration file %s"
+msgstr ""
+
+#: ../revisor/cfg.py:820
+#, fuzzy, python-format
+msgid "Setting %s to %r (from configuration file)"
+msgstr "A konfigurációs fájlból eltávolítandó könyvtár"
+
+#: ../revisor/cfg.py:824
+#, fuzzy
+msgid "Setting options from command-line"
+msgstr "Összeférhetetlen parancssori kapcsolókat használt."
+
+#: ../revisor/cfg.py:838
+#: ../revisor/cfg.py:845
+#, fuzzy, python-format
+msgid "Setting %s to %r (from command line)"
+msgstr "%s beállítása egyetlen sor használatára"
+
+#: ../revisor/cfg.py:840
+#, python-format
+msgid "Checked setting %s through plugin"
+msgstr ""
+
+#: ../revisor/cfg.py:843
+#, fuzzy, python-format
+msgid "No check_setting_%s()"
+msgstr "A(z) %s tiszta, nem kerül ellenőrzésre.\n"
+
+#: ../revisor/cfg.py:847
+#, python-format
+msgid "Not setting %s to %r (command line matches default)"
+msgstr ""
+
+#: ../revisor/cfg.py:889
+msgid "Updates.img is only usable with installation media. Please remove --updates-img or also build installation media."
+msgstr ""
+
+#: ../revisor/cfg.py:893
+#, fuzzy
+msgid "Kickstart failed"
+msgstr "Csevegés meghiúsult: %s."
+
+#: ../revisor/cfg.py:898
+#, fuzzy, python-format
+msgid "Kickstart file %s not readable"
+msgstr "A fájl nem olvasható."
+
+#: ../revisor/cfg.py:900
+#, python-format
+msgid "Kickstart file %s fails to load, continuing with defaults"
+msgstr ""
+
+#: ../revisor/cfg.py:903
+#, fuzzy
+msgid "No kickstart file specified"
+msgstr "Nincs megadva fájlnév."
+
+#: ../revisor/cfg.py:906
+#: ../revisor/cfg.py:927
+#, fuzzy
+msgid "No media specified"
+msgstr "Nincs szintaxis megadva"
+
+#: ../revisor/cfg.py:909
+msgid "When composing in respin mode, you can only select one type of media install, live or virtual. You can however select multiple media such as cd, dvd, etc."
+msgstr ""
+
+#: ../revisor/cfg.py:954
+#, fuzzy, python-format
+msgid "pulling self.packages_list[%r][%r][%r][%r]"
+msgstr "   -i  Csak a telepített csomagok listázása"
+
+#: ../revisor/cfg.py:959
+#, fuzzy, python-format
+msgid "returning pkg_list: %r"
+msgstr "/friends ……………… Barátok felsorolása"
+
+#: ../revisor/cfg.py:1077
+#, fuzzy
+msgid "Run from image"
+msgstr "Létrehozás a lemezképből"
+
+#: ../revisor/cfg.py:1078
+msgid "Run from RAM - requires 1 GB+"
+msgstr ""
+
+#. #
+#. # Runtime Options
+#. #
+#: ../revisor/__init__.py.in:85
+#, fuzzy
+msgid "Runtime Options"
+msgstr "futásidejű beállítások"
+
+#: ../revisor/__init__.py.in:90
+msgid "Use the CLI rather then GUI"
+msgstr ""
+
+#: ../revisor/__init__.py.in:95
+msgid "Force Revisor to use the GUI. Does not fallback to CLI and thus shows GUI related errors"
+msgstr ""
+
+#: ../revisor/__init__.py.in:100
+#, fuzzy
+msgid "List available models"
+msgstr "Elérhető paletták listája"
+
+#: ../revisor/__init__.py.in:105
+msgid "Development mode. Skips some tasks that take time."
+msgstr ""
+
+#: ../revisor/__init__.py.in:110
+msgid "Report the sizes of all RPMs selected in a list"
+msgstr ""
+
+#: ../revisor/__init__.py.in:115
+msgid "Force Revisor to interpret the package manifest as complete package nevra (name, epoch, version, release and architecture). Implies --kickstart-exact"
+msgstr ""
+
+#: ../revisor/__init__.py.in:120
+msgid "Tells Revisor to ignore @core and @base (or %packages --nobase) and only add what is in the package manifest"
+msgstr ""
+
+#: ../revisor/__init__.py.in:126
+msgid "Should Revisor not clean up at all (0), clean up it's temporary build data (1), or everything -this includes the yum cache (2)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:132
+msgid "Size of the USB Thumb Drive. Default to 4G."
+msgstr ""
+
+#: ../revisor/__init__.py.in:141
+#, fuzzy
+msgid "Set debugging level (0 by default)"
+msgstr "A tömör nézet alapértelmezett nagyítása."
+
+#: ../revisor/__init__.py.in:150
+#, fuzzy
+msgid "Answer all questions as 'yes'"
+msgstr " -y             Felteszi, hogy az egyszerű igen/nem kérdésekre 'igen' a válasz\n"
+
+#. #
+#. # Configuration Options
+#. #
+#: ../revisor/__init__.py.in:155
+#, fuzzy
+msgid "Configuration Options"
+msgstr "Konfigurációs beállítások"
+
+#. Might be disabled for testing purposes
+#. default = os.path.join(BASE_CONFD_DIR,"fedora-7-gold.cfg"),
+#: ../revisor/__init__.py.in:162
+#, fuzzy
+msgid "Use kickstart file"
+msgstr "Kickstart-fájl készítése"
+
+#: ../revisor/__init__.py.in:168
+msgid "Save options to given file (as a kickstart)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:174
+#, fuzzy
+msgid "Revisor configuration file to use"
+msgstr "A használandó szabályfájl variációja"
+
+#: ../revisor/__init__.py.in:180
+msgid "Get the sources to go with the binaries"
+msgstr ""
+
+#: ../revisor/__init__.py.in:185
+#, fuzzy
+msgid "Destination directory for products"
+msgstr "Felhasználói könyvtár az automatikus formázásokhoz"
+
+#: ../revisor/__init__.py.in:191
+#, fuzzy
+msgid "Working directory"
+msgstr "Munkakönyvtár:"
+
+#: ../revisor/__init__.py.in:197
+#, fuzzy
+msgid "Model to use for composing"
+msgstr "A kukachoz használandó szín"
+
+#: ../revisor/__init__.py.in:203
+msgid "Mode to use for composing updated spins"
+msgstr ""
+
+#: ../revisor/__init__.py.in:208
+msgid "Sometimes, it's better to copy local data rather then (sym)linking it. If you have enough space..."
+msgstr ""
+
+#: ../revisor/__init__.py.in:213
+#, fuzzy
+msgid "Directory to copy onto the media"
+msgstr "%s: nem sikerült a könyvtárba/könyvtárból másolni\n"
+
+#. #
+#. # Installation Media Options
+#. #
+#: ../revisor/__init__.py.in:218
+#, fuzzy
+msgid "Installation Media Options"
+msgstr "Telepítési kapcsolók megjelenítése"
+
+#: ../revisor/__init__.py.in:223
+msgid "Create Installation Media CDs (Capacity per disc: 685MB)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:228
+msgid "Create Installation Media DVDs (Capacity per disc: 4.3GB)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:233
+msgid "Create Installation Media Dual-Layered DVDs (Capacity per disc: 8.5GB)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:238
+msgid "Create Installation Media Blu-Ray Discs (Capacity per disc: 50GB)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:243
+msgid "Create Unified ISO from install tree"
+msgstr ""
+
+#: ../revisor/__init__.py.in:254
+#, fuzzy
+msgid "Create the Installation Tree."
+msgstr "Telepítőlemez készítése"
+
+#: ../revisor/__init__.py.in:259
+msgid "Create Media without graphical installer."
+msgstr ""
+
+#: ../revisor/__init__.py.in:264
+msgid "Include kickstart file on media or in the tree"
+msgstr ""
+
+#: ../revisor/__init__.py.in:269
+msgid "In the bootloader menu (isolinux.cfg), set kickstart to boot by default (works with --kickstart-include)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:274
+msgid "Filter anything from comps that is not in the package set"
+msgstr ""
+
+#: ../revisor/__init__.py.in:279
+msgid "Use Revisor's comps file instead of those from the repositories"
+msgstr ""
+
+#: ../revisor/__init__.py.in:284
+msgid "Comps file to include on the installation media"
+msgstr ""
+
+#: ../revisor/__init__.py.in:289
+msgid "Include specified updates.img on installation media."
+msgstr ""
+
+#: ../revisor/__init__.py.in:295
+#, fuzzy
+msgid "Product Name"
+msgstr "Játék neve:"
+
+#: ../revisor/__init__.py.in:300
+msgid "Product Path (e.g. Fedora/ or Packages/ -but without the appending slash)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:305
+msgid "ISO Label Base. Note that other things are appended but that the length can be 32 chars maximum."
+msgstr ""
+
+#: ../revisor/__init__.py.in:310
+#, fuzzy
+msgid "The base name for the ISOs"
+msgstr "<i>%(text)s</i> keresése ezzel: <b>%(name)s</b>"
+
+#: ../revisor/__init__.py.in:315
+#, fuzzy
+msgid "Product Version"
+msgstr "OS verzió"
+
+#: ../revisor/__init__.py.in:320
+msgid "Base Product Version - relevant to required packages and pykickstart compatibility"
+msgstr ""
+
+#. #
+#. # Utility Media Options
+#. #
+#: ../revisor/__init__.py.in:325
+#, fuzzy
+msgid "Utility Media Options"
+msgstr "Lemezcsatlakoztató"
+
+#: ../revisor/__init__.py.in:330
+#, fuzzy
+msgid "Create Rescue Media"
+msgstr "Helyreállító floppy létrehozása"
+
+#. #
+#. # Live Media Options
+#. #
+#: ../revisor/__init__.py.in:335
+#, fuzzy
+msgid "Live Media Options"
+msgstr "A Brasero médiafüggvénytár kapcsolóinak megjelenítése"
+
+#: ../revisor/__init__.py.in:340
+#, fuzzy
+msgid "Create Live Media CD/DVD"
+msgstr "Nem hozható létre a CD/DVD"
+
+#: ../revisor/__init__.py.in:345
+msgid "Create Live Media Thumb Drive Image (will be depreciated)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:350
+msgid "Create Live Media Hard Disk Image (will be depreciated)"
+msgstr ""
+
+#: ../revisor/__init__.py.in:355
+msgid "Create Live Media Raw Hard Disk Image"
+msgstr ""
+
+#: ../revisor/__init__.py.in:360
+msgid "Interactively work in the live image before building the ISO image."
+msgstr ""
+
+#: ../revisor/__init__.py.in:365
+#, fuzzy
+msgid "Skip file system compression."
+msgstr "Csak olvasható fájlrendszer"
+
+#: ../revisor/__init__.py.in:370
+msgid "Skip prelinking the contents of the filesystem."
+msgstr ""
+
+#: ../revisor/__init__.py.in:375
+msgid "Ignore filesystem overhead. Useless blocks will not be removed from the filesystem."
+msgstr ""
+
+#: ../revisor/__init__.py.in:380
+msgid "Set the preferred kernel. One of normal, PAE, xen or debug."
+msgstr ""
+
+#: ../revisor/__init__.py.in:441
+#, fuzzy
+msgid "Interrupted by user"
+msgstr "Ftpfs: a kapcsolat a felhasználó kérésére megszakítva"
+
+#: ../revisor/__init__.py.in:448
+msgid "Traceback occurred, please report a bug at http://fedorahosted.org/revisor"
+msgstr ""
+
+#: ../revisor/logger.py:86
+#, fuzzy
+msgid "Error"
+msgstr "Hiba"
+
+#: ../revisor/logger.py:101
+#, fuzzy
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: ../revisor/logger.py:114
+#: ../revisor/logger.py:123
+#, fuzzy
+msgid "Do you want to continue? [Y/n]"
+msgstr "Folytatni akarod [Y/n]? "
+
+#: ../revisor/logger.py:117
+#: ../revisor/logger.py:126
+#, fuzzy
+msgid "Abort! Abort! Abort!"
+msgstr "Megszakítva."
+
+#: ../revisor/image.py:87
+#, python-format
+msgid ""
+"Error encountered during installation of the software you selected:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../revisor/image.py:93
+#, fuzzy
+msgid "Running package installation"
+msgstr "Csomagtelepítési napló"
+
+#. self.cfg.yumobj.ts.check()
+#. self.cfg.yumobj.ts.order()
+#: ../revisor/image.py:107
+#, fuzzy
+msgid "Installing Software"
+msgstr "Szoftver telepítése"
+
+#: ../revisor/image.py:142
+msgid "SELinux requested but not enabled on host"
+msgstr ""
+
+#: ../revisor/image.py:194
+#, python-format
+msgid "Setting self.cfg.payload_livemedia to %s (from 'part /' command in kickstart, instead of %s)"
+msgstr ""
+
+#: ../revisor/image.py:199
+#, python-format
+msgid "Setting self.cfg.payload_livemedia to %s (from total installed size of RPMs, instead of %s)"
+msgstr ""
+
+#: ../revisor/pkgorder.py:135
+#, python-format
+msgid "Unable to create yum configuration file for package ordering at %s"
+msgstr ""
+
+#: ../revisor/pkgorder.py:154
+#, fuzzy, python-format
+msgid "-> package %s"
+msgstr "Csomag"
+
+#: ../revisor/plugins.py:57
+#: ../revisor/plugins.py:74
+#, fuzzy, python-format
+msgid "Plugin %s failed to load (%s: %s)"
+msgstr "A kép betöltése meghiúsult"
+
+#: ../revisor/plugins.py:68
+#, fuzzy, python-format
+msgid "ImportError for plugin %s: %s"
+msgstr "%s bővítmény beállításai"
+
+#: ../revisor/plugins.py:71
+#, fuzzy, python-format
+msgid "RuntimeError for plugin %s: %s"
+msgstr "%s bővítmény beállításai"
+
+#: ../revisor/plugins.py:91
+#: ../revisor/plugins.py:93
+#, fuzzy, python-format
+msgid "Cannot set defaults for plugin %s: %s"
+msgstr "%s időbélyegei nem állíthatók be"
+
+#: ../revisor/plugins.py:95
+#, python-format
+msgid "Cannot set defaults for plugin %s: Unknown Error"
+msgstr ""
+
+#: ../revisor/plugins.py:98
+#, python-format
+msgid "Not setting defaults for plugin %s: No function 'set_defaults()'"
+msgstr ""
+
+#: ../revisor/plugins.py:115
+#, fuzzy, python-format
+msgid "Cannot set runtime for plugin %s: %s"
+msgstr "%s időbélyegei nem állíthatók be"
+
+#: ../revisor/plugins.py:117
+#, python-format
+msgid "Not setting runtime for plugin %s: No function 'set_runtime()'"
+msgstr ""
+
+#: ../revisor/plugins.py:134
+#, fuzzy, python-format
+msgid "Cannot add options for plugin %s: %s"
+msgstr "A bővítménynek nincsenek beállításai."
+
+#: ../revisor/plugins.py:136
+#, python-format
+msgid "Not adding options for plugin %s: No function 'add_options()'"
+msgstr ""
+
+#: ../revisor/plugins.py:154
+#, fuzzy, python-format
+msgid "Cannot check options for plugin %s: %s"
+msgstr "A bővítménynek nincsenek beállításai."
+
+#: ../revisor/plugins.py:156
+#, python-format
+msgid "Not checking options for plugin %s: No function 'check_options()'"
+msgstr ""
+
+#: ../revisor/plugins.py:192
+#, fuzzy, python-format
+msgid "Cannot execute hook %s for plugin %s: %s"
+msgstr "Az alapértelmezett levélszemét-bővítmény"
+
+#: ../revisor/progress.py:79
+#: ../revisor/modgui/build_media.py:89
+#: ../revisor/modgui/build_media.py:95
+#: ../revisor/modgui/build_media.py:99
+#: ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:101
+#: ../revisor/modgui/build_media.py:106
+#: ../revisor/modgui/build_media.py:111
+#: ../revisor/modgui/build_media.py:112
+#: ../revisor/modgui/build_media.py:113
+#: ../revisor/modgui/build_media.py:114
+#: ../revisor/modgui/build_media.py:119
+#: ../revisor/modgui/build_media.py:124
+#: ../revisor/modgui/build_media.py:136
+#: ../revisor/modgui/build_media.py:137
+#: ../revisor/modgui/build_media.py:142
+#: ../revisor/modgui/build_media.py:147
+#: ../revisor/modgui/build_media.py:148
+#: ../revisor/modgui/build_media.py:149
+#: ../revisor/modgui/build_media.py:150
+#: ../revisor/modgui/build_media.py:151
+#: ../revisor/modgui/build_media.py:152
+#: ../revisor/modgui/build_media.py:153
+#: ../revisor/modgui/build_media.py:156
+#: ../revisor/modgui/build_media.py:159
+#: ../revisor/modgui/build_media.py:163
+#: ../revisor/modgui/build_media.py:166
+#: ../revisor/modgui/build_media.py:173
+#: ../revisor/modgui/build_media.py:177
+#: ../revisor/modgui/build_media.py:232
+#: ../revisor/modgui/build_media.py:239
+#: ../revisor/modgui/build_media.py:240
+#: ../revisor/modgui/build_media.py:244
+#: ../revisor/modgui/build_media.py:248
+#: ../revisor/modgui/build_media.py:253
+#: ../revisor/modgui/build_media.py:254
+#: ../revisor/modgui/build_media.py:255
+#: ../revisor/modgui/build_media.py:256
+#: ../revisor/modgui/build_media.py:257
+#: ../revisor/modgui/build_media.py:258
+#: ../revisor/modgui/build_media.py:259
+#: ../revisor/modgui/build_media.py:260
+#: ../revisor/modgui/build_media.py:261
+#: ../revisor/modgui/build_media.py:264
+#: ../revisor/modgui/build_media.py:267
+#: ../revisor/modgui/build_media.py:271
+#: ../revisor/modgui/build_media.py:274
+#: ../revisor/modgui/build_media.py:278
+#: ../revisor/modgui/build_media.py:282
+#: ../revisor/modgui/build_media.py:291
+#, fuzzy
+msgid "Pending..."
+msgstr "Folyamatban"
+
+#: ../revisor/progress.py:80
+#: ../revisor/progress.py:83
+#: ../revisor/modgui/build_media.py:292
+#: ../revisor/modgui/build_media.py:295
+#, fuzzy
+msgid "Running..."
+msgstr "Fut…"
+
+#: ../revisor/progress.py:84
+#: ../revisor/progress.py:87
+#: ../revisor/modgui/build_media.py:199
+#: ../revisor/modgui/build_media.py:205
+#: ../revisor/modgui/build_media.py:209
+#: ../revisor/modgui/build_media.py:213
+#: ../revisor/modgui/build_media.py:214
+#: ../revisor/modgui/build_media.py:219
+#: ../revisor/modgui/build_media.py:224
+#: ../revisor/modgui/build_media.py:225
+#: ../revisor/modgui/build_media.py:226
+#: ../revisor/modgui/build_media.py:227
+#, fuzzy
+msgid "Done"
+msgstr "Kész"
+
+#: ../revisor/progress.py:190
+#, fuzzy
+msgid "Preparing transaction"
+msgstr "Sikertelen tranzakció"
+
+#: ../revisor/progress.py:202
+#: ../revisor/progress.py:366
+#, fuzzy, python-format
+msgid "Unable to open %s: %s"
+msgstr "%s: a(z) \"%s\" nem nyitható meg\n"
+
+#: ../revisor/progress.py:203
+#: ../revisor/progress.py:204
+#: ../revisor/progress.py:367
+#, fuzzy, python-format
+msgid "Installing %s"
+msgstr "%s telepítése"
+
+#: ../revisor/progress.py:226
+#: ../revisor/progress.py:387
+#, fuzzy, python-format
+msgid "Updated: %s"
+msgstr "Frissítve: %s"
+
+#: ../revisor/progress.py:228
+#: ../revisor/progress.py:389
+#, fuzzy, python-format
+msgid "Installed: %s"
+msgstr "Telepítve"
+
+#: ../revisor/progress.py:241
+#, fuzzy, python-format
+msgid "Cleanup %s"
+msgstr "Tisztítás"
+
+#: ../revisor/progress.py:256
+#: ../revisor/progress.py:415
+#, fuzzy, python-format
+msgid "Erased: %s"
+msgstr "%d fájl törölve."
+
+#: ../revisor/progress.py:541
+#, fuzzy, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../revisor/pungi.py:62
+#, fuzzy, python-format
+msgid "Error: Cannot create destination dir %s"
+msgstr "Hiba: Nem lehet létrehozni átmeneti fájlt: %s\n"
+
+#: ../revisor/pungi.py:68
+#, python-format
+msgid "Error: Cannot remove destination dir %s"
+msgstr ""
+
+#: ../revisor/pungi.py:73
+#, python-format
+msgid "Error: Cannot recreate destination dir %s"
+msgstr ""
+
+#: ../revisor/pungi.py:340
+#, fuzzy
+msgid "Getting relnotes..."
+msgstr "Süti letöltése"
+
+#: ../revisor/pungi.py:361
+#, fuzzy, python-format
+msgid "An error occured extracting the release files: %s"
+msgstr "Hiba történt a fájlok kibontása közben."
+
+#: ../revisor/pungi.py:370
+#, fuzzy, python-format
+msgid "Copying %s"
+msgstr "„%s” másolása"
+
+#: ../revisor/pungi.py:387
+#, python-format
+msgid "Could not access directory %s, cannot copy extra files onto the media."
+msgstr ""
+
+#: ../revisor/pungi.py:393
+#, fuzzy, python-format
+msgid "Could not create files/ directory: %s"
+msgstr "Nem sikerült létrehozni a \\DCIM könyvtárat."
+
+#: ../revisor/pungi.py:404
+#, fuzzy, python-format
+msgid "Creating %s"
+msgstr "%s létrehozása"
+
+#: ../revisor/pungi.py:452
+#, fuzzy, python-format
+msgid "Disc %s #%d is oversized (%r > %r)"
+msgstr "A(z) „%s” meghajtóban található lemez üres."
+
+#: ../revisor/pungi.py:456
+#, fuzzy, python-format
+msgid "Removing tree %s"
+msgstr "Véletlenszerű fa"
+
+#: ../revisor/pungi.py:464
+#, fuzzy, python-format
+msgid "Disc %s #%d is OK in size (%r <= %r)"
+msgstr "A(z) „%s” meghajtóban található lemez nem újraírható."
+
+#: ../revisor/pungi.py:515
+msgid "Hacking anaconda's .discinfo because it'll shit itself if it reads it's own output"
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:69
+#: ../revisor/modcobbler/__init__.py:218
+#: ../revisor/modcobbler/__init__.py:255
+#, fuzzy, python-format
+msgid "There is a problem connecting to %s"
+msgstr "Hiba történt a CUPS-kiszolgálóhoz történő kapcsolódás közben."
+
+#: ../revisor/modcobbler/__init__.py:82
+#, fuzzy, python-format
+msgid ""
+" Distro: %s\n"
+"  Existing Profiles:"
+msgstr "/_Eszközök/Küldési pr_ofilok..."
+
+#: ../revisor/modcobbler/__init__.py:84
+#, fuzzy, python-format
+msgid "   Profile: %s"
+msgstr "Profil:"
+
+#: ../revisor/modcobbler/__init__.py:86
+#, fuzzy
+msgid "No listing found on cobbler server."
+msgstr "Nem található adatbázis a(z) „%s” szótárkiszolgálón"
+
+#: ../revisor/modcobbler/__init__.py:103
+msgid "Add compose to a Cobbler server as both a Distribution and Profile."
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:110
+msgid "Add compose options as a Profile to a Cobbler server. [Requires --cobbler-use-distro]"
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:117
+msgid "Use a Cobbler distro as source for package data."
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:124
+msgid "Use a Cobbler profile as source for kickstart data."
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:131
+msgid "List options provided by cobbler."
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:137
+#, fuzzy
+msgid "Use remote cobbler server."
+msgstr "A távoli kiszolgáló nem található"
+
+#: ../revisor/modcobbler/__init__.py:143
+#, fuzzy
+msgid "Remote cobbler server port."
+msgstr "Érvénytelen kiszolgáló vagy port"
+
+#: ../revisor/modcobbler/__init__.py:200
+msgid "Specifying a Cobbler server is only supported for read-only actions. Currently, --cobbler-use-distro and --cobbler-use-profile."
+msgstr ""
+
+#: ../revisor/modcobbler/__init__.py:225
+#, fuzzy, python-format
+msgid "The distro '%s' does not exist."
+msgstr "A konferencia nem létezik"
+
+#: ../revisor/modcobbler/__init__.py:239
+#: ../revisor/modcobbler/__init__.py:262
+#, fuzzy, python-format
+msgid "The profile '%s' does not exist."
+msgstr "A konferencia nem létezik"
+
+#: ../revisor/moddelta/__init__.py:36
+#, fuzzy
+msgid "Package deltarpm not installed"
+msgstr "  `%s' csomag nincs telepítve.\n"
+
+#: ../revisor/moddelta/__init__.py:70
+msgid "Generate a delta ISO image. Currently only valid for a single disc or directory holding Installation Media ISOs named exactly the same as the product."
+msgstr ""
+
+#: ../revisor/modjigdo/__init__.py:46
+#, fuzzy
+msgid "Package jigdo not installed"
+msgstr "  `%s' csomag nincs telepítve.\n"
+
+#: ../revisor/modjigdo/__init__.py:61
+msgid "Generate Jigdo files and templates using the installation tree"
+msgstr ""
+
+#: ../revisor/modjigdo/__init__.py:67
+msgid "Generate Jigdo files against the Revisor YUM Cache (labels different repositories)."
+msgstr ""
+
+#: ../revisor/modjigdo/__init__.py:77
+msgid "You cannot use both the installation tree and the yum cache to build Jigdo templates against."
+msgstr ""
+
+#: ../revisor/modgui/build_media.py:89
+#: ../revisor/modgui/build_media.py:199
+#, fuzzy
+msgid "Retrieve Software Information"
+msgstr "Nem érhető el információ a fájlról"
+
+#: ../revisor/modgui/build_media.py:95
+#: ../revisor/modgui/build_media.py:209
+#, fuzzy
+msgid "Select Packages from Kickstart"
+msgstr "Sablonok kicsomagolása e csomagokból: %d%%"
+
+#: ../revisor/modgui/build_media.py:99
+#: ../revisor/modgui/build_media.py:205
+#, fuzzy
+msgid "Resolve Dependencies"
+msgstr "Függőségek feloldása"
+
+#: ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:213
+#, fuzzy
+msgid "Populating Statistics"
+msgstr "Fejtörő-statisztika"
+
+#: ../revisor/modgui/build_media.py:111
+#: ../revisor/modgui/build_media.py:224
+#, fuzzy
+msgid "Linking in Packages"
+msgstr "%s %s csomagok az alábbi szakaszban: %s"
+
+#: ../revisor/modgui/build_media.py:112
+#: ../revisor/modgui/build_media.py:225
+#, fuzzy
+msgid "Create Repository Information"
+msgstr "Érvénytelen tárolóinformáció"
+
+#: ../revisor/modgui/build_media.py:113
+#: ../revisor/modgui/build_media.py:226
+#, fuzzy
+msgid "Build isolinux and Installer"
+msgstr "A Keresés és csere ablak felhasználói felülete nem állítható össze"
+
+#: ../revisor/modgui/build_media.py:114
+#: ../revisor/modgui/build_media.py:227
+#, fuzzy
+msgid "Linking in Release Notes"
+msgstr "A kiadási megjegyzések nem tölthetők le"
+
+#: ../revisor/modgui/build_media.py:119
+#, fuzzy
+msgid "Creating CD ISO Images"
+msgstr "A hang CD létrehozása befejeződött."
+
+#: ../revisor/modgui/build_media.py:124
+#, fuzzy
+msgid "Creating DVD ISO Images"
+msgstr "Adat DVD képfájl készítése"
+
+#: ../revisor/modgui/build_media.py:136
+#: ../revisor/modgui/build_media.py:253
+#, fuzzy
+msgid "Resolve Dependencies for Installation"
+msgstr "Csomag(ok) kijelölése telepítésre"
+
+#: ../revisor/modgui/build_media.py:137
+#: ../revisor/modgui/build_media.py:254
+#, fuzzy
+msgid "Downloading Extra Packages"
+msgstr "A következő extra csomagok kerülnek telepítésre:"
+
+#: ../revisor/modgui/build_media.py:147
+#: ../revisor/modgui/build_media.py:255
+#, fuzzy
+msgid "Creating ext3 Filesystem"
+msgstr "A fájlrendszer kihasználtságának megjelenítése"
+
+#: ../revisor/modgui/build_media.py:148
+#: ../revisor/modgui/build_media.py:256
+#, fuzzy
+msgid "Installing packages"
+msgstr "Telepített csomagok: (%d):"
+
+#: ../revisor/modgui/build_media.py:149
+#: ../revisor/modgui/build_media.py:257
+#, fuzzy
+msgid "Configure System"
+msgstr "Az X Window grafikus rendszer beállítása"
+
+#: ../revisor/modgui/build_media.py:150
+#: ../revisor/modgui/build_media.py:258
+#, fuzzy
+msgid "Configure Networking"
+msgstr "_Hálózat engedélyezése"
+
+#: ../revisor/modgui/build_media.py:151
+#: ../revisor/modgui/build_media.py:259
+#, fuzzy
+msgid "Create RAM Filesystem"
+msgstr "Hiba a fájlrendszer létrehozásakor."
+
+#: ../revisor/modgui/build_media.py:152
+#: ../revisor/modgui/build_media.py:260
+#, fuzzy
+msgid "Relabel System"
+msgstr "Rendszereszközök"
+
+#: ../revisor/modgui/build_media.py:153
+#: ../revisor/modgui/build_media.py:261
+#, fuzzy
+msgid "Configure Bootloader"
+msgstr "A rendszerbetöltő telepítése"
+
+#: ../revisor/modgui/build_media.py:156
+#, fuzzy
+msgid "Launch shell"
+msgstr "C héj-parancsfájl"
+
+#: ../revisor/modgui/build_media.py:159
+#: ../revisor/modgui/build_media.py:267
+#, fuzzy
+msgid "Unmounting filesystems"
+msgstr "A megmaradt fájlrendszerek leválasztása..."
+
+#: ../revisor/modgui/build_media.py:163
+#: ../revisor/modgui/build_media.py:271
+#, fuzzy
+msgid "Compressing Image"
+msgstr "Kép méretezése"
+
+#: ../revisor/modgui/build_media.py:166
+#, fuzzy
+msgid "Creating ISO Image"
+msgstr "Brasero – Lemezkép létrehozása"
+
+#: ../revisor/modgui/build_media.py:173
+#: ../revisor/modgui/build_media.py:278
+msgid "Dumping ISO Image to USB Media"
+msgstr ""
+
+#: ../revisor/modgui/build_media.py:177
+#: ../revisor/modgui/build_media.py:282
+#, fuzzy
+msgid "Cleaning up Build Environment"
+msgstr ""
+"%s: hiba a tisztítás során:\n"
+" %s\n"
+
+#: ../revisor/modgui/build_media.py:232
+#, fuzzy
+msgid "Ordering Packages"
+msgstr "Minden csomag"
+
+#: ../revisor/modgui/build_media.py:239
+#, fuzzy, python-format
+msgid "Splitting Packages for %s Media"
+msgstr "Csomagok kiinduló URL-je"
+
+#: ../revisor/modgui/build_media.py:240
+#, fuzzy, python-format
+msgid "Splitting Repository Information for %s Media"
+msgstr "A csomagtár metaadatai között nem találhatók az elsődleges információk a(z) '%s' csatornához"
+
+#: ../revisor/modgui/build_media.py:264
+#, fuzzy
+msgid "Launching shell"
+msgstr "C héj-parancsfájl"
+
+#: ../revisor/modgui/build_media.py:274
+#, fuzzy
+msgid "Creating Live ISO Image"
+msgstr "ISO fájl felépítése.\n"
+
+#: ../revisor/modgui/configuration.py:123
+msgid "You have not specified a Base URL or Mirror List"
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:126
+msgid "GPG Check enabled but no valid GPG Key file found"
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:139
+#, fuzzy, python-format
+msgid "ValueError in baseurl: %s"
+msgstr "Munkaasztalon tartás"
+
+#: ../revisor/modgui/configuration.py:145
+#, fuzzy, python-format
+msgid "ValueError in mirrorlist: %s"
+msgstr "Munkaasztalon tartás"
+
+#: ../revisor/modgui/configuration.py:218
+#, fuzzy, python-format
+msgid "%s is not a valid Revisor configuration file"
+msgstr "A kiválasztott fájl nem egy érvényes bővítmény."
+
+#: ../revisor/modgui/configuration.py:238
+msgid "The configured model does not have the mandatory 'main' configuration directive."
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:240
+#, fuzzy
+msgid "Invalid model. Please choose a valid model."
+msgstr "Értelmezhetetlen válasz.  Kérlek írj be érvényes parancsot vagy '?'-et a súgóhoz.\n"
+
+#: ../revisor/modgui/configuration.py:352
+#, fuzzy, python-format
+msgid "File %s is not accessible."
+msgstr "Fájl nincs a gyorstárban.\n"
+
+#: ../revisor/modgui/configuration.py:359
+msgid "The 'main' option configuration directive has a non-accessible file: "
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:362
+msgid "Configuration file's 'main' directive OK"
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:396
+msgid "You have not selected any of the basic repositories. Please make sure that one of 'fedora', 'core', 'base' or 'development', or an equivalent repository has been configured"
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:400
+#, python-format
+msgid "Configuration file '%s', section '%s' does not have the mandatory 'main' option"
+msgstr ""
+
+#: ../revisor/modgui/configuration.py:479
+#, fuzzy, python-format
+msgid "Could not read configuration file %s"
+msgstr "Nem lehet menteni a konfigurációs fájlt.\n"
+
+#: ../revisor/modgui/finished_screen.py:48
+#, fuzzy
+msgid "Check current directory."
+msgstr "A jelenlegi könyvtár "
+
+#: ../revisor/modgui/__init__.py:122
+msgid "GUI Mode didn't get RevisorBase instance, which is fatal."
+msgstr ""
+
+#: ../revisor/modgui/__init__.py:191
+#, python-format
+msgid "Opening up /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+msgstr ""
+
+#: ../revisor/modgui/__init__.py:324
+#, fuzzy
+msgid "Error downloading packages"
+msgstr "Hiba történt néhány csomag hitelesítése közben"
+
+#: ../revisor/modgui/__init__.py:339
+#, fuzzy
+msgid "Continue"
+msgstr "Folytatás"
+
+#: ../revisor/modgui/__init__.py:340
+#, fuzzy
+msgid "Dependencies added"
+msgstr "Hozzáadott sor"
+
+#: ../revisor/modgui/__init__.py:341
+msgid "Updating these packages requires additional package changes for proper operation."
+msgstr ""
+
+#: ../revisor/modgui/__init__.py:350
+#, fuzzy
+msgid "Adding for dependencies:\n"
+msgstr "%s szülő hozzáadása a következőhöz: %s"
+
+#: ../revisor/modgui/__init__.py:351
+#, fuzzy
+msgid "Removing for dependencies:\n"
+msgstr "%s kiválasztása ehhez: %s nincs bejegyezve, nem törlöm"
+
+#: ../revisor/modgui/__init__.py:352
+#, fuzzy
+msgid "Updating for dependencies:\n"
+msgstr "Léptetőgomb a frissítéshez"
+
+#: ../revisor/modgui/lm_basic.py:164
+#: ../revisor/modgui/lm_basic.py:169
+#: ../revisor/modgui/lm_basic.py:175
+#: ../revisor/modgui/lm_basic.py:277
+#: ../revisor/modgui/lm_usercustomize.py:159
+msgid "Using kickstart configuration, edit entry here"
+msgstr ""
+
+#: ../revisor/modgui/lm_basic.py:202
+#: ../revisor/modgui/lm_usercustomize.py:109
+#, fuzzy
+msgid "These passwords do not match"
+msgstr "A rendszergazdai jelszavak nem egyeznek meg."
+
+#: ../revisor/modgui/lm_basic.py:296
+#, fuzzy
+msgid "Please select a root password."
+msgstr "Válasszon egy rendszergazdai jelszót."
+
+#: ../revisor/modgui/lm_basic.py:300
+msgid "You should really select a more complex root password."
+msgstr ""
+
+#: ../revisor/modgui/lm_network.py:111
+#: ../revisor/modgui/lm_network.py:163
+#: ../revisor/modgui/lm_network.py:219
+#: ../revisor/modgui/lm_network.py:283
+#: ../revisor/modgui/lm_network.py:386
+#: ../revisor/modgui/lm_network.py:433
+#, fuzzy
+msgid "DHCP"
+msgstr "Automatikus (DHCP)"
+
+#: ../revisor/modgui/lm_network.py:113
+#: ../revisor/modgui/lm_network.py:165
+#: ../revisor/modgui/lm_network.py:236
+#: ../revisor/modgui/lm_network.py:296
+#: ../revisor/modgui/lm_network.py:435
+#, fuzzy
+msgid "Static IP"
+msgstr "Állandó IP-cím"
+
+#: ../revisor/modgui/lm_network.py:115
+#: ../revisor/modgui/lm_network.py:223
+#: ../revisor/modgui/lm_network.py:285
+#: ../revisor/modgui/lm_network.py:388
+#: ../revisor/modgui/lm_network.py:437
+msgid "BOOTP"
+msgstr ""
+
+#: ../revisor/modgui/lm_network.py:226
+#: ../revisor/modgui/lm_network.py:288
+#, fuzzy
+msgid "Please fill in the network information"
+msgstr "Töltse ki a hálózat jellemzőit"
+
+#: ../revisor/modgui/lm_network.py:340
+#, fuzzy, python-format
+msgid "A network device with the name %s already exists.  Please choose another device name"
+msgstr "Már létezik %s nevű hálózati eszköz, válasszon egy másik nevet."
+
+#. create table with custom checklists
+#: ../revisor/modgui/lm_security.py:61
+#, fuzzy
+msgid "Trusted devices:"
+msgstr "Megbízható eszközök:"
+
+#: ../revisor/modgui/lm_security.py:93
+#, fuzzy
+msgid "Trusted services:"
+msgstr "Megbízható szolgáltatások:"
+
+#: ../revisor/modgui/lm_security.py:125
+#, fuzzy
+msgid "Other ports: (1029:tcp)"
+msgstr "Egyéb portok: (1029:tcp)"
+
+#: ../revisor/modgui/load_kickstart.py:140
+#, fuzzy, python-format
+msgid "Kickstart file %s not accessible."
+msgstr "A(z) „%s.%s” súgófájl nem található"
+
+#: ../revisor/modgui/load_kickstart.py:147
+#, fuzzy
+msgid "Kickstart file not good."
+msgstr "nincs elég jó blokk"
+
+#: ../revisor/modgui/package_selection.py:154
+#, fuzzy
+msgid "Selecting all packages"
+msgstr "Minden csomag megjelenítése"
+
+#: ../revisor/modgui/package_selection.py:409
+#, fuzzy, python-format
+msgid "No such package %s from group %s"
+msgstr "E216: Nincs ilyen csoport vagy esemény: %s"
+
+#: ../revisor/modgui/package_selection.py:418
+#, fuzzy, python-format
+msgid "Package %s was not marked in group %s"
+msgstr "A fájl %s nem található a csomagban."
+
+#: ../revisor/modgui/package_selection.py:427
+#, python-format
+msgid "No package named %s available to be installed: %s"
+msgstr ""
+
+#: ../revisor/modgui/package_selection.py:441
+msgid "Adding in packages from Kickstart Data, please wait"
+msgstr ""
+
+#: ../revisor/modgui/package_selection.py:462
+#, fuzzy, python-format
+msgid ""
+"Errors encountered:\n"
+"\n"
+"%s: %s"
+msgstr "Hibák történtek a következő feldolgozása során:\n"
+
+#: ../revisor/modgui/package_selection.py:469
+#, fuzzy
+msgid "Cannot pass check_options"
+msgstr "nautilus: --check nem használható más paraméterekkel.\n"
+
+#: ../revisor/modgui/package_selection.py:475
+#: ../revisor/modgui/select_media.py:475
+msgid "Doing Live Media but not customizing kickstart options"
+msgstr ""
+
+#: ../revisor/modgui/package_selection.py:699
+#, fuzzy, python-format
+msgid "<i>No optional packages (%d mandatory)</i>"
+msgstr "Nincs törött csomag."
+
+#: ../revisor/modgui/package_selection.py:702
+#, fuzzy, python-format
+msgid "<i>%d of %d optional packages selected (%d mandatory)</i>"
+msgstr "A kijelölt kulcs beállítása kötelezőként"
+
+#: ../revisor/modgui/package_selection.py:770
+#, fuzzy
+msgid "Uncategorized"
+msgstr "Kategorizálatlan"
+
+#: ../revisor/modgui/package_selection.py:798
+#, fuzzy, python-format
+msgid "Packages in %s"
+msgstr "%s %s csomagok az alábbi szakaszban: %s"
+
+#: ../revisor/modgui/package_selection.py:846
+#, fuzzy
+msgid "Building Packages List"
+msgstr "Frissítésilista létrehozása"
+
+#: ../revisor/modgui/package_selection.py:855
+#, fuzzy, python-format
+msgid "%s packages"
+msgstr "%s %s csomagok"
+
+#: ../revisor/modgui/package_selection.py:890
+#, fuzzy, python-format
+msgid "For %s-%s:%s-%s.%s, we find %d matches"
+msgstr "%(matchcount)d %(matches)s a(z) \"%(title)s\" mintához"
+
+#: ../revisor/modgui/select_media.py:75
+msgid "No media selected. Please select at least one media type to compose."
+msgstr ""
+
+#: ../revisor/modgui/select_media.py:176
+msgid "No media types selected, select at least one media type."
+msgstr ""
+
+#: ../revisor/modgui/select_media.py:249
+msgid "No installation media type selected, select at least one type of installation media."
+msgstr ""
+
+#: ../revisor/modgui/select_media.py:311
+msgid "No live media type selected, select at least one type of live media."
+msgstr ""
+
+#: ../revisor/modgui/select_media.py:376
+msgid "No virtualization media type selected, select at least one type of virtualization media."
+msgstr ""
+
+#: ../revisor/modgui/select_media.py:433
+msgid "No utility media type selected, select at least one type of utility media."
+msgstr ""
+
+#: ../revisor/modgui/select_media.py:506
+#, fuzzy
+msgid "No Product Name specified"
+msgstr "Nem adott meg gépnevet"
+
+#: ../revisor/modgui/select_media.py:509
+#, fuzzy
+msgid "No Product Path specified"
+msgstr "Nincs mailcap útvonal megadva"
+
+#: ../revisor/modgui/select_media.py:512
+#, fuzzy
+msgid "No base name for the ISO(s) specified"
+msgstr "Nincs megadva fájlnév az olvasáshoz."
+
+#: ../revisor/modgui/select_media.py:515
+#, fuzzy
+msgid "No label for the ISO(s) specified"
+msgstr "Nincs lekérdezési szűrő megadva a következőhöz: %s"
+
+#: ../revisor/modgui/select_media.py:518
+#, fuzzy
+msgid "No version number specified"
+msgstr "Elrendezés elemzése sikertelen: hiányzó sorszám"
+
+#: ../revisor/modgui/select_media.py:521
+#, fuzzy
+msgid "No comps no glory"
+msgstr "/comps.xml fájl."
+
+#: ../revisor/modgui/select_media.py:524
+msgid "Unable to find comps file. No comps no glory"
+msgstr ""
+
+#: ../revisor/modrebrand/__init__.py:79
+#, fuzzy, python-format
+msgid "Removing package %s-%s:%s-%s.%s for rebranding"
+msgstr "Csomag(ok) kijelölése eltávolításra"
+
+#: ../revisor/modrebrand/__init__.py:91
+msgid "Rebrand name. Revisor will select <name>-logos, <name>-release and <name>-release-notes packages, if available."
+msgstr ""
+
+#: ../revisor/modserver/__init__.py:88
+msgid "Use the server mode for XML-RPC"
+msgstr ""
+
+#: ../revisor/modserver/__init__.py:93
+#, fuzzy
+msgid "Port to start Server on."
+msgstr "A port, melyen a kiszolgáló elérhető."
+
+#: ../revisor/modserver/__init__.py:99
+msgid "Start the XML-RPC server and fork."
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:86
+#, fuzzy
+msgid "Virtualization Media Options"
+msgstr "A Brasero médiafüggvénytár kapcsolóinak megjelenítése"
+
+#: ../revisor/modvirt/__init__.py:93
+msgid "Build Xen virtual machine. (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:100
+msgid "Xen virtual machine drive size, in MB. (Default: 3000MB) (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:108
+msgid "Build KVM virtual machine. (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:115
+msgid "KVM virtual machine drive size, in MB. (Default: 3000MB) (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:123
+msgid "Virtual machine file system type. (Default: ext3) (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:130
+msgid "Make virtual machine drive a sparse filesystem. (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:136
+msgid "Make virtual machine stateless (changes do not persist.) (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:142
+msgid "Build virtual machine as an appliance using a simple raw drive image and yum. (Doesn't require virt. tech. to be running locally.) (not implemented yet)"
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:244
+msgid "Unable to create virtual machine instance."
+msgstr ""
+
+#: ../revisor/modvirt/__init__.py:305
+#, fuzzy
+msgid "Error creating ext3 filesystem"
+msgstr "Hiba a fájlrendszer-információk lekérése közben: %s"
+
+#: ../revisor/modvirt/__init__.py:501
+#, fuzzy, python-format
+msgid "Failed to mount '%s' to '%s'"
+msgstr "%s csatolása meghiúsult."
+
+#: ../revisor/modvirt/__init__.py:519
+#: ../revisor/modvirt/__init__.py:541
+#, fuzzy
+msgid "Starting the virtual guest provision..."
+msgstr "Csatlakozás a vendégrendszer virtuális soros konzoljához"
+
+#: ../conf/revisor.desktop.in.h:2
+msgid "Revisor, Pimp your distro"
+msgstr ""
+

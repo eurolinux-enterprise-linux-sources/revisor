@@ -1,0 +1,56 @@
+--- revisor/cfg.py.orig	2010-12-06 13:57:00.635538718 -0600
++++ revisor/cfg.py	2010-12-06 13:58:51.188462453 -0600
+@@ -620,6 +620,21 @@
+             else:
+                 return False
+ 
++    def check_setting_products_img(self, val):
++        if os.path.isfile(val):
++            if not os.access(val, os.R_OK):
++                self.log.error(_("The products.img specified isn't readable: %s") % val, recoverable=self.gui_mode)
++                return False
++            else:
++                return True
++        else:
++            self.log.debug(_("products.img seems to not be a file... Is it an URL?"), level=8)
++            # Is it an URL?
++            if not urlparse.urlparse(val).scheme == "":
++                return True
++            else:
++                return False
++
+     def check_setting_lm_preffered_kernel(self, val):
+         if val in ["normal", "PAE", "xen", "debug"]:
+             return True
+--- revisor/base.py.orig	2010-12-02 10:07:35.788278956 -0600
++++ revisor/base.py	2010-12-06 14:01:32.307876230 -0600
+@@ -1214,6 +1214,12 @@
+ 
+             # FIXME: Add linux updates to isolinux/isolinux.cfg as well
+ 
++            # Add product.img into the tree
++            # CJS need so that we can set tasks in installclasses/something.py
++            if self.cfg.product_img:
++                self.log.debug(_("Copying product.img from %s to %s") % (self.cfg.product_img, os.path.join(tree_location, "images/product.img")), level=8)
++                shutil.copy(revisor.misc.get_file(self.cfg.product_img), os.path.join(tree_location, 'images/product.img'))
++
+             if not self.cfg.copy_dir == "":
+                 if os.access(self.cfg.copy_dir, os.R_OK):
+                     mypungi.doCopyDir(copy_dir=self.cfg.copy_dir)
+
+--- revisor/__init__-tuv.py.in	2010-12-08 10:54:24.121248366 -0600
++++ revisor/__init__.py.in	2010-12-06 14:41:40.232001335 -0600
+@@ -355,6 +355,13 @@
+                                     help    = _("Include specified updates.img on installation media."),
+                                     metavar = "[updates image]")
+ 
++        install_group.add_option(   "--product-img",
++                                    dest    = "product_img",
++                                    action  = "store",
++                                    default = "",
++                                    help    = _("Include specified product.img on installation media."),
++                                    metavar = "[product image]")
++
+         install_group.add_option(   "--product-name",
+                                     dest    = "product_name",
+                                     action  = "store",

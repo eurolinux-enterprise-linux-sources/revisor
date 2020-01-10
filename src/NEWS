@@ -1,0 +1,46 @@
+2007-08-25
+Still working on jigdo integration and virtual media
+Added rebranding module (alpha)
+Fixed pkgorder, copy_dir
+
+2007-08-09
+Working on jigdo integration
+Working on virtual media
+
+2007-07-26
+We've worked on fixing a lot of specific use cases.
+We've fixed lots of bugs.
+We've started work on all of our virtual gears
+
+2007-07-05
+We have basic 1-for-1 delta support going.
+We also have basic cobbler support working.
+Expect these two feature to mature for the next release.
+
+2007-07-01
+Adding some Enterprise Linux support and getting it tested by
+people on the -devel list.
+
+2007-06-20
+Well, we have fixed everything we are going to fix for 2.0.3.x
+Time to move on to 2.0.4 and make things awesome.
+
+2007-06-05
+Version 2.0.3.7 was pushed to Fedora 7 updates testing and
+rawhide. There are many bugfixes in this release.
+
+2007-05-28
+LinuxTag is soon and so is the release of Fedora 7.
+We are working to get version 2.0.3 done so we can import
+it into Fedora CVS and get all the multimedia stuff done for
+LinuxTag. Revisor will have a developer at LinuxTag so we hope
+to see you there. Find us at the Fedora booth.
+
+2007-04-01
+Updated from a feature list we came up with. Revisor now
+does Re-Spins and Live-Spins for kickstart package manifests
+as well as manual package selection.
+
+Updated from the HackFest at FUDCon Boston 2007
+
+Haha! Finally got a live image built. Cool.

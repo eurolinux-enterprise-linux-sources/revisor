@@ -1,0 +1,194 @@
+.\" revisor.conf - Revisor main configuration file
+.TH "revisor.conf" "5" "Fedora Unity Project"  "Jeroen van Meeuwen" ""
+.SH "NAME"
+revisor.conf \- Revisor main configuration file
+
+.SH "SYNOPSIS"
+.PP
+\fIrevisor.conf\fR is the main configuration file revisor(8) uses. The default location is \fI/etc/revisor/revisor.conf\fR but from the CLI
+you can use \fB--config\fP to specify any other location or use the appropriate entry fields from the GUI.
+.PP
+.SH "FILE FORMAT"
+The file consists of sections and parameters. A section begins with the name of the section in square brackets and continues
+until the next section begins, or the file ends. Sections contain parameters of the form:
+.sp
+.nf
+\fIname\fR = \fIvalue \fR
+.fi
+.PP
+The file is line-based - that is, each newline-terminated line represents either a comment, a section name or a parameter.
+.PP
+.SH "SECTION DESCRIPTIONS"
+.PP
+Each section in the configuration file (except for the [revisor] section) describes a so-called model. A model is used to specify
+a certain type of compose such as a Fedora 7 i386 compose or a Fedora 8 x86_64 compose. The section name is the name of the model
+and the parameters within the section define the compose.
+.PP
+There is only one special section, [revisor], which describes any options globally applied to all models.
+.PP
+.SH "OPTIONS"
+.PP
+These options apply to both the global options as well as the model options.
+.PP
+\fBdescription\fP
+    The description for this model, preferably a descriptive line of text to indicate what this model is to be used for. Optional, and used with CLI option \fB--list-models\fP only.
+.PP
+\fBmain\fP
+    The yum configuration file to use with this model. For more information on this configuration file's syntax, see \fBman yum.conf(8)\fP
+.PP
+\fBarchitecture\fP
+    The architecture for this model. If not specified, revisor assumes i386.
+.PP
+\fBmedia_installation_cd\fP
+    Whether to compose CD Installation Media. Defaults to 0.
+.PP
+\fBmedia_installation_dvd\fP
+    Whether to compose DVD Installation Media. Defaults to 0.
+.PP
+\fBmedia_installation_dvd_duallayer\fP
+    Whether to compose DVD Dual Layer Installation Media. Defaults to 0.
+.PP
+\fBmedia_installation_tree\fP
+    Whether to compose an Installation Tree for use with HTTP, FTP or NFS installations. Defaults to 0.
+.PP
+\fBmedia_installation_unified\fP
+    Whether to compose a Unified Installation Media ISO. A Unified ISO is one large ISO which could be used for NFS or Hard Disk installations, and allows
+    for easier transportation. Defaults to 0.
+.PP
+\fBworking_directory\fP
+    The directory Revisor should use for temporary data. Defaults to /var/tmp/.
+.PP
+\fBdestination_directory\fP
+    The destination directory Revisor should use. Defaults to /srv/revisor/.
+.PP
+\fBmedia_live_optical\fP
+    Whether to compose optical Live Media. Revisor at this moment is not able to restrict Live Media to be composed for CD, DVD or DVD Dual Layer but instead creates an ISO that
+    depending on the size needed for the installation of the selected packages, will fit on one of these media.
+.PP
+\fBrepos_enabledevelopment\fP
+    Only relevant to the GUI. Enables displaying 'development' repositories configured in the GUI. The default is 0 (not to display them).
+.PP
+\fBrepos_enabletesting\fP
+    Only relevant to the GUI. Enables displaying 'testing' repositories configured in the GUI. The default is 0 (not to display them).
+.PP
+\fBrepos_enabledebuginfo\fP
+    Only relevant to the GUI. Enables displaying 'debuginfo' repositories configured in the GUI. The default is 0 (not to display them).
+.PP
+\fBrepos_enablesource\fP
+    Only relevant to the GUI. Enables displaying 'source' repositories configured in the GUI. The default is 0 (not to display them).
+    Note that source repositories do not need to be enabled to begin with as they usually do not contain any valuable packages, and Revisor enables them when \fBgetsource = 1\fP
+.PP
+\fBdependency_resolve_allow_conflicts\fP
+    Whether to allow conflicts between packages in the package set that ends up on the Installation Media. Defaults to 0 to allow unattended installation media to be composed.
+    For media that is going to be distributed among a number of users you would want to set this to 1. Please refer to the section "\fBAllowing Conflicts in Package Sets\fP" further on
+    in this document.
+.PP
+\fBmode_respin\fP
+    Whether to use \fBrespin\fP mode when composing the media. Respin mode has a different way of selecting the packages from a kickstart and dependency resolving. The default is 0,
+    and you will want to set this to 1 in case you are going to distribute the compose amongst a large number of users.
+.PP
+\fBproduct_name\fP
+    The name for your product. The default is "Fedora".
+.PP
+\fBproduct_path\fP
+    The path in which the RPMs end up on the media. The default is "Fedora" which means the packages end up in a subdirectory "Fedora/" on the installation media.
+.PP
+\fBiso_basename\fP
+    The base name for the ISO(s) being composed. This is a seperate setting from \fBiso_label\fP as the ISO label can only 32 characters. The default is to use the value of \fBiso_label\fP,
+    specify this option of you want the ISO to be named anything different from the ISO's label.
+.PP
+\fBcomps\fP
+    The comps file to use for the media. Note that this has impact on how the installation behaves.
+.PP
+\fBversion\fP
+    The version of the composed distribution or operating system.
+.PP
+\fBgetsource\fP
+    Whether to obtain the source along with the binaries used in the compose.
+.PP
+\fBkickstart_file\fP
+    The kickstart file to use.
+.PP
+\fBkickstart_manifest\fP
+    Whether to use the package manifest from the kickstart file. Defaults to 0.
+.PP
+\fBkickstart_customize\fP
+    Whether to customize the package manifest from the kickstart file. Defaults to 0. Only relevant if \fBkickstart_manifest\fP = 1.
+.PP
+\fBkickstart_include\fP
+    Whether to include the kickstart file used on the installation media. This enables you to specify the kickstart to be used with the installer. Revisor adds an item
+    to the bootloader menu which uses the kickstart file included on the media if this is set to 1. Defaults to 0.
+.PP
+\fBkickstart_default\fP
+    If \fBkickstart_include\fP = 1, make the bootloader menu entry added by Revisor the default. Defaults to 0.
+
+.SH "Allowing Conflicts in Package Sets"
+.PP
+Presumably when you're using a kickstart package manifest (the "%packages" section in a kickstart, see pykickstart documentation for more details), you are going to use the kickstart
+for an unattended or (partly) guided installation as well. Considering this, allowing conflicts within the Package Set should be a careful consideration as one may need to customize
+the list of packages for installation before the actual installation starts, or the installation will fail over this conflict. To allow the package set to be created with, or without,
+conflicts between packages Revisor includes the \fBdependency_resolve_allow_conflicts\fP setting. By default, this setting is set to False, or 0, so that it disallows conflicts within
+the package set, enabling smoother package selection and guided or unattended installation.
+.PP
+However, in some cases you will want Revisor to allow conflicts to exist within the package set, such as when you are composing for a large (public) audience, and you do not know what
+packages someone might want to install but you do know two conlicting packages are very much liked. Another very valid use case for allowing packages to conflict within a package set
+might be a single installation tree with different kickstarts; the package set will, overall, have the conflicts but you take care of never selecting both (or more) conflicting packages
+yourself.
+
+.SH "Example Model Configuration"
+.nf
+Comments inline:
+.PP
+    # The model name is also the section header. Note that the name isn't important but it should be unique.
+    [f7-i386]
+
+    # Description
+    description = Fedora 7 - Moonshine - i386
+
+    # Architecture
+    architecture = i386
+
+    # Yum configuration file to use. Note that this cannot be '/etc/yum.conf'
+    # This file should not (and can not) have any $releasever, $basearch or $arch variables so they need to be expanded
+    main = /etc/revisor/conf.d/revisor-f7-i386.conf
+
+    # The Product Name
+    # In case of Fedora Core 6, the product name would be 'Fedora Core'. Later versions use 'Fedora' as a product name, while RHEL uses 'Red Hat Enterprise Linux'
+    product_name = Fedora
+
+    # The product path is the name of the directory used to store the RPM files in. In case of Fedora 7 this would be 'Fedora', while in Fedora 8 this has become 'Packages'
+    product_path = Fedora
+
+    # The ISO Base Name.
+    # This piece gets prepended to the name of the ISO image. The iso name will become 'Fedora-$version-$arch-$media$discnum.iso'; in this example model
+    # 'Fedora-7-i386-CD1.iso'
+    iso_basename = Fedora
+
+    # The comps file to use. Note that this file is only used when you specify \fB--revisor-comps\fP.
+    comps = /usr/share/revisor/comps/comps-f7.xml
+
+    # The version of the distribution. This is used in a number of locations such as the ISO Image name and the ISO Image volume label.
+    version = 7
+
+    # Whether to obtain the source RPMs for all the packages used in this compose
+    getsource = 0
+
+    # The kickstart file for this compose. Note that although a kickstart file may be specified, Revisor allows further customization.
+    kickstart_file = /etc/revisor/conf.d/fedora-7-gold.cfg
+
+.SH "SEE ALSO"
+.nf
+http://revisor.fedoraunity.org/
+https://hosted.fedoraproject.org/projects/revisor/
+.fi
+
+.PP
+.SH "AUTHORS"
+.nf
+See the Authors file included with this program.
+.fi
+
+.PP
+.SH "BUGS"
+No bugs were harmed in the making of this software.
+.fi

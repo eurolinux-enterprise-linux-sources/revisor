@@ -1,0 +1,4012 @@
+# Header entry was created by Lokalize.
+#
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:1
+# Yuri Chornoivan <yurchor@ukr.net>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-12 02:32+0000\n"
+"PO-Revision-Date: 2010-04-12 07:29+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:1
+msgid ""
+"\n"
+"    Revisor, a product of Fedora Unity\n"
+"\n"
+"    Copyright 2007-2010 Fedora Unity Project\n"
+"\n"
+"    This program is free software; you can redistribute it and/or modify\n"
+"    it under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This program is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"    See the GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this program; if not, write to the\n"
+"    Free Software Foundation, Inc.,\n"
+"    51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"    Revisor, частина проекту Fedora Unity\n"
+"\n"
+"    © Проект Fedora Unity, 2007–2010\n"
+"\n"
+"    Ця програма є вільним програмним забезпеченням; ви можете поширювати\n"
+"    її і/або змінювати її за умов дотримання GNU General Public License у\n"
+"    тому вигляді, у якому її оприлюднено Free Software Foundation; версії 2\n"
+"    цієї ліцензії, або (за потреби) будь-якої пізнішої версії.\n"
+"\n"
+"    Ця програма поширюється у сподіванні, що вона буде корисною, але БЕЗ\n"
+"    БУДЬ-ЯКИХ ГАРАНТІЙ; навіть без очевидної гарантії КОМЕРЦІЙНОЇ ЦІННОСТІ\n"
+"    або ПРИДАТНОСТІ ДЛЯ ЯКОЇСЬ МЕТИ  Докладніше про це ви можете дізнатися\n"
+"    з GNU General Public License.\n"
+"\n"
+"    Разом з цією програмою ви маєте отримати копію GNU General Public\n"
+"    License. Якщо ви її не отримали, повідомте про це на адресу Free "
+"Software\n"
+"    Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, "
+"USA.\n"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:21
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>"
+msgstr ""
+"\n"
+"Розробка програми:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Перекладачі:\n"
+"\t* Юрій Чорноіван (yurchor) <yurchor@ukr.net>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:33
+msgid "<b>More information about:</b>"
+msgstr "<b>Докладніші відомості:</b>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:34
+msgid "<b>Version:</b> @VERSION@-@RELEASE@"
+msgstr "<b>Версія:</b> @VERSION@-@RELEASE@"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:35
+msgid "<span weight=\"bold\">Revisor</span> is a product of Fedora Unity."
+msgstr "<span weight=\"bold\">Revisor</span> є частиною проекту Fedora Unity."
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:36
+msgid "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+msgstr "<u><span color=\"blue\">http://revisor.fedoraunity.org</span></u>"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:37
+#: ../revisor/modgui/glade/revisor.glade.h:39
+msgid "About Revisor"
+msgstr "Про Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:38
+#: ../revisor/modgui/glade/revisor.glade.h:40
+msgid "Authors"
+msgstr "Автори"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:39
+msgid "Fedora Unity:"
+msgstr "Fedora Unity:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:40
+msgid "File"
+msgstr "Файл"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:41
+#: ../revisor/modgui/glade/revisor.glade.h:44
+msgid "License"
+msgstr "Ліцензія"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:42
+#: ../revisor/modgui/glade/revisor.glade.h:48 ../conf/revisor.desktop.in.h:1
+msgid "Revisor"
+msgstr "Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:43
+msgid "Revisor _Homepage"
+msgstr "_Домашня сторінка Revisor"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:44
+msgid "Revisor:"
+msgstr "Revisor:"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:45
+msgid "_Details"
+msgstr "П_одробиці"
+
+#: ../revisor/modgui/glade/base_screen.glade.in.h:46
+#: ../revisor/modgui/glade/revisor.glade.h:64
+msgid "_Help"
+msgstr "_Довідка"
+
+#: ../revisor/modgui/glade/build_media.glade.h:1
+msgid "Building Your Media"
+msgstr "Збирання вашого носія даних"
+
+#: ../revisor/modgui/glade/build_media.glade.h:2
+msgid "Task Progress:"
+msgstr "Поступ завдання:"
+
+#: ../revisor/modgui/glade/build_media.glade.h:3
+msgid "Total Progress:"
+msgstr "Загальний поступ:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:1
+msgid "Client / _Server"
+msgstr "Клієнт/С_ервер"
+
+#: ../revisor/modgui/glade/build_type.glade.h:2
+msgid "Configuration _File Mode"
+msgstr "Налаштування режиму роботи з _файлами"
+
+#: ../revisor/modgui/glade/build_type.glade.h:3
+msgid "Please select the build type to use:"
+msgstr "Будь ласка, вкажіть тип збирання:"
+
+#: ../revisor/modgui/glade/build_type.glade.h:4
+msgid "Select Build Type"
+msgstr "Вибір типу збирання"
+
+#: ../revisor/modgui/glade/build_type.glade.h:5
+msgid "_Chroot Build"
+msgstr "З_бирання у chroot"
+
+#: ../revisor/modgui/glade/build_type.glade.h:6
+msgid "_Normal Build"
+msgstr "_Звичайне збирання"
+
+#: ../revisor/modgui/glade/build_type.glade.h:7
+msgid "_Virtualized Build"
+msgstr "_Віртуалізоване збирання"
+
+#: ../revisor/modgui/glade/dialog_filechooser.glade.h:1
+msgid "Choose a file or folder"
+msgstr "Вибір файла або теки"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:1
+msgid "<b>Compose Results Location:</b>"
+msgstr "<b>Адреса для результатів компонування:</b>"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:2
+#: ../revisor/modgui/glade/load_kickstart.glade.h:1
+#: ../revisor/modgui/glade/ready_screen.glade.h:4
+msgid "Advanced Options"
+msgstr "Додаткові параметри"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:3
+msgid "Congratulations, Compose Complete"
+msgstr "Вітаємо, компонування завершено"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:4
+msgid "Create _Jigdo"
+msgstr "С_творити jigdo"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:5
+msgid "Create _Torrent"
+msgstr "Створити т_орент"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:6
+msgid "Generate _Kickstart for Install Clients"
+msgstr "Ство_рити Kickstart для клієнтів встановлення"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:7
+msgid "Send _Compose to Server"
+msgstr "Надіслати _компонування на сервер"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:8
+msgid "Setup _DHCPD Server"
+msgstr "На_лаштувати сервер DHCPD"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:9
+msgid "Setup _PXE Server"
+msgstr "Нала_штувати сервер PXE"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:10
+msgid "Write Image to _Media"
+msgstr "Записати образ на _носій"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:11
+msgid "Write Image to _USB Device"
+msgstr "Записати образ на _пристрій USB"
+
+#: ../revisor/modgui/glade/finished_screen.glade.h:12
+msgid "_Continue..."
+msgstr "_Продовжити…"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:1
+msgid "Authentication Configuration"
+msgstr "Налаштування розпізнавання"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:2
+msgid "Authentication options are not applicable on upgrades."
+msgstr "Параметри розпізнавання не можна застосовувати до оновлень."
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:3
+msgid "Authentication:"
+msgstr "Розпізнавання:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:4
+msgid "Enable Hesiod Support"
+msgstr "Увімкнути підтримку Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:5
+msgid "Enable Kerberos 5 Authentication"
+msgstr "Увімкнути розпізнавання Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:6
+msgid "Enable LDAP"
+msgstr "Увімкнути LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:7
+msgid "Enable NIS"
+msgstr "Увімкнути NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:8
+msgid "Enable SMB Authentication"
+msgstr "Увімкнути розпізнавання SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:9
+msgid "Enable nscd"
+msgstr "Увімкнути nscd"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:10
+msgid "Hesiod"
+msgstr "Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:11
+msgid "Hesiod Authentication"
+msgstr "Розпізнавання Hesiod"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:12
+msgid "Hesiod LHS:"
+msgstr "LHS Hesiod:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:13
+msgid "Hesiod RHS:"
+msgstr "RHS Hesiod:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:14
+msgid "Kerberos 5"
+msgstr "Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:15
+msgid "Kerberos 5 Authentication"
+msgstr "Розпізнавання Kerberos 5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:16
+msgid "Kerberos Domain Controller (KDC):"
+msgstr "Контролер домену Kerberos (KDC):"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:17
+msgid "Kerberos Master Server:"
+msgstr "Головний сервер Kerberos:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:18
+msgid "Kerberos Realm:"
+msgstr "Область Kerberos:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:19
+msgid "LDAP "
+msgstr "LDAP "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:20
+msgid "LDAP Authentication"
+msgstr "Розпізнавання LDAP"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:21
+msgid "LDAP Base Name: "
+msgstr "Базова назва LDAP: "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:22
+msgid "LDAP Server: "
+msgstr "Сервер LDAP: "
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:23
+msgid "NIS"
+msgstr "NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:24
+msgid "NIS Authentication"
+msgstr "Розпізнавання NIS"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:25
+msgid "NIS Domain:"
+msgstr "Домен NIS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:26
+msgid "NIS Server:"
+msgstr "Сервер NIS:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:27
+msgid "Name Switch Cache"
+msgstr "Кеш перемикання імен"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:28
+msgid "Name Switch Cache Daemon (nscd) Authentication"
+msgstr "Розпізнавання фоновою службою кешу перемикання імен (nscd)"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:29
+msgid "SMB"
+msgstr "SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:30
+msgid "SMB Authentication"
+msgstr "Розпізнавання SMB"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:31
+msgid "SMB Servers:"
+msgstr "Сервери SMB:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:32
+msgid "SMB Workgroup:"
+msgstr "Робоча група SMB:"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:33
+msgid "Use MD5"
+msgstr "Використовувати MD5"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:34
+msgid "Use Shadow Passwords"
+msgstr "Використовувати паролі shadow"
+
+#: ../revisor/modgui/glade/lm_auth.glade.h:35
+msgid "Use broadcast to find NIS server"
+msgstr "Використовувати трансляцію для пошуку сервера NIS"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:1
+msgid "Basic Configuration (required)"
+msgstr "Базові налаштування (обов’язкові)"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:2
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:8
+msgid "Confirm Password:"
+msgstr "Підтвердіть пароль:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:3
+msgid "Default Language:"
+msgstr "Типова мова:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:4
+msgid "Encrypt root password"
+msgstr "Зашифрувати пароль root"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:5
+msgid "Keyboard:"
+msgstr "Клавіатура:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:6
+msgid "Root Password:"
+msgstr "Пароль root:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:7
+msgid "Target Architecture:"
+msgstr "Архітектура призначення:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:8
+msgid "Time Zone:"
+msgstr "Часовий пояс:"
+
+#: ../revisor/modgui/glade/lm_basic.glade.h:9
+msgid "Use UTC clock"
+msgstr "Використовувати годинник UTC"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:1
+msgid "Boot Loader Options"
+msgstr "Параметри програми завантаження"
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:2
+msgid "Custom kernel parameters: "
+msgstr "Нетипові параметри ядра: "
+
+#: ../revisor/modgui/glade/lm_bootloader.glade.h:3
+msgid "Provide optional kernel parameters."
+msgstr "Вказати додаткові параметри ядра."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:1
+msgid "Color Depth"
+msgstr "Глибина кольорів"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:2
+msgid "Configure the X Window System"
+msgstr "Налаштування системи X Window"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:3
+msgid "Default Desktop:"
+msgstr "Типова стільниця:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:4
+#: ../revisor/modgui/glade/lm_security.glade.h:3
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:5
+msgid "Display Configuration"
+msgstr "Налаштування дисплея"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:6
+msgid "Display configuration is not applicable on upgrades."
+msgstr "Налаштування дисплея не можна застосовувати до оновлень."
+
+#: ../revisor/modgui/glade/lm_display.glade.h:7
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:8
+msgid "Enabled in reconfiguration mode"
+msgstr "Увімкнути у режимі переналаштування"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:9
+msgid "General"
+msgstr "Загальне"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:10
+msgid "Horizontal Sync:"
+msgstr "Горизонтальна синхронізація:"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:11
+msgid "Monitor"
+msgstr "Монітор"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:12
+msgid "On first boot, Setup Agent is: "
+msgstr "При першому завантаженні, агентом налаштування є: "
+
+#: ../revisor/modgui/glade/lm_display.glade.h:13
+msgid "Probe for monitor"
+msgstr "Визначення монітора"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:14
+msgid "Probe for video card driver"
+msgstr "Визначення драйвера відеокартки"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:15
+msgid "Resolution"
+msgstr "Роздільна здатність"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:16
+msgid "Start the X Window System on boot"
+msgstr "Запускати систему X Window при завантаженні"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:17
+msgid "Use custom monitor sync rates"
+msgstr "Використовувати нетипові частоти монітора"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:18
+msgid "Vertical Sync:"
+msgstr "Вертикальна синхронізація"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:19
+msgid "Video Card"
+msgstr "Відеокартка"
+
+#: ../revisor/modgui/glade/lm_display.glade.h:20
+msgid "Video Card RAM: "
+msgstr "Відеопам’ять: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:1
+msgid "."
+msgstr "."
+
+#: ../revisor/modgui/glade/lm_network.glade.h:2
+msgid "Gateway:"
+msgstr "Шлюз:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:3
+msgid "IP Address:"
+msgstr "Адреса IP:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:4
+msgid "Name Server:"
+msgstr "Сервер назв:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:5
+msgid "Netmask: "
+msgstr "Маска мережі: "
+
+#: ../revisor/modgui/glade/lm_network.glade.h:6
+msgid "Network Configuration"
+msgstr "Налаштування мережі"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:7
+msgid "Network Device Information"
+msgstr "Відомості щодо мережевого пристрою"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:8
+msgid "Network Device:"
+msgstr "Пристрій для роботи у мережі:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:9
+msgid "Network Type:"
+msgstr "Тип мережі:"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:10
+msgid "Use Network Manager (available only if installed)"
+msgstr "Використовувати Network Manager (доступне, лише якщо його встановлено)"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:11
+msgid "_Add Network Device"
+msgstr "_Додати мережевий пристрій"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:12
+msgid "_Delete Network Device"
+msgstr "Ви_лучити мережевий пристрій"
+
+#: ../revisor/modgui/glade/lm_network.glade.h:13
+msgid "_Edit Network Device"
+msgstr "_Змінити мережевий пристрій"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:1
+msgid "Active"
+msgstr "Задіяно"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:2
+msgid "Disable firewall"
+msgstr "Вимкнути брандмауер"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:4
+msgid "Enable firewall"
+msgstr "Увімкнути брандмауер"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:5
+msgid "Firewall Configuration"
+msgstr "Налаштування брандмауера"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:6
+msgid "Firewall configuration is not applicable on upgrades."
+msgstr "Налаштування брандмауера не можна застосовувати до оновлень."
+
+#: ../revisor/modgui/glade/lm_security.glade.h:7
+msgid "SELinux:"
+msgstr "SELinux:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:8
+msgid "Security level:"
+msgstr "Рівень безпеки:"
+
+#: ../revisor/modgui/glade/lm_security.glade.h:9
+msgid "Warn"
+msgstr "Попередити"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:6
+msgid "Add user to the group \"wheel\""
+msgstr "Додати користувача до групи «wheel»"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:7
+msgid "Automatically login this user to the Desktop"
+msgstr "Здійснювати автоматичний вхід цього користувача до стільниці"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:9
+msgid "Create User Account:"
+msgstr "Створити обліковий запис користувача:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:10
+msgid "Customize your Live Media"
+msgstr "Налаштування вашого носія портативної системи"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:11
+msgid "Dump current user profile (and omit /etc/skel)"
+msgstr "Створити дамп поточного профілю користувача (і пропустити /etc/skel)"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:12
+msgid "Enable \"wheel\" group to sudo without password"
+msgstr "Увімкнути групу «wheel» для використання sudo без пароля"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:13
+msgid "Full Name:"
+msgstr "Ім’я повністю:"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:14
+msgid "Password"
+msgstr "Пароль"
+
+#: ../revisor/modgui/glade/lm_usercustomize.glade.h:15
+msgid "Username:"
+msgstr "Користувач:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:2
+msgid "Customize package manifest defined in kickstart data"
+msgstr "Налаштувати маніфест пакунка, визначений у даних kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:3
+msgid ""
+"Customize/Review details about locale, users/passwords, security/"
+"authentication, networking and Xorg"
+msgstr ""
+"Налаштувати/Переглянути параметри локалі, користувачів/паролів, безпеки/"
+"розпізнавання, роботи у мережі і Xorg"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:4
+msgid "Include Kickstart file on Installation Media"
+msgstr "Додати файл Kickstart на носій встановлення"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:5
+msgid "Kickstart Configuration File:"
+msgstr "Файл налаштування kickstart:"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:6
+msgid "Load Kickstart Data"
+msgstr "Завантаження даних Kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:7
+msgid ""
+"Select a kickstart file to be used to populate options for your selected "
+"media.\n"
+"If you did not select Live media creation, some options will be ignored.\n"
+"This step is not required and options loaded from the kickstart may also be "
+"customized further."
+msgstr ""
+"Виберіть файл kickstart, який буде використано для визначення параметрів для "
+"вибраного вами носія.\n"
+"Якщо ви не вибрали створення носія портативної системи, деякі з параметрів "
+"буде проігноровано.\n"
+"Цей крок не є обов’язковим, а параметри, завантажені з kickstart, можна у "
+"подальшому змінити."
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:10
+msgid "Set installer to boot with kickstart by default"
+msgstr "Наказати програмі встановлення типово завантажуватися разом з kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:11
+msgid "Use package manifest from kickstart data"
+msgstr "Використовувати маніфест пакунка з даними kickstart"
+
+#: ../revisor/modgui/glade/load_kickstart.glade.h:12
+msgid "Use repositories configured in the kickstart file"
+msgstr "Використати сховища, вказані у файлі kickstart"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:1
+msgid "By Category"
+msgstr "За категорією"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:2
+msgid "Deselect"
+msgstr "Скасувати позначення"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:3
+msgid "Deselect all optional packages"
+msgstr "Скасувати позначення всіх додаткових пакунків"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:4
+msgid "List"
+msgstr "Список"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:5
+msgid "Optional Packages... "
+msgstr "Додаткові пакунки… "
+
+#: ../revisor/modgui/glade/package_selection.glade.h:6
+msgid "Package Selection"
+msgstr "Вибір пакунків"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:7
+msgid "Please select the software you want to be available on your media:"
+msgstr "Будь ласка, вкажіть програми, які має бути записано на ваш носій:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:8
+msgid "Search"
+msgstr "Пошук"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:9
+msgid "Search Criteria:"
+msgstr "Критерій пошуку:"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:10
+msgid "Select"
+msgstr "Вибрати"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:11
+msgid "Select All"
+msgstr "Вибрати всі"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:12
+msgid "Select all optional packages"
+msgstr "Вибрати всі додаткові пакунки"
+
+#: ../revisor/modgui/glade/package_selection.glade.h:13
+msgid ""
+"Some packages associated with this group are not required to be installed "
+"but may provide additional functionality.  Please choose the packages which "
+"you would like to have installed."
+msgstr ""
+"Деякі з пакунків, пов’язаних з цією групою, не є обов’язковими до "
+"встановлення, але можуть розширити функціональні можливості системи. Будь "
+"ласка, виберіть пакунки, які ви бажаєте встановити."
+
+#: ../revisor/modgui/glade/package_selection.glade.h:14
+msgid "dialog1"
+msgstr "Діалогове вікно 1"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:1
+msgid "<b>Number of Packages:</b>"
+msgstr "<b>Кількість пакунків:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:2
+msgid "<b>Package Set Size (Live/Installed):</b>"
+msgstr "<b>Розмір набору пакунків (запакованих/встановлених):</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:3
+msgid "<b>RPM Package Payload Size:</b>"
+msgstr "<b>Розмір вмісту пакунків RPM:</b>"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:5
+msgid "Build Unattended Install Media"
+msgstr "Створення носія для автоматичного встановлення"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:6
+msgid "Not Calculated, Yet"
+msgstr "Ще не обчислено"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:7
+msgid "Package Details"
+msgstr "Подробиці щодо пакунка"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:8
+msgid "Ready to Compose Images"
+msgstr "Готовий до компонування образів"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:9
+msgid ""
+"Revisor is now ready to compose your images. Please review your selection "
+"details below:"
+msgstr ""
+"Тепер Revisor готовий до компонування ваших образів. Будь ласка, ознайомтеся "
+"з вказаними вами параметрами системи нижче:"
+
+#: ../revisor/modgui/glade/ready_screen.glade.h:10
+msgid "Send to Build Server:"
+msgstr "Надіслати на сервер збирання:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:1
+msgid ""
+"\n"
+"Program development:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+msgstr ""
+"\n"
+"Розробка програми:\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+"\n"
+"Interface designers:\n"
+"\t* Stewart Adam (firewing1) <s.adam@diffingo.com>\n"
+"\t* Jonathan Steffan (daMaestro) <jon@fedoraunity.org>\n"
+"\t* Jeroen van Meeuwen (kanarip) <kanarip@fedoraunity.org>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:11
+msgid ""
+"\n"
+"Revisor, a product of Fedora Unity\n"
+"\n"
+"Copyright 2007-2010 Fedora Unity Project\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public\n"
+"License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin St, Fifth Floor, Boston, MA  02110-1301  USA\n"
+msgstr ""
+"\n"
+"Revisor, частина проекту Fedora Unity\n"
+"\n"
+"© Проект Fedora Unity, 2007–2010\n"
+"\n"
+"Ця програма є вільним програмним забезпеченням; ви можете поширювати її і/"
+"або змінювати її за умов дотримання GNU General Public License у тому "
+"вигляді, у якому її оприлюднено Free Software Foundation; версії 2 цієї "
+"ліцензії, або (за потреби) будь-якої пізнішої версії.\n"
+"\n"
+"Ця програма поширюється у сподіванні, що вона буде корисною, але БЕЗ БУДЬ-"
+"ЯКИХ ГАРАНТІЙ; навіть без очевидної гарантії КОМЕРЦІЙНОЇ ЦІННОСТІ або "
+"ПРИДАТНОСТІ ДЛЯ ЯКОЇСЬ МЕТИ  Докладніше про це ви можете дізнатися з GNU "
+"General Public License.\n"
+"\n"
+"Разом з цією програмою ви маєте отримати копію GNU General Public License. "
+"Якщо ви її не отримали, повідомте про це на адресу Free Software Foundation, "
+"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:23
+msgid ""
+"\n"
+"Translators:\n"
+"\t* First Last (nick) <email@domain.com>\n"
+msgstr ""
+"\n"
+"Перекладачі:\n"
+"\t* Юрій Чорноіван (yurchor) <yurchor@ukr.net>\n"
+
+#: ../revisor/modgui/glade/revisor.glade.h:27
+msgid " "
+msgstr " "
+
+#: ../revisor/modgui/glade/revisor.glade.h:29
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../revisor/modgui/glade/revisor.glade.h:30
+msgid "<b>Installation Media</b>"
+msgstr "<b>Носій для встановлення</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:31
+msgid "<b>Live Media</b>"
+msgstr "<b>Носій портативної системи</b>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:32
+msgid "<i>Initializing GUI</i>"
+msgstr "<i>Ініціалізація графічного інтерфейсу</i>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:33
+msgid "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+msgstr "<span color=\"blue\"><u>http://revisor.fedoraunity.org</u></span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:34
+msgid "<span size=\"large\" weight=\"bold\">Title</span>"
+msgstr "<span size=\"large\" weight=\"bold\">Заголовок</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:35
+msgid "<span size=\"small\">(C) 2006 - 2008 Fedora Unity</span>"
+msgstr "<span size=\"small\">© Fedora Unity, 2006–2008</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:36
+msgid "<span size=\"x-large\" weight=\"bold\">Please Wait...</span>"
+msgstr "<span size=\"x-large\" weight=\"bold\">Будь ласка, зачекайте…</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:37
+msgid "<span size=\"xx-large\" weight=\"bold\">Revisor v[autoset]</span>"
+msgstr ""
+"<span size=\"xx-large\" weight=\"bold\">Revisor v[автоматичний набір]</span>"
+
+#: ../revisor/modgui/glade/revisor.glade.h:38
+msgid "A Fedora Spin Designer"
+msgstr "Компонувальник варіантів Fedora"
+
+#: ../revisor/modgui/glade/revisor.glade.h:41
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:9
+msgid "Configure Revisor"
+msgstr "Налаштування Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:42
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:11
+msgid "Destination Directory:"
+msgstr "Каталог призначення:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:43
+msgid "Dynamically Set Header Label"
+msgstr "Динамічне встановлення мітки заголовка"
+
+#: ../revisor/modgui/glade/revisor.glade.h:45
+msgid "Message"
+msgstr "Повідомлення"
+
+#: ../revisor/modgui/glade/revisor.glade.h:46
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:5
+#: ../revisor/modgui/glade/select_media.glade.h:6
+#: ../revisor/modgui/glade/select_media_installation.glade.h:6
+#: ../revisor/modgui/glade/select_media_live.glade.h:3
+#: ../revisor/modgui/glade/select_media_utility.glade.h:2
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:3
+msgid "Please select the type(s) of media you want to compose:"
+msgstr "Будь ласка, виберіть типи носіїв, які ви бажаєте створити:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:47
+msgid "Progress - Revisor"
+msgstr "Поступ — Revisor"
+
+#: ../revisor/modgui/glade/revisor.glade.h:49
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:21
+msgid "Revisor Configuration:"
+msgstr "Налаштування Revisor:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:50
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors as simple as\n"
+"possible. This wizard will walk you through the proces of building your own "
+"installer and/or Live media\n"
+"set(s) from and Yum repository."
+msgstr ""
+"Revisor від початку було створено для максимального спрощення побудови "
+"нетипових варіантів Fedora.\n"
+"Цей майстер допоможе вам у створенні вашого власного інструменту "
+"встановлення і/або носія портативної системи\n"
+"за допомогою сховища Yum."
+
+#: ../revisor/modgui/glade/revisor.glade.h:53
+msgid "Revisor is initializing."
+msgstr "Ініціалізація Revisor."
+
+#: ../revisor/modgui/glade/revisor.glade.h:54
+msgid "Select Media Types"
+msgstr "Вибір типів носіїв"
+
+#: ../revisor/modgui/glade/revisor.glade.h:55
+msgid "Select Repositories:"
+msgstr "Вибір сховищ:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:56
+msgid "Spin Target:"
+msgstr "Призначення варіанта:"
+
+#: ../revisor/modgui/glade/revisor.glade.h:57
+msgid "Translators"
+msgstr "Перекладачі"
+
+#: ../revisor/modgui/glade/revisor.glade.h:58
+msgid "Use _advanced interface"
+msgstr "Використовувати _розширений інтерфейс"
+
+#: ../revisor/modgui/glade/revisor.glade.h:59
+msgid "Welcome"
+msgstr "Вітаємо!"
+
+#: ../revisor/modgui/glade/revisor.glade.h:60
+msgid "_Browse"
+msgstr "О_гляд"
+
+#: ../revisor/modgui/glade/revisor.glade.h:61
+msgid "_CD Set"
+msgstr "_КД-набір"
+
+#: ../revisor/modgui/glade/revisor.glade.h:62
+msgid "_DVD Set"
+msgstr "DVD-_набір"
+
+#: ../revisor/modgui/glade/revisor.glade.h:63
+msgid "_File"
+msgstr "_Файл"
+
+#: ../revisor/modgui/glade/revisor.glade.h:65
+msgid "_Optical (CD/DVD)"
+msgstr "_Оптичний (КД/DVD)"
+
+#: ../revisor/modgui/glade/revisor.glade.h:66
+msgid "_USB"
+msgstr "_USB"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:1
+msgid "<b>Please fill out the repository information</b>"
+msgstr "<b>Будь ласка, вкажіть параметри сховища</b>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:2
+msgid "<small><i>Base URL or Mirror List Mandatory</i></small>"
+msgstr ""
+"<small><i>Базова адреса URL або список дзеркал (обов’язкові)</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:3
+msgid "<small><i>GPG Options</i></small>"
+msgstr "<small><i>Параметри GPG</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:4
+msgid "<small><i>Optional</i></small>"
+msgstr "<small><i>Додаткові</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:5
+msgid "<small><i>Other Options</i></small>"
+msgstr "<small><i>Інші параметри</i></small>"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:6
+msgid "Add Repository"
+msgstr "Додати сховище"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:7
+msgid "Base URL:"
+msgstr "Базова адреса:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:8
+msgid "Configuration Section to Use:"
+msgstr "Розділ налаштувань:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:10
+msgid "Description:"
+msgstr "Опис:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:12
+msgid "Enable/Disable Repositories from Selection Configuration:"
+msgstr "Увімкніть/Вимкніть сховища зі списку налаштування:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:13
+msgid "Exclude Packages:"
+msgstr "Виключити пакунки:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:14
+msgid "GPG Check"
+msgstr "Перевірка GPG"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:15
+msgid "GPG Key File:"
+msgstr "Файл ключа GPG:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:16
+msgid "Include Packages:"
+msgstr "Включити пакунки:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:17
+msgid "Mirror List:"
+msgstr "Список джерел:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:18
+msgid "Name:"
+msgstr "Назва:"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:19
+msgid "Protect"
+msgstr "Захистити"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:20
+msgid "Repository Information"
+msgstr "Відомості щодо сховища"
+
+#: ../revisor/modgui/glade/revisor_configuration.glade.h:22
+msgid "Save to Configuration"
+msgstr "Зберегти налаштування"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:1
+msgid "<b>Compose Options</b>"
+msgstr "<b>Параметри компонування</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:2
+msgid "<b>Media Types</b>"
+msgstr "<b>Типи носіїв</b>"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:3
+msgid "Installation Media Types"
+msgstr "Типи носіїв для встановлення"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:4
+msgid "Live Media Types"
+msgstr "Типи носіїв портативної системи"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:6
+msgid "Rebrand Media"
+msgstr "Носій зі зміною торговельної марки"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:7
+msgid "Rescue / Utility Media"
+msgstr "Носій відновлення/службовий носій"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:8
+#: ../revisor/modgui/glade/select_media.glade.h:7
+msgid "Select Media Type(s)"
+msgstr "Вибір типів носіїв"
+
+#: ../revisor/modgui/glade/select_media_advanced.glade.h:9
+msgid "Virtualization Media"
+msgstr "Носій для віртуалізації"
+
+#: ../revisor/modgui/glade/select_media.glade.h:1
+#: ../revisor/modgui/glade/select_media_installation.glade.h:1
+msgid "<b>Installation Media Types</b>"
+msgstr "<b>Типи носіїв для встановлення</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:2
+#: ../revisor/modgui/glade/select_media_live.glade.h:1
+msgid "<b>Live Media Types</b>"
+msgstr "<b>Типи носіїв портативної системи</b>"
+
+#: ../revisor/modgui/glade/select_media.glade.h:3
+#: ../revisor/modgui/glade/select_media_installation.glade.h:2
+msgid "CD Set"
+msgstr "КД-набір"
+
+#: ../revisor/modgui/glade/select_media.glade.h:4
+#: ../revisor/modgui/glade/select_media_installation.glade.h:3
+msgid "DVD Set"
+msgstr "DVD-набір"
+
+#: ../revisor/modgui/glade/select_media.glade.h:5
+msgid "Optical Live Media"
+msgstr "Оптичний носій портативної системи"
+
+#: ../revisor/modgui/glade/select_media.glade.h:8
+msgid "USB Live Media"
+msgstr "USB-носій портативної системи"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:4
+msgid "Installation Tree"
+msgstr "Ієрархія встановлення"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:5
+msgid "PXE Payload"
+msgstr "Вміст PXE"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:7
+msgid "Select Installation Media Type(s)"
+msgstr "Вибір типів носіїв для встановлення"
+
+#: ../revisor/modgui/glade/select_media_installation.glade.h:8
+msgid "Unified ISO Image"
+msgstr "Уніфікований образ ISO"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:2
+msgid "Optical"
+msgstr "Оптичний"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:4
+msgid "Select Live Media Type(s)"
+msgstr "Вибір типів носіїв портативних систем"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:5
+msgid "USB Hard Disk"
+msgstr "Жорсткий диск USB"
+
+#: ../revisor/modgui/glade/select_media_live.glade.h:6
+msgid "USB Thumb Drive"
+msgstr "Флеш-накопичувач USB"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:1
+msgid "<b>Utility Media Types</b>"
+msgstr "<b>Типи службових носіїв</b>"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:3
+msgid "Rescue Image"
+msgstr "Образ для відновлення системи"
+
+#: ../revisor/modgui/glade/select_media_utility.glade.h:4
+msgid "Select Utility Media Type(s)"
+msgstr "Вибір типів допоміжних носіїв"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:1
+msgid "<b>Virtualization Media Types</b>"
+msgstr "<b>Типи носіїв для віртуалізації</b>"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:2
+msgid "KVM Guest"
+msgstr "Гостьова KVM"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:4
+msgid "Select Virtualization Media Type(s)"
+msgstr "Вибір типів носіїв для віртуалізації"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:5
+msgid "VMWare Appliance"
+msgstr "Система VMWare"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:6
+msgid "VMWare Guest"
+msgstr "Гостьова система VMWare"
+
+#: ../revisor/modgui/glade/select_media_virtualization.glade.h:7
+msgid "Xen Guest"
+msgstr "Гостьова система Xen"
+
+#: ../revisor/modgui/glade/welcome_buttons.glade.h:1
+msgid "Get Started"
+msgstr "Початок"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:1
+msgid ""
+"Revisor has been designed from the ground up to make building custom Fedora "
+"flavors simple as possible. This wizard will walk you through the process of "
+"building your own Installer and/or Live media set(s) from any Yum repository."
+msgstr ""
+"Revisor від початку було створено для максимального спрощення побудови "
+"нетипових варіантів Fedora. Цей майстер допоможе вам у створенні вашого "
+"власного інструменту встановлення і/або носія портативної системи за "
+"допомогою сховища Yum."
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:2
+msgid "Show Advanced Configuration and Options"
+msgstr "Показ додаткових налаштувань і параметрів"
+
+#: ../revisor/modgui/glade/welcome_screen.glade.h:3
+msgid "Welcome to Revisor, by Fedora Unity"
+msgstr "Ласкаво просимо до Revisor, створеного Fedora Unity"
+
+#: ../revisor.py:37
+msgid "Cannot find anaconda-runtime in /usr/lib/anaconda-runtime"
+msgstr "Не вдалося знайти anaconda-runtime у /usr/lib/anaconda-runtime"
+
+#: ../revisor/base.py:104
+msgid "Running Revisor in CLI mode..."
+msgstr "Запуск Revisor у режимі командного рядка…"
+
+#: ../revisor/base.py:113
+msgid "Running Revisor in Hub mode..."
+msgstr "Запуск Revisor у режимі вузла…"
+
+#: ../revisor/base.py:123
+msgid "Running Revisor in RPC Server mode..."
+msgstr "Запуск Revisor у режимі сервера RPC…"
+
+#: ../revisor/base.py:127 ../revisor/base.py:133
+msgid "Running Revisor in GUI mode..."
+msgstr "Запуск Revisor у режимі графічного інтерфейсу…"
+
+#: ../revisor/base.py:196
+#, python-format
+msgid "Opening up %s"
+msgstr "Відкриття %s"
+
+#: ../revisor/base.py:201
+msgid "No 'webbrowser module, trying htmlview"
+msgstr "Не виявлено модуля webbrowser, буде використано модуль trying htmlview"
+
+#: ../revisor/base.py:205
+#, python-format
+msgid "Cannot fork process showing help, go to: %s"
+msgstr "Не можна створювати розгалуження процесу показу довідки, перехід до %s"
+
+#: ../revisor/base.py:210
+#, python-format
+msgid "Cannot show Help in CLI mode, go to: %s"
+msgstr "Не можна показати довідку у режимі командного рядка, перехід до %s"
+
+#: ../revisor/base.py:218
+msgid "Loading Repositories"
+msgstr "Завантаження списку сховищ"
+
+#: ../revisor/base.py:220
+#, python-format
+msgid "Getting configuration from %s"
+msgstr "Отримання налаштувань з %s"
+
+#: ../revisor/base.py:234 ../revisor/base.py:290 ../revisor/base.py:297
+#: ../revisor/base.py:307 ../revisor/base.py:317 ../revisor/base.py:377
+#: ../revisor/cfg.py:472 ../revisor/cfg.py:483 ../revisor/cfg.py:496
+#: ../revisor/pkgorder.py:219 ../revisor/pkgorder.py:244
+#: ../revisor/pkgorder.py:255 ../revisor/pkgorder.py:258
+#: ../revisor/pkgorder.py:267 ../revisor/pkgorder.py:276
+#, python-format
+msgid "Using deprecated YUM function: %s()"
+msgstr "Використання застарілої функції YUM: %s()"
+
+#: ../revisor/base.py:236
+#, python-format
+msgid ""
+"yum.YumBase.doConfigSetup failed, probably an invalid configuration file %s"
+msgstr ""
+"Помилка yum.YumBase.doConfigSetup, ймовірно, некоректний файл налаштування %s"
+
+#: ../revisor/base.py:271
+msgid "Another application is running which is accessing software information."
+msgstr ""
+"Запущено сторонню програму, яка отримала доступ до даних щодо програмного "
+"забезпечення."
+
+#: ../revisor/base.py:276
+msgid "Fatal Error: Unable to retrieve software information.\n"
+msgstr ""
+"Критична помилка: не вдалося отримати дані щодо програмного забезпечення.\n"
+
+#: ../revisor/base.py:286
+msgid "Setting up a Transaction Set"
+msgstr "Налаштування набору операцій"
+
+#: ../revisor/base.py:293
+msgid "Getting myself a piece of the RPMDB"
+msgstr "Отримання частини RPMDB"
+
+#: ../revisor/base.py:300
+msgid ""
+"Apparently we're running on an Enterprise Linux system (we can tell from the "
+"way yum sets up the RPM Database)"
+msgstr ""
+"Ймовірно, програму запущено у системі Enterprise Linux (це можна визначити "
+"за способом налаштування бази даних RPM yum)"
+
+#: ../revisor/base.py:303
+msgid "Getting Repository Information"
+msgstr "Отримання відомостей щодо сховища"
+
+#: ../revisor/base.py:310
+#, python-format
+msgid "Arch list = %s"
+msgstr "Список архітектур = %s"
+
+#: ../revisor/base.py:312
+msgid "Getting the Package Sacks"
+msgstr "Отримання наборів пакунків"
+
+#: ../revisor/base.py:322
+#, python-format
+msgid "All OK so far, %d packages in the Package Sack"
+msgstr "Поки що все гаразд, у наборі пакунків %d пакунків"
+
+#: ../revisor/base.py:346
+msgid ""
+"Building a nice package list from ksdata, and adding it to the transaction"
+msgstr ""
+"Побудова впорядкованого списку пакунків за ksdata і додавання його до "
+"операції"
+
+#: ../revisor/base.py:348
+#, python-format
+msgid "Package sack excludes are now: %r"
+msgstr "З набору пакунків зараз виключено: %r"
+
+#: ../revisor/base.py:360
+msgid "You've configured Revisor to use "
+msgstr "Вами налаштовано Revisor на використання "
+
+#: ../revisor/base.py:368
+msgid "Using pkgsack excludes, the list of packages "
+msgstr "З використанням виключень pkgsack список пакунків "
+
+#. Actually, let's figure out what mode we're in and call something
+#.
+#. Live Media:
+#.
+#. In live media composes, it is of essence to select packages using
+#. yum.selectGroup() and yum.install()
+#.
+#. Installation Media:
+#.
+#. Depending on whether we are in respin mode, we either select the
+#. packages using YUM's internal search mode, or manually.
+#: ../revisor/base.py:395
+msgid "What we're getting from pykickstart is: "
+msgstr "Від pykickstart отримано: "
+
+#: ../revisor/base.py:407
+msgid "Select kickstart packages"
+msgstr "Виберіть пакунки kickstart"
+
+#: ../revisor/base.py:410
+msgid "Kickstart mode: livecd-tools"
+msgstr "Режим kickstart: портативний компакт-диск"
+
+#: ../revisor/base.py:421
+msgid "Kickstart mode: respin"
+msgstr "Режим kickstart: варіант системи"
+
+#: ../revisor/base.py:430 ../revisor/base.py:440
+msgid "Kickstart mode: normal"
+msgstr "Режим kickstart: звичайний"
+
+#: ../revisor/base.py:453 ../revisor/base.py:461 ../revisor/base.py:469
+msgid "Deprecated function called: "
+msgstr "Викликано застарілу функцію: "
+
+#: ../revisor/base.py:485
+msgid "Initting progress bar for "
+msgstr "Ініціалізація смужки поступу для "
+
+#: ../revisor/base.py:492
+msgid "Apparently we have not yet entered the Build Media stage"
+msgstr "Ми ще не увійшли до стадії побудови образу носія"
+
+#: ../revisor/base.py:521 ../revisor/misc.py:369
+#, python-format
+msgid "Checking dependencies for %s.%s"
+msgstr "Перевірка залежностей %s.%s"
+
+#. pbar.cur_task += 1.0
+#: ../revisor/base.py:543 ../revisor/misc.py:402
+#, python-format
+msgid "Unresolvable dependency %s %s %s in %s.%s"
+msgstr "Нерозв’язані залежність %s %s %s у %s.%s"
+
+#: ../revisor/base.py:550 ../revisor/misc.py:409
+#, python-format
+msgid "Added %s-%s:%s-%s.%s for %s-%s:%s-%s.%s (requiring %s %s %s)"
+msgstr "Додано %s-%s:%s-%s.%s для %s-%s:%s-%s.%s (потребує %s %s %s)"
+
+#: ../revisor/base.py:553 ../revisor/misc.py:237
+msgid "Checking dependencies - allowing conflicts within the package set"
+msgstr "Перевірка залежностей – дозвіл на конфлікти у наборі пакунків"
+
+#: ../revisor/base.py:554 ../revisor/base.py:598
+msgid "Resolving Dependencies"
+msgstr "Розв’язання залежностей"
+
+#: ../revisor/base.py:570
+msgid "Pulling in build requirements"
+msgstr "Застосування вимог щодо збирання"
+
+#: ../revisor/base.py:572
+msgid "Resolving Build Dependencies"
+msgstr "Розв’язання залежностей збирання"
+
+#: ../revisor/base.py:593
+#, python-format
+msgid ""
+"The following packages were excluded using the kickstart package manifest, "
+"but were included for dependency resolving:\n"
+" - %s"
+msgstr ""
+"Наведені нижче пакунки було вилучено зі списку на основі маніфесту пакунків "
+"kickstart, але їх довелося включити для розв’язання залежностей:\n"
+" - %s"
+
+#: ../revisor/base.py:597
+msgid ""
+"Checking dependencies - not allowing any conflicts within the package set"
+msgstr "Перевірка залежностей – без дозволу на конфлікти у наборі пакунків"
+
+#: ../revisor/base.py:625
+#, python-format
+msgid ""
+"Unable to resolve dependencies for some packages selected:\n"
+"\n"
+"%s"
+msgstr ""
+"Не вдалося розв’язати залежності для деяких з вибраних пакунків:\n"
+"\n"
+"%s"
+
+#. End of dependency resolving
+#: ../revisor/base.py:629 ../revisor/image.py:109
+msgid "Unable to build transaction"
+msgstr "Не вдалося створити запис операції"
+
+#: ../revisor/base.py:634 ../revisor/image.py:114
+#, python-format
+msgid "Successfully built transaction: ret %s, msg %s"
+msgstr "Запис операції успішно створено: ret %s, msg %s"
+
+#: ../revisor/base.py:640
+#, python-format
+msgid ""
+"Errors where encountered while downloading package headers:\n"
+"\n"
+"%s"
+msgstr ""
+"Під час звантаження заголовків пакунків сталися помилки:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:649
+msgid ""
+"The package set after dependency resolving does not match the packages "
+"selected in the kickstart manifest"
+msgstr ""
+"Набір пакунків, створений після розв’язання залежностей, не відповідає "
+"набору пакунків, вказаних у маніфесті kickstart"
+
+#: ../revisor/base.py:685
+msgid "Creating a list of RPMs to include -debuginfo for"
+msgstr "Створення списку RPM для включення -debuginfo"
+
+#: ../revisor/base.py:695
+msgid "Debuginfo RPM PO already in the list"
+msgstr "PO RPM діагностичних даних вже у списку"
+
+#: ../revisor/base.py:697
+#, python-format
+msgid "Debuginfo RPM found in non-debuginfo repository %s"
+msgstr ""
+"У не призначеному у для діагностичних даних сховищі %s виявлено RPM з "
+"діагностичними даними"
+
+#: ../revisor/base.py:701
+msgid "Downloading Debuginfo Packages"
+msgstr "Звантаження пакунків debuginfo"
+
+#: ../revisor/base.py:716
+msgid "Creating a list of SRPMs"
+msgstr "Створення списку SRPM"
+
+#: ../revisor/base.py:731
+msgid "Source RPM PO already in the list"
+msgstr "PO RPM кодів вже у списку"
+
+#: ../revisor/base.py:733
+#, python-format
+msgid "Source RPM found in non-source repository %s"
+msgstr "У не призначеному у для коду сховищі %s виявлено RPM з кодами"
+
+#: ../revisor/base.py:735
+#, python-format
+msgid "Error: Cannot find a source rpm for %s"
+msgstr "Помилка: не вдалося знайти rpm з кодами для %s"
+
+#: ../revisor/base.py:737 ../revisor/modgui/build_media.py:105
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:235
+msgid "Downloading Source Packages"
+msgstr "Звантаження пакунків з кодами"
+
+#: ../revisor/base.py:757 ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:230
+msgid "Downloading Packages"
+msgstr "Звантаження пакунків"
+
+#: ../revisor/base.py:810
+#, python-format
+msgid "Overriding auto package selection with user package selection for %s..."
+msgstr ""
+"Перевизначення автоматичного вибору пакунків списком пакунків користувача "
+"для %s..."
+
+#: ../revisor/base.py:823
+#, python-format
+msgid "Adding required package %s-%s:%s-%s.%s"
+msgstr "Додавання обов’язкового пакунка %s-%s:%s-%s.%s"
+
+#. This list has already been resolved
+#: ../revisor/base.py:826
+#, python-format
+msgid "%s. This is a required package."
+msgstr "%s. Цей пакунок є обов’язковим."
+
+#: ../revisor/base.py:838
+#, python-format
+msgid "Adding suggested package %s-%s:%s-%s.%s"
+msgstr "Додавання запропонованого пакунка %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:849
+#, python-format
+msgid "Adding all-arch package %s-%s:%s-%s.%s"
+msgstr "Додавання пакунка для всіх архітектур %s-%s:%s-%s.%s"
+
+#: ../revisor/base.py:886 ../revisor/base.py:912
+msgid "Did not succeed in adding in all required packages"
+msgstr "Не вдалося додати всі обов’язкові пакунки"
+
+#: ../revisor/base.py:920
+msgid "Populating statistics"
+msgstr "Обчислення статистичних даних"
+
+#: ../revisor/base.py:936
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a archivesize header"
+msgstr "У пакунку %s-%s:%s-%s.%s не виявлено заголовка archivesize"
+
+#: ../revisor/base.py:944
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a installedsize header"
+msgstr "У пакунку %s-%s:%s-%s.%s не виявлено заголовка installedsize"
+
+#: ../revisor/base.py:952
+#, python-format
+msgid "Package %s-%s:%s-%s.%s does not seem to have a packagesize header"
+msgstr "У пакунку %s-%s:%s-%s.%s не виявлено заголовка packagesize"
+
+#: ../revisor/base.py:967
+#, python-format
+msgid "Total size of all packages (archivesize): %s %s"
+msgstr "Загальний розмір всіх пакунків (archivesize): %s %s"
+
+#: ../revisor/base.py:968
+#, python-format
+msgid "Total size of all packages, (installedsize): %s %s"
+msgstr "Загальний розмір всіх пакунків, (installedsize): %s %s"
+
+#: ../revisor/base.py:969
+#, python-format
+msgid "Total size of all packages, (packagesize): %s %s"
+msgstr "Загальний розмір всіх пакунків, (packagesize): %s %s"
+
+#: ../revisor/base.py:1004
+#, python-format
+msgid "Report of the %d most space consuming packages"
+msgstr "Звіт щодо %d найоб’ємніших пакунків"
+
+#. Link the localPkg() result into the build tree
+#: ../revisor/base.py:1091 ../revisor/base.py:1800
+msgid "Linking in binary packages"
+msgstr "Компонування бінарних пакунків"
+
+#: ../revisor/base.py:1104
+msgid "Linking in source packages"
+msgstr "Компонування пакунків з кодом"
+
+#: ../revisor/base.py:1116
+msgid "Linking in debuginfo packages"
+msgstr "Компонування пакунків debuginfo"
+
+#: ../revisor/base.py:1128
+msgid "Creating Repository Information"
+msgstr "Створення відомостей щодо сховища"
+
+#: ../revisor/base.py:1141
+msgid "Source Repo Information"
+msgstr "Відомості щодо сховища з кодами"
+
+#: ../revisor/base.py:1154
+msgid "Debuginfo Repo Information"
+msgstr "Відомості щодо сховища діагностичних даних"
+
+#. FIXME: Optionally recompose installer images
+#: ../revisor/base.py:1169
+msgid "Building Installation Images"
+msgstr "Побудова образів для встановлення"
+
+#: ../revisor/base.py:1186
+msgid "Using already existing installer images"
+msgstr "Використання поточних образів для встановлення"
+
+#: ../revisor/base.py:1200
+msgid "Linking in release notes"
+msgstr "Компонування нотаток щодо випуску"
+
+#: ../revisor/base.py:1212
+#, python-format
+msgid "Copying updates.img from %s to %s"
+msgstr "Копіювання updates.img з %s до %s"
+
+#: ../revisor/base.py:1221 ../revisor/pungi.py:412
+#, python-format
+msgid "copy_dir '%s' not accessible"
+msgstr "Не вдалося отримати доступ до copy_dir «%s»"
+
+#: ../revisor/base.py:1232
+#, python-format
+msgid "Size of the installation tree is %s MB"
+msgstr "Розмір ієрархії для встановлення дорівнює %s МБ"
+
+#. On EL5, the yum cache is placed under the installroot
+#. That makes our lives difficult, hihi
+#. So, make sure that if we're on el_linux, the repository gets
+#. bind mounted and configured appropriately
+#: ../revisor/base.py:1285
+msgid "Running pkgorder"
+msgstr "Запуск pkgorder"
+
+#: ../revisor/base.py:1348
+#, python-format
+msgid "Running with grouplist: %r"
+msgstr "Запуск за допомогою grouplist: %r"
+
+#: ../revisor/base.py:1351
+#, python-format
+msgid "Running with packagelist: %r"
+msgstr "Запуск за допомогою packagelist: %r"
+
+#: ../revisor/base.py:1358
+msgid "Appending group core and base"
+msgstr "Додавання груп core і base"
+
+#: ../revisor/base.py:1382
+#, python-format
+msgid "Appending default groups %r"
+msgstr "Додавання типових груп %r"
+
+#. Do not do this because the installer still has all the groups available
+#. if group not in groupList:
+#. continue
+#: ../revisor/base.py:1398
+#, python-format
+msgid "Appending non-default group %s"
+msgstr "Додавання нетипової групи %s"
+
+#. Do not do this because the installer still has all the groups available
+#. if group not in groupList:
+#. continue
+#: ../revisor/base.py:1408
+#, python-format
+msgid "Appending non-default support group %s"
+msgstr "Додавання нетипової групи підтримки %s"
+
+#: ../revisor/base.py:1474
+#, python-format
+msgid "Not running package ordering, using file %s instead"
+msgstr "Впорядкування пакунків не виконується, буде використано файл %s"
+
+#: ../revisor/base.py:1476
+msgid "Not running package ordering"
+msgstr "Без запуску впорядкування пакунків"
+
+#: ../revisor/base.py:1508
+msgid "^Install using kickstart"
+msgstr "^Встановлення за допомогою kickstart"
+
+#. Split Tree
+#: ../revisor/base.py:1531
+#, python-format
+msgid "Splitting Build Tree (%s)"
+msgstr "Поділ ієрархії збирання (%s)"
+
+#. Split repo
+#: ../revisor/base.py:1537
+#, python-format
+msgid "Splitting Repository (%s)"
+msgstr "Поділ сховища (%s)"
+
+#: ../revisor/base.py:1551 ../revisor/modgui/build_media.py:260
+#, python-format
+msgid "Creating %s ISO Image #%d"
+msgstr "Створення образу ISO %s №%d"
+
+#: ../revisor/base.py:1556 ../revisor/modgui/build_media.py:264
+#, python-format
+msgid "Creating %s ISO Image"
+msgstr "Створення образу ISO %s"
+
+#. For all images but source images; implant the md5 into the ISO for the media check
+#. FIXME: Well, it seems we don't deal with source images here.
+#: ../revisor/base.py:1570
+msgid "Implanting MD5 into ISO Images"
+msgstr "Додавання сум MD5 до образів ISO"
+
+#. mediatype = built_image["mediatype"]
+#. if not mediatype == 'source':
+#: ../revisor/base.py:1578
+#, python-format
+msgid "Implanting md5 into ISO Image: %s"
+msgstr "Додавання суми MD5 до образу ISO: %s"
+
+#: ../revisor/base.py:1584
+msgid "Cannot implant ISO md5sum"
+msgstr "Не вдалося додати md5sum ISO"
+
+#. Do some SHA1SUMMONING
+#: ../revisor/base.py:1592
+msgid "Creating SHA1SUMs for Images"
+msgstr "Створення сум SHA1 для образів"
+
+#: ../revisor/base.py:1608
+msgid "Creating Rescue ISO Image"
+msgstr "Створення образу ISO для відновлення"
+
+#: ../revisor/base.py:1615
+msgid "Creating USB Key Installer"
+msgstr "Створення програми встановлення на флеш-картці USB"
+
+#: ../revisor/base.py:1672 ../revisor/base.py:1695 ../revisor/base.py:1718
+#, python-format
+msgid "Copying %s to %s (%d files)"
+msgstr "Копіювання %s до %s (%d файлів)"
+
+#: ../revisor/base.py:1676 ../revisor/base.py:1699 ../revisor/base.py:1722
+#, python-format
+msgid "Moving %s to %s (%d files)"
+msgstr "Пересування %s до %s (%d файлів)"
+
+#: ../revisor/base.py:1679 ../revisor/base.py:1702
+#, python-format
+msgid ""
+"Moving of the source tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Спроба пересування ієрархії кодів зазнала невдачі (спробуємо копіювання):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1682 ../revisor/base.py:1705
+#, python-format
+msgid ""
+"Copying of the source tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Помилка копіювання ієрархії кодів:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1725
+#, python-format
+msgid ""
+"Moving of the installation tree failed (trying copy):\n"
+"\n"
+"%s"
+msgstr ""
+"Спроба пересування ієрархії встановлення зазнала невдачі (спробуємо "
+"копіювання):\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1728
+#, python-format
+msgid ""
+"Copying of the installation tree failed:\n"
+"\n"
+"%s"
+msgstr ""
+"Помилка копіювання ієрархії встановлення:\n"
+"\n"
+"%s"
+
+#: ../revisor/base.py:1737
+msgid "Creating ext3 filesystem"
+msgstr "Створення файлової системи ext3"
+
+#: ../revisor/base.py:1744
+msgid "Configuring System"
+msgstr "Налаштування системи"
+
+#: ../revisor/base.py:1779
+#, python-format
+msgid "Copying copy_dir %s to install_root %s"
+msgstr "Копіювання copy_dir %s до install_root %s"
+
+#: ../revisor/base.py:1788 ../revisor/pungi.py:404
+#, python-format
+msgid "Creating %s"
+msgstr "Створення %s"
+
+#: ../revisor/base.py:1792 ../revisor/pungi.py:408
+#, python-format
+msgid "Copying %s to %s"
+msgstr "Копіювання %s до %s"
+
+#: ../revisor/base.py:1811
+msgid "Linking in Source packages"
+msgstr "Компонування пакунків з кодом"
+
+#: ../revisor/base.py:1839
+#, python-format
+msgid "Setting rundir to %s"
+msgstr "Встановлення rundir у значення %s"
+
+#: ../revisor/base.py:1845
+#, python-format
+msgid "Directory %s could not be created. Aborting"
+msgstr "Не вдалося створити каталог %s. Виконання завдання перервано."
+
+#: ../revisor/base.py:1847
+#, python-format
+msgid "Running command: %s"
+msgstr "Виконання команди: %s"
+
+#: ../revisor/base.py:1848
+#, python-format
+msgid "Extra information: %s %s %s"
+msgstr "Додаткові відомості: %s %s %s"
+
+#: ../revisor/base.py:1876
+#, python-format
+msgid "Got an error from %s (return code %s)"
+msgstr "Отримано повідомлення про помилку від %s (код повернення %s)"
+
+#: ../revisor/cfg.py:73
+#, python-format
+msgid "Setting %s to %r"
+msgstr "Встановлення %s у значення %r"
+
+#: ../revisor/cfg.py:153 ../revisor/cfg.py:211
+#, python-format
+msgid "No group data found for %s"
+msgstr "Не знайдено даних групи для %s"
+
+#: ../revisor/cfg.py:156 ../revisor/cfg.py:214
+#, python-format
+msgid "Why is yum throwing AttributeErrors? %s"
+msgstr "Чому yum повідомляє про AttributeErrors? %s"
+
+#: ../revisor/cfg.py:244
+msgid "Checking working directories"
+msgstr "Перевірка робочих каталогів"
+
+#: ../revisor/cfg.py:261 ../revisor/cfg.py:337
+#, python-format
+msgid ""
+"The directories Revisor uses in %s already exist. This could possibly hold "
+"data from a previous run. Please remove or move them to a safe location, "
+"then confirm to continue. If you do not move or remove the files, Revisor "
+"will simply delete them."
+msgstr ""
+"Каталоги, які Revisor використовує у %s, вже існують. Там, ймовірно, "
+"містяться дані, що залишилися після попереднього запуску програми. Будь "
+"ласка, вилучіть їх або пересуньте до безпечного місця, після чого накажіть "
+"програмі продовжувати. Якщо файли не буде вилучено або пересунуто вручну, "
+"програма Revisor просто вилучить ці дані."
+
+#: ../revisor/cfg.py:263 ../revisor/cfg.py:339
+#, python-format
+msgid "The directories Revisor uses in %s already exist. Revisor deleted them."
+msgstr ""
+"Каталоги, які Revisor використовує на %s, вже існують. Revisor вилучить їх."
+
+#: ../revisor/cfg.py:273
+#, python-format
+msgid "%s%s%s is a mount, trying to unmount"
+msgstr "%s%s%s змонтовано, спроба демонтування"
+
+#: ../revisor/cfg.py:277
+#, python-format
+msgid ""
+"Unable to unmount %s%s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Не вдалося демонтувати %s%s%s. Помилка:\n"
+"\n"
+"%s\n"
+"\n"
+"Будь ласка, вирішіть проблему."
+
+#: ../revisor/cfg.py:280
+#, python-format
+msgid "%s%s%s is not a mount"
+msgstr "%s%s%s не змонтовано"
+
+#: ../revisor/cfg.py:300
+#, python-format
+msgid ""
+"Unable to unmount %s%s with error:\n"
+"\n"
+"%s\n"
+"\n"
+"Please resolve the issue and continue."
+msgstr ""
+"Не вдалося демонтувати %s%s. Помилка:\n"
+"\n"
+"%s\n"
+"\n"
+"Будь ласка, вирішіть проблему."
+
+#: ../revisor/cfg.py:317
+msgid "Checking destination directories"
+msgstr "Перевірка каталогів призначення"
+
+#: ../revisor/cfg.py:321
+#, python-format
+msgid "Set destination directory to %s"
+msgstr "Встановлення каталогу призначення у значення %s"
+
+#: ../revisor/cfg.py:369 ../revisor/modvirt/__init__.py:65
+#: ../revisor/modvirt/__init__.py:72
+#, python-format
+msgid "Cannot access %s, please check the permissions so we can try again."
+msgstr ""
+"Не вдалося отримати доступ до %s. Будь ласка, виправте права доступу, а "
+"потім повторіть спробу."
+
+#: ../revisor/cfg.py:402
+#, python-format
+msgid "Architecture list: %r"
+msgstr "Список архітектур: %r"
+
+#: ../revisor/cfg.py:434
+#, python-format
+msgid "Repository %s specified in the kickstart already exists"
+msgstr "Сховище %s, вказане у kickstart, вже існує"
+
+#: ../revisor/cfg.py:439
+#, python-format
+msgid "Setting repo.baseurl to %s"
+msgstr "Встановлення repo.baseurl у значення %s"
+
+#: ../revisor/cfg.py:442
+#, python-format
+msgid "Setting repo.mirrorlist to %s"
+msgstr "Встановлення repo.mirrorlist у значення %s"
+
+#: ../revisor/cfg.py:461 ../revisor/cfg.py:465
+msgid "Could not clean metadata you might be working with old data"
+msgstr ""
+"Не вдалося очистити метадані. Ймовірно, ви працюєте з застарілими даними."
+
+#: ../revisor/cfg.py:486
+#, python-format
+msgid "No groups present! Error was: %s"
+msgstr "Немає жодної групи! Повідомлення про помилку: %s"
+
+#: ../revisor/cfg.py:558
+msgid ""
+"You cannot choose the system's yum configuration file /etc/yum.conf for use "
+"with Revisor. Aborting."
+msgstr ""
+"Ви не можете вибирати системний файл налаштування yum, /etc/yum.conf, для "
+"використання у Revisor. Виконання перервано."
+
+#: ../revisor/cfg.py:560
+#, python-format
+msgid ""
+"File %s does not exist (used as 'main' configuration directive in model %s)"
+msgstr ""
+"Файла %s не існує (цей файл використано для налаштування «main» у моделі %s)"
+
+#: ../revisor/cfg.py:578
+#, python-format
+msgid ""
+"YUM Configuration file %s uses one of the following variables: %s, %s or %s. "
+"Please edit the configuration file and substitute those variables for the "
+"actual values"
+msgstr ""
+"У файлі налаштувань YUM %s використано одну з таких змінних: %s, %s або %s. "
+"Будь ласка, відкрийте файл налаштувань і замініть ці змінні їх значеннями."
+
+#: ../revisor/cfg.py:585
+msgid ""
+"The ISO label cannot be longer then 32 characters due to Joliet limitations"
+msgstr "Мітка ISO не повинна бути довшою за 32 символи через обмеження Joliet"
+
+#: ../revisor/cfg.py:595
+#, python-format
+msgid "Kickstart file %s cannot be read."
+msgstr "Не вдалося прочитати файл kickstart %s."
+
+#: ../revisor/cfg.py:603
+#, python-format
+msgid ""
+"The file configured as a comps file (%s) cannot be read. When composing "
+"installation media, this is FATAL."
+msgstr ""
+"Не вдалося прочитати файл, вказаний як файл comps (%s). Це критична помилка "
+"для компонування носія для встановлення."
+
+#: ../revisor/cfg.py:611
+#, python-format
+msgid "The updates.img specified isn't readable: %s"
+msgstr "Вказаний updates.img непридатний до читання: %s"
+
+#: ../revisor/cfg.py:616
+msgid "Updates.img seems to not be a file... Is it an URL?"
+msgstr "Здається, Updates.img не є файлом… Вказано адресу URL?"
+
+#: ../revisor/cfg.py:627
+msgid "Preferred kernel should be one of: normal, PAE, xen, debug."
+msgstr "Бажане ядро слід обрати з таких варіантів: normal, PAE, xen, debug."
+
+#: ../revisor/cfg.py:641
+msgid ""
+"The version you selected as a base for pykickstart compatibility and "
+"required package sets does not exist"
+msgstr ""
+"Версії, яку ви вибрали як базову для сумісності з pykickstart, і наборів "
+"потрібних пакунків не існує"
+
+#: ../revisor/cfg.py:651
+#, python-format
+msgid ""
+"You have selected a model with architecture %s which doesn't compose on the "
+"system architecture %s."
+msgstr ""
+"Вами було вибрано модель з архітектурою %s, яка не компонується у "
+"архітектуру системи %s."
+
+#: ../revisor/cfg.py:659
+msgid "Setting options from configuration file"
+msgstr "Встановлення параметрів з файла налаштувань"
+
+#: ../revisor/cfg.py:687
+#, python-format
+msgid "No model %s in configuration file %s"
+msgstr "Не виявлено моделі %s у файлі налаштувань %s"
+
+#: ../revisor/cfg.py:689
+#, python-format
+msgid "Setting model to %s"
+msgstr "Встановлення значення моделі %s"
+
+#. Not specifying a model and not configuring a model is fatal for CLI
+#: ../revisor/cfg.py:698 ../revisor/cfg.py:708 ../revisor/cfg.py:710
+#, python-format
+msgid ""
+"No model specified on the command line and no existing model configuration "
+"in %s"
+msgstr ""
+"У командному рядку не вказано моделі, також не існує налаштувань моделі у %s"
+
+#: ../revisor/cfg.py:700
+#, python-format
+msgid ""
+"Model %s configured in configuration file %s, but there is no such model "
+"configuration"
+msgstr ""
+"Модель %s вказано у файлі налаштувань %s, але налаштувань такої моделі не "
+"виявлено"
+
+#: ../revisor/cfg.py:714
+#, python-format
+msgid "Tried to load model %s but it doesn't exist inconfiguration file %s"
+msgstr "Спроба завантаження моделі %s, якої не існує у файлі налаштувань %s"
+
+#: ../revisor/cfg.py:731
+#, python-format
+msgid "Model %s has no configuration directive 'main' which is required"
+msgstr "У моделі %s немає обов’язкового налаштування «main»"
+
+#: ../revisor/cfg.py:734
+#, python-format
+msgid "Testing for configuration parameter %s"
+msgstr "Перевірка параметра налаштування %s"
+
+#: ../revisor/cfg.py:763
+#, python-format
+msgid "Setting %s to %r (from configuration file model %s)"
+msgstr "Встановлення %s у значення %r (з моделі файла налаштувань %s)"
+
+#: ../revisor/cfg.py:797
+#, python-format
+msgid "Configuration file %s not readable"
+msgstr "Файл налаштувань %s непридатний до читання"
+
+#: ../revisor/cfg.py:800 ../revisor/modgui/configuration.py:486
+#, python-format
+msgid "Reading configuration file %s"
+msgstr "Читання файла налаштувань %s"
+
+#: ../revisor/cfg.py:804
+#, python-format
+msgid "Invalid configuration file %s"
+msgstr "Некоректний файл налаштувань %s"
+
+#: ../revisor/cfg.py:807
+#, python-format
+msgid "No master configuration section [revisor] in configuration file %s"
+msgstr "У файлі налаштувань %s немає головного розділу налаштування [revisor]"
+
+#: ../revisor/cfg.py:841
+#, python-format
+msgid "Setting %s to %r (from configuration file)"
+msgstr "Встановлення %s у значення %r (на основі файла налаштувань)"
+
+#: ../revisor/cfg.py:845
+msgid "Setting options from command-line"
+msgstr "Встановлення параметрів з командного рядка"
+
+#: ../revisor/cfg.py:859 ../revisor/cfg.py:866
+#, python-format
+msgid "Setting %s to %r (from command line)"
+msgstr "Встановлення %s у значення %r (на основі командного рядка)"
+
+#: ../revisor/cfg.py:861
+#, python-format
+msgid "Checked setting %s through plugin"
+msgstr "Перевірено параметр %s за допомогою додатка"
+
+#: ../revisor/cfg.py:864
+#, python-format
+msgid "No check_setting_%s()"
+msgstr "Немає check_setting_%s()"
+
+#: ../revisor/cfg.py:868
+#, python-format
+msgid "Not setting %s to %r (command line matches default)"
+msgstr "%s не встановлено у значення %r (типове значення командного рядка)"
+
+#: ../revisor/cfg.py:911
+msgid ""
+"Updates.img is only usable with installation media. Please remove --updates-"
+"img or also build installation media."
+msgstr ""
+"Updates.img можна використовувати лише для носіїв для встановлення. Будь "
+"ласка, вилучіть параметр --updates-img або створіть і носій для встановлення."
+
+#: ../revisor/cfg.py:915
+msgid "Kickstart failed"
+msgstr "Помилка kickstart"
+
+#: ../revisor/cfg.py:922 ../revisor/cfg.py:927
+#, python-format
+msgid "Kickstart file %s not readable"
+msgstr "Файл kickstart %s не придатний до читання"
+
+#: ../revisor/cfg.py:924 ../revisor/cfg.py:929
+#, python-format
+msgid "Kickstart file %s fails to load, continuing with defaults"
+msgstr ""
+"Не вдалося завантажити файл kickstart %s, роботу буде продовжено з типовими "
+"параметрами"
+
+#: ../revisor/cfg.py:932
+msgid "No kickstart file specified"
+msgstr "Не вказано файла kickstart"
+
+#: ../revisor/cfg.py:935 ../revisor/cfg.py:953
+msgid "No media specified"
+msgstr "Не вказано носія"
+
+#: ../revisor/cfg.py:980
+#, python-format
+msgid "pulling self.packages_list[%r][%r][%r][%r]"
+msgstr "збирання self.packages_list[%r][%r][%r][%r]"
+
+#: ../revisor/cfg.py:985
+#, python-format
+msgid "returning pkg_list: %r"
+msgstr "повернення pkg_list: %r"
+
+#: ../revisor/cfg.py:1113
+msgid "Run from image"
+msgstr "Запуск з образу"
+
+#: ../revisor/cfg.py:1114
+msgid "Run from RAM - requires 1 GB+"
+msgstr "Запуск з оперативної пам’яті — потрібно 1 ГБ+"
+
+#: ../revisor/image.py:93
+msgid "Error encountered during installation of "
+msgstr "Сталася помилка під час встановлення "
+
+#: ../revisor/image.py:97
+#, python-format
+msgid "An additional error in the error. The value of errs is: %s"
+msgstr "Додаткова помилка у помилці. Значення errs: %s"
+
+#: ../revisor/image.py:98
+msgid "An error occurred during the installation "
+msgstr "Під час встановлення сталася помилка "
+
+#: ../revisor/image.py:105
+msgid "Running package installation"
+msgstr "Запуск встановлення пакунків"
+
+#: ../revisor/image.py:116
+msgid "Installing Software"
+msgstr "Встановлення програмного забезпечення"
+
+#: ../revisor/image.py:151
+msgid "SELinux requested but not enabled on host"
+msgstr "Надійшов запит на SELinux, але систему не увімкнено на вузлі"
+
+#: ../revisor/image.py:203
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, instead of %s)"
+msgstr ""
+"Встановлення self.cfg.payload_livemedia у значення %s (за командою «part /» у "
+"kickstart, замість %s)"
+
+#: ../revisor/image.py:207
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from total installed size of RPMs, "
+"instead of %s)"
+msgstr ""
+"Встановлення self.cfg.payload_livemedia у значення %s (за загальним розміром "
+"встановлених RPM, замість %s)"
+
+#: ../revisor/image.py:212
+#, python-format
+msgid ""
+"Setting self.cfg.payload_livemedia to %s (from 'part /' command in "
+"kickstart, as per the respin mode)"
+msgstr ""
+"Встановлення self.cfg.payload_livemedia у значення %s (за командою «part /» у "
+"kickstart, для режиму створення варіантів)"
+
+#: ../revisor/image.py:229
+#, python-format
+msgid "Filesystem type set to: %s"
+msgstr "Тип файлової системи встановлено у значення: %s"
+
+#. #
+#. # Runtime Options
+#. #
+#: ../revisor/__init__.py.in:89
+msgid "Runtime Options"
+msgstr "Параметри роботи"
+
+#: ../revisor/__init__.py.in:94
+msgid "Use the CLI rather then GUI"
+msgstr "Використовувати командний рядок, а не графічний інтерфейс"
+
+#: ../revisor/__init__.py.in:100
+msgid "Force Revisor to use the "
+msgstr "Наказати Revisor використовувати "
+
+#: ../revisor/__init__.py.in:109
+msgid "List available models"
+msgstr "Список доступних моделей"
+
+#: ../revisor/__init__.py.in:115
+msgid "Development mode. Skips some tasks that take time."
+msgstr ""
+"Режим розробника. Пропустити завдання, виконання яких може бути тривалим."
+
+#: ../revisor/__init__.py.in:121
+msgid "Report the sizes of all RPMs selected in a list"
+msgstr "Повідомити про розмір всіх RPM, позначених у списку"
+
+#: ../revisor/__init__.py.in:127
+msgid ""
+"Force Revisor to interpret the package manifest as complete package nevra "
+"(name, epoch, version, release and architecture). Implies --kickstart-exact"
+msgstr ""
+"Наказати Revisor вважати маніфест пакунка повним записом nevra (name, epoch, "
+"version, release і architecture) пакунка. Буде також додано --kickstart-exact"
+
+#: ../revisor/__init__.py.in:133
+msgid ""
+"Tells Revisor to ignore @core and @base (or %packages --nobase) and only add "
+"what is in the package manifest"
+msgstr ""
+"Наказує Revisor ігнорувати @core іd @base (або %packages --nobase) і "
+"додавати лише дані з маніфесту пакунка"
+
+#: ../revisor/__init__.py.in:140
+msgid ""
+"Should Revisor not clean up at all (0), clean up it's temporary build data "
+"(1), or everything -this includes the yum cache (2)"
+msgstr ""
+"Визначає, слід Revisor взагалі не виконувати спорожнення (0), спорожнити "
+"дані тимчасового каталогу збирання (1), чи спорожнити все, зокрема кеш yum "
+"(2)"
+
+#: ../revisor/__init__.py.in:147
+msgid "Size of the USB Thumb Drive. Default to 4G."
+msgstr "Доступний об’єм пам’яті на флеш-картці USB. Типовим значенням є 4 ГБ."
+
+#: ../revisor/__init__.py.in:156
+msgid "Set debugging level (0 by default)"
+msgstr "Встановити рівень діагностики (типовим рівнем є 0)"
+
+#: ../revisor/__init__.py.in:161
+msgid "Use a different logfile"
+msgstr "Використати інший файл журналу"
+
+#: ../revisor/__init__.py.in:170
+msgid "Answer all questions as 'yes'"
+msgstr "Відповісти на всі питання «так»"
+
+#. #
+#. # Configuration Options
+#. #
+#: ../revisor/__init__.py.in:175
+msgid "Configuration Options"
+msgstr "Параметри налаштування"
+
+#. Might be disabled for testing purposes
+#. default = os.path.join(BASE_CONFD_DIR,"fedora-7-gold.cfg"),
+#: ../revisor/__init__.py.in:182
+msgid "Use kickstart file"
+msgstr "Використати файл kickstart"
+
+#: ../revisor/__init__.py.in:189
+msgid "Save options to given file (as a kickstart)"
+msgstr "Зберегти параметри до вказаного файла (як kickstart)"
+
+#: ../revisor/__init__.py.in:196
+msgid "Revisor configuration file to use"
+msgstr "Файл налаштування Revisor, який слід використати"
+
+#: ../revisor/__init__.py.in:203
+msgid "Get the sources to go with the binaries"
+msgstr "Збирати початкові коди разом з бінарними"
+
+#: ../revisor/__init__.py.in:209
+msgid "Destination directory for products"
+msgstr "Каталог призначення для продуктів"
+
+#: ../revisor/__init__.py.in:216
+msgid "Working directory"
+msgstr "Робочий каталог"
+
+#: ../revisor/__init__.py.in:223
+msgid "Model to use for composing"
+msgstr "Модель, яку буде використано для компонування"
+
+#: ../revisor/__init__.py.in:230
+msgid "Mode to use for composing updated spins"
+msgstr "Режим, який буде використано для компонування варіантів з оновленнями"
+
+#: ../revisor/__init__.py.in:236
+msgid ""
+"Sometimes, it's better to copy local data rather then (sym)linking it. If "
+"you have enough space..."
+msgstr ""
+"Іноді краще скопіювати локальні дані, а не створювати посилання на них. Якщо "
+"у вас достатньо місця на диску…"
+
+#: ../revisor/__init__.py.in:242
+msgid "Directory to copy onto the media"
+msgstr "Каталог для копіювання на носій"
+
+#. #
+#. # Installation Media Options
+#. #
+#: ../revisor/__init__.py.in:247
+msgid "Installation Media Options"
+msgstr "Параметри носія для встановлення"
+
+#: ../revisor/__init__.py.in:252
+msgid "Create Installation Media CDs (Capacity per disc: 685MB)"
+msgstr "Створити компакт-диски для встановлення (місткість диска: 685МБ)"
+
+#: ../revisor/__init__.py.in:258
+msgid "Create Installation Media DVDs (Capacity per disc: 4.3GB)"
+msgstr "Створити DVD для встановлення (місткість диска: 4,3 ГБ)"
+
+#: ../revisor/__init__.py.in:264
+msgid "Create Installation Media Dual-Layered DVDs (Capacity per disc: 8.5GB)"
+msgstr "Створити двошарові DVD для встановлення (місткість диска: 8,5 ГБ)"
+
+#: ../revisor/__init__.py.in:270
+msgid "Create Installation Media Blu-Ray Discs (Capacity per disc: 25GB)"
+msgstr "Створити диски Blu-Ray для встановлення (місткість диска: 25 ГБ)"
+
+#: ../revisor/__init__.py.in:276
+msgid ""
+"Create Installation Media Duallayer Blu-Ray Discs (Capacity per disc: 50GB)"
+msgstr ""
+"Створити двошарові диски Blu-Ray для встановлення (місткість диска: 50 ГБ)"
+
+#: ../revisor/__init__.py.in:282
+msgid "Create Installation Media that goes onto a USB thumbdrive"
+msgstr "Створити носій для встановлення на флеш-картці USB"
+
+#: ../revisor/__init__.py.in:288
+msgid "Create Unified ISO from install tree"
+msgstr "Створити загальний ISO для ієрархії каталогів встановлення"
+
+#: ../revisor/__init__.py.in:301
+msgid "Create the Installation Tree."
+msgstr "Створити ієрархію встановлення."
+
+#: ../revisor/__init__.py.in:307
+msgid ""
+"Create a Full Installation Tree. Includes all binary (sub-)packages created "
+"from source packages."
+msgstr ""
+"Створити цілу ієрархії каталогів для встановлення. До неї буде включено всі "
+"бінарні пакунки (або підпакунки), створені з пакунків з кодами."
+
+#: ../revisor/__init__.py.in:313
+msgid ""
+"Create a Self-Sustaining Installation Tree. Includes all build requirements "
+"for included source packages."
+msgstr ""
+"Створити автономну ієрархію для встановлення. До неї буде включено всі "
+"потрібні для збирання системи з кодів пакунки."
+
+#: ../revisor/__init__.py.in:319
+msgid "Create Media without graphical installer."
+msgstr "Створити носій без графічної програми встановлення."
+
+#: ../revisor/__init__.py.in:325
+msgid "Include kickstart file on media or in the tree"
+msgstr "Включити файл kickstart на носій або до ієрархії файлів"
+
+#: ../revisor/__init__.py.in:331
+msgid ""
+"In the bootloader menu (isolinux.cfg), set kickstart to boot by default "
+"(works with --kickstart-include)"
+msgstr ""
+"У меню програми завантаження (isolinux.cfg) встановити типове завантаження "
+"kickstart (працює з --kickstart-include)"
+
+#: ../revisor/__init__.py.in:337
+msgid "Filter anything from comps that is not in the package set"
+msgstr "Прибрати з comps все, чого немає у наборі пакунків"
+
+#: ../revisor/__init__.py.in:343
+msgid "Use Revisor's comps file instead of those from the repositories"
+msgstr "Використовувати файл comps Revisor замість файлів зі сховищ"
+
+#: ../revisor/__init__.py.in:349
+msgid "Comps file to include on the installation media"
+msgstr "Файл comps, який слід включити на носій для встановлення"
+
+#: ../revisor/__init__.py.in:355
+msgid "Include specified updates.img on installation media."
+msgstr "Включити вказаний файл updates.img на носій для встановлення."
+
+#: ../revisor/__init__.py.in:362
+msgid "Product Name"
+msgstr "Назва продукту"
+
+#: ../revisor/__init__.py.in:368
+msgid ""
+"Product Path (e.g. Fedora/ or Packages/ -but without the appending slash)"
+msgstr ""
+"Шлях до продукту (наприклад, Fedora/ або Packages/, але без додавання "
+"похилої риски)"
+
+#: ../revisor/__init__.py.in:374
+msgid ""
+"ISO Label Base. Note that other things are appended but that the length can "
+"be 32 chars maximum."
+msgstr ""
+"Основа мітки ISO. Зауважте, що після додавання інших записів довжина мітки "
+"не має перевищувати 32 символів."
+
+#: ../revisor/__init__.py.in:380
+msgid "The base name for the ISOs"
+msgstr "Базова назва для ISO"
+
+#: ../revisor/__init__.py.in:386
+msgid "Product Version"
+msgstr "Версія продукту"
+
+#: ../revisor/__init__.py.in:392
+msgid ""
+"Base Product Version - relevant to required packages and pykickstart "
+"compatibility"
+msgstr ""
+"Базова назва продукту. Відповідає бажаним пакункам та сумісна з pykickstart"
+
+#. #
+#. # Utility Media Options
+#. #
+#: ../revisor/__init__.py.in:397
+msgid "Utility Media Options"
+msgstr "Параметри допоміжного носія"
+
+#: ../revisor/__init__.py.in:402
+msgid "Create Rescue Media"
+msgstr "Створити носій для відновлення"
+
+#. #
+#. # Live Media Options
+#. #
+#: ../revisor/__init__.py.in:407
+msgid "Live Media Options"
+msgstr "Параметри носія портативної системи"
+
+#: ../revisor/__init__.py.in:412
+msgid "Create Live Media CD/DVD"
+msgstr "Створити носій КД/DVD портативної системи"
+
+#: ../revisor/__init__.py.in:418
+msgid "Create Live Media Thumb Drive Image (will be depreciated)"
+msgstr ""
+"Створити образ флеш-картки для портативної системи (вважатиметься застарілим)"
+
+#: ../revisor/__init__.py.in:424
+msgid "Create Live Media Hard Disk Image (will be depreciated)"
+msgstr ""
+"Створити образ жорсткого диска для портативної системи (вважатиметься "
+"застарілим)"
+
+#: ../revisor/__init__.py.in:430
+msgid "Create Live Media Raw Hard Disk Image"
+msgstr "Створити неархівований образ жорсткого диска для портативної системи"
+
+#: ../revisor/__init__.py.in:436
+msgid "Interactively work in the live image before building the ISO image."
+msgstr ""
+"Інтерактивна обробка образу портативної системи до створення образу ISO."
+
+#: ../revisor/__init__.py.in:442
+msgid "Skip file system compression."
+msgstr "Пропустити стискання файлової системи."
+
+#: ../revisor/__init__.py.in:448
+msgid "Skip prelinking the contents of the filesystem."
+msgstr "Пропустити попереднє компонування вмісту файлової системи."
+
+#: ../revisor/__init__.py.in:454
+msgid ""
+"Ignore filesystem overhead. Useless blocks will not be removed from the "
+"filesystem."
+msgstr ""
+"Ігнорувати додатковий об’єм файлової системи. Незайняті блоки не "
+"вилучатимуться з файлової системи."
+
+#: ../revisor/__init__.py.in:460
+msgid "Set the preferred kernel. One of normal, PAE, xen or debug."
+msgstr "Вказати бажане ядро. Варіанти: normal, PAE, xen або debug."
+
+#: ../revisor/__init__.py.in:503
+#, python-format
+msgid " %s - No Description"
+msgstr " %s — Без опису"
+
+#: ../revisor/__init__.py.in:505
+#, python-format
+msgid ""
+"The configured model %s does not have a valid file as 'main' configuration "
+"option."
+msgstr "Вказана модель %s не має коректного файла для налаштування «main»."
+
+#: ../revisor/__init__.py.in:507
+#, python-format
+msgid ""
+"The configured model %s does not have the mandatory 'main' configuration "
+"directive."
+msgstr "Вказана модель %s не має обов’язкової команди налаштування «main»."
+
+#: ../revisor/__init__.py.in:533
+msgid "Interrupted by user"
+msgstr "Перервано користувачем"
+
+#: ../revisor/__init__.py.in:537 ../revisor/__init__.py.in:543
+msgid ""
+"Traceback occurred, please report a bug at http://fedorahosted.org/revisor"
+msgstr ""
+"Отримано зворотне трасування, будь ласка, повідомте про ваду за допомогою "
+"сторінки http://fedorahosted.org/revisor"
+
+#: ../revisor/kickstart.py:212 ../revisor/kickstart.py:215
+#, python-format
+msgid "Appending group @%s"
+msgstr "Додавання групи @%s"
+
+#: ../revisor/kickstart.py:224
+#, python-format
+msgid "Selecting %s as a default group"
+msgstr "Вибір %s як типової групи"
+
+#: ../revisor/kickstart.py:281 ../revisor/kickstart.py:403
+#: ../revisor/kickstart.py:660
+#, python-format
+msgid "Found group: %s"
+msgstr "Знайдено групу: %s"
+
+#: ../revisor/kickstart.py:287 ../revisor/kickstart.py:410
+#, python-format
+msgid "Repository metadata cannot be found: %s: %s"
+msgstr "Не вдалося знайти метадані сховища: %s: %s"
+
+#: ../revisor/kickstart.py:290 ../revisor/kickstart.py:413
+#, python-format
+msgid "Group not found: %s"
+msgstr "Такої групи не знайдено: %s"
+
+#: ../revisor/kickstart.py:302 ../revisor/kickstart.py:330
+#: ../revisor/kickstart.py:717
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s"
+msgstr "Додавання %s-%s:%s-%s.%s"
+
+#: ../revisor/kickstart.py:342 ../revisor/kickstart.py:606
+#: ../revisor/kickstart.py:728
+#, python-format
+msgid "From Excludes: Removing %s-%s:%s-%s.%s from transaction"
+msgstr "На основі виключень: вилучення %s-%s:%s-%s.%s з операції"
+
+#: ../revisor/kickstart.py:345 ../revisor/kickstart.py:609
+#: ../revisor/kickstart.py:731
+#, python-format
+msgid ""
+"Apparently trying to exclude a package that is not available in the "
+"repositories loaded, or hasn't been added to the transaction: %s"
+msgstr ""
+"Спроба виключити пакунок, якого немає у завантажених сховищах, або пакунок, "
+"запис якого не було додано до операції: %s"
+
+#: ../revisor/kickstart.py:351 ../revisor/kickstart.py:615
+#, python-format
+msgid ""
+"\n"
+"The following errors occured when selecting groups and packages from "
+"kickstart:\n"
+"\n"
+"- %s\n"
+"\n"
+"You can continue with these minor errors but obviously the results may not "
+"be what you expected."
+msgstr ""
+"\n"
+"Під час вибору груп і пакунків за допомогою kickstart сталися такі помилки:\n"
+"\n"
+"- %s\n"
+"\n"
+"Ви можете продовжити виконання завдання з цими незначними помилками, але "
+"результати можуть бути незадовільними."
+
+#: ../revisor/kickstart.py:357 ../revisor/kickstart.py:621
+msgid "This is what was selected to be installed:"
+msgstr "Ось, що було вибрано для встановлення:"
+
+#: ../revisor/kickstart.py:425
+#, python-format
+msgid "Selecting required packages for group %s"
+msgstr "Вибір обов’язкових пакунків для групи %s"
+
+#: ../revisor/kickstart.py:429 ../revisor/kickstart.py:450
+#: ../revisor/kickstart.py:471 ../revisor/kickstart.py:490
+#, python-format
+msgid "Including %s"
+msgstr "Включення %s"
+
+#: ../revisor/kickstart.py:439
+#, python-format
+msgid "From Groups (required): Adding %s-%s:%s-%s.%s to transaction"
+msgstr "На основі груп (обов’язкові): додавання %s-%s:%s-%s.%s до операції"
+
+#: ../revisor/kickstart.py:446
+#, python-format
+msgid "Selecting default packages for group %s"
+msgstr "Вибір типових пакунків для групи %s"
+
+#: ../revisor/kickstart.py:459
+#, python-format
+msgid "From Groups (default): Adding %s-%s:%s-%s.%s to transaction"
+msgstr "На основі груп (типові): додавання %s-%s:%s-%s.%s до операції"
+
+#: ../revisor/kickstart.py:466
+#, python-format
+msgid "Selecting optional packages for group %s"
+msgstr "Вибір додаткових пакунків для групи %s"
+
+#: ../revisor/kickstart.py:480 ../revisor/kickstart.py:499
+#, python-format
+msgid "From Groups (optional): Adding %s-%s:%s-%s.%s to transaction"
+msgstr "На основі груп (додаткові): додавання %s-%s:%s-%s.%s до операції"
+
+#: ../revisor/kickstart.py:486
+#, python-format
+msgid "No include parameter for group %s, using defaults"
+msgstr ""
+"Немає параметра включення для групи %s, буде використано типові значення"
+
+#: ../revisor/kickstart.py:508 ../revisor/kickstart.py:680
+#: ../revisor/pkgorder.py:111
+#, python-format
+msgid "Testing condition: %s / %s"
+msgstr "Перевірка умови: %s/%s"
+
+#: ../revisor/kickstart.py:523
+#, python-format
+msgid "From package list, including: %s"
+msgstr "На основі списку пакунків, зокрема: %s"
+
+#: ../revisor/kickstart.py:526
+#, python-format
+msgid "Package %s is in excludeList, continuing"
+msgstr "Пакунок %s вказано у списку виключення, продовжуємо"
+
+#: ../revisor/kickstart.py:534
+msgid "No packages found!"
+msgstr "Не знайдено жодного пакунка!"
+
+#: ../revisor/kickstart.py:539 ../revisor/kickstart.py:568
+#, python-format
+msgid "From Packages: Adding %s-%s:%s-%s.%s to transaction"
+msgstr "На основі списку пакунків: додавання %s-%s:%s-%s.%s до запису операції"
+
+#: ../revisor/kickstart.py:546
+#, python-format
+msgid "Could not find package '%s', searching..."
+msgstr "Не вдалося знайти пакунок «%s», пошук…"
+
+#: ../revisor/kickstart.py:559 ../revisor/misc.py:201
+#, python-format
+msgid "Found packages matching '%s': %s"
+msgstr "Знайдено пакунки, що відповідають «%s»: %s"
+
+#: ../revisor/kickstart.py:570
+#, python-format
+msgid "From Packages: Not adding %s now because it is in the ignore list"
+msgstr ""
+"На основі списку пакунків: не додаємо %s, оскільки цей пакунок вказано у "
+"списку ігнорування"
+
+#: ../revisor/kickstart.py:581
+#, python-format
+msgid ""
+"More then one package found for %s-%s-%s.%s - going to add them all to the "
+"transaction"
+msgstr ""
+"Для %s-%s-%s.%s знайдено декілька пакунків. Всі ці пакунки буде додано до "
+"запису операції."
+
+#: ../revisor/kickstart.py:583 ../revisor/misc.py:215
+#, python-format
+msgid "Could not find package %s-%s-%s.%s"
+msgstr "Не вдалося знайти пакунок %s-%s-%s.%s"
+
+#: ../revisor/kickstart.py:586 ../revisor/misc.py:218
+#, python-format
+msgid "From Packages (exact string %s-%s-%s.%s), selecting %s-%s-%s.%s"
+msgstr "На основі списку пакунків (точний рядок %s-%s-%s.%s), вибір %s-%s-%s.%s"
+
+#: ../revisor/kickstart.py:657
+#, python-format
+msgid "No such group %s"
+msgstr "Такої групи немає %s"
+
+#: ../revisor/logger.py:86
+msgid "Error"
+msgstr "Помилка"
+
+#: ../revisor/logger.py:101
+msgid "Warning"
+msgstr "Попередження"
+
+#: ../revisor/logger.py:114 ../revisor/logger.py:123
+msgid "Do you want to continue? [Y/n]"
+msgstr "Бажаєте продовжувати? [Y(ТАК)/n(ні)]"
+
+#: ../revisor/logger.py:117 ../revisor/logger.py:126
+msgid "Abort! Abort! Abort!"
+msgstr "Виконання завдань перервано!"
+
+#: ../revisor/misc.py:42
+msgid "This tool has to run with root privileges. Aborting"
+msgstr ""
+"Цю програму слід запускати з правами доступу користувача root. Виконання "
+"перервано."
+
+#: ../revisor/misc.py:49
+msgid ""
+"SELinux on this host is disabled. Composed media will not have SELinux, and "
+"as a result the system you install from the composed media will not have "
+"SELinux either."
+msgstr ""
+"На цьому вузлі SELinux вимкнено. На скомпонованому носії не буде SELinux, "
+"отже у системі, яку ви встановите за допомогою скомпонованого носія, також "
+"не буде SELinux."
+
+#: ../revisor/misc.py:85
+msgid "cfg parameter to revisor.misc.download_packages() "
+msgstr "параметр cfg revisor.misc.download_packages() "
+
+#: ../revisor/misc.py:98
+#, python-format
+msgid "Using local copy of %s-%s-%s.%s at %s"
+msgstr "Використовуємо локальну копію %s-%s-%s.%s у %s"
+
+#: ../revisor/misc.py:108
+msgid "Unable to find a suitable mirror."
+msgstr "Не вдалося знайти відповідного дзеркала."
+
+#: ../revisor/misc.py:120
+#, python-format
+msgid "Errors were encountered while downloading packages: %s"
+msgstr "Під час спроби звантаження пакунків сталися помилки: %s"
+
+#: ../revisor/misc.py:188 ../revisor/misc.py:226
+#, python-format
+msgid "Resolved %s"
+msgstr "Розв’язано %s"
+
+#: ../revisor/misc.py:213
+#, python-format
+msgid "More then one package found for %s-%s-%s.%s"
+msgstr "Виявлено декілька пакунків, що відповідають %s-%s-%s.%s"
+
+#: ../revisor/misc.py:229
+#, python-format
+msgid "Looking to resolve package %s to a Provides, but we still can't find it."
+msgstr ""
+"Пошук розв’язання залежності %s у записах Provides не дав бажаних "
+"результатів."
+
+#: ../revisor/misc.py:241
+#, python-format
+msgid "Inclusive dependency resolving starts at %s"
+msgstr "Початок включного розв’язання залежностей о %s"
+
+#: ../revisor/misc.py:262
+#, python-format
+msgid "Inclusive dependency resolving ends at %s"
+msgstr "Завершення включного розв’язання залежностей о %s"
+
+#: ../revisor/misc.py:310
+#, python-format
+msgid "Cannot find a source rpm for %s"
+msgstr "Не вдалося знайти rpm з кодами для %s"
+
+#: ../revisor/misc.py:333
+#, python-format
+msgid "Disabling %s repository"
+msgstr "Вимикання сховища %s"
+
+#: ../revisor/misc.py:348
+#, python-format
+msgid "No such repository: %s"
+msgstr "Такого сховища немає: %s"
+
+#: ../revisor/misc.py:350
+#, python-format
+msgid "Enabling %s repository"
+msgstr "Вмикання сховища %s"
+
+#: ../revisor/misc.py:555 ../revisor/misc.py:560
+#, python-format
+msgid "Creating destination directory: %s"
+msgstr "Створення каталогу призначення: %s"
+
+#: ../revisor/misc.py:558
+#, python-format
+msgid "Removing destination directory: %s"
+msgstr "Вилучення каталогу призначення: %s"
+
+#: ../revisor/misc.py:572
+#, python-format
+msgid "Linking %s => %s"
+msgstr "Створення посилання %s => %s"
+
+#: ../revisor/misc.py:575
+#, python-format
+msgid "Package hard link failed: %s: %s"
+msgstr "Спроба створення жорсткого посилання на пакунок зазнала невдачі: %s: %s"
+
+#: ../revisor/misc.py:580
+#, python-format
+msgid "Copying: %s to %s"
+msgstr "Копіювання %s до %s…"
+
+#: ../revisor/misc.py:583
+#, python-format
+msgid "Symlinking: %s to %s"
+msgstr "Створення символічного посилання: %s на %s"
+
+#: ../revisor/misc.py:586
+msgid "Package symlink succeeded"
+msgstr "Успішне створення символічного посилання на пакунок"
+
+#: ../revisor/misc.py:588 ../revisor/misc.py:595
+#, python-format
+msgid "Package link failed, trying copy: %s: %s"
+msgstr ""
+"Спроба створення посилання пакунка зазнала невдачі, створюємо копію: %s: %s"
+
+#. If the group is not in the kickstart groups, skip it
+#. if not group in self.cfg.ksobj._get("packages","groupList"):
+#. continue
+#: ../revisor/pkgorder.py:85
+#, python-format
+msgid "Adding group: %s"
+msgstr "Додавання групи: %s"
+
+#: ../revisor/pkgorder.py:96
+#, python-format
+msgid "The following packages are in group %s: %r"
+msgstr "У групі %s такі пакунки: %r"
+
+#: ../revisor/pkgorder.py:103 ../revisor/pkgorder.py:116
+#, python-format
+msgid "Adding %s-%s:%s-%s.%s to transaction"
+msgstr "Додавання %s-%s:%s-%s.%s до запису операції"
+
+#: ../revisor/pkgorder.py:124
+#, python-format
+msgid "%d dependencies already resolved"
+msgstr "вже розв’язано %d залежностей"
+
+#: ../revisor/pkgorder.py:134
+#, python-format
+msgid "Adding package(s): %r"
+msgstr "Додавання пакунків: %r"
+
+#: ../revisor/pkgorder.py:180
+#, python-format
+msgid "Unable to create yum configuration file for package ordering at %s"
+msgstr "Не вдалося створити файл налаштувань yum для впорядкування пакунків %s"
+
+#: ../revisor/pkgorder.py:192
+#, python-format
+msgid "-> package %s"
+msgstr "-> пакунок %s"
+
+#: ../revisor/plugins.py:60 ../revisor/plugins.py:77
+#, python-format
+msgid "Plugin %s failed to load (%s: %s)"
+msgstr "Не вдалося завантажити додаток %s (%s: %s)"
+
+#: ../revisor/plugins.py:71
+#, python-format
+msgid "ImportError for plugin %s: %s"
+msgstr "ImportError додатка %s: %s"
+
+#: ../revisor/plugins.py:74
+#, python-format
+msgid "RuntimeError for plugin %s: %s"
+msgstr "Помилка під час виконання додатка %s: %s"
+
+#: ../revisor/plugins.py:94 ../revisor/plugins.py:96
+#, python-format
+msgid "Cannot set defaults for plugin %s: %s"
+msgstr "Не вдалося встановити типові значення для додатка %s: %s"
+
+#: ../revisor/plugins.py:98
+#, python-format
+msgid "Cannot set defaults for plugin %s: Unknown Error"
+msgstr "Не вдалося встановити типові значення для додатка %s: невідома помилка"
+
+#: ../revisor/plugins.py:101
+#, python-format
+msgid "Not setting defaults for plugin %s: No function 'set_defaults()'"
+msgstr ""
+"Не встановлено типові значення для додатка %s: немає функції «set_defaults()»"
+
+#: ../revisor/plugins.py:118
+#, python-format
+msgid "Cannot set runtime for plugin %s: %s"
+msgstr "Не вдалося створити середовище виконання для додатка %s: %s"
+
+#: ../revisor/plugins.py:120
+#, python-format
+msgid "Not setting runtime for plugin %s: No function 'set_runtime()'"
+msgstr ""
+"Не встановлено середовище виконання для додатка %s: немає функції «set_runtime"
+"()»"
+
+#: ../revisor/plugins.py:137
+#, python-format
+msgid "Cannot add options for plugin %s: %s"
+msgstr "Не вдалося додати параметри додатка %s: %s"
+
+#: ../revisor/plugins.py:139
+#, python-format
+msgid "Not adding options for plugin %s: No function 'add_options()'"
+msgstr "Параметри додатка %s не додано: немає функції «add_options()»"
+
+#: ../revisor/plugins.py:157
+#, python-format
+msgid "Cannot check options for plugin %s: %s"
+msgstr "Не вдалося перевірити параметри додатка %s: %s"
+
+#: ../revisor/plugins.py:159
+#, python-format
+msgid "Not checking options for plugin %s: No function 'check_options()'"
+msgstr "Не перевірено параметри додатка %s: немає функції «check_options()»"
+
+#: ../revisor/plugins.py:195
+#, python-format
+msgid "Cannot execute hook %s for plugin %s: %s"
+msgstr "Не вдалося виконати керування %s додатком %s: %s"
+
+#: ../revisor/progress.py:80 ../revisor/modgui/build_media.py:88
+#: ../revisor/modgui/build_media.py:94 ../revisor/modgui/build_media.py:98
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:100
+#: ../revisor/modgui/build_media.py:105 ../revisor/modgui/build_media.py:110
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:117
+#: ../revisor/modgui/build_media.py:118 ../revisor/modgui/build_media.py:119
+#: ../revisor/modgui/build_media.py:124 ../revisor/modgui/build_media.py:129
+#: ../revisor/modgui/build_media.py:141 ../revisor/modgui/build_media.py:142
+#: ../revisor/modgui/build_media.py:147 ../revisor/modgui/build_media.py:152
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:154
+#: ../revisor/modgui/build_media.py:155 ../revisor/modgui/build_media.py:156
+#: ../revisor/modgui/build_media.py:157 ../revisor/modgui/build_media.py:158
+#: ../revisor/modgui/build_media.py:161 ../revisor/modgui/build_media.py:164
+#: ../revisor/modgui/build_media.py:169 ../revisor/modgui/build_media.py:174
+#: ../revisor/modgui/build_media.py:179 ../revisor/modgui/build_media.py:182
+#: ../revisor/modgui/build_media.py:189 ../revisor/modgui/build_media.py:193
+#: ../revisor/modgui/build_media.py:248 ../revisor/modgui/build_media.py:255
+#: ../revisor/modgui/build_media.py:256 ../revisor/modgui/build_media.py:260
+#: ../revisor/modgui/build_media.py:264 ../revisor/modgui/build_media.py:269
+#: ../revisor/modgui/build_media.py:270 ../revisor/modgui/build_media.py:271
+#: ../revisor/modgui/build_media.py:272 ../revisor/modgui/build_media.py:273
+#: ../revisor/modgui/build_media.py:274 ../revisor/modgui/build_media.py:275
+#: ../revisor/modgui/build_media.py:276 ../revisor/modgui/build_media.py:277
+#: ../revisor/modgui/build_media.py:280 ../revisor/modgui/build_media.py:283
+#: ../revisor/modgui/build_media.py:287 ../revisor/modgui/build_media.py:290
+#: ../revisor/modgui/build_media.py:294 ../revisor/modgui/build_media.py:298
+#: ../revisor/modgui/build_media.py:307
+msgid "Pending..."
+msgstr "Очікування…"
+
+#: ../revisor/progress.py:81 ../revisor/progress.py:84
+#: ../revisor/modgui/build_media.py:308 ../revisor/modgui/build_media.py:311
+msgid "Running..."
+msgstr "Виконання…"
+
+#: ../revisor/progress.py:85 ../revisor/progress.py:88
+#: ../revisor/modgui/build_media.py:215 ../revisor/modgui/build_media.py:221
+#: ../revisor/modgui/build_media.py:225 ../revisor/modgui/build_media.py:229
+#: ../revisor/modgui/build_media.py:230 ../revisor/modgui/build_media.py:235
+#: ../revisor/modgui/build_media.py:240 ../revisor/modgui/build_media.py:241
+#: ../revisor/modgui/build_media.py:242 ../revisor/modgui/build_media.py:243
+msgid "Done"
+msgstr "Виконано"
+
+#: ../revisor/progress.py:191
+msgid "Preparing transaction"
+msgstr "Приготування до операції"
+
+#: ../revisor/progress.py:203 ../revisor/progress.py:367
+#, python-format
+msgid "Unable to open %s: %s"
+msgstr "Не вдалося відкрити %s: %s"
+
+#: ../revisor/progress.py:204 ../revisor/progress.py:205
+#: ../revisor/progress.py:368
+#, python-format
+msgid "Installing %s"
+msgstr "Встановлення %s"
+
+#: ../revisor/progress.py:227 ../revisor/progress.py:388
+#, python-format
+msgid "Updated: %s"
+msgstr "Оновлено: %s"
+
+#: ../revisor/progress.py:229 ../revisor/progress.py:390
+#, python-format
+msgid "Installed: %s"
+msgstr "Встановлено: %s"
+
+#: ../revisor/progress.py:242
+#, python-format
+msgid "Cleanup %s"
+msgstr "Спорожнення %s"
+
+#: ../revisor/progress.py:257 ../revisor/progress.py:416
+#, python-format
+msgid "Erased: %s"
+msgstr "Вилучено: %s"
+
+#: ../revisor/progress.py:442
+#, python-format
+msgid "Downloading %s"
+msgstr "Звантаження %s"
+
+#: ../revisor/progress.py:546
+#, python-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: ../revisor/pungi.py:61
+#, python-format
+msgid "Error: Cannot create destination dir %s"
+msgstr "Помилка: не вдалося створити каталог призначення %s"
+
+#: ../revisor/pungi.py:67
+#, python-format
+msgid "Error: Cannot remove destination dir %s"
+msgstr "Помилка: не вдалося вилучити каталог призначення %s"
+
+#: ../revisor/pungi.py:72
+#, python-format
+msgid "Error: Cannot recreate destination dir %s"
+msgstr "Помилка: не вдалося повторно створити каталог призначення %s"
+
+#: ../revisor/pungi.py:337
+msgid "Getting relnotes..."
+msgstr "Отримання нотаток щодо випуску…"
+
+#: ../revisor/pungi.py:358
+#, python-format
+msgid "An error occured extracting the release files: %s"
+msgstr "Під час видобування файлів випуску сталася помилка: %s"
+
+#: ../revisor/pungi.py:367
+#, python-format
+msgid "Copying %s"
+msgstr "Копіювання %s"
+
+#: ../revisor/pungi.py:373
+#, python-format
+msgid "Copying release note file %s"
+msgstr "Копіювання файла нотаток щодо випуску %s"
+
+#: ../revisor/pungi.py:377
+#, python-format
+msgid "File %s not readable"
+msgstr "Файл %s непридатний до читання"
+
+#: ../revisor/pungi.py:387
+#, python-format
+msgid "Could not access directory %s, cannot copy extra files onto the media."
+msgstr ""
+"Не вдалося отримати доступ до каталогу %s, не вдалося скопіювати додаткові "
+"файли на носій."
+
+#: ../revisor/pungi.py:393
+#, python-format
+msgid "Could not create files/ directory: %s"
+msgstr "Не вдалося створити файли/каталог: %s"
+
+#: ../revisor/pungi.py:456
+#, python-format
+msgid "Disc %s #%d is oversized (%r > %r)"
+msgstr "Об’єм даних на диску %s №%d перевищено (%r > %r)"
+
+#: ../revisor/pungi.py:460 ../revisor/pungi.py:472
+#, python-format
+msgid "Removing tree %s"
+msgstr "Вилучення ієрархії %s"
+
+#: ../revisor/pungi.py:468
+#, python-format
+msgid "Disc %s #%d is undersized (%r <= %r)"
+msgstr "На диску %s №%d залишилося вільне місце (%r <= %r)"
+
+#: ../revisor/pungi.py:480
+#, python-format
+msgid "Disc %s #%d is OK in size (%r <= %r)"
+msgstr "Об’єм даних на диску %s №%d підібрано вдало (%r <= %r)"
+
+#: ../revisor/pungi.py:533
+msgid ""
+"Hacking anaconda's .discinfo because it'll shit itself if it reads it's own "
+"output"
+msgstr ""
+"Редагування файла .discinfo anaconda, оскільки програма працює з помилками, "
+"якщо читає виведені нею ж дані"
+
+#: ../revisor/modcobbler/__init__.py:69 ../revisor/modcobbler/__init__.py:219
+#: ../revisor/modcobbler/__init__.py:256
+#, python-format
+msgid "There is a problem connecting to %s"
+msgstr "Проблема встановлення з’єднання з %s"
+
+#: ../revisor/modcobbler/__init__.py:83
+#, python-format
+msgid ""
+" Distro: %s\n"
+"  Existing Profiles:"
+msgstr ""
+" Дистрибутив: %s\n"
+"  Передбачені профілі:"
+
+#: ../revisor/modcobbler/__init__.py:85
+#, python-format
+msgid "   Profile: %s"
+msgstr "   Профіль: %s"
+
+#: ../revisor/modcobbler/__init__.py:87
+msgid "No listing found on cobbler server."
+msgstr "Не сервері cobbler списків не знайдено."
+
+#: ../revisor/modcobbler/__init__.py:104
+msgid "Add compose to a Cobbler server as both a Distribution and Profile."
+msgstr ""
+"Додати compose до сервера Cobbler для заповнення полів Distribution "
+"(дистрибутив) і Profile (профіль)."
+
+#: ../revisor/modcobbler/__init__.py:111
+msgid ""
+"Add compose options as a Profile to a Cobbler server. [Requires --cobbler-"
+"use-distro]"
+msgstr ""
+"Додати параметри compose до запису Profile (профіль) сервера Cobbler. "
+"[потрібен параметр --cobbler-use-distro]"
+
+#: ../revisor/modcobbler/__init__.py:118
+msgid "Use a Cobbler distro as source for package data."
+msgstr "Використовувати дистрибутив Cobbler як джерело даних пакунків."
+
+#: ../revisor/modcobbler/__init__.py:125
+msgid "Use a Cobbler profile as source for kickstart data."
+msgstr "Використовувати профіль Cobbler як джерело даних kickstart."
+
+#: ../revisor/modcobbler/__init__.py:132
+msgid "List options provided by cobbler."
+msgstr "Показати список варіантів, які надає у ваше розпорядження cobbler."
+
+#: ../revisor/modcobbler/__init__.py:138
+msgid "Use remote cobbler server."
+msgstr "Використовувати віддалений сервер cobbler."
+
+#: ../revisor/modcobbler/__init__.py:144
+msgid "Remote cobbler server port."
+msgstr "Порт віддаленого сервера cobbler."
+
+#: ../revisor/modcobbler/__init__.py:201
+msgid ""
+"Specifying a Cobbler server is only supported for read-only actions. "
+"Currently, --cobbler-use-distro and --cobbler-use-profile."
+msgstr ""
+"Визначення сервера Cobbler підтримується лише для дій з читання. У поточній "
+"версії відповідні параметри — це --cobbler-use-distro і --cobbler-use-"
+"profile."
+
+#: ../revisor/modcobbler/__init__.py:226
+#, python-format
+msgid "The distro '%s' does not exist."
+msgstr "Дистрибутива «%s» не існує."
+
+#: ../revisor/modcobbler/__init__.py:240 ../revisor/modcobbler/__init__.py:263
+#, python-format
+msgid "The profile '%s' does not exist."
+msgstr "Профілю «%s» не існує."
+
+#: ../revisor/moddelta/__init__.py:35
+msgid "Package deltarpm not installed"
+msgstr "Пакунок deltarpm не встановлено"
+
+#: ../revisor/moddelta/__init__.py:69
+msgid ""
+"Generate a delta ISO image. Currently only valid for a single disc or "
+"directory holding Installation Media ISOs named exactly the same as the "
+"product."
+msgstr ""
+"Створити образ ISO різниці. У поточній версії можна використовувати лише у "
+"режимі єдиного диска або каталогу з образами ISO носіїв для встановлення з "
+"назвами, що точно відповідають назві продукту."
+
+#: ../revisor/modjigdo/__init__.py:45
+msgid "Package jigdo not installed"
+msgstr "Пакунок jigdo не встановлено"
+
+#: ../revisor/modjigdo/__init__.py:60
+msgid "Generate Jigdo files and templates using the installation tree"
+msgstr ""
+"Створити файли Jigdo та шаблони на основі ієрархії каталогів для встановлення"
+
+#: ../revisor/modjigdo/__init__.py:66
+msgid ""
+"Generate Jigdo files against the Revisor YUM Cache (labels different "
+"repositories)."
+msgstr "Створити файли Jigdo на основі кешу YUM Revisor (різні сховища)."
+
+#: ../revisor/modjigdo/__init__.py:76
+msgid ""
+"You cannot use both the installation tree and the yum cache to build Jigdo "
+"templates against."
+msgstr ""
+"Для збирання шаблонів Jigdo не можна одночасно використовувати ієрархію "
+"каталогів встановлення та кеш yum."
+
+#: ../revisor/modgui/build_media.py:88 ../revisor/modgui/build_media.py:215
+msgid "Retrieve Software Information"
+msgstr "Отримання відомостей щодо програмного забезпечення"
+
+#: ../revisor/modgui/build_media.py:94 ../revisor/modgui/build_media.py:225
+msgid "Select Packages from Kickstart"
+msgstr "Вибір пакунків на основі Kickstart"
+
+#: ../revisor/modgui/build_media.py:98 ../revisor/modgui/build_media.py:221
+msgid "Resolve Dependencies"
+msgstr "Розв’язання залежностей"
+
+#: ../revisor/modgui/build_media.py:99 ../revisor/modgui/build_media.py:229
+msgid "Populating Statistics"
+msgstr "Обчислення статистичних даних"
+
+#: ../revisor/modgui/build_media.py:110 ../revisor/modgui/build_media.py:169
+msgid "Linking in Binary Packages"
+msgstr "Компонування бінарних пакунків"
+
+#: ../revisor/modgui/build_media.py:114 ../revisor/modgui/build_media.py:174
+msgid "Linking in Source Packages"
+msgstr "Компонування пакунків з кодом"
+
+#: ../revisor/modgui/build_media.py:117 ../revisor/modgui/build_media.py:241
+msgid "Create Repository Information"
+msgstr "Створення відомостей щодо сховища"
+
+#: ../revisor/modgui/build_media.py:118 ../revisor/modgui/build_media.py:242
+msgid "Build isolinux and Installer"
+msgstr "Побудова isolinux та програми встановлення"
+
+#: ../revisor/modgui/build_media.py:119 ../revisor/modgui/build_media.py:243
+msgid "Linking in Release Notes"
+msgstr "Компонування нотаток щодо випуску"
+
+#: ../revisor/modgui/build_media.py:124
+msgid "Creating CD ISO Images"
+msgstr "Створення образів ISO компакт-дисків"
+
+#: ../revisor/modgui/build_media.py:129
+msgid "Creating DVD ISO Images"
+msgstr "Створення образів ISO DVD"
+
+#: ../revisor/modgui/build_media.py:141 ../revisor/modgui/build_media.py:269
+msgid "Resolve Dependencies for Installation"
+msgstr "Розв’язати залежності для встановлення"
+
+#: ../revisor/modgui/build_media.py:142 ../revisor/modgui/build_media.py:270
+msgid "Downloading Extra Packages"
+msgstr "Звантаження додаткових пакунків"
+
+#: ../revisor/modgui/build_media.py:152 ../revisor/modgui/build_media.py:271
+msgid "Creating ext3 Filesystem"
+msgstr "Створення файлової системи ext3"
+
+#: ../revisor/modgui/build_media.py:153 ../revisor/modgui/build_media.py:272
+msgid "Installing packages"
+msgstr "Встановлення пакунків"
+
+#: ../revisor/modgui/build_media.py:154 ../revisor/modgui/build_media.py:273
+msgid "Configure System"
+msgstr "Налаштування системи"
+
+#: ../revisor/modgui/build_media.py:155 ../revisor/modgui/build_media.py:274
+msgid "Configure Networking"
+msgstr "Налаштування мережі"
+
+#: ../revisor/modgui/build_media.py:156 ../revisor/modgui/build_media.py:275
+msgid "Create RAM Filesystem"
+msgstr "Створення файлової системи RAM"
+
+#: ../revisor/modgui/build_media.py:157 ../revisor/modgui/build_media.py:276
+msgid "Relabel System"
+msgstr "Зміна мітки системи"
+
+#: ../revisor/modgui/build_media.py:158 ../revisor/modgui/build_media.py:277
+msgid "Configure Bootloader"
+msgstr "Налаштування завантажувача"
+
+#: ../revisor/modgui/build_media.py:161
+msgid "Launch shell"
+msgstr "Запуск оболонки"
+
+#: ../revisor/modgui/build_media.py:164 ../revisor/modgui/build_media.py:283
+msgid "Unmounting filesystems"
+msgstr "Демонтування файлових систем"
+
+#: ../revisor/modgui/build_media.py:179 ../revisor/modgui/build_media.py:287
+msgid "Compressing Image"
+msgstr "Стискання образу"
+
+#: ../revisor/modgui/build_media.py:182
+msgid "Creating ISO Image"
+msgstr "Створення образу ISO"
+
+#: ../revisor/modgui/build_media.py:189 ../revisor/modgui/build_media.py:294
+msgid "Dumping ISO Image to USB Media"
+msgstr "Створення дампу образу ISO на носії USB"
+
+#: ../revisor/modgui/build_media.py:193 ../revisor/modgui/build_media.py:298
+msgid "Cleaning up Build Environment"
+msgstr "Очищення середовища збирання"
+
+#: ../revisor/modgui/build_media.py:240
+msgid "Linking in Packages"
+msgstr "Компонування пакунків"
+
+#: ../revisor/modgui/build_media.py:248
+msgid "Ordering Packages"
+msgstr "Впорядкування пакунків"
+
+#: ../revisor/modgui/build_media.py:255
+#, python-format
+msgid "Splitting Packages for %s Media"
+msgstr "Відсіювання пакунків для носія %s"
+
+#: ../revisor/modgui/build_media.py:256
+#, python-format
+msgid "Splitting Repository Information for %s Media"
+msgstr "Відсіювання відомостей щодо сховища для носія %s"
+
+#: ../revisor/modgui/build_media.py:280
+msgid "Launching shell"
+msgstr "Запуск оболонки"
+
+#: ../revisor/modgui/build_media.py:290
+msgid "Creating Live ISO Image"
+msgstr "Створення образу ISO портативної системи"
+
+#: ../revisor/modgui/configuration.py:122
+msgid "You have not specified a Base URL or Mirror List"
+msgstr "Вами не було вказано базову адресу або список дзеркал"
+
+#: ../revisor/modgui/configuration.py:125
+msgid "GPG Check enabled but no valid GPG Key file found"
+msgstr "Увімкнено перевірку GPG, але не виявлено коректного файла ключа GPG"
+
+#: ../revisor/modgui/configuration.py:138
+#, python-format
+msgid "ValueError in baseurl: %s"
+msgstr "ValueError у baseurl: %s"
+
+#: ../revisor/modgui/configuration.py:144
+#, python-format
+msgid "ValueError in mirrorlist: %s"
+msgstr "ValueError у mirrorlist: %s"
+
+#: ../revisor/modgui/configuration.py:221
+#, python-format
+msgid "%s is not a valid Revisor configuration file"
+msgstr "%s не є коректним файлом налаштувань Revisor"
+
+#: ../revisor/modgui/configuration.py:250
+msgid ""
+"The configured model does not have the mandatory 'main' configuration "
+"directive."
+msgstr "Вказана модель не має обов’язкової команди налаштування «main»."
+
+#: ../revisor/modgui/configuration.py:252
+msgid "Invalid model. Please choose a valid model."
+msgstr "Некоректна модель. Будь ласка, виберіть коректну модель."
+
+#: ../revisor/modgui/configuration.py:364
+#, python-format
+msgid "File %s is not accessible."
+msgstr "Файл %s недоступний."
+
+#: ../revisor/modgui/configuration.py:371
+msgid "The 'main' option configuration directive has a non-accessible file: "
+msgstr "У командах налаштування «main» виявлено недоступний файл: "
+
+#: ../revisor/modgui/configuration.py:374
+msgid "Configuration file's 'main' directive OK"
+msgstr "Належний файл команд налаштування «main»"
+
+#: ../revisor/modgui/configuration.py:408
+msgid ""
+"You have not selected any of the basic repositories. Please make sure that "
+"one of 'fedora', 'core', 'base' or 'development', or an equivalent "
+"repository has been configured"
+msgstr ""
+"Вами не було вибрано жодного з базових сховищ. Будь ласка, переконайтеся, що "
+"було налаштовано одне зі сховищ «fedora», «core», «base», «development» або "
+"еквівалентне сховище"
+
+#: ../revisor/modgui/configuration.py:412
+#, python-format
+msgid ""
+"Configuration file '%s', section '%s' does not have the mandatory 'main' "
+"option"
+msgstr ""
+"Файл налаштувань «%s», розділ «%s» не містить обов’язкового параметра «main»"
+
+#: ../revisor/modgui/configuration.py:500
+#, python-format
+msgid "Could not read configuration file %s"
+msgstr "Не вдалося прочитати файл налаштування %s"
+
+#: ../revisor/modgui/finished_screen.py:47
+msgid "Check current directory."
+msgstr "Перевірте поточний каталог."
+
+#: ../revisor/modgui/__init__.py:122
+msgid "GUI Mode didn't get RevisorBase instance, which is fatal."
+msgstr ""
+"Графічному інтерфейсу не вдалося отримати доступ до екземпляра RevisorBase, "
+"критична помилка."
+
+#: ../revisor/modgui/__init__.py:191
+#, python-format
+msgid "Opening up /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+msgstr "Відкриття /usr/bin/sudo -u %s /usr/bin/xdg-open %s"
+
+#: ../revisor/modgui/__init__.py:324
+msgid "Error downloading packages"
+msgstr "Помилка звантаження пакунків"
+
+#: ../revisor/modgui/__init__.py:339
+msgid "Continue"
+msgstr "Продовжити"
+
+#: ../revisor/modgui/__init__.py:340
+msgid "Dependencies added"
+msgstr "Додано залежності"
+
+#: ../revisor/modgui/__init__.py:341
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Оновлення цих пакунків потребує додаткових змін у пакунках для належної "
+"обробки."
+
+#: ../revisor/modgui/__init__.py:350
+msgid "Adding for dependencies:\n"
+msgstr "Додавання для задоволення залежностей:\n"
+
+#: ../revisor/modgui/__init__.py:351
+msgid "Removing for dependencies:\n"
+msgstr "Вилучення для задоволення залежностей:\n"
+
+#: ../revisor/modgui/__init__.py:352
+msgid "Updating for dependencies:\n"
+msgstr "Оновлення для задоволення залежностей:\n"
+
+#: ../revisor/modgui/lm_basic.py:163 ../revisor/modgui/lm_basic.py:168
+#: ../revisor/modgui/lm_basic.py:174 ../revisor/modgui/lm_basic.py:276
+#: ../revisor/modgui/lm_usercustomize.py:158
+msgid "Using kickstart configuration, edit entry here"
+msgstr "З використанням налаштувань kickstart, змініть запис тут"
+
+#: ../revisor/modgui/lm_basic.py:201 ../revisor/modgui/lm_usercustomize.py:108
+msgid "These passwords do not match"
+msgstr "Ці паролі не збігаються"
+
+#: ../revisor/modgui/lm_basic.py:295
+msgid "Please select a root password."
+msgstr "Будь ласка, виберіть пароль root."
+
+#: ../revisor/modgui/lm_basic.py:299
+msgid "You should really select a more complex root password."
+msgstr "Вам варто вибрати складніший пароль root."
+
+#: ../revisor/modgui/lm_network.py:110 ../revisor/modgui/lm_network.py:162
+#: ../revisor/modgui/lm_network.py:218 ../revisor/modgui/lm_network.py:282
+#: ../revisor/modgui/lm_network.py:385 ../revisor/modgui/lm_network.py:432
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../revisor/modgui/lm_network.py:112 ../revisor/modgui/lm_network.py:164
+#: ../revisor/modgui/lm_network.py:235 ../revisor/modgui/lm_network.py:295
+#: ../revisor/modgui/lm_network.py:434
+msgid "Static IP"
+msgstr "Статична IP-адреса"
+
+#: ../revisor/modgui/lm_network.py:114 ../revisor/modgui/lm_network.py:222
+#: ../revisor/modgui/lm_network.py:284 ../revisor/modgui/lm_network.py:387
+#: ../revisor/modgui/lm_network.py:436
+msgid "BOOTP"
+msgstr "BOOTP"
+
+#: ../revisor/modgui/lm_network.py:225 ../revisor/modgui/lm_network.py:287
+msgid "Please fill in the network information"
+msgstr "Будь ласка, вкажіть відомості щодо мережі"
+
+#: ../revisor/modgui/lm_network.py:339
+#, python-format
+msgid ""
+"A network device with the name %s already exists.  Please choose another "
+"device name"
+msgstr ""
+"Мережевий пристрій з назвою %s вже існує. Будь ласка, виберіть іншу назву "
+"пристрою."
+
+#. create table with custom checklists
+#: ../revisor/modgui/lm_security.py:60
+msgid "Trusted devices:"
+msgstr "Надійні пристрої:"
+
+#: ../revisor/modgui/lm_security.py:92
+msgid "Trusted services:"
+msgstr "Надійні служби:"
+
+#: ../revisor/modgui/lm_security.py:124
+msgid "Other ports: (1029:tcp)"
+msgstr "Інші порти: (1029:tcp)"
+
+#: ../revisor/modgui/load_kickstart.py:139
+#, python-format
+msgid "Kickstart file %s not accessible."
+msgstr "Файл kickstart %s недоступний."
+
+#: ../revisor/modgui/load_kickstart.py:146
+msgid "Kickstart file not good."
+msgstr "Помилковий файл kickstart."
+
+#: ../revisor/modgui/package_selection.py:154
+msgid "Selecting all packages"
+msgstr "Вибір всіх пакунків"
+
+#: ../revisor/modgui/package_selection.py:409
+#, python-format
+msgid "No such package %s from group %s"
+msgstr "Немає пакунка %s у групі %s"
+
+#: ../revisor/modgui/package_selection.py:418
+#, python-format
+msgid "Package %s was not marked in group %s"
+msgstr "Пакунок %s було позначено у групі %s"
+
+#: ../revisor/modgui/package_selection.py:427
+#, python-format
+msgid "No package named %s available to be installed: %s"
+msgstr "Не вдалося знайти пакунок з назвою %s для встановлення: %s"
+
+#: ../revisor/modgui/package_selection.py:441
+msgid "Adding in packages from Kickstart Data, please wait"
+msgstr "Додавання до списку пакунків записів з даних kickstart, зачекайте"
+
+#: ../revisor/modgui/package_selection.py:462
+#, python-format
+msgid ""
+"Errors encountered:\n"
+"\n"
+"%s: %s"
+msgstr ""
+"Сталися помилки:\n"
+"\n"
+"%s: %s"
+
+#: ../revisor/modgui/package_selection.py:469
+msgid "Cannot pass check_options"
+msgstr "Не вдалося пройти перевірку check_options"
+
+#: ../revisor/modgui/package_selection.py:475
+#: ../revisor/modgui/select_media.py:474
+msgid "Doing Live Media but not customizing kickstart options"
+msgstr "Обробка носія портативної системи, але без зміни параметрів kickstart"
+
+#: ../revisor/modgui/package_selection.py:699
+#, python-format
+msgid "<i>No optional packages (%d mandatory)</i>"
+msgstr "<i>Без додаткових пакунків (%d обов’язкових)</i>"
+
+#: ../revisor/modgui/package_selection.py:702
+#, python-format
+msgid "<i>%d of %d optional packages selected (%d mandatory)</i>"
+msgstr "<i>Позначено %d з %d додаткових пакунків (%d обов’язкових)</i>"
+
+#: ../revisor/modgui/package_selection.py:770
+msgid "Uncategorized"
+msgstr "Без категорій"
+
+#: ../revisor/modgui/package_selection.py:798
+#, python-format
+msgid "Packages in %s"
+msgstr "Пакунки у %s"
+
+#: ../revisor/modgui/package_selection.py:846
+msgid "Building Packages List"
+msgstr "Побудова списку пакунків"
+
+#: ../revisor/modgui/package_selection.py:855
+#, python-format
+msgid "%s packages"
+msgstr "%s пакунків"
+
+#: ../revisor/modgui/package_selection.py:890
+#, python-format
+msgid "For %s-%s:%s-%s.%s, we find %d matches"
+msgstr "Для %s-%s:%s-%s.%s вдалося знайти %d відповідників"
+
+#: ../revisor/modgui/select_media.py:74
+msgid "No media selected. Please select at least one media type to compose."
+msgstr ""
+"Не вибрано носія. Будь ласка, виберіть принаймні один тип носія для "
+"компонування."
+
+#: ../revisor/modgui/select_media.py:175
+msgid "No media types selected, select at least one media type."
+msgstr "Не вибрано тип носія, виберіть принаймні один тип носія."
+
+#: ../revisor/modgui/select_media.py:248
+msgid ""
+"No installation media type selected, select at least one type of "
+"installation media."
+msgstr ""
+"Не вибрано типу носія для встановлення, виберіть принаймні один тип носія "
+"для встановлення."
+
+#: ../revisor/modgui/select_media.py:310
+msgid "No live media type selected, select at least one type of live media."
+msgstr ""
+"Не вибрано типу носія портативної системи, виберіть принаймні один тип носія "
+"портативної системи."
+
+#: ../revisor/modgui/select_media.py:375
+msgid ""
+"No virtualization media type selected, select at least one type of "
+"virtualization media."
+msgstr ""
+"Не вибрано типу носія для віртуалізації, виберіть принаймні один тип носія "
+"для віртуалізації."
+
+#: ../revisor/modgui/select_media.py:432
+msgid ""
+"No utility media type selected, select at least one type of utility media."
+msgstr ""
+"Не вибрано типу допоміжного носія, виберіть принаймні один тип допоміжного "
+"носія."
+
+#: ../revisor/modgui/select_media.py:505
+msgid "No Product Name specified"
+msgstr "Не вказано назви продукту"
+
+#: ../revisor/modgui/select_media.py:508
+msgid "No Product Path specified"
+msgstr "Не вказано шляху до продукту"
+
+#: ../revisor/modgui/select_media.py:511
+msgid "No base name for the ISO(s) specified"
+msgstr "Не вказано базової назви ISO"
+
+#: ../revisor/modgui/select_media.py:514
+msgid "No label for the ISO(s) specified"
+msgstr "Не вказано мітки для ISO"
+
+#: ../revisor/modgui/select_media.py:517
+msgid "No version number specified"
+msgstr "Не вказано номера версії"
+
+#: ../revisor/modgui/select_media.py:520
+msgid "No comps no glory"
+msgstr "Без comps нічого не вийде"
+
+#: ../revisor/modgui/select_media.py:523
+msgid "Unable to find comps file. No comps no glory"
+msgstr "Не вдалося знайти файл comps. Без comps нічого не вийде."
+
+#: ../revisor/modisolinux/__init__.py:48
+msgid "Custom isolinux.cfg to replace the standard isolinux.cfg with."
+msgstr "Нетиповий файл isolinux.cfg для заміни стандартного isolinux.cfg."
+
+#: ../revisor/modisolinux/__init__.py:57 ../revisor/modisolinux/__init__.py:64
+msgid ""
+"Both --kickstart-default and --isolinux-cfg have been specified, while they "
+"are mutually exclusive. --isolinux-cfg is going to be used."
+msgstr ""
+"Було вказано обидва параметри, --kickstart-default і --isolinux-cfg, хоча ці "
+"параметри є взаємно виключними. Буде використано --isolinux-cfg."
+
+#: ../revisor/modisolinux/__init__.py:73
+#, python-format
+msgid "File %s is not readable"
+msgstr "Файл %s непридатний до читання"
+
+#: ../revisor/modisolinux/__init__.py:78
+msgid "How come isolinux_cfg is set to False?"
+msgstr "Чому isolinux_cfg встановлено у значення False?"
+
+#: ../revisor/modisolinux/__init__.py:81
+msgid "How come isolinux_cfg is an empty string?"
+msgstr "Чому isolinux_cfg встановлено у значення порожнього рядка?"
+
+#: ../revisor/modisolinux/__init__.py:84
+#, python-format
+msgid "Going to replace isolinux/isolinux.cfg with %s"
+msgstr "Спроба заміни isolinux/isolinux.cfg на %s"
+
+#: ../revisor/modisolinux/__init__.py:87
+msgid "Deleted the old isolinux.cfg"
+msgstr "Вилучено старий isolinux.cfg"
+
+#: ../revisor/modisolinux/__init__.py:90
+msgid "Inserted the new isolinux.cfg"
+msgstr "Вставлено новий isolinux.cfg"
+
+#: ../revisor/modisolinux/__init__.py:92
+msgid "Could not copy in the new isolinux.cfg"
+msgstr "Не вдалося скопіювати до нового isolinux.cfg"
+
+#: ../revisor/modisolinux/__init__.py:94
+msgid "Could not unlink the old isolinux.cfg?"
+msgstr "Не вдалося вилучити посилання на старий isolinux.cfg?"
+
+#: ../revisor/modisolinux/__init__.py:96
+msgid "Not replacing isolinux.cfg"
+msgstr "Без заміни isolinux.cfg"
+
+#: ../revisor/modrebrand/__init__.py:43
+msgid "Not rebranding pre_resolve_dependencies"
+msgstr "Без зміни торговельних марок pre_resolve_dependencies"
+
+#: ../revisor/modrebrand/__init__.py:57
+#, python-format
+msgid "Adding %s-%s-%s.%s"
+msgstr "Додавання %s-%s-%s.%s"
+
+#: ../revisor/modrebrand/__init__.py:60
+#, python-format
+msgid "Removing %s-%s-%s.%s"
+msgstr "Вилучення %s-%s-%s.%s"
+
+#: ../revisor/modrebrand/__init__.py:77
+msgid ""
+"Rebrand name. Revisor will select <name>-logos, <name>-release and <name>-"
+"release-notes packages, if available."
+msgstr ""
+"Нова торговельна назва. Revisor позначить пакунки <name>-logos, <name>-"
+"release і <name>-release-notes, якщо такі доступні."
+
+#: ../revisor/modrebrand/__init__.py:85
+#, python-format
+msgid "Setting rebrand to %s"
+msgstr "Встановлення значення rebrand у %s"
+
+#: ../revisor/modreuseinstaller/__init__.py:47
+msgid "The URI to a tree we're supposed to reuse the installer images from."
+msgstr ""
+"Адреса у ієрархії каталогів, за якою зберігаються образи для встановлення, "
+"які слід повторно використати."
+
+#: ../revisor/modreuseinstaller/__init__.py:68
+#, python-format
+msgid ""
+"Could not access %s/%s, required for reusing a previous tree. Cancelling the "
+"reuse of installer images"
+msgstr ""
+"Не вдалося отримати доступ до %s/%s, потрібного для повторного використання "
+"попередньої ієрархії. Скасування повторного використання образів для "
+"встановлення"
+
+#: ../revisor/modreuseinstaller/__init__.py:87
+#, python-format
+msgid "Copying %s/%s to %s/%s"
+msgstr "Копіювання %s/%s до %s/%s"
+
+#: ../revisor/modreuseinstaller/__init__.py:90
+#, python-format
+msgid "Copying %s/.discinfo to %s/.discinfo"
+msgstr "Копіювання %s/.discinfo до %s/.discinfo"
+
+#: ../revisor/modreuseinstaller/__init__.py:93
+#, python-format
+msgid "Copying %s/.treeinfo to %s/.treeinfo"
+msgstr "Копіювання %s/.treeinfo до %s/.treeinfo"
+
+#: ../revisor/modserver/__init__.py:86
+msgid "Use the server mode for XML-RPC"
+msgstr "Використовувати режим сервера для XML-RPC"
+
+#: ../revisor/modserver/__init__.py:91
+msgid "Port to start Server on."
+msgstr "Порт, на якому слід запустити сервер."
+
+#: ../revisor/modserver/__init__.py:97
+msgid "Start the XML-RPC server and fork."
+msgstr "Запустити сервер XML-RPC і створити розгалуження."
+
+#: ../revisor/modvirt/__init__.py:85
+msgid "Virtualization Media Options"
+msgstr "Параметри носія для віртуалізації"
+
+#: ../revisor/modvirt/__init__.py:92
+msgid "Build Xen virtual machine. (not implemented yet)"
+msgstr "Зібрати віртуальну машину Xen. (ще не реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:99
+msgid ""
+"Xen virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Розмір диска віртуальної машини Xen, у МБ. (Типово 3000 МБ) (ще не "
+"реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:107
+msgid "Build KVM virtual machine. (not implemented yet)"
+msgstr "Зібрати віртуальну машину KVM. (ще не реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:114
+msgid ""
+"KVM virtual machine drive size, in MB. (Default: 3000MB) (not implemented "
+"yet)"
+msgstr ""
+"Розмір диска віртуальної машини KVM, у МБ. (Типово 3000 МБ) (ще не "
+"реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:122
+msgid "Virtual machine file system type. (Default: ext3) (not implemented yet)"
+msgstr ""
+"Тип файлової системи віртуальної машини. (Типово ext3) (ще не реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:129
+msgid "Make virtual machine drive a sparse filesystem. (not implemented yet)"
+msgstr ""
+"Зробити файлову систему диска віртуальної машини розрідженою. (ще не "
+"реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:135
+msgid ""
+"Make virtual machine stateless (changes do not persist.) (not implemented "
+"yet)"
+msgstr ""
+"Зробити віртуальну машину вільною від станів (без збереження змін). (ще не "
+"реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:141
+msgid ""
+"Build virtual machine as an appliance using a simple raw drive image and "
+"yum. (Doesn't require virt. tech. to be running locally.) (not implemented "
+"yet)"
+msgstr ""
+"Зібрати віртуальну машину як пристрій на основі простого нестиснутого образу "
+"диска і yum. (Не потрібен локальний запуск віртуальних технологій.) (ще не "
+"реалізовано)"
+
+#: ../revisor/modvirt/__init__.py:243
+msgid "Unable to create virtual machine instance."
+msgstr "Не вдалося створити екземпляр віртуальної машини."
+
+#: ../revisor/modvirt/__init__.py:304
+msgid "Error creating ext3 filesystem"
+msgstr "Помилка під час спроби створення файлової системи ext3"
+
+#: ../revisor/modvirt/__init__.py:500
+#, python-format
+msgid "Failed to mount '%s' to '%s'"
+msgstr "Не вдалося змонтувати «%s» до «%s»"
+
+#: ../revisor/modvirt/__init__.py:518 ../revisor/modvirt/__init__.py:540
+msgid "Starting the virtual guest provision..."
+msgstr "Запуск програм забезпечення роботи віртуальної гостьової системи…"
+
+#: ../revisor/modwui/modwui/controllers.py:75
+#, python-format
+msgid "The path %s cannot be found"
+msgstr "Не вдалося знайти шлях %s"
+
+#: ../revisor/modwui/modwui/grids.py:22
+msgid "Name"
+msgstr "Назва"
+
+#: ../revisor/modwui/modwui/grids.py:23
+msgid "Description"
+msgstr "Опис"
+
+#: ../revisor/modwui/modwui/options.py:90
+msgid "Submit"
+msgstr "Надіслати"
+
+#: ../conf/revisor.desktop.in.h:2
+msgid "Revisor, Pimp your distro"
+msgstr "Revisor, підрихтуйте ваш дистрибутив"
+
+#~ msgid "Opening up /usr/bin/htmlview %s%s"
+#~ msgstr "Відкриття /usr/bin/htmlview %s%s"
