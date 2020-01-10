@@ -20,16 +20,17 @@
 Summary:        SL "Spin" Graphical User Interface
 Name:           revisor
 Version:        2.2
-Release:        2.sl6.4
+Release:        3.sl6_3
 License:        GPLv2
 Group:          Applications/System
 URL:            http://fedorahosted.org/revisor
 Source0:        http://fedorahosted.org/releases/r/e/revisor/%{name}-%{version}.tar.gz
-#the revisor-RHEL6-buildinstall is from anaconda for RHEL 6
+#the revisor-RHEL6-buildinstall is from anaconda 6_3 version 
 Source1:        revisor-RHEL6-buildinstall
 Patch0:		revisor-comps-override.patch  
 Patch1:		revisor-product_img.patch
 Patch2:         revisor-rhel6.patch
+Patch3:         revisor-final.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
 Requires:       revisor-gui = %{version}-%{release}
@@ -54,7 +55,7 @@ Requires:       yum >= 3, yum-utils, comps-extras, createrepo
 # Kickstart
 Requires:       pykickstart
 # Compose tools
-Requires:       livecd-tools >= 015, anaconda-runtime, squashfs-tools
+Requires:       livecd-tools >= 015, anaconda-runtime >= 13.21.176 , squashfs-tools
 # kickstarts and config files for use with Revisor
 Requires:       sl-revisor-configs 
 # Other
@@ -356,6 +357,7 @@ This is the Revisor Web User Interface package
 %patch0 -p0
 %patch1 -p0
 %patch2 -p0
+%patch3 -p0
 
 %build
 %configure
@@ -622,6 +624,10 @@ rm -rf $RPM_BUILD_ROOT
 %endif
 
 %changelog
+* Thu Jul 19 2012 Connie Sieh <csieh@fnal.gov> 2.2-3.sl6_3
+- Added support for --final feature that was added in anaconda buildinstall
+- anaconda-13.21.176-1.sl6.x86_64 which was released in 6.3
+
 * Thu Dec 16 2010 Troy Dawson <dawson@fnal.gov> 2.2-2.sl6.4
 - Changed the version numbering scheme to reduce confusion
 
